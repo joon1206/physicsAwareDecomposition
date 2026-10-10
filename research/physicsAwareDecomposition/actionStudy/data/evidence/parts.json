@@ -1,0 +1,113 @@
+{
+  "archive": "timing_evidence.tar.gz",
+  "archiveBytes": 84103932,
+  "archiveSHA256": "54174448c8b86fa30b6f9a56fade2c0809f77003952f9d556f8764cc5d0b3eba",
+  "parts": [
+    {
+      "path": "timing_evidence.tar.gz.part000",
+      "bytes": 4194304,
+      "SHA256": "ec4b5287dc6a034fd5eda68196e4a146b079ce25277161926d60346850d24840"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part001",
+      "bytes": 4194304,
+      "SHA256": "2a9d68f6a56860d9f036ad0f259972b7387ad904639d5532a26bb63bd19118d4"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part002",
+      "bytes": 4194304,
+      "SHA256": "8efa3c7a36218bd2a8c31df0aea63334e51ee29766c7c4e58863174015eda9f4"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part003",
+      "bytes": 4194304,
+      "SHA256": "a133711a0e850ebe2b47165b023fa39a89db9cdfb8ab6a5c5f9c7919a89b4b11"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part004",
+      "bytes": 4194304,
+      "SHA256": "a47c618cb03b7480039ed1a93d4df91d790ee033e37cbf0a53fa9429b42e353f"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part005",
+      "bytes": 4194304,
+      "SHA256": "d950ad7cc41d51e3d88b413a5f3a97e0be1956213d7f3ea46a9214b26ebbf29f"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part006",
+      "bytes": 4194304,
+      "SHA256": "f558c6024b21c6c6b3de17a4eaba0ba2154430268cf57a3ba135ac1964c1e8ce"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part007",
+      "bytes": 4194304,
+      "SHA256": "8e414111bda2fdcef3ac0d980a92d9b1ff7fad673988cd025a100576c7104869"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part008",
+      "bytes": 4194304,
+      "SHA256": "5c87f3720764c0c28ef130ce8ab73482f5580511484c69667276cf2cf5bebdb6"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part009",
+      "bytes": 4194304,
+      "SHA256": "83b1f1fb2f92fb5def9477c0808510385ea5e77cefafc77a4ed7c977bee579b5"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part010",
+      "bytes": 4194304,
+      "SHA256": "b86e89426fd5825096a8dc70e4e43a5b51edd912653e3e29b1203aa2c45d9403"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part011",
+      "bytes": 4194304,
+      "SHA256": "588b8a46210d91db3447aca379ac4e5cb7d331223f8e7115c593a057b77f95b4"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part012",
+      "bytes": 4194304,
+      "SHA256": "ba2905a018c67d2e44360939ee55058295b781cdcc94c47a5d87d169f948e4d1"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part013",
+      "bytes": 4194304,
+      "SHA256": "97c82c767bfa3e5ef1758daa5e4596f2108278adbc97a9ef78edff55913eeae0"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part014",
+      "bytes": 4194304,
+      "SHA256": "d4f614e43006e3d65fd0dd7cb178404a3426e0d2c89e324594760821939f5bd2"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part015",
+      "bytes": 4194304,
+      "SHA256": "c7b4cf28c8bf775e2713ec41f38bc51c30308d3718e7ef71eec7f056bc95e2db"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part016",
+      "bytes": 4194304,
+      "SHA256": "5b4f9f798cb2ce49f4dab7395b20efde44f7514c6e1fe35f239245813436004b"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part017",
+      "bytes": 4194304,
+      "SHA256": "db0e9efb5ba1cba4d9026d1ae23fde592c751902ed09857416a7f76270642868"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part018",
+      "bytes": 4194304,
+      "SHA256": "7f3482fcb56cbf6a7afcbde6991ad359a486dc0b76c473a3511a6d1ae233399b"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part019",
+      "bytes": 4194304,
+      "SHA256": "c2a1f78b222f97ded13628478e2ad7f454c9726d7564c7c7948980fcf71c07c7"
+    },
+    {
+      "path": "timing_evidence.tar.gz.part020",
+      "bytes": 217852,
+      "SHA256": "6453664d29acc9d1bb8f41d3c976e204eeedc67052a95d9b10331dc80806ba9c"
+    }
+  ],
+  "scope": "Lossless transport volumes; archive contents and scientific data unchanged."
+}

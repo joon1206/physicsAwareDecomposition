@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "gates": [
+    {
+      "algorithm": "GREEDY",
+      "repeat": 0,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "GREEDY",
+      "repeat": 1,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "GREEDY",
+      "repeat": 2,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "GREEDY",
+      "repeat": 99,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "NONE",
+      "repeat": 0,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "NONE",
+      "repeat": 1,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "NONE",
+      "repeat": 2,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "NONE",
+      "repeat": 99,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT2",
+      "repeat": 0,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT2",
+      "repeat": 1,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT2",
+      "repeat": 2,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT2",
+      "repeat": 99,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT",
+      "repeat": 0,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT",
+      "repeat": 1,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT",
+      "repeat": 2,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    },
+    {
+      "algorithm": "SORT",
+      "repeat": 99,
+      "Linf": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "tolerance": 1e-08,
+  "scope": "same-step-count paired Gray\u2013Scott state; standalone library kernel, not INCA CFD reproduction"
+}

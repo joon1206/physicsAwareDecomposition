@@ -1,0 +1,520 @@
+{
+  "generatedUTC": "2026-10-07T04:34:14.389184+00:00",
+  "driverSHA256": "2a885d87ae6023e46f545cfa0f9556800c1650f77f895684fe6ef07ee4616ad2",
+  "nativeMatched": [
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "50ba2332ec7fd7cf4f1e8b478da0179149b2055f1155b25a6d793a1ab32ee59d",
+      "resultSHA256": "4d1954ab0df52152a90dd8fe932e6bd0ec3c356b9cf30ffd7e20c4ae42043eff"
+    },
+    {
+      "name": "CleanThermo_HS_native_none_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "e89bf069ba0e49eeb68c6869eb25d62f80bcae976d85afe9e80e1891f4a64b76",
+      "resultSHA256": "32b5738ebd9bd5889359c4c6e1316b0624ff11bf7ceff3e32bff180915d61bf5"
+    },
+    {
+      "name": "CleanThermo_CpHS_native_none_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "4cc2b3d1f8f7240d0dd879fb25265a60dea863838cbacb42bc4c33070e8f83c8",
+      "resultSHA256": "caa17d8360f669b362fd0654cbdb6c67de901036d6a9fafd977fef0f67e8fd79"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "b778900c469bdde6d7c6977d02815f36805bb59f12f73fccefc2852727dd3d80",
+      "resultSHA256": "1513b5d10009a032ed1fa5c64d10e6f52cc451aa33952a6ec17792ee6cb7b6be"
+    },
+    {
+      "name": "CleanThermo_HS_native_none_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "6ab6eaaf091d0d4c48d110d912eeeaa11977590ee799305949b6f64b4d2bcac1",
+      "resultSHA256": "db69ca0c6445c2c0e45fde0c4ff9d777218e40ea753f78e1bbe2b510fc758147"
+    },
+    {
+      "name": "CleanThermo_CpHS_native_none_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "9db538263154bae0f485ca6a677c70e0166aa15c77a298115ef9a4290035e92b",
+      "resultSHA256": "24a4d348a4423cbcab136ce22a92ad104d61d6030caaf874c949f58cc5f47402"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 151,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "6157736c29e9ca9ee4876a234ce7a97d3ebc74c18f5e841f4547b0f7de22474e",
+      "resultSHA256": "ce8adc0d796e0e05347a2eb144fee719269cf324b945bff5db07957952506462"
+    },
+    {
+      "name": "CleanThermo_HS_CV_none_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 10,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "4b61e96ed1bd6f76dd4a10f7898868fc422a6479b4d3e9641c90cf52ddc7c439",
+      "resultSHA256": "b2ab0c833d7404d175117bad0d1239ac0e1fe2d31b3fd16d155ab3d531cf736e"
+    },
+    {
+      "name": "CleanThermo_CpHS_CV_none_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 9,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "edad9dda2626e47a60211170b38eec57cbb1a6e5ef49ae3c13250b01de138070",
+      "resultSHA256": "63a33b3deb5ad36583618d1516c33e591bc3e5b79d77a3612ec5f9ebd9bf272c"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceGatePassed",
+      "failedSourceCalls": 0,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "de7f7603e4ec45c79566ac40ffd592e3c2cd4fc4736ffc88f5f2d0529e3bc133",
+      "resultSHA256": "6240d952854b78bc07c20d532a71ef060da271b8520b7112bd4817d756dee1e3"
+    },
+    {
+      "name": "CleanThermo_HS_CV_conservativeState_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceGatePassed",
+      "failedSourceCalls": 0,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "4e5329d69e6cef89b51145d0d191b4ebeebed0da15a7c1477b2b217fb0d1a667",
+      "resultSHA256": "57259b50ea33dc29063da318f676f692b15656ae250036b5690374f9a071c581"
+    },
+    {
+      "name": "CleanThermo_CpHS_CV_conservativeState_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceGatePassed",
+      "failedSourceCalls": 0,
+      "sourceCalls": 30720,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "f50d0163c29c1173d95d4937e1969868711c7da16c884e3373984ce5de400b25",
+      "resultSHA256": "9db7b47e931fab6e17f15f69c3f117710125a3910ca43713b042ae3e199d889a"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 192,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "16d56bf7ccc2ce8a5cf88654ca2e665fd14c693ad490799e099e66bb62d9ff49",
+      "resultSHA256": "9056f43841f64e989c437b94a4788939c49a4358fa85de02b6b7ea7d28fb5576"
+    },
+    {
+      "name": "CleanThermo_HS_CV_none_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 3,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "25d43acc969dc1579be07e2fc8ba40c94d707ff9e4a7553275b92304a49a019d",
+      "resultSHA256": "33306a84283ad1e0271506241aedcb7fcd032a4c8fd3c64dfa986c5ddfbfd91f"
+    },
+    {
+      "name": "CleanThermo_CpHS_CV_none_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 5,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "19ecd511ca6ebdec5ce89e84cf268f8c06333e24f72c03adc005bb622b459dc9",
+      "resultSHA256": "c4ac94756eb614b91235d49c21c2dd3fe070f9890d1c254af17feef00ef71049"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "reusedLegacy": true,
+      "status": "completed",
+      "scientificStatus": "sourceEnergyGateFailed",
+      "failedSourceCalls": 240,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "6a588e5ebc8a34f1db98f250a8d1a1c4a8f1b8c2bec37b3a4ebd08b62fc9e141",
+      "resultSHA256": "0db67994ea81d8358406972e9dc9054092385588500e17c444cb24140ee3d550"
+    },
+    {
+      "name": "CleanThermo_HS_CV_conservativeState_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceGatePassed",
+      "failedSourceCalls": 0,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "145c44c030804c71836e612485df96cc60f955e9f7d563467ab69c458f217f1d",
+      "resultSHA256": "4df2d389dd2a5fb962559fc75ae0bd9d2dea7ee2bcaa7f60418fe1179df4a1aa"
+    },
+    {
+      "name": "CleanThermo_CpHS_CV_conservativeState_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceGatePassed",
+      "failedSourceCalls": 0,
+      "sourceCalls": 61440,
+      "sourceGate": 1e-10,
+      "metadataSHA256": "b82332382c335e97127799c730e9a398c987d878bc85f98561fb926235443029",
+      "resultSHA256": "ade225c46856339354f66982d749bde43ed1446cb62f76b36f71ef890670ec25"
+    },
+    {
+      "name": "CleanGRI_legacy_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "b5a93482c2f49a9eeb2b8ae8ceec6bed6765198477cbe2c50d1994375ff56425",
+      "resultSHA256": "68ec6a2eb331eca2a77c2860cc300b5bfd9c2cf9ef8f8bcacc9044fa8f921e22"
+    },
+    {
+      "name": "CleanGRI_CpHS_dt2e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "71bb39dcdb198398753e6a6ce6ff733732dfcbb76e4c893a6deb11d7b5b5bb47",
+      "resultSHA256": "9e69bb6ae69a6eb8bb1b6412b7b5fd8838fca88989768937e742b1e6a5d9f7b9"
+    },
+    {
+      "name": "CleanGRI_legacy_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "87fd7e5ff19fd7194128dc2d0704e126197f1ee12b076a2fb9b62beeb20195b8",
+      "resultSHA256": "0313beeffb9d4b980945cf37b1f15a52f93c8fb13bce190a1edb4c033bac2982"
+    },
+    {
+      "name": "CleanGRI_CpHS_dt1e-06",
+      "reusedLegacy": false,
+      "status": "completed",
+      "scientificStatus": "sourceEndpointNotTraced",
+      "failedSourceCalls": null,
+      "sourceCalls": null,
+      "sourceGate": null,
+      "metadataSHA256": "1d8c424968e25d1dd5e5c870ef7704ca20d121f69936c95c3ee7ff4cf31e30d5",
+      "resultSHA256": "e9e796e5f219e07cb10b28da49a17335f2a3996b6819e8cf77c0a06b7707d1d1"
+    }
+  ],
+  "directBranchCaseNames": [
+    "CleanBranch_CpHS_rtol1e-08",
+    "CleanBranch_CpHS_rtol1e-10",
+    "CleanBranch_CpHS_rtol1e-12",
+    "CleanBranch_HS_rtol1e-08",
+    "CleanBranch_HS_rtol1e-10",
+    "CleanBranch_HS_rtol1e-12"
+  ],
+  "nativeReferenceParserFailures": [
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt1e-06",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "5e43a8f135fe045d6ecffb383a71ff81080aa6ce6703aa6a83ec3fd3ae7b9feb",
+      "metadataSHA256": "030ed783a3df79393b09557094b2cac7d768fc3f357d41516e25369ff11b8822"
+    },
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt1e-06_syntax2",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "0e110d5f7af464dd5e55733093b98f14b92461f33704c372195c43f127b8e7c6",
+      "metadataSHA256": "e9fb0231495a4419a878808bef7e8fe74fb9da267fe442ea55859180b9dc92b5"
+    },
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt1e-06_syntax3",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "f15a80868f1329871099e5f84f4d8f42f7ad6d444fb40f560a5892a01db13bdf",
+      "metadataSHA256": "f32258463dac392b326a7e9af485282bf7951b6bdf88c65320e3e2520087fe20"
+    },
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt2e-06",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "63f795fec5d051c3fccdf8154767369e8a64e3545fbe2193d9d60d24287747f8",
+      "metadataSHA256": "dfe9d11735abc7f182f1288bfab85e0cd6e1e8a611be14357f88e147f8614153"
+    },
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt2e-06_syntax2",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "86021deafdc07eae18250a49e187c8318c2c534c6ffbd4bb8b044ec55a1dd53f",
+      "metadataSHA256": "5f236df127224203dbf1766866131c303982777c5bc467993c9d4da2e7d053d3"
+    },
+    {
+      "name": "CleanReference_Alzueta_CpHS_dt2e-06_syntax3",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "4f7a6f3b41e03e95525de4f1704145ccea5931c1d5369f3e098712825b25c9db",
+      "metadataSHA256": "d7fda23aca334c841e3ffdafec4100df89954f783c92947920bc1498ff981381"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt1e-06",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "069f6334d22f4f14d8a1f16eb7b37256426c0b037318ad27d7c1c56532e2d1f2",
+      "metadataSHA256": "a72eafda1427426e627d98d5e7ea0d9c4a725585cf4f4fd15b7419051654e410"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt1e-06_syntax2",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "013293dfbc9e2624831914b24654649c46050216121923c34748283d22633766",
+      "metadataSHA256": "2b17b98c74b3aabd1e8b9b5f0670e39876760d6283d6bdcb457472896c84856a"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt1e-06_syntax3",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "291063e2c14832e14466a64c16fdb0ee08556dd06c72d750d79e064a7b5f1a9c",
+      "metadataSHA256": "b38f090fa5fd7a742450be2a54f372fef8c9433017d0b0ef0044cded3eb6dbad"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt2e-06",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "0804e1acaf2442f2c0e06a74328286e3ebf97b1257591a8b62113c9948e5a207",
+      "metadataSHA256": "1cbb55ac7386969e713f1e32b94ac2b2e8aa1c8d5221f51f27f79edd726ba1a0"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt2e-06_syntax2",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "5185eda098343242aeb3f9fcf01d96740dd3c5b5039d51430380a88119e63dfe",
+      "metadataSHA256": "c229a0c28d662f2238dd50b2bc858417948e019d4653d0bb02943cc1511f610e"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt2e-06_syntax3",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "3620b1e3e2fca8f81a0ee269c1c9175f84f7c451e914d8906f9f706568020d3b",
+      "metadataSHA256": "cf04fefd234051058e14b5d003e05fc926e30739273c442f9708d8a6f7ac69f3"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt2e-06_syntax4",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "52840252f3a45c97d90c6d4c49f5408a15540384e8cc0bf56043c64ae89ec45a",
+      "metadataSHA256": "2c5a0c49884281e7d57aae2593ec8bb17e3bdf02f3ac00b74381d4e971718349"
+    },
+    {
+      "name": "CleanReference_Alzueta_legacy_dt2e-06_syntax5",
+      "status": "failed",
+      "scientificStatus": "mechanismParserFailure",
+      "failureSHA256": "7e02dcf49b0335d4b575e4f265e6a6ac894f5de976cd24999d609af55702b907",
+      "metadataSHA256": "7907cd26ed25465a45099d2cf9fe929176c7d7a525b3d31c1da78c2f5dfd0c0f"
+    }
+  ],
+  "otherRetained": [
+    {
+      "name": "CleanThermoIndependent_v1",
+      "files": {
+        "Alzueta_CP_T1100_rtol1e-08.csv": "fe09978442cbf3a2003534bff6f3ea84b8767296fdf4688aa91452cf9a8260ed",
+        "Alzueta_CP_T1100_rtol1e-10.csv": "2059ea3b770660b7c8327e512acab0e1cc675d4198a917a1b5e882284150e8d1",
+        "Alzueta_CP_T1100_rtol1e-12.csv": "e2e1f4ae5849cfdada4f42f6a32c561a695bd18950154fc29cb008f6196e22e0",
+        "Alzueta_CP_T1500_rtol1e-08.csv": "1d657d41f99f8ea6ea5a3ddf7db41203cf80a81d9cee6ca4074dba344eea7408",
+        "Alzueta_CP_T1500_rtol1e-10.csv": "e2d44c6a136740edeb31175df58c9e46d889eaf13dd1702f13b2909a7eecd2b5",
+        "Alzueta_CP_T1500_rtol1e-12.csv": "40c3c4221a8206224315614197e2cdf41123a960ee856c03ff91ba7a500a7936",
+        "Alzueta_CP_T999_rtol1e-08.csv": "3a2a32324b43e925f38e9eafc33f87d40a2afcd463bc27bb06d64d91e044dfb5",
+        "Alzueta_CP_T999_rtol1e-10.csv": "73795b5f9b8f719fa78a78ef6bfef4513d7b89cbf27e1d5773cbfc55fdb775a0",
+        "Alzueta_CP_T999_rtol1e-12.csv": "8d5f1235aa5625c46d6298ee2efacb778136ba80ca90653b3520e8ae929d5350",
+        "Alzueta_CV_T1100_rtol1e-08.csv": "a3b2086efeccd1d2daffe474cd78a90403eba14e38f82b098152d2933c4c4959",
+        "Alzueta_CV_T1100_rtol1e-10.csv": "cffb616a09191623369aba178accfd64f371419c173d4967ef7aa75b9b18a185",
+        "Alzueta_CV_T1100_rtol1e-12.csv": "3058ec9667daf6e4e7665a64cd9313043c2205b168df1903be4ff960e22703b7",
+        "Alzueta_CV_T1500_rtol1e-08.csv": "254832a18c875911e6639da998f34065b1c1a75dd49c2bfcb97ffb114df6c2e4",
+        "Alzueta_CV_T1500_rtol1e-10.csv": "62452e455b6ba24f5aff71278cd3975ebfe7740e1a76b8987eb44290565197f7",
+        "Alzueta_CV_T1500_rtol1e-12.csv": "9a12a7ea9e7f12d60fab7bc402f20c9d0a88611b1acc8302fcbbc840f699e752",
+        "Alzueta_CV_T999_rtol1e-08.csv": "72a42aa89915d77fd7994a83fcbcf8940e5dff1de0577b2f6ecbfe6b4843c2aa",
+        "Alzueta_CV_T999_rtol1e-10.csv": "450f39b5cc63b5ff040d955ee646809452862cf44845b0618caeeec746a562d1",
+        "Alzueta_CV_T999_rtol1e-12.csv": "5067f3b9bd9f1558d1b4db0ed3ff2923330ea9303042f64d032cc3d1d7a53d57",
+        "CpHS_CP_T1100_rtol1e-08.csv": "f28d20e848fa50c575e55567b048f52b01a68171be2214571d9df58f4a84c0d1",
+        "CpHS_CP_T1100_rtol1e-10.csv": "959e856fe9e2538c4cbdae153b5ec4f239b14af234b3ae3e4861288d0fbd828a",
+        "CpHS_CP_T1100_rtol1e-12.csv": "3fc6b77155d7804d0c4321aa19f0468cc01fd540bb4d57c11a5e9308228ddcf0",
+        "CpHS_CP_T1500_rtol1e-08.csv": "8afcd24483de7eaeb9b581d127f7db0af862a4d20345105fdb32099553d7edf4",
+        "CpHS_CP_T1500_rtol1e-10.csv": "b1af6563975f703a1d49402e5ca14373b04d55f3e7788a635af0818b5002a917",
+        "CpHS_CP_T1500_rtol1e-12.csv": "7a473e730d3f55f611c21d17559677fdddcb3e503e7eb038d172850701d049b9",
+        "CpHS_CP_T999_rtol1e-08.csv": "23be4e4147f1efedf881ac24f24c2fd841f6c54471e1a67422387fc06ed5cc89",
+        "CpHS_CP_T999_rtol1e-10.csv": "f0c115c77600ad3dffddba6cd9aa91c1cea0c031bc1a93560525098fcd0ae49a",
+        "CpHS_CP_T999_rtol1e-12.csv": "c9b3291b4f7b6e6d8dd61031c09ee8c8c1cc134e90751a782a31594249ff34b7",
+        "CpHS_CV_T1100_rtol1e-08.csv": "32069538d6892a9be2b6ba7816a739a1cf68e00ceec28c5484ac9e7107235593",
+        "CpHS_CV_T1100_rtol1e-10.csv": "54a6452685ae285bacbb6d59621d06d4cfda39f1ded379dff50680d6dbc14b4d",
+        "CpHS_CV_T1100_rtol1e-12.csv": "7d88039c9521a2a43b6b6e7067e624b6b2a88cb5238bdd8e6f42bf63be03f233",
+        "CpHS_CV_T1500_rtol1e-08.csv": "4d4d27f32647c026e4296caf5bc45084970d55d95fdf27c1f59b979d78fb97c6",
+        "CpHS_CV_T1500_rtol1e-10.csv": "684f19fbf4e7f17db97c888603956f5f5280e61eca1463ce6ac6fd98e98adfed",
+        "CpHS_CV_T1500_rtol1e-12.csv": "c7dab4d24604455f1ca624fb4b16cc3253c1bdf65fadb9a74fee39eb0f419efe",
+        "CpHS_CV_T999_rtol1e-08.csv": "38f9e1022fbd7a96b00bdca634104131ba43f6a5b02272b1430a79676a9cb20a",
+        "CpHS_CV_T999_rtol1e-10.csv": "d1cdf2632ae45f103db5bb645f6e287af5f1c313a07a29cdeaf15af9e49b3968",
+        "CpHS_CV_T999_rtol1e-12.csv": "5fa356baeb998c11f391b7a14b118248921dbc225683de96f5418adcc679ccee",
+        "GRI_CP_T1100_rtol1e-08.csv": "026b63380c4ab70f1e7b82c3f28deac1ca1785231258e98c3edc9aacc1423ff2",
+        "GRI_CP_T1100_rtol1e-10.csv": "47e750caa523d6ad7167b839f4595f7f752ea9423b02d7852624e6f9d99a3d2f",
+        "GRI_CP_T1100_rtol1e-12.csv": "3aef968adbacc295354086c8d40e31cccde77e180388524ba101eb51a9af8923",
+        "GRI_CP_T1500_rtol1e-08.csv": "6f453e0ba252d8c71deaabff7bf260ca381321393f0f959224e23f30cbf472eb",
+        "GRI_CP_T1500_rtol1e-10.csv": "195099a698c091111fd696f7a0ad75faae8ac76e206faa524e4fde0fc0f5610c",
+        "GRI_CP_T1500_rtol1e-12.csv": "0e716aa33803af1a6f51f18ab72e8b2f3623780c4a243ae6d75f087af728379d",
+        "GRI_CP_T999_rtol1e-08.csv": "c46be5d77fe5224a8bf625da825ef90d2f39ef26bd6335f8477b7ef6d0525010",
+        "GRI_CP_T999_rtol1e-10.csv": "c734a368057a87e6668df00b34ee003945ed5a494d4fe55bb8ebd1fb42e829cf",
+        "GRI_CP_T999_rtol1e-12.csv": "9d01e5159a886d5af3faf78652a92f6e49f90ab6347e58554de65110fbdd409b",
+        "GRI_CV_T1100_rtol1e-08.csv": "1336139cc983318c15b51960abfec429a33598156d233eb89073eaaa134617cc",
+        "GRI_CV_T1100_rtol1e-10.csv": "a3a0efbf4a3765148830a80ee68ae061db829831104effd6c4522512d0f0c780",
+        "GRI_CV_T1100_rtol1e-12.csv": "ed6c3946ebbc16b891099c3ba7ccdab37e92299e190594e24bed96075eef2c6e",
+        "GRI_CV_T1500_rtol1e-08.csv": "47884f252f181c4f3e4a21b3286f7c2ff37d6ef4839f38d265bb15535f540008",
+        "GRI_CV_T1500_rtol1e-10.csv": "26d2ec4980de0957b61f186bcfa76c5cc79aa7963d7662c0c03b0c293d479fb0",
+        "GRI_CV_T1500_rtol1e-12.csv": "bc829e431d0ef45b3a4f6bdb54a201e1a6b8e20a7ed68f676d46611a0eb5bf82",
+        "GRI_CV_T999_rtol1e-08.csv": "5fa3c4ab238b744b7f7dfc48c693609ece9ad95f766f0ef165acf27221fb11c5",
+        "GRI_CV_T999_rtol1e-10.csv": "575d68909e492b481cb391d46b55faa02ab559e10368a9e08fac4384b478ae44",
+        "GRI_CV_T999_rtol1e-12.csv": "9e19e3e6cd26d5bb2b0ea1d0bffbd01eeeef4b731d4db87a2bf1fd7010e2967a",
+        "HS_CP_T1100_rtol1e-08.csv": "42f8aa31a9cfda24f09af29b8969f08c7a091e3ea5306497af507369523d25b1",
+        "HS_CP_T1100_rtol1e-10.csv": "80c3db9f9f3f7ca6994eb9ba5afe13ec2db31768bdd1a6f8c8a2cd5d6de06663",
+        "HS_CP_T1100_rtol1e-12.csv": "95ab9048b290fe2d7dab5c028ac350700281d22994880361817b9a37026721ff",
+        "HS_CP_T1500_rtol1e-08.csv": "474fa97b74aff57a88a93e0eb2899368cee211709dd716c5287400c46a7d88ec",
+        "HS_CP_T1500_rtol1e-10.csv": "ed3b8b593ad598e8a0c0fd72b9ee11beaffb1495037daffd76e8998b23ee92c2",
+        "HS_CP_T1500_rtol1e-12.csv": "6974797e0fab24389b6fc016c95a54b9f325f46354155deb3572f34f35d9e5ae",
+        "HS_CP_T999_rtol1e-08.csv": "cd960f5a2bd0f5251967b4d3ebc186aada795ad573c26173ba0b80ab4883c5a3",
+        "HS_CP_T999_rtol1e-10.csv": "a8785b57899eb0d0055b1438455e7840cd73653a9a3c68c122a6a1148c97259b",
+        "HS_CP_T999_rtol1e-12.csv": "e4aabfd90760a936c98340143efa653c5a7f1035a726a975f7f796d88b910603",
+        "HS_CV_T1100_rtol1e-08.csv": "2c7ec001a09f07e9f5d038455f2a3306a8f2385561c587baf4fdd50b9a1a52bb",
+        "HS_CV_T1100_rtol1e-10.csv": "6137526a3d012d86eb73812b3a06324f8116f6e4dfb57fdebc071fa21600c3cc",
+        "HS_CV_T1100_rtol1e-12.csv": "c05528a91f1dc4d8f7dc1c8fc50421b4a44a5e1589d3290014aaa31984b547c0",
+        "HS_CV_T1500_rtol1e-08.csv": "a7648b57ae1936e8f1c16f968eaeb2a781c62a2701357d81b1e5ed9091959534",
+        "HS_CV_T1500_rtol1e-10.csv": "811c2bc1fa16770d2a0646f460ca13635379f311597b5320a5cf016ae0aaf212",
+        "HS_CV_T1500_rtol1e-12.csv": "bb6943d0a999eb402659edd786a66f032e43e9e6e7f9267c5d6c24d7a7a53067",
+        "HS_CV_T999_rtol1e-08.csv": "086ac4b9fe59a2441a55e7578ab5944dbdacb7cbd0c7e24c66559644f9f3256e",
+        "HS_CV_T999_rtol1e-10.csv": "9904d61883dc62b83d59aa11bddfc55da4c1e498bbd1b87cdcbb912e96a6352b",
+        "HS_CV_T999_rtol1e-12.csv": "661e78751f82d6fbd2ba5e09fc7e7e7bbcbe5316719cd2b0be9b9c293862e9b8",
+        "driver_snapshot.py": "ce1846734a39027bda81cacd424e812a71ce9bc2298f78020f9d85eaea80d44e",
+        "legacy_CP_T1100_rtol1e-08.csv": "c7eb83aa0fd20e13c1218f2fd2d3dbe6a87ef082453b6bcde3c9e9e91dcd47fb",
+        "legacy_CP_T1100_rtol1e-10.csv": "cf0c34ad64a3684623c07b36dcc29639009e6d313160505f3cbed0d3f90ed985",
+        "legacy_CP_T1100_rtol1e-12.csv": "c75aed72037aad63923c5636d543f90edeab0e1e73be933d1dd6c531f03a44e3",
+        "legacy_CP_T1500_rtol1e-08.csv": "cb8d17e08c4b251460c423a0903a289295d44c4fea359f5a60ec4593296d2b4b",
+        "legacy_CP_T1500_rtol1e-10.csv": "7f69b8773a114c344755f1050bfc1e7bdaf6682356ff54356297bff4368ec4e1",
+        "legacy_CP_T1500_rtol1e-12.csv": "c14bcedb95739919a1180ad83ea6c58d1fdde351a570d6fef2ff3b6fe1da59eb",
+        "legacy_CP_T999_rtol1e-08.csv": "8292bdccf278a5501cd95f444f96a97f9f69cf5dfff5959a11ceb48efdf50fb0",
+        "legacy_CP_T999_rtol1e-10.csv": "3a8c0e69d42e1fa02b74e4e466322555e428f7e54ff6ef8b46e25ebe301a3450",
+        "legacy_CP_T999_rtol1e-12.csv": "e0ccaef159969157b70994abcbe7f83b6ecb9cb03a43c1ab04529493fddc896b",
+        "legacy_CV_T1100_rtol1e-08.csv": "961a20b022c0086407ce528b8aa7963b176c215ea672736ccd2053773152b067",
+        "legacy_CV_T1100_rtol1e-10.csv": "89cddc4911545b5a5805d0b9503aa06240916d0eb9dac4c38d3aab6068d0b26f",
+        "legacy_CV_T1100_rtol1e-12.csv": "9de1efcd042e04733fa00083c5d35523895b873a96aefed960ae2ab38dcc4d53",
+        "legacy_CV_T1500_rtol1e-08.csv": "ff6e1c8a5a647e16a4fbe234389547326cfe2d7f37c334015b339dda244c1a38",
+        "legacy_CV_T1500_rtol1e-10.csv": "7a5417a55c0fd2c1e22dce95035cb62efd624112b904d0981c9e66805fe0f18b",
+        "legacy_CV_T1500_rtol1e-12.csv": "177aa5b926b93e7d86b9739cb4ddcde8ddecf16a0f3034d60e915bced3784467",
+        "legacy_CV_T999_rtol1e-08.csv": "707d0690936a38ffe314af828165fc65cc5cb1b6e7d7fbcaa36302b0688f5d3c",
+        "legacy_CV_T999_rtol1e-10.csv": "e9ed4f1e47271009270b31aa91e60fe764b3c6f41bb155ecdf8b0c3c08199230",
+        "legacy_CV_T999_rtol1e-12.csv": "55538fa2da040750ca7135207700db7ce05513d121adbb94bd74de1cbf409fd8",
+        "reference_summary.json": "f94d39dc7aef1ee5869700c762663c07dc3ea876730ae4472501400ebb0270c8"
+      },
+      "scope": "Current retained artifact hashes. Helper implementation versions not saved at original execution are not retrospectively attested."
+    },
+    {
+      "name": "MechanismContinuity_v1",
+      "files": {
+        "Cantera_License.txt": "e92980b9712ce20e73898a97b0116889e84e07f548d6be8591e87dcad79c41bb",
+        "H2_HS.yaml": "d629d06f6ce846cc64d71a29c2df0bcf28c2159d7d286c0a1f7cd220ff5b44b3",
+        "ammonia-CO-H2-Alzueta-2023.yaml": "9eed1a29952ec41d154185798ecef7127a6329501322ee474be0b638011733f7",
+        "driver_snapshot.py": "9cff61d5dfa21671497ffd7793659c89108b8d573151e78c197920f0f00f80d8",
+        "failure.json": "b394a4f960ef8aa5b07f963f65fbe916bf9d1428f0b266d640dcd66404fb32c2",
+        "gri.yaml": "e7006cead638cb27927ca1d4ef803ff564a43c8e0fe6fe9878f724d0502077c7",
+        "gri_chem.inp": "987f187a94d5b9adcbb320514817a337a6996b3aaca83cb11a2aec1214979b23",
+        "gri_therm.dat": "4683769f3af94b688cd2e018c81831ef103438fbc9f08c743c42007954d45679"
+      },
+      "scope": "Current retained artifact hashes. Helper implementation versions not saved at original execution are not retrospectively attested."
+    },
+    {
+      "name": "MechanismContinuity_v2",
+      "files": {
+        "Cantera_License.txt": "e92980b9712ce20e73898a97b0116889e84e07f548d6be8591e87dcad79c41bb",
+        "H2_CpHS.yaml": "4dc9ef2cd7c2e0b81beb619eaf6f41b41c1ff8bc0898667127aa1a0c3ffedff2",
+        "H2_HS.yaml": "5674368c954a48077ebd7f6dbbda32009961757793dfc152c59a33c5ce77bbb3",
+        "ammonia-CO-H2-Alzueta-2023.yaml": "9eed1a29952ec41d154185798ecef7127a6329501322ee474be0b638011733f7",
+        "audit_result.json": "7f38ebd48b426fb5f973b5f690084f455c2ca9243e6be7d5e7331f4f1379734b",
+        "driver_snapshot.py": "b63dcac74f13bb8541f3e6098b2c76c9852f9097b3cb038f0acf544dc535138f",
+        "gri.yaml": "27a9c7c05a0a5630ead8978e90e266722fdbcb54c63c9d02c9badf8bbde4f8f0",
+        "gri_chem.inp": "987f187a94d5b9adcbb320514817a337a6996b3aaca83cb11a2aec1214979b23",
+        "gri_therm.dat": "4683769f3af94b688cd2e018c81831ef103438fbc9f08c743c42007954d45679"
+      },
+      "scope": "Current retained artifact hashes. Helper implementation versions not saved at original execution are not retrospectively attested."
+    },
+    {
+      "name": "InvariantProjectionValidData_v1",
+      "files": {
+        "GRI_continuous.yaml": "f15f6f91c17af1c087afa27ef80e76caaaf0e96507440a247d67c3ffa4bef858",
+        "H2_continuous.yaml": "b120e0295b5dd43fcfc020841a9cc0a3ab5ecc3ae5e46c398230ed2d5b6f319f",
+        "driver_snapshot.py": "a0e80861264f4b5470fe69c0cb4bea16e942cd5ff8207f43a03b5008608aa5fe",
+        "projection_result.json": "5dfe2b785d609f9040235bc3cb233c65ac230009fa107af750c497109557abab"
+      },
+      "scope": "Current retained artifact hashes. Helper implementation versions not saved at original execution are not retrospectively attested."
+    },
+    {
+      "name": "ThermochemicalAbstractMap_v1",
+      "files": {
+        "driver_snapshot.py": "4401fd1f24e185bcc7bcf2cf3bf21c55dc59744e3e49b2bea01587df2bb7ba56",
+        "map_result.json": "464f764299b4b6a3a54d8528d799edc6ae03dc8bd36630753289b9f3016d7c94",
+        "therm.dat": "1419df49cb9ac4c0c397bde0b57a4ddaa0bd34222c1bd935c5b4373fa082439c"
+      },
+      "scope": "Current retained artifact hashes. Helper implementation versions not saved at original execution are not retrospectively attested."
+    }
+  ],
+  "processedSHA256": {
+    "clean_thermo_campaign.json": "8ba36ddcfe513a953f065d6744639fdefe82fa5c06cce8a3379f415b6fb9ca46",
+    "clean_gri_campaign.json": "f5244eb828d2706434012133f1f8009b0a04c969d54f05ff07b5a22558b8f6d3",
+    "clean_thermo_branch.json": "8697a8008361d516b2f3f51166bb2f801dd1831ea65d6977050bc829aee6984a",
+    "clean_thermo_reference.json": "f94d39dc7aef1ee5869700c762663c07dc3ea876730ae4472501400ebb0270c8",
+    "mechanism_continuity_audit.json": "7f38ebd48b426fb5f973b5f690084f455c2ca9243e6be7d5e7331f4f1379734b",
+    "invariant_projection_valid_data.json": "5dfe2b785d609f9040235bc3cb233c65ac230009fa107af750c497109557abab",
+    "thermochemical_abstract_map.json": "464f764299b4b6a3a54d8528d799edc6ae03dc8bd36630753289b9f3016d7c94",
+    "thermochemical_candidate_decision.json": "0b2c4ec168ee15c76c39d6a170cba36aebbd5b818faa6831c9e7a13936ce4d9a",
+    "clean_thermo_interactions.json": "79b180f747b66eabffa2d950d141e21f5032bce05a0834bd792c04ac59410142",
+    "clean_thermo_report_sources.json": "53cf78bdc13e440dc58b56e850694b0c753ec713e4f42f719019ac96d5386833",
+    "native_thermo_control_limits.json": "d949d677fee13a3a260b79a8eba10b4027578c3a5a989187a6cba039a197e169",
+    "thermochemical_pivot.json": "96fda4f117c71900a8e39e13f02f730ef087151e642ac82d1ec3096c558103c6",
+    "thermochemical_figure_data.json": "80c2ff680e46f917bf55ba9e2d94e568d8d9106e9ea559d4e191908db841aec6"
+  },
+  "scope": "Supplement to historical reproducibility_manifest.json. Historical three-source-failure criterion is unchanged; new continuous-data scientific failures are explicitly classified here. Native snapshots remain in each experiment.json. No publication status is inferred from execution completion."
+}

@@ -1,0 +1,5 @@
+{
+  "originalHeaderSHA256": "cb5b16939d3fec78972607f9fb13b28b96305fc6343275983c426675eae4c946",
+  "diagnosticHeaderSHA256": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+  "scope": "Separate initialization-only diagnostic; final performance dataset and its original solver binaries remain unchanged."
+}

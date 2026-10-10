@@ -1,0 +1,245 @@
+{
+  "records": [
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.498001805406602e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.254764873546971e-14,
+      "accumulatedComponentAllowanceUpperSum": 3.888698846596109e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.255140518769849e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.597746047545671e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412405981e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 6.498621085704315e-14,
+      "accumulatedResidualMagnitudeUpperSum": 6.81096126684876e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412407262e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.7470027081099033e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.680316115666376e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134515e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 5.2735593669694936e-14,
+      "accumulatedResidualMagnitudeUpperSum": 5.64057827903946e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134588e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_componentOff",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "allowance-only",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_componentOn",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/2d1f3a4ba40b8abeb790d2e28bef312a4b1ce9024aa4d67ca8e797e94338e0d0",
+      "executableSHA256": "710c97acbae08e73e78b1ed2427810e545a9b5723f81a45efeed1e71b48b3d46"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.255140518769849e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.597746047545671e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412405981e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.255140518769849e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.597746047545671e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412405981e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.7470027081099033e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.680316115666376e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134515e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.7470027081099033e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.680316115666376e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134515e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOff",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOn",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOff",
+      "acceptedRankSteps": 960,
+      "absoluteInventoryChange": 9.71445146547012e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.1220133634633485e-14,
+      "accumulatedComponentAllowanceUpperSum": 2.3624069540756987e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "exact-cycle",
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOn",
+      "acceptedRankSteps": 960,
+      "absoluteInventoryChange": 9.71445146547012e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.1220133634633485e-14,
+      "accumulatedComponentAllowanceUpperSum": 2.3624069540756987e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_capFallback_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.608224830031759e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.0566477275089828e-14,
+      "accumulatedComponentAllowanceUpperSum": 3.888698846596109e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_capFallback_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.255140518769849e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.597746047545671e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412405981e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_capFallback_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 2.255140518769849e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.597746047545671e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.4057332412405981e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_capFallback_componentOff",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.7470027081099033e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.680316115666376e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134515e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_capFallback_componentOn",
+      "acceptedRankSteps": 240,
+      "absoluteInventoryChange": 3.7470027081099033e-16,
+      "accumulatedResidualMagnitudeUpperSum": 3.680316115666376e-15,
+      "accumulatedComponentAllowanceUpperSum": 1.2695881707134515e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_capFallback_componentOff",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_capFallback_componentOn",
+      "acceptedRankSteps": 1000,
+      "absoluteInventoryChange": 2.0712598303163077e-15,
+      "accumulatedResidualMagnitudeUpperSum": 1.444791260530806e-14,
+      "accumulatedComponentAllowanceUpperSum": 1.949087843473957e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_capFallback_componentOff",
+      "acceptedRankSteps": 960,
+      "absoluteInventoryChange": 9.71445146547012e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.1220133634633485e-14,
+      "accumulatedComponentAllowanceUpperSum": 2.3624069540756987e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "policy": "cap-fallback",
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_capFallback_componentOn",
+      "acceptedRankSteps": 960,
+      "absoluteInventoryChange": 9.71445146547012e-16,
+      "accumulatedResidualMagnitudeUpperSum": 2.1220133634633485e-14,
+      "accumulatedComponentAllowanceUpperSum": 2.3624069540756987e-12,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    }
+  ],
+  "scope": "Sum over accepted steps/ranks of nLocal times recorded residual maximum or local allowance maximum. The former bounds the sum of absolute assembled residuals, not accumulated solution/truncation error. Independent inventory includes representation/other residual effects; no certified thermodynamic error bound is asserted."
+}

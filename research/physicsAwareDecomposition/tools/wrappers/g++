@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Optional compatibility adapter for the recorded minimal GCC 6.3 installation.
+set -e
+PAD_SYSROOT=${PAD_SYSROOT:-"$HOME/local"}
+PAD_FOAM_ROOT=${PAD_FOAM_ROOT:-/opt/OpenFOAM/OpenFOAM-v2012}
+PAD_CXX=${PAD_CXX:-"$PAD_FOAM_ROOT/ThirdParty/platforms/linux64/gcc-6.3.0/bin/g++"}
+PAD_ROOT=$(cd "$(dirname "$0")/../.." && pwd)
+for argument in "$@"; do
+  if [[ "$argument" == -c ]]; then exec "$PAD_CXX" --sysroot="$PAD_SYSROOT" "$@"; fi
+done
+exec "$PAD_CXX" -B"$PAD_SYSROOT/usr/lib/x86_64-linux-gnu/" \
+  -L"$PAD_ROOT/build/compilerLib" -L"$PAD_SYSROOT/usr/lib/x86_64-linux-gnu" \
+  -Wl,--rpath-link,"$PAD_SYSROOT/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu" "$@"

@@ -1,0 +1,527 @@
+[
+  {
+    "regime": "chemistryDominated",
+    "split": "train",
+    "action": "AC",
+    "predicted": -4.364709425968535,
+    "actual": -4.969433434001985
+  },
+  {
+    "regime": "chemistryDominated",
+    "split": "train",
+    "action": "AM",
+    "predicted": 6.8973241606523175,
+    "actual": 7.742601324003772
+  },
+  {
+    "regime": "chemistryDominated",
+    "split": "train",
+    "action": "AH",
+    "predicted": -3.897959290415237,
+    "actual": -4.464040948005277
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AC",
+    "predicted": -0.051305251734945045,
+    "actual": -0.02071323299605865
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AM",
+    "predicted": -0.05455193864252156,
+    "actual": 0.003290640001068823
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AH",
+    "predicted": -0.01663972335411816,
+    "actual": -0.02794597799947951
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AC",
+    "predicted": 0.02794866763861474,
+    "actual": -0.029868093013647012
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AM",
+    "predicted": -0.1206794641158733,
+    "actual": -0.002943073006463237
+  },
+  {
+    "regime": "decay",
+    "split": "validation",
+    "action": "AH",
+    "predicted": 0.05338829150842726,
+    "actual": -0.020223968007485382
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AC",
+    "predicted": 0.002097248014873168,
+    "actual": -0.886818144004792
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AM",
+    "predicted": -0.06578829696790614,
+    "actual": 0.3455614400008926
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AH",
+    "predicted": 0.02959250493926753,
+    "actual": -0.8023792919993866
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AC",
+    "predicted": 0.058010113103027436,
+    "actual": 0.021567947987932712
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AM",
+    "predicted": -0.14919526105343242,
+    "actual": 0.022895643996889703
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AH",
+    "predicted": 0.07974484774511963,
+    "actual": -0.008509953011525795
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.13260423976532132,
+    "actual": -0.0014525820006383583
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.2395355409343089,
+    "actual": 0.03238883199810516
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.09526625188041944,
+    "actual": -0.029600096007925458
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.34160806333947835,
+    "actual": -2.175018744994304
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.38478873389913204,
+    "actual": 0.7150048440089449
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.27620115023382374,
+    "actual": -1.9637217819836223
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.15119743535011684,
+    "actual": 0.06369027700566221
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.22801324957877167,
+    "actual": 0.03255280799930915
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.11059673676673108,
+    "actual": 0.031968074006726965
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AC",
+    "predicted": -2.7353434801492873,
+    "actual": -0.7984566369996173
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AM",
+    "predicted": 2.6051856824154207,
+    "actual": 2.8832289519923506
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AH",
+    "predicted": -2.3932271736311233,
+    "actual": -0.8463740089937346
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.2529594457430637,
+    "actual": -0.06256611199933104
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AM",
+    "predicted": 0.32370344013287755,
+    "actual": -0.061792492007953115
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.20142206268798102,
+    "actual": -0.011772397992899641
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.04999669390182773,
+    "actual": -0.773111439004424
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.13103378358657794,
+    "actual": 1.1492935879941797
+  },
+  {
+    "regime": "ignition",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.07235037991685112,
+    "actual": -0.6347970190108754
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.9023386586554377,
+    "actual": -0.029587502998765558
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AM",
+    "predicted": 1.5807334581442947,
+    "actual": 0.4004238719935529
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.7933022068420913,
+    "actual": 0.08824734900554176
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.2752151065301501,
+    "actual": -0.4118993820011383
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AM",
+    "predicted": 0.2384653280722881,
+    "actual": -0.1149653590109665
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.21690076438304157,
+    "actual": -0.39158554100140464
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.549534599789219,
+    "actual": -1.130076855988591
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AM",
+    "predicted": 0.8393519946329424,
+    "actual": 2.0036141200107522
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.46640942814336944,
+    "actual": -0.9484834739851067
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AC",
+    "predicted": -1.6468125728254948,
+    "actual": -1.4017535919992952
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AM",
+    "predicted": 3.2428986608755594,
+    "actual": 3.1107466099929297
+  },
+  {
+    "regime": "persistent",
+    "split": "train",
+    "action": "AH",
+    "predicted": -1.464444083184681,
+    "actual": -1.3231605530017987
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.06728754765234635,
+    "actual": 0.0022083160147303715
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.16436273690584258,
+    "actual": -0.0025145349936792627
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.08798266085110702,
+    "actual": 0.0036702810029964894
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.3007642391045639,
+    "actual": -0.12739948800299317
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AM",
+    "predicted": 0.18475133012997563,
+    "actual": -0.07241274400439579
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.23751381334398486,
+    "actual": -0.12813442801416386
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.5796419890655109,
+    "actual": -0.27871465298812836
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AM",
+    "predicted": 0.5608858681323022,
+    "actual": -0.05028769199270755
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.485200419202872,
+    "actual": -0.2727071849949425
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AC",
+    "predicted": -0.9716364249980963,
+    "actual": -0.2775793589971727
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AM",
+    "predicted": 1.427006285393663,
+    "actual": 0.19496417499613017
+  },
+  {
+    "regime": "translating",
+    "split": "train",
+    "action": "AH",
+    "predicted": -0.8370165476261204,
+    "actual": -0.0367242649954278
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.07073793185515669,
+    "actual": 0.0009019080025609583
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.17194123346008264,
+    "actual": 0.006107993991463445
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.09139160877845995,
+    "actual": 0.013826858994434588
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.07945747457793996,
+    "actual": 0.0009164429939119145
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.19153987689120358,
+    "actual": -0.002492654006346129
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.09879920503576493,
+    "actual": 0.0029115209908923134
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.07407217783758427,
+    "actual": -0.0010978720092680305
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.179101698487954,
+    "actual": 0.00394358100311365
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.09426006239361868,
+    "actual": -1.9020008039660752e-05
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AC",
+    "predicted": 0.05253099087616184,
+    "actual": 0.009663377000833862
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AM",
+    "predicted": -0.12934898487495586,
+    "actual": 0.020562423989758827
+  },
+  {
+    "regime": "transportDominated",
+    "split": "train",
+    "action": "AH",
+    "predicted": 0.07610349182503359,
+    "actual": 0.023487613987526856
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AC",
+    "predicted": 0.03765347428448329,
+    "actual": 0.013820337000652216
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AM",
+    "predicted": -0.10069583511346475,
+    "actual": -0.004666363005526364
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AH",
+    "predicted": 0.06052604208174163,
+    "actual": 0.0016933879960561171
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AC",
+    "predicted": 0.015810832143131878,
+    "actual": 0.04323777000536211
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AM",
+    "predicted": -0.0618149803922714,
+    "actual": -0.06056744200759567
+  },
+  {
+    "regime": "uniform",
+    "split": "validation",
+    "action": "AH",
+    "predicted": 0.04077519303785697,
+    "actual": 0.1213006279867841
+  }
+]

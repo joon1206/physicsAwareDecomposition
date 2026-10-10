@@ -1,0 +1,83 @@
+{
+  "donors": [
+    {
+      "T": 500.0,
+      "q": {
+        "H2": 0.010855633691603759,
+        "N2": 0.5319260508885841
+      },
+      "internalEnergyDensity": 42762.46738980295
+    },
+    {
+      "T": 1500.0,
+      "q": {
+        "H2": 0.012717503372260134,
+        "N2": 0.050870013489040536
+      },
+      "internalEnergyDensity": 197473.33326212218
+    }
+  ],
+  "records": [
+    {
+      "weight": 0.1,
+      "conservativeRecovery": {
+        "T": 537.8606224988064,
+        "p": 101730.95813942423,
+        "rho": 0.49486226780829917,
+        "rootResidual": 9.458744898438454e-11
+      },
+      "pressurePreservingTemperature": 535.7142857142858,
+      "energyDensityMismatch": 1042.7788660527222,
+      "gaugeMismatchDifference": -7.275957614183426e-12
+    },
+    {
+      "weight": 0.25,
+      "conservativeRecovery": {
+        "T": 605.494652338502,
+        "p": 102252.90941366451,
+        "rho": 0.4229831426504661,
+        "rootResidual": 4.3655745685100555e-11
+      },
+      "pressurePreservingTemperature": 600.0,
+      "energyDensityMismatch": 2409.107219210986,
+      "gaugeMismatchDifference": 1.4551915228366852e-11
+    },
+    {
+      "weight": 0.5,
+      "conservativeRecovery": {
+        "T": 760.6094062752993,
+        "p": 102758.33078779293,
+        "rho": 0.30318460072074427,
+        "rootResidual": -2.9103830456733704e-11
+      },
+      "pressurePreservingTemperature": 750.0,
+      "energyDensityMismatch": 3826.387242236844,
+      "gaugeMismatchDifference": -2.9103830456733704e-11
+    },
+    {
+      "weight": 0.75,
+      "conservativeRecovery": {
+        "T": 1011.882127467182,
+        "p": 102528.95656561223,
+        "rho": 0.18338605879102246,
+        "rootResidual": 2.9103830456733704e-11
+      },
+      "pressurePreservingTemperature": 1000.0,
+      "energyDensityMismatch": 3356.471626458864,
+      "gaugeMismatchDifference": 0.0
+    },
+    {
+      "weight": 0.9,
+      "conservativeRecovery": {
+        "T": 1257.5789907958692,
+        "p": 101939.35299391317,
+        "rho": 0.11150693363318939,
+        "rootResidual": 8.731149137020111e-11
+      },
+      "pressurePreservingTemperature": 1250.0,
+      "energyDensityMismatch": 1769.5382072381035,
+      "gaugeMismatchDifference": 2.9103830456733704e-11
+    }
+  ],
+  "scope": "Two-donor common-weight conservative mixing; not a general flux impossibility theorem"
+}

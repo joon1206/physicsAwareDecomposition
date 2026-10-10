@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "timestamp": "2026-10-05T14:00:39.734610+00:00",
+  "outputDirectory": "/tmp/pad-action-small-reproduction-ywv5nsk3",
+  "command": "PAD_ACTION_ROOT=<fresh directory> bash actionStudy/scripts/reproduce.sh small",
+  "subprocessWall": 37.772039044997655,
+  "totalVerificationWall": 37.77289075599401,
+  "trials": 8,
+  "gates": 6,
+  "log": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/actionStudy/data/raw/build/smallReproduction.log",
+  "scope": "Fresh small profile, all four actions and native physical endpoint checks; full campaign evidence audited separately."
+}

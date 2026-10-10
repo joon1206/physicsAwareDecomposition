@@ -1,0 +1,5018 @@
+[
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 1,
+    "solverWall": 8.471348560997285,
+    "decisionWall": 0.03347497801587451,
+    "migrationWall": 0.5222751610126579,
+    "totalWall": 9.027098700025817,
+    "featureExtractionWall": 0.0315464090090245,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:12:45.852564+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AM_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 2,
+    "solverWall": 5.821731846997864,
+    "decisionWall": 0.03280808898853138,
+    "migrationWall": 0.48307811899576336,
+    "totalWall": 6.337618054982158,
+    "featureExtractionWall": 0.030926858991733752,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:12:52.220977+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AH_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "22227",
+        "receives": "22201",
+        "sendPayloadBytes": "2268307",
+        "receiveBufferBytes": "2266823",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.3496152214356698",
+        "waitSeconds": "1.1419866586948046"
+      },
+      {
+        "rank": "3",
+        "sends": "21741",
+        "receives": "21870",
+        "sendPayloadBytes": "2298910",
+        "receiveBufferBytes": "2307933",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.3562492241035216",
+        "waitSeconds": "1.2900233225518605"
+      },
+      {
+        "rank": "1",
+        "sends": "21756",
+        "receives": "21843",
+        "sendPayloadBytes": "2030058",
+        "receiveBufferBytes": "2038745",
+        "collectives": "26572",
+        "waits": "10866",
+        "callSeconds": "1.2038826126808999",
+        "waitSeconds": "1.1511692508502165"
+      },
+      {
+        "rank": "0",
+        "sends": "22275",
+        "receives": "22085",
+        "sendPayloadBytes": "2085910",
+        "receiveBufferBytes": "2069684",
+        "collectives": "26572",
+        "waits": "10881",
+        "callSeconds": "1.3361708885931876",
+        "waitSeconds": "1.300269721323275"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 0,
+    "solverWall": 5.741633114987053,
+    "decisionWall": 0.00022016798902768642,
+    "migrationWall": 0.0,
+    "totalWall": 5.741853282976081,
+    "featureExtractionWall": 0.02888595599506516,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:12:58.028296+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AC_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18431",
+        "receives": "18456",
+        "sendPayloadBytes": "1574941",
+        "receiveBufferBytes": "1573865",
+        "collectives": "21022",
+        "waits": "8998",
+        "callSeconds": "1.1150454185408307",
+        "waitSeconds": "1.0649958148569567"
+      },
+      {
+        "rank": "3",
+        "sends": "18070",
+        "receives": "18150",
+        "sendPayloadBytes": "1658190",
+        "receiveBufferBytes": "1666771",
+        "collectives": "21022",
+        "waits": "9016",
+        "callSeconds": "1.2752692656940781",
+        "waitSeconds": "1.2337577549915295"
+      },
+      {
+        "rank": "1",
+        "sends": "18118",
+        "receives": "18123",
+        "sendPayloadBytes": "1677814",
+        "receiveBufferBytes": "1685795",
+        "collectives": "21022",
+        "waits": "9019",
+        "callSeconds": "1.1103282050607959",
+        "waitSeconds": "1.062124914053129"
+      },
+      {
+        "rank": "0",
+        "sends": "18511",
+        "receives": "18401",
+        "sendPayloadBytes": "1626498",
+        "receiveBufferBytes": "1611012",
+        "collectives": "21022",
+        "waits": "9016",
+        "callSeconds": "1.2286515528248856",
+        "waitSeconds": "1.1853212146816077"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 2,
+    "solverWall": 8.338181097991765,
+    "decisionWall": 0.030945862992666662,
+    "migrationWall": 0.6140841299929889,
+    "totalWall": 8.98321109097742,
+    "featureExtractionWall": 0.029331771002034657,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:07.040532+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AM_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 0,
+    "solverWall": 7.984995679013082,
+    "decisionWall": 0.03048742000828497,
+    "migrationWall": 0.4833848720008973,
+    "totalWall": 8.498867971022264,
+    "featureExtractionWall": 0.02891402700333856,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:15.568165+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AM_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 1,
+    "solverWall": 5.493684867004049,
+    "decisionWall": 0.00018404801085125655,
+    "migrationWall": 0.0,
+    "totalWall": 5.4938689150149,
+    "featureExtractionWall": 0.02843094700074289,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:21.122518+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AC_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 1,
+    "solverWall": 7.528479538988904,
+    "decisionWall": 0.00023438800417352468,
+    "migrationWall": 0.0,
+    "totalWall": 7.528713926993078,
+    "featureExtractionWall": 0.029428070003632456,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:28.711303+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_A0_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18156",
+        "receives": "18156",
+        "sendPayloadBytes": "1302945",
+        "receiveBufferBytes": "1302941",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.5837327159242705",
+        "waitSeconds": "2.9613502891879762"
+      },
+      {
+        "rank": "3",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.6945470000209752",
+        "waitSeconds": "2.3975560664548539"
+      },
+      {
+        "rank": "1",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "1.851232271103072",
+        "waitSeconds": "1.0812632077140734"
+      },
+      {
+        "rank": "0",
+        "sends": "18213",
+        "receives": "18103",
+        "sendPayloadBytes": "1310198",
+        "receiveBufferBytes": "1296016",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.5291152686695568",
+        "waitSeconds": "3.1725129076221492"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 0,
+    "solverWall": 7.610456098002032,
+    "decisionWall": 0.0002174769906559959,
+    "migrationWall": 0.0,
+    "totalWall": 7.610673574992688,
+    "featureExtractionWall": 0.029160114005208015,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:36.380125+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_A0_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 2,
+    "solverWall": 7.645867355997325,
+    "decisionWall": 0.0002465969882905483,
+    "migrationWall": 0.0,
+    "totalWall": 7.6461139529856155,
+    "featureExtractionWall": 0.028997635003179312,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:44.087313+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_A0_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 2,
+    "solverWall": 7.571675611005048,
+    "decisionWall": 0.000260736997006461,
+    "migrationWall": 0.0,
+    "totalWall": 7.571936348002055,
+    "featureExtractionWall": 0.02939655199588742,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:51.718006+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_A0_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18156",
+        "receives": "18156",
+        "sendPayloadBytes": "1302945",
+        "receiveBufferBytes": "1302941",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.6505412043188699",
+        "waitSeconds": "3.0171847157325828"
+      },
+      {
+        "rank": "3",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.751951345911948",
+        "waitSeconds": "2.3575939248839859"
+      },
+      {
+        "rank": "1",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "1.7869989387254464",
+        "waitSeconds": "1.067264300538227"
+      },
+      {
+        "rank": "0",
+        "sends": "18213",
+        "receives": "18103",
+        "sendPayloadBytes": "1310198",
+        "receiveBufferBytes": "1296016",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.4745565040648216",
+        "waitSeconds": "3.1607977046514861"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 0,
+    "solverWall": 7.574719853990246,
+    "decisionWall": 0.00020432799647096545,
+    "migrationWall": 0.0,
+    "totalWall": 7.574924181986717,
+    "featureExtractionWall": 0.02927064200048335,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:13:59.354093+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_A0_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18156",
+        "receives": "18156",
+        "sendPayloadBytes": "1302945",
+        "receiveBufferBytes": "1302941",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.6977933097514324",
+        "waitSeconds": "3.0895362720475532"
+      },
+      {
+        "rank": "3",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.6800496229989221",
+        "waitSeconds": "2.2987756791262655"
+      },
+      {
+        "rank": "1",
+        "sends": "17848",
+        "receives": "17903",
+        "sendPayloadBytes": "1293818",
+        "receiveBufferBytes": "1300911",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "1.8273816933069611",
+        "waitSeconds": "1.0881197634880664"
+      },
+      {
+        "rank": "0",
+        "sends": "18213",
+        "receives": "18103",
+        "sendPayloadBytes": "1310198",
+        "receiveBufferBytes": "1296016",
+        "collectives": "21022",
+        "waits": "8797",
+        "callSeconds": "3.5776909247651929",
+        "waitSeconds": "3.2400448671833146"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 2,
+    "solverWall": 5.602727859994047,
+    "decisionWall": 0.0001981080131372437,
+    "migrationWall": 0.0,
+    "totalWall": 5.602925968007185,
+    "featureExtractionWall": 0.029311771999346092,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:05.019442+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AC_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 0,
+    "solverWall": 8.243017772998428,
+    "decisionWall": 0.030790010991040617,
+    "migrationWall": 0.5260891430079937,
+    "totalWall": 8.799896926997462,
+    "featureExtractionWall": 0.02914066800440196,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:13.849662+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AM_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "21856",
+        "receives": "21856",
+        "sendPayloadBytes": "1635311",
+        "receiveBufferBytes": "1635307",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.855032883468084",
+        "waitSeconds": "2.2669652324402705"
+      },
+      {
+        "rank": "3",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1721650",
+        "receiveBufferBytes": "1728793",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "5.5257304547412787",
+        "waitSeconds": "4.4785267939296318"
+      },
+      {
+        "rank": "1",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1626134",
+        "receiveBufferBytes": "1633277",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "3.9400733575457707",
+        "waitSeconds": "2.5075598350958899"
+      },
+      {
+        "rank": "0",
+        "sends": "21913",
+        "receives": "21803",
+        "sendPayloadBytes": "1547098",
+        "receiveBufferBytes": "1532816",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.5669080929510528",
+        "waitSeconds": "2.2624988052557455"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 1,
+    "solverWall": 8.160798771001282,
+    "decisionWall": 0.03120542099350132,
+    "migrationWall": 0.484302128010313,
+    "totalWall": 8.676306320005096,
+    "featureExtractionWall": 0.02959499899588991,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:22.560627+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AM_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "21856",
+        "receives": "21856",
+        "sendPayloadBytes": "1635311",
+        "receiveBufferBytes": "1635307",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.8891520846955245",
+        "waitSeconds": "2.3409536011895398"
+      },
+      {
+        "rank": "3",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1721650",
+        "receiveBufferBytes": "1728793",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "5.4690089478244772",
+        "waitSeconds": "4.3336751478927908"
+      },
+      {
+        "rank": "1",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1626134",
+        "receiveBufferBytes": "1633277",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "3.9355063878028886",
+        "waitSeconds": "2.5721523459505988"
+      },
+      {
+        "rank": "0",
+        "sends": "21913",
+        "receives": "21803",
+        "sendPayloadBytes": "1547098",
+        "receiveBufferBytes": "1532816",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.4686464696860639",
+        "waitSeconds": "2.2131174785754411"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 2,
+    "solverWall": 6.041204787004972,
+    "decisionWall": 0.00023062700347509235,
+    "migrationWall": 0.0,
+    "totalWall": 6.041435414008447,
+    "featureExtractionWall": 0.031261416006600484,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:28.664360+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AC_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18431",
+        "receives": "18456",
+        "sendPayloadBytes": "1579381",
+        "receiveBufferBytes": "1578305",
+        "collectives": "21022",
+        "waits": "9007",
+        "callSeconds": "1.4743150550202699",
+        "waitSeconds": "1.38461502167047"
+      },
+      {
+        "rank": "3",
+        "sends": "18058",
+        "receives": "18144",
+        "sendPayloadBytes": "1659278",
+        "receiveBufferBytes": "1667907",
+        "collectives": "21022",
+        "waits": "9013",
+        "callSeconds": "1.1157658310694387",
+        "waitSeconds": "1.0557059526763624"
+      },
+      {
+        "rank": "1",
+        "sends": "18124",
+        "receives": "18111",
+        "sendPayloadBytes": "1671054",
+        "receiveBufferBytes": "1678891",
+        "collectives": "21022",
+        "waits": "9007",
+        "callSeconds": "1.2336161128041567",
+        "waitSeconds": "1.1513346407591598"
+      },
+      {
+        "rank": "0",
+        "sends": "18502",
+        "receives": "18404",
+        "sendPayloadBytes": "1636490",
+        "receiveBufferBytes": "1621100",
+        "collectives": "21022",
+        "waits": "9010",
+        "callSeconds": "1.3262664139911067",
+        "waitSeconds": "1.2297345784463687"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 1,
+    "solverWall": 5.545562575003714,
+    "decisionWall": 0.0003273470210842788,
+    "migrationWall": 0.0,
+    "totalWall": 5.545889922024799,
+    "featureExtractionWall": 0.039835717994719744,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:34.287405+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AC_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "18425",
+        "receives": "18453",
+        "sendPayloadBytes": "1559501",
+        "receiveBufferBytes": "1558449",
+        "collectives": "21022",
+        "waits": "9004",
+        "callSeconds": "1.3564298325800337",
+        "waitSeconds": "1.305841256675194"
+      },
+      {
+        "rank": "3",
+        "sends": "18065",
+        "receives": "18140",
+        "sendPayloadBytes": "1647790",
+        "receiveBufferBytes": "1656331",
+        "collectives": "21022",
+        "waits": "9016",
+        "callSeconds": "0.97181645435921382",
+        "waitSeconds": "0.91023270633013453"
+      },
+      {
+        "rank": "1",
+        "sends": "18117",
+        "receives": "18109",
+        "sendPayloadBytes": "1645542",
+        "receiveBufferBytes": "1653419",
+        "collectives": "21022",
+        "waits": "9007",
+        "callSeconds": "0.93482559152471367",
+        "waitSeconds": "0.89133996493183076"
+      },
+      {
+        "rank": "0",
+        "sends": "18502",
+        "receives": "18407",
+        "sendPayloadBytes": "1631162",
+        "receiveBufferBytes": "1615796",
+        "collectives": "21022",
+        "waits": "9010",
+        "callSeconds": "1.0969131685560569",
+        "waitSeconds": "1.0536322614207165"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147468,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341979,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465331489,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765261,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036537156,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210852016,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695214,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.00308240614605556,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322096,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201206783e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252321e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684194,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532343951,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999108,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 1,
+    "solverWall": 5.8278309120069025,
+    "decisionWall": 0.030843269007164054,
+    "migrationWall": 0.4917424610030139,
+    "totalWall": 6.3504166420170804,
+    "featureExtractionWall": 0.029122264008037746,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:40.667643+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AH_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 1,
+    "solverWall": 5.787492200994166,
+    "decisionWall": 0.03088991399272345,
+    "migrationWall": 0.4714557499974035,
+    "totalWall": 6.2898378649842925,
+    "featureExtractionWall": 0.02909142400312703,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:46.987570+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AH_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "22226",
+        "receives": "22208",
+        "sendPayloadBytes": "2255571",
+        "receiveBufferBytes": "2254151",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.4187505574664101",
+        "waitSeconds": "1.3785036171757383"
+      },
+      {
+        "rank": "3",
+        "sends": "21739",
+        "receives": "21860",
+        "sendPayloadBytes": "2259526",
+        "receiveBufferBytes": "2268485",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.362550688398187",
+        "waitSeconds": "1.2964455149194691"
+      },
+      {
+        "rank": "1",
+        "sends": "21766",
+        "receives": "21851",
+        "sendPayloadBytes": "2039610",
+        "receiveBufferBytes": "2048281",
+        "collectives": "26572",
+        "waits": "10878",
+        "callSeconds": "1.1899441383138765",
+        "waitSeconds": "1.135324906790629"
+      },
+      {
+        "rank": "0",
+        "sends": "22271",
+        "receives": "22083",
+        "sendPayloadBytes": "2094758",
+        "receiveBufferBytes": "2078548",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.223477237377665",
+        "waitSeconds": "1.1862084442400374"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 2,
+    "solverWall": 5.7599178530072095,
+    "decisionWall": 0.03133208901272155,
+    "migrationWall": 0.4803858209925238,
+    "totalWall": 6.271635763012455,
+    "featureExtractionWall": 0.029552099003922194,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:14:53.289285+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AH_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AM",
+    "repeat": 2,
+    "solverWall": 8.164384207993862,
+    "decisionWall": 0.031267531026969664,
+    "migrationWall": 0.47377267299452797,
+    "totalWall": 8.66942441201536,
+    "featureExtractionWall": 0.029623349008033983,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:15:01.988869+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AM_r2",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "21856",
+        "receives": "21856",
+        "sendPayloadBytes": "1635311",
+        "receiveBufferBytes": "1635307",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.8921797865041299",
+        "waitSeconds": "2.3766416566068074"
+      },
+      {
+        "rank": "3",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1721650",
+        "receiveBufferBytes": "1728793",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "5.5027642644417938",
+        "waitSeconds": "4.3800546721322462"
+      },
+      {
+        "rank": "1",
+        "sends": "21548",
+        "receives": "21603",
+        "sendPayloadBytes": "1626134",
+        "receiveBufferBytes": "1633277",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "3.9928985795995686",
+        "waitSeconds": "2.540979871788295"
+      },
+      {
+        "rank": "0",
+        "sends": "21913",
+        "receives": "21803",
+        "sendPayloadBytes": "1547098",
+        "receiveBufferBytes": "1532816",
+        "collectives": "26572",
+        "waits": "10647",
+        "callSeconds": "2.4997036533022765",
+        "waitSeconds": "2.2203869251243304"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "A0",
+    "repeat": 1,
+    "solverWall": 7.759561663013301,
+    "decisionWall": 0.0003728059964487329,
+    "migrationWall": 0.0,
+    "totalWall": 7.75993446900975,
+    "featureExtractionWall": 0.035259647003840655,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:15:09.823967+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_A0_r1",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 0,
+    "solverWall": 5.9990259079932,
+    "decisionWall": 0.03131720400415361,
+    "migrationWall": 0.5094865870050853,
+    "totalWall": 6.539829699002439,
+    "featureExtractionWall": 0.0298831300024176,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:15:16.393775+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AH_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AC",
+    "repeat": 0,
+    "solverWall": 5.636700083006872,
+    "decisionWall": 0.0002474570064805448,
+    "migrationWall": 0.0,
+    "totalWall": 5.636947540013352,
+    "featureExtractionWall": 0.029759661993011832,
+    "weightAcquisitionCharged": false,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": false,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:15:22.090771+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOff/heldoutMoving/cp4e-05_H80_AC_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 64,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 32.0,
+    "MPI": []
+  },
+  {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "horizonSteps": 80,
+    "horizonSeconds": 0.00015999999999999999,
+    "action": "AH",
+    "repeat": 0,
+    "solverWall": 6.058285011007683,
+    "decisionWall": 0.048755979994894005,
+    "migrationWall": 0.555120769990026,
+    "totalWall": 6.662161760992603,
+    "featureExtractionWall": 0.04669491699314676,
+    "weightAcquisitionCharged": true,
+    "ranks": 4,
+    "nodes": 1,
+    "profile": true,
+    "currentFeatures": {
+      "chemistryImbalance": 1.7943979357922715,
+      "chemistryFraction": 0.3934959606900592,
+      "chemistrySeconds": 0.01014177255,
+      "timestepSeconds": 0.025773511199999998,
+      "totalCellCost": 0.037290433,
+      "cellCostCV": 1.0080119406403547,
+      "correlation": 0.47583394250411054,
+      "topOverlap": 0.23809523809523808,
+      "lifetimeSteps": 13.464634236480395,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.010161556741993354,
+      "observedCostVelocity": 132.53491268802364,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 2.780581934630889,
+      "twoSnapshotEMAImbalance": 2.1841109414809514,
+      "pressureSeconds": 0.0007447013000000001,
+      "transportSeconds": 0.013815397450000001,
+      "velocity": 120,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "timestamp": "2026-10-05T13:15:28.788057+00:00",
+    "gitSHA": "80ecc4281180a7a72a88bbd0bbfff4297d6bffc4",
+    "upstreamSHA": "c67d87052ec29375c5d3580888aa65a64917024b",
+    "OpenFOAM": "v2012",
+    "case": {
+      "regime": "heldoutMoving",
+      "nx": 32,
+      "ny": 8,
+      "nCells": 256,
+      "dt": 2e-06,
+      "species": [
+        "H2",
+        "H",
+        "O2",
+        "O",
+        "OH",
+        "HO2",
+        "H2O2",
+        "H2O",
+        "AR",
+        "N2"
+      ],
+      "specification": {
+        "velocity": 120,
+        "cold": 600,
+        "hot": 1250,
+        "width": 0.0025
+      },
+      "source": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials/combustion/chemFoam/h2/chemkin",
+      "mechanism": "h2",
+      "mechanismSHA256": "8504a199a248d193aa78177c793a83251fe14e5f57ca2e29cdf07938c8a9039b",
+      "preprocessingWall": 0.1856333989999257
+    },
+    "timingMethod": "blocking process wait with independent watchdog",
+    "rankPlacement": "--bind-to core --map-by core --nooversubscribe",
+    "writeProtocol": "state-preserving physical endpoint v3; solved he and dpdt restored; psi oldTime preallocated; endpoint and step count asserted",
+    "scope": "restart continuation wall including solver startup/final IO; weight acquisition/construction and native redistribution charged for AM/AH; experiment duplication excluded; other analysis features excluded until required by a controller",
+    "path": "data/raw/mpiConsequencesOn/heldoutMoving/cp4e-05_H80_AH_r0",
+    "parts": [
+      {
+        "rank": 0,
+        "nCells": 88,
+        "processorFaces": 16,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 1,
+        "nCells": 41,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 2,
+        "nCells": 89,
+        "processorFaces": 17,
+        "nNeighbours": 2
+      },
+      {
+        "rank": 3,
+        "nCells": 38,
+        "processorFaces": 18,
+        "nNeighbours": 2
+      }
+    ],
+    "processorFaces": 34.0,
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "22227",
+        "receives": "22207",
+        "sendPayloadBytes": "2239891",
+        "receiveBufferBytes": "2238455",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.2925411919713952",
+        "waitSeconds": "1.2480021612864221"
+      },
+      {
+        "rank": "3",
+        "sends": "21736",
+        "receives": "21860",
+        "sendPayloadBytes": "2261870",
+        "receiveBufferBytes": "2270853",
+        "collectives": "26572",
+        "waits": "10884",
+        "callSeconds": "1.41483324021101",
+        "waitSeconds": "1.346144531693426"
+      },
+      {
+        "rank": "1",
+        "sends": "21759",
+        "receives": "21843",
+        "sendPayloadBytes": "2018834",
+        "receiveBufferBytes": "2027497",
+        "collectives": "26572",
+        "waits": "10869",
+        "callSeconds": "1.2736487177899107",
+        "waitSeconds": "1.2163404908933444"
+      },
+      {
+        "rank": "0",
+        "sends": "22268",
+        "receives": "22080",
+        "sendPayloadBytes": "2073718",
+        "receiveBufferBytes": "2057508",
+        "collectives": "26572",
+        "waits": "10881",
+        "callSeconds": "1.4572757381101837",
+        "waitSeconds": "1.4144639877631562"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2892.112676147576,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 365950.7954341993,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 158.5419465332041,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 226001508.2765931,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.003226844036538173,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004757622210854393,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01813029139695302,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.003082406146056842,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01819747764322543,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.550330201207171e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.367222913252578e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2219133793684238,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000019,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4088274.532344179,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3776471986999175,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  }
+]

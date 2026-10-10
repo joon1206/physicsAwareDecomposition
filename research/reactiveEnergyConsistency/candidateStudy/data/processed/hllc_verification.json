@@ -1,0 +1,1239 @@
+[
+  {
+    "name": "HLLC_B_nx8_dt1.25e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1.25e-07,
+    "TF": 0.00024,
+    "steps": 1920,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 4.024218252001447,
+    "Tmean": 2928.2600085688905,
+    "Tmin": 2928.260008568887,
+    "Tmax": 2928.260008568893,
+    "maxLocalEnergyResidual": 9.717115374226141e-19,
+    "maxYsumError": 4.6629367034256575e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.553785292240377e-15,
+    "maxRootResidual": 1.7648562788963318e-07,
+    "maxRootTolerance": 1.7710295174046485e-07,
+    "oldRootCriterionUnmet": 533.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.7142048232385704e-08,
+      "E_stored": 0.02752339126397859,
+      "E_NASA": 0.027523391263978784,
+      "C": -0.08842779356702839,
+      "H_stored": 0.15458853081619367,
+      "H_NASA": 0.15458853081619386,
+      "J": 4.738958057333611e-32,
+      "P": 0.03863734598518669,
+      "max_h_inversion_error": 1.862645149230957e-08,
+      "elements": {
+        "H": 1.0511199649765285e-09,
+        "O": 8.356960852286805e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122415e-08
+      }
+    },
+    "signedEnergyDrift": 1.2479394161464944e-14,
+    "massDrift": 1.2471610077383783e-15,
+    "elementDrift": {
+      "H": 1.396839215507081e-14,
+      "O": 3.761279229687172e-15,
+      "N": 1.6702303572229521e-15
+    }
+  },
+  {
+    "name": "HLLC_B_nx8_dt1e-06_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1e-06,
+    "TF": 0.00024,
+    "steps": 240,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.1645900209987303,
+    "Tmean": 2928.2607983291723,
+    "Tmin": 2928.26079832917,
+    "Tmax": 2928.260798329175,
+    "maxLocalEnergyResidual": 1.0058217376776946e-18,
+    "maxYsumError": 3.6637359812630166e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.293576770843856e-15,
+    "maxRootResidual": 1.7031561583280563e-07,
+    "maxRootTolerance": 1.7710295495927128e-07,
+    "oldRootCriterionUnmet": 40.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263984683,
+      "E_NASA": 0.027523391263984738,
+      "C": -0.0884278353987792,
+      "H_stored": 0.15458858096467182,
+      "H_NASA": 0.15458858096467187,
+      "J": 4.3962459526457563e-32,
+      "P": 0.038637354301907935,
+      "max_h_inversion_error": 1.5832483768463135e-08,
+      "elements": {
+        "H": 1.0511199649765134e-09,
+        "O": 8.356960852286767e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122392e-08
+      }
+    },
+    "signedEnergyDrift": 2.2878889296019064e-13,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": -3.934758353541074e-16,
+      "O": -7.9184825888151e-16,
+      "N": 8.351151786114761e-16
+    }
+  },
+  {
+    "name": "HLLC_B_nx8_dt2.5e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 2.5e-07,
+    "TF": 0.00024,
+    "steps": 960,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 2.417999069999496,
+    "Tmean": 2928.2601150448145,
+    "Tmin": 2928.260115044811,
+    "Tmax": 2928.260115044819,
+    "maxLocalEnergyResidual": 9.268087468962498e-19,
+    "maxYsumError": 4.218847493575595e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.4427629897778615e-15,
+    "maxRootResidual": 1.745065674185753e-07,
+    "maxRootTolerance": 1.7710295217555304e-07,
+    "oldRootCriterionUnmet": 294.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238567e-08,
+      "E_stored": 0.02752339126397886,
+      "E_NASA": 0.02752339126397886,
+      "C": -0.08842779920668954,
+      "H_stored": 0.15458853757707305,
+      "H_NASA": 0.15458853757707305,
+      "J": 4.1932722198257066e-32,
+      "P": 0.03863734710640465,
+      "max_h_inversion_error": 1.5366822481155396e-08,
+      "elements": {
+        "H": 1.0511199649765181e-09,
+        "O": 8.356960852286775e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 1.525259286401271e-14,
+    "massDrift": 3.563317164966795e-16,
+    "elementDrift": {
+      "H": 4.1314962712181275e-15,
+      "O": 1.979620647203775e-16,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "HLLC_B_nx8_dt5e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 5e-07,
+    "TF": 0.00024,
+    "steps": 480,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.5555826320014603,
+    "Tmean": 2928.260335382115,
+    "Tmin": 2928.260335382111,
+    "Tmax": 2928.26033538212,
+    "maxLocalEnergyResidual": 1.0343685840848532e-18,
+    "maxYsumError": 6.217248937900877e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.501743587961073e-15,
+    "maxRootResidual": 1.7473939806222916e-07,
+    "maxRootTolerance": 1.7710295308799506e-07,
+    "oldRootCriterionUnmet": 166.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238563e-08,
+      "E_stored": 0.02752339126397988,
+      "E_NASA": 0.027523391263980186,
+      "C": -0.08842781087768102,
+      "H_stored": 0.154588551568616,
+      "H_NASA": 0.1545885515686163,
+      "J": 4.108166781392523e-32,
+      "P": 0.038637349426955105,
+      "max_h_inversion_error": 2.514570951461792e-08,
+      "elements": {
+        "H": 1.0511199649765152e-09,
+        "O": 8.356960852286787e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 6.340540669916027e-14,
+    "massDrift": -7.12663432993359e-16,
+    "elementDrift": {
+      "H": 1.3771654237393757e-15,
+      "O": 1.58369651776302e-15,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "HLLC_F_nx128_dt1.5625e-08_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 1.5625e-08,
+    "TF": 0.00024,
+    "steps": 15360,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 93.15684585000054,
+    "Tmean": 2842.01756607624,
+    "Tmin": 2733.23863657197,
+    "Tmax": 3029.517779546724,
+    "maxLocalEnergyResidual": 1.50279788613261e-19,
+    "maxYsumError": 4.8627768478581856e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 7.7021722333370235e-16,
+    "maxRootResidual": 1.9744038581848145e-07,
+    "maxRootTolerance": 1.9912909491814002e-07,
+    "oldRootCriterionUnmet": 26573.0,
+    "initial": {
+      "mass": 5.914518725870898e-08,
+      "E_stored": 0.01749656300098076,
+      "E_NASA": 0.01749656300098076,
+      "C": 3.932545208173339e-06,
+      "H_stored": 0.033278785107509826,
+      "H_NASA": 0.033278785107509826,
+      "J": 0.0004258453482627072,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087994214722e-09,
+        "O": 1.3307667133209552e-08,
+        "AR": 0.0,
+        "N": 4.416371132607825e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518725868788e-08,
+      "E_stored": 0.01749656300097667,
+      "E_NASA": 0.017496563000972812,
+      "C": -0.1601689092350525,
+      "H_stored": 0.23595649528846466,
+      "H_NASA": 0.2359564952884608,
+      "J": 0.00042937828290199134,
+      "P": 0.05872040133533747,
+      "max_h_inversion_error": 1.755543053150177e-07,
+      "elements": {
+        "H": 1.6738087994208634e-09,
+        "O": 1.3307667133204776e-08,
+        "AR": 0.0,
+        "N": 4.416371132606127e-08
+      }
+    },
+    "signedEnergyDrift": -4.5428939194973215e-13,
+    "massDrift": -3.568004898715655e-13,
+    "elementDrift": {
+      "H": -3.637242981692132e-13,
+      "O": -3.589014369740453e-13,
+      "N": -3.8448679027710717e-13
+    }
+  },
+  {
+    "name": "HLLC_F_nx128_dt3.125e-08_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 3.125e-08,
+    "TF": 0.00024,
+    "steps": 7680,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 62.76410229699832,
+    "Tmean": 2841.908897356765,
+    "Tmin": 2731.843087943612,
+    "Tmax": 3032.676916288969,
+    "maxLocalEnergyResidual": 1.445565889213178e-19,
+    "maxYsumError": 2.786659791809143e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 5.551115123125783e-16,
+    "maxRootResidual": 1.8835999071598053e-07,
+    "maxRootTolerance": 1.9913496359789204e-07,
+    "oldRootCriterionUnmet": 18475.0,
+    "initial": {
+      "mass": 5.914518725870898e-08,
+      "E_stored": 0.01749656300098076,
+      "E_NASA": 0.01749656300098076,
+      "C": 3.932545208173339e-06,
+      "H_stored": 0.033278785107509826,
+      "H_NASA": 0.033278785107509826,
+      "J": 0.0004258453482627072,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087994214722e-09,
+        "O": 1.3307667133209552e-08,
+        "AR": 0.0,
+        "N": 4.416371132607825e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518725869852e-08,
+      "E_stored": 0.01749656300097857,
+      "E_NASA": 0.017496563000976795,
+      "C": -0.16016569218018922,
+      "H_stored": 0.23595286022615744,
+      "H_NASA": 0.23595286022615566,
+      "J": 0.00042943798591361406,
+      "P": 0.058720043030903266,
+      "max_h_inversion_error": 8.149072527885437e-08,
+      "elements": {
+        "H": 1.6738087994211678e-09,
+        "O": 1.3307667133207145e-08,
+        "AR": 0.0,
+        "N": 4.41637113260697e-08
+      }
+    },
+    "signedEnergyDrift": -2.2664896333415268e-13,
+    "massDrift": -1.768898007171355e-13,
+    "elementDrift": {
+      "H": -1.818621490846066e-13,
+      "O": -1.8088035704788218e-13,
+      "N": -1.9359194584490354e-13
+    }
+  },
+  {
+    "name": "HLLC_F_nx256_dt1.5625e-08_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 256,
+    "nCells": 256,
+    "dt": 1.5625e-08,
+    "TF": 0.00024,
+    "steps": 15360,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 178.35279220299708,
+    "Tmean": 2832.4053759196504,
+    "Tmin": 2668.949300697541,
+    "Tmax": 3106.0154855468,
+    "maxLocalEnergyResidual": 1.0445866394093259e-19,
+    "maxYsumError": 2.930988785010413e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 5.93275428784068e-16,
+    "maxRootResidual": 2.0372681319713593e-07,
+    "maxRootTolerance": 2.076398443204761e-07,
+    "oldRootCriterionUnmet": 64114.0,
+    "initial": {
+      "mass": 5.914518726229e-08,
+      "E_stored": 0.017496562976040665,
+      "E_NASA": 0.017496562976040665,
+      "C": 3.9325452084114155e-06,
+      "H_stored": 0.033278785082543706,
+      "H_NASA": 0.033278785082543706,
+      "J": 0.00042584534828848556,
+      "P": 0.016211999999999935,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995228054e-09,
+        "O": 1.3307667134015196e-08,
+        "AR": 0.0,
+        "N": 4.416371132875174e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518726226613e-08,
+      "E_stored": 0.017496562976032366,
+      "E_NASA": 0.017496562976033338,
+      "C": -0.15945614508115433,
+      "H_stored": 0.23510459366043882,
+      "H_NASA": 0.2351045936604398,
+      "J": 0.0004362316222831305,
+      "P": 0.05858811722553526,
+      "max_h_inversion_error": 9.825453162193298e-08,
+      "elements": {
+        "H": 1.6738087995221682e-09,
+        "O": 1.3307667134010233e-08,
+        "AR": 0.0,
+        "N": 4.4163711328734e-08
+      }
+    },
+    "signedEnergyDrift": -4.1879493547161697e-13,
+    "massDrift": -4.0356831824672785e-13,
+    "elementDrift": {
+      "H": -3.8065032696722223e-13,
+      "O": -3.729491897668695e-13,
+      "N": -4.0171827150059373e-13
+    }
+  },
+  {
+    "name": "HLLC_F_nx256_dt7.8125e-09_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 256,
+    "nCells": 256,
+    "dt": 7.8125e-09,
+    "TF": 0.00024,
+    "steps": 30720,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 295.20773274900057,
+    "Tmean": 2832.6401787704262,
+    "Tmin": 2672.400456234544,
+    "Tmax": 3102.596114780401,
+    "maxLocalEnergyResidual": 1.0406786543626529e-19,
+    "maxYsumError": 6.88338275267597e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.0998146837692957e-15,
+    "maxRootResidual": 2.0605511963367462e-07,
+    "maxRootTolerance": 2.0786034170893715e-07,
+    "oldRootCriterionUnmet": 85698.0,
+    "initial": {
+      "mass": 5.914518726229e-08,
+      "E_stored": 0.017496562976040665,
+      "E_NASA": 0.017496562976040665,
+      "C": 3.9325452084114155e-06,
+      "H_stored": 0.033278785082543706,
+      "H_NASA": 0.033278785082543706,
+      "J": 0.00042584534828848556,
+      "P": 0.016211999999999935,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995228054e-09,
+        "O": 1.3307667134015196e-08,
+        "AR": 0.0,
+        "N": 4.416371132875174e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518726224233e-08,
+      "E_stored": 0.01749656297602368,
+      "E_NASA": 0.01749656297602615,
+      "C": -0.15946478284650756,
+      "H_stored": 0.2351081803929439,
+      "H_NASA": 0.23510818039294637,
+      "J": 0.0004415063134221825,
+      "P": 0.05858834088383485,
+      "max_h_inversion_error": 1.6391277313232422e-07,
+      "elements": {
+        "H": 1.6738087995215298e-09,
+        "O": 1.3307667134005185e-08,
+        "AR": 0.0,
+        "N": 4.4163711328716184e-08
+      }
+    },
+    "signedEnergyDrift": -8.296581486805139e-13,
+    "massDrift": -8.060177889241552e-13,
+    "elementDrift": {
+      "H": -7.620419398681684e-13,
+      "O": -7.522385157597758e-13,
+      "N": -8.05084771642182e-13
+    }
+  },
+  {
+    "name": "HLLC_F_nx32_dt1.25e-07_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 1.25e-07,
+    "TF": 0.00024,
+    "steps": 1920,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 12.031762801998411,
+    "Tmean": 2844.9620098149567,
+    "Tmin": 2774.812188420092,
+    "Tmax": 2923.019587568567,
+    "maxLocalEnergyResidual": 4.399680619826532e-19,
+    "maxYsumError": 3.9968028886505635e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.3600232051658168e-15,
+    "maxRootResidual": 1.6868580132722855e-07,
+    "maxRootTolerance": 1.8253112834133117e-07,
+    "oldRootCriterionUnmet": 2292.0,
+    "initial": {
+      "mass": 5.91451120101885e-08,
+      "E_stored": 0.017496612061541125,
+      "E_NASA": 0.017496612061541125,
+      "C": 3.932540204922479e-06,
+      "H_stored": 0.03327883471486285,
+      "H_NASA": 0.03327883471486285,
+      "J": 0.00042584480647335705,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738066698883353e-09,
+        "O": 1.3307650202292402e-08,
+        "AR": 0.0,
+        "N": 4.416365513800774e-08
+      }
+    },
+    "end": {
+      "mass": 5.914511201018776e-08,
+      "E_stored": 0.017496612061540892,
+      "E_NASA": 0.017496612061540892,
+      "C": -0.1606742996095186,
+      "H_stored": 0.23655031327611675,
+      "H_NASA": 0.23655031327611675,
+      "J": 0.0004259564769808826,
+      "P": 0.05880535808203814,
+      "max_h_inversion_error": 9.778887033462524e-09,
+      "elements": {
+        "H": 1.673806669888317e-09,
+        "O": 1.3307650202292257e-08,
+        "AR": 0.0,
+        "N": 4.4163655138007214e-08
+      }
+    },
+    "signedEnergyDrift": -1.3285597518152745e-14,
+    "massDrift": -1.2531108719852277e-14,
+    "elementDrift": {
+      "H": -1.0872207527635586e-14,
+      "O": -1.0939856818918663e-14,
+      "N": -1.1987132640620904e-14
+    }
+  },
+  {
+    "name": "HLLC_F_nx512_dt7.8125e-09_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 512,
+    "nCells": 512,
+    "dt": 7.8125e-09,
+    "TF": 0.00024,
+    "steps": 30720,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 611.2888378489988,
+    "Tmean": 2772.8829353684177,
+    "Tmin": 2310.365387417534,
+    "Tmax": 3128.699963908599,
+    "maxLocalEnergyResidual": 5.479616760340128e-20,
+    "maxYsumError": 8.926193117986259e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.1726730697603216e-15,
+    "maxRootResidual": 2.0791776478290558e-07,
+    "maxRootTolerance": 2.0935428548478688e-07,
+    "oldRootCriterionUnmet": 217355.0,
+    "initial": {
+      "mass": 5.914518726327144e-08,
+      "E_stored": 0.017496562963136574,
+      "E_NASA": 0.017496562963136574,
+      "C": 3.9325452084767226e-06,
+      "H_stored": 0.03327878506963265,
+      "H_NASA": 0.03327878506963265,
+      "J": 0.0004258453482955563,
+      "P": 0.016212000000000105,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995505796e-09,
+        "O": 1.3307667134236341e-08,
+        "AR": 0.0,
+        "N": 4.4163711329485455e-08
+      }
+    },
+    "end": {
+      "mass": 5.9145187263255e-08,
+      "E_stored": 0.017496562963128903,
+      "E_NASA": 0.017496562963133483,
+      "C": -0.1534668043136368,
+      "H_stored": 0.22787251655421556,
+      "H_NASA": 0.22787251655422014,
+      "J": 0.0004477250858315352,
+      "P": 0.05735687436328139,
+      "max_h_inversion_error": 2.6728957891464233e-07,
+      "elements": {
+        "H": 1.6738087995502723e-09,
+        "O": 1.3307667134233611e-08,
+        "AR": 0.0,
+        "N": 4.4163711329472604e-08
+      }
+    },
+    "signedEnergyDrift": -1.7667911353239305e-13,
+    "massDrift": -2.7792173620965826e-13,
+    "elementDrift": {
+      "H": -1.8359181624923928e-13,
+      "O": -2.0512205436836955e-13,
+      "N": -2.909872746143947e-13
+    }
+  },
+  {
+    "name": "HLLC_F_nx64_dt6.25e-08_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 6.25e-08,
+    "TF": 0.00024,
+    "steps": 3840,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 32.30282014800105,
+    "Tmean": 2844.3737775516506,
+    "Tmin": 2753.014932540875,
+    "Tmax": 2968.456307104708,
+    "maxLocalEnergyResidual": 2.7185365070181406e-19,
+    "maxYsumError": 9.103828801926284e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 3.0531133177191805e-16,
+    "maxRootResidual": 1.6891863197088242e-07,
+    "maxRootTolerance": 1.939079628678274e-07,
+    "oldRootCriterionUnmet": 5641.0,
+    "initial": {
+      "mass": 5.914518724841e-08,
+      "E_stored": 0.017496563496257868,
+      "E_NASA": 0.017496563496257868,
+      "C": 3.932545207488562e-06,
+      "H_stored": 0.03327878560286183,
+      "H_NASA": 0.03327878560286183,
+      "J": 0.0004258453481885519,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087991300013e-09,
+        "O": 1.3307667130892237e-08,
+        "AR": 0.0,
+        "N": 4.416371131838774e-08
+      }
+    },
+    "end": {
+      "mass": 5.9145187248406806e-08,
+      "E_stored": 0.017496563496257306,
+      "E_NASA": 0.017496563496256584,
+      "C": -0.1604656282481256,
+      "H_stored": 0.23630599920196713,
+      "H_NASA": 0.2363059992019664,
+      "J": 0.00042704041593372914,
+      "P": 0.058770847873517953,
+      "max_h_inversion_error": 2.60770320892334e-08,
+      "elements": {
+        "H": 1.673808799129909e-09,
+        "O": 1.3307667130891506e-08,
+        "AR": 0.0,
+        "N": 4.416371131838519e-08
+      }
+    },
+    "signedEnergyDrift": -7.336842874873067e-14,
+    "massDrift": -5.404033760990118e-14,
+    "elementDrift": {
+      "H": -5.510225441974106e-14,
+      "O": -5.494784730521359e-14,
+      "N": -5.783784141574719e-14
+    }
+  },
+  {
+    "name": "HLLC_ReactingWave_nx128_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.3176266949994897,
+    "Tmean": 800.9896368516158,
+    "Tmin": 762.1331002247775,
+    "Tmax": 841.8264994297991,
+    "maxLocalEnergyResidual": 3.6386116342157796e-19,
+    "maxYsumError": 3.8191672047105385e-14,
+    "minY": 0.11082848963616498,
+    "maxThermoEnergyMismatch": 2.220446049250313e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.4560635580994924e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 8.308781839129475e-05,
+        "L2": 9.230050570643321e-05,
+        "Linf": 0.00013053221642844726
+      },
+      "T": {
+        "L1": 0.1565415037077278,
+        "L2": 0.17465211128705369,
+        "Linf": 0.2710533938223989
+      },
+      "p": {
+        "L1": 3.4693812267505564e-09,
+        "L2": 3.5246535189765577e-09,
+        "Linf": 4.700268618762493e-09
+      },
+      "Ux": {
+        "L1": 3.832212325249884e-12,
+        "L2": 4.534345122872677e-12,
+        "Linf": 1.1098677532572765e-11
+      },
+      "A": {
+        "L1": 0.0002878626824975786,
+        "L2": 0.0003202719608524763,
+        "Linf": 0.00045621476456653154
+      },
+      "B": {
+        "L1": 0.00028786268249655217,
+        "L2": 0.00032027196085158277,
+        "Linf": 0.00045621476455603993
+      }
+    },
+    "signedEnergyDrift": -2.4944753744445728e-14,
+    "massDrift": -2.172395184511454e-14
+  },
+  {
+    "name": "HLLC_ReactingWave_nx32_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.0473228449991439,
+    "Tmean": 800.9537622384378,
+    "Tmin": 762.8217405538825,
+    "Tmax": 840.9879070525029,
+    "maxLocalEnergyResidual": 1.4540602055745936e-18,
+    "maxYsumError": 6.084022174945858e-14,
+    "minY": 0.11223208490952134,
+    "maxThermoEnergyMismatch": 2.220446049250313e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.4559498617701115e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.0003298539747204291,
+        "L2": 0.00036687155504797205,
+        "Linf": 0.0005187172886683133
+      },
+      "T": {
+        "L1": 0.6214027605333534,
+        "L2": 0.6940654461338619,
+        "Linf": 1.0760133829292045
+      },
+      "p": {
+        "L1": 1.3301360013429075e-09,
+        "L2": 1.692577215032376e-09,
+        "Linf": 3.6961864680051804e-09
+      },
+      "Ux": {
+        "L1": 1.4570566975180554e-11,
+        "L2": 1.6677089938185137e-11,
+        "Linf": 2.744826588241267e-11
+      },
+      "A": {
+        "L1": 0.0011366236166746595,
+        "L2": 0.001267111557675636,
+        "Linf": 0.0017996179549257807
+      },
+      "B": {
+        "L1": 0.0011366236166729903,
+        "L2": 0.0012671115576717582,
+        "Linf": 0.0017996179548835922
+      }
+    },
+    "signedEnergyDrift": -1.3997775482494725e-14,
+    "massDrift": -1.665069362978839e-14
+  },
+  {
+    "name": "HLLC_ReactingWave_nx64_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.1008041290006076,
+    "Tmean": 800.9774971672599,
+    "Tmin": 762.3489316742234,
+    "Tmax": 841.5633275380342,
+    "maxLocalEnergyResidual": 7.276068636485896e-19,
+    "maxYsumError": 5.950795411990839e-14,
+    "minY": 0.11127112930485432,
+    "maxThermoEnergyMismatch": 3.3306690738754696e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.4560408008060655e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.00016613949797391822,
+        "L2": 0.00018447132464459798,
+        "Linf": 0.0002606910583450861
+      },
+      "T": {
+        "L1": 0.31300404764970935,
+        "L2": 0.34903734856933794,
+        "Linf": 0.5411666958502792
+      },
+      "p": {
+        "L1": 1.725538822938688e-09,
+        "L2": 1.9377155480676602e-09,
+        "Linf": 3.5070115700364113e-09
+      },
+      "Ux": {
+        "L1": 4.895306382479703e-12,
+        "L2": 5.949648689676711e-12,
+        "Linf": 1.3592682535090717e-11
+      },
+      "A": {
+        "L1": 0.0005735035312574637,
+        "L2": 0.000638057005669248,
+        "Linf": 0.0009083963842222847
+      },
+      "B": {
+        "L1": 0.00057350353125157,
+        "L2": 0.0006380570056624289,
+        "Linf": 0.0009083963841888254
+      }
+    },
+    "signedEnergyDrift": -1.9381535283454236e-14,
+    "massDrift": -2.1333701213166374e-14
+  },
+  {
+    "name": "HLLC_Wave_nx128_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.0699846499992418,
+    "Tmean": 800.9896368516271,
+    "Tmin": 762.1331002248314,
+    "Tmax": 841.8264994298173,
+    "maxLocalEnergyResidual": 4.5486114874649195e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.734723475976807e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.191951808833325e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 8.308781838655332e-05,
+        "L2": 9.230050570159328e-05,
+        "Linf": 0.00013053221644576674
+      },
+      "T": {
+        "L1": 0.15654150370017472,
+        "L2": 0.1746521112780033,
+        "Linf": 0.271053393804209
+      },
+      "p": {
+        "L1": 2.0730794858536683e-09,
+        "L2": 2.0856008499881566e-09,
+        "Linf": 2.5029294192790985e-09
+      },
+      "Ux": {
+        "L1": 8.197886813832156e-13,
+        "L2": 1.0104515893578413e-12,
+        "Linf": 2.3803181647963356e-12
+      }
+    },
+    "signedEnergyDrift": -1.8776857993030815e-14,
+    "massDrift": -2.1463784757149096e-14
+  },
+  {
+    "name": "HLLC_Wave_nx32_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 1.0236408450000454,
+    "Tmean": 800.9537622384307,
+    "Tmin": 762.8217405537941,
+    "Tmax": 840.9879070525958,
+    "maxLocalEnergyResidual": 1.819067119157582e-19,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.1908148455395165e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.0003298539746975464,
+        "L2": 0.00036687155502700174,
+        "Linf": 0.0005187172886265135
+      },
+      "T": {
+        "L1": 0.6214027604900139,
+        "L2": 0.6940654460941997,
+        "Linf": 1.0760133828363223
+      },
+      "p": {
+        "L1": 2.164597390219569e-09,
+        "L2": 2.178298860645615e-09,
+        "Linf": 2.6047928258776665e-09
+      },
+      "Ux": {
+        "L1": 2.1800339311539574e-12,
+        "L2": 2.5829431794761208e-12,
+        "Linf": 4.376943252282217e-12
+      }
+    },
+    "signedEnergyDrift": -2.6057680480124403e-14,
+    "massDrift": -1.6910860717753832e-14
+  },
+  {
+    "name": "HLLC_Wave_nx64_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative HLLC reference; known contact-resolving flux, not a new method",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "wall": 0.9384479689979344,
+    "Tmean": 800.9774971672591,
+    "Tmin": 762.3489316743581,
+    "Tmax": 841.563327538094,
+    "maxLocalEnergyResidual": 9.095890707300247e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.734723475976807e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.1917242358990554e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.00016613949797022586,
+        "L2": 0.00018447132464540828,
+        "Linf": 0.00026069105833498307
+      },
+      "T": {
+        "L1": 0.31300404764200707,
+        "L2": 0.349037348568458,
+        "Linf": 0.5411666957904799
+      },
+      "p": {
+        "L1": 1.7485035641584545e-09,
+        "L2": 1.7707504488373876e-09,
+        "Linf": 2.1973391994833946e-09
+      },
+      "Ux": {
+        "L1": 2.6308955014542335e-12,
+        "L2": 3.163130322988382e-12,
+        "Linf": 6.501466032204917e-12
+      }
+    },
+    "signedEnergyDrift": -1.2837239648296578e-14,
+    "massDrift": -2.094345058121821e-14
+  }
+]

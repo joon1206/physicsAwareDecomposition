@@ -1,0 +1,84 @@
+--- /home/joon1206/research/ForFun/research/physicsAwareDecomposition/vendor/loadBalancedChemistryModel/src/chemistryModel/LoadBalancedChemistryModel/LoadBalancedChemistryModel.H	2026-10-04 21:45:50.111238882 -0400
++++ /home/joon1206/research/ForFun/research/physicsAwareDecomposition/src/stuttgartV2012/LoadBalancedChemistryModel.H	2026-10-04 21:54:05.752416661 -0400
+@@ -84,6 +84,7 @@
+ 
+ 
+ private:
++    volScalarField padCost_, padDeltaT_;
+ 
+     // Private Member Variables
+ 
+
+--- /home/joon1206/research/ForFun/research/physicsAwareDecomposition/vendor/loadBalancedChemistryModel/src/chemistryModel/LoadBalancedChemistryModel/LoadBalancedChemistryModel.C	2026-10-04 21:45:50.111035845 -0400
++++ /home/joon1206/research/ForFun/research/physicsAwareDecomposition/src/stuttgartV2012/LoadBalancedChemistryModel.C	2026-10-04 21:54:38.025132826 -0400
+@@ -36,8 +36,14 @@
+     ReactionThermo& thermo
+ )
+ :
+-    StandardChemistryModel<ReactionThermo, ThermoType>(thermo)
++    StandardChemistryModel<ReactionThermo, ThermoType>(thermo),
++    padCost_(IOobject("chemCost",this->mesh().time().timeName(),this->mesh(),IOobject::READ_IF_PRESENT,IOobject::AUTO_WRITE),
++             this->mesh(),dimensionedScalar(dimTime,Zero),"zeroGradient"),
++    padDeltaT_(IOobject("chemDeltaT",this->mesh().time().timeName(),this->mesh(),IOobject::READ_IF_PRESENT,IOobject::AUTO_WRITE),
++               this->mesh(),dimensionedScalar(dimTime,this->deltaTChemIni_),"zeroGradient")
+ {
++    if(isFile(this->mesh().time().path()/this->mesh().time().timeName()/"chemDeltaT"))
++        forAll(padDeltaT_,i) this->deltaTChem_[i]=padDeltaT_[i];
+     auto dict = this->subDictOrAdd("LoadBalancedCoeffs");
+ 
+     minFractionOfCellsToSend_ =
+@@ -502,6 +508,8 @@
+         }
+         
+         updateTotalCpuTime(cellDataList_);
++        forAll(cellDataList_,i) padCost_[i]=cellDataList_[i].cpuTime();
++        forAll(padDeltaT_,i) padDeltaT_[i]=this->deltaTChem_[i];
+ 
+         firstTime_=false;
+ 
+@@ -698,7 +706,9 @@
+         }
+     }
+     
+-    updateTotalCpuTime(cellDataList_); 
++    updateTotalCpuTime(cellDataList_);
++        forAll(cellDataList_,i) padCost_[i]=cellDataList_[i].cpuTime();
++        forAll(padDeltaT_,i) padDeltaT_[i]=this->deltaTChem_[i]; 
+ 
+     return deltaTMin;
+ }
+
+
+
+
+--- /home/joon1206/research/ForFun/research/physicsAwareDecomposition/vendor/loadBalancedChemistryModel/src/pointToPointBuffer/pointToPointBuffer.C	2026-10-04 21:45:50.113353319 -0400
++++ /home/joon1206/research/ForFun/research/physicsAwareDecomposition/src/stuttgartV2012/pointToPointBuffer.C	2026-10-04 21:49:43.564258681 -0400
+@@ -37,10 +37,17 @@
+         sendBufferSize_[procI] = sendBufferList_[procI].byteSize();
+     }
+ 
+-    recvBufferSize_.resize_nocopy(sendBufferSize_.size());
++    recvBufferSize_.setSize(sendBufferSize_.size());
+ 
+     // Use UPstream::allToAll as it is used in exchangeSizes()
+-    UPstream::allToAll(sendBufferSize_, recvBufferSize_, comm_);
++    labelList sendSizes(sendBufferSize_.size()), recvSizes(sendBufferSize_.size());
++    forAll(sendSizes,i) {
++        if (sendBufferSize_[i] > labelMax)
++            FatalErrorInFunction << "v2012 buffer exceeds labelMax" << exit(FatalError);
++        sendSizes[i] = sendBufferSize_[i];
++    }
++    UPstream::allToAll(sendSizes, recvSizes, comm_);
++    forAll(recvSizes,i) recvBufferSize_[i] = recvSizes[i];
+     
+     // Update the receive buffer sizes
+     forAll(recvBufferList_,procI)
+@@ -205,7 +212,7 @@
+         sendBufferSize_[procI] = sendBufferList_[procI].byteSize();
+     }
+ 
+-    recvBufferSize_.resize_nocopy(sendBufferSize_.size());
++    recvBufferSize_.setSize(sendBufferSize_.size());
+     // Fill with zero
+     std::fill(recvBufferSize_.begin(),recvBufferSize_.end(),0);
+ 

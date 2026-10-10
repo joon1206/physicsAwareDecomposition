@@ -1,0 +1,32 @@
+# Research execution log
+
+Client research date: 2026-10-04. This stage log is reconstructed from retained commands, source, raw run manifests and diagnostics; exact per-run UTC timestamps are in each manifest. Repository main at ba7aeb51b1b6acc443c295950c8ed0aa4c426ec3. Git status/branch/HEAD was checked before substantive implementation/build stages. Existing user untracked cases/scripts/solvers/research project were preserved; this work uses the new physicsAwareDecomposition directory. No commit.
+
+| Stage / question | Files changed | Commands / retained evidence | Result / interpretation / next action |
+|---|---|---|---|
+| Audit exact installed capabilities | docs/phaseA_repository_audit.md, scripts/collectMachineInfo.py | git status/branch/HEAD; source reads; lscpu, MPI/compiler/library discovery; data/machine.json | VERIFIED native v2012 weightField, reduced EulerImplicit tutorial; no native external task-balancer baseline. Use user-space copy. |
+| Instrument phases without numerical changes | applications/reactingFoamPAD, scripts/env.sh, build.sh | wmake; data/raw/build/solver.log | IMPLEMENTED fixed-enum buffered timers, no reactive timing collectives. |
+| Record chemistry clocks/substeps | src/costChemistry | wmake libso; chemistry.log | TESTED exact upstream integration-loop arithmetic. Register only benchmark thermo. |
+| Same-partition equivalence | study.py, compareFields.py, foamio.py | study.py smoke; data/raw/validation | VERIFIED fields and residual histories in serial/two ranks. |
+| Synthetic fields / native partitions | models.py, synthetic.py, tests | unittest; synthetic pilots/full; decompose logs/addressing | TESTED six distributions, actual centers, weight survival, near-ideal LPT; 2920 full records. |
+| Synthetic API failures | own failed pilot directories retained | syntheticPilot_failed1/failed2 logs | v2012 has no requested -noFields convenience option; -noZero omitted time-0 weight. Use supported -time 0 and normal field decomposition. |
+| Synthetic CPU/halo harness | applications/padWorkloadFoam, syntheticRuntime.py | wmake; pilot; 320 trials | Missing UPstream::barrier convenience API fixed with MPI_Barrier only in synthetic executable. Coupled processor halos explicitly asserted; CPU loops are artificial work. |
+| Native source registration/build failures | own Make/options and build logs | wmake diagnostics | Existing GCC6.3/sysroot wrappers required; MPI include/library flags added. No vendor changes. |
+| Predictor training and gamma sweep | study.py, raw training/reactive | 80-iteration training; 75 randomized continuations | Larger loose-tolerance speedup found but physics differed. |
+| Numerical gate failure | processed loose partition JSON | reconstructPar; compare fields | T differs by 12.14 K. Preserve and reject that speedup; investigate solver convergence. |
+| Tight tolerance pilot and full campaign | tightStudy.py, raw tightPilot/reactiveTight | relTol=0, tolerance=1e-12; pilot then 75 runs | Gate passes; best solver-only speedup 1.159x at p4/gamma1, not a universal optimum. |
+| No-chemistry stale-predictor control | raw reactiveNoChem | 15 runs, three partitions | MEASURED gamma16 48.5% more wall; do not claim balance alone optimizes total cost. |
+| Instrumentation overhead | overhead.py, raw overhead | 42 randomized runs | Small timer/counter/clock estimates overlap noise; tracing adds about 5.70%. |
+| Fixed physical timestep | transientStudy.py, raw transient | 10 runs, Euler dt1e-6 | Initial writeControl mismatch produced no final fields; failedWrite cases retained and corrected to timeStep output. |
+| Transient comparison near-zero failure | compareFields.py, transient_validation_pointwise.json | original pointwise test; final norm-scale test | Qdot near-zero pointwise criterion fails although field-scale error is small. Both criteria preserved; gate change disclosed. Timing ratio 0.965x is neutral. |
+| Native density/enthalpy verification | postprocessThermo.py | reactingFoamPAD -postProcess -func writeObjects(h,rho) | Added native outputs after timed runs. Inventory agreement verified across partitions; no closed temporal flux proof. |
+| Predictor/clip/movement sensitivity | analyzeTiming.py, sensitivity.py, analyzeAdditional.py | lags/EMA; 4 native clip partitions; translated analytic hotspot | High measured persistence; strong clipping loses chemistry balance; no universal correlation threshold. |
+| Final restart correction | costEulerImplicit.H; benchmark predecessor retained | fresh build and smoke; alpha=0 serial/two-rank restart | Earlier constructor reset smoothing history on first restart step; now loads it. Numerical integration unchanged; regression passes. |
+| Final probe histories | probeValidation.py, smokeTest.sh | 8 fresh solver runs, 10 iterations | VERIFIED identical native T,p,U/five-species histories at three points. |
+| High-communication control | syntheticRuntime.py, analyzeAdditional.py | 4-run 2048-halo pilot, then 20 repeats | Cheap local pilot established cost. Compute-dominated benefit becomes noise-compatible at high halo pressure; no universal crossover claimed. |
+| Literature / claim verification | literature_review.md, literature.json, references.bib, claim_verification.md | broad primary-source search, full papers/manuals and access-limited records | Static chemistry mesh weighting and predictive tasks have prior art; no manufactured novelty or DLBFoam superiority. |
+| Final figures/report/reproduction | generatePlots.py, generateTables.py, writeReport.py, docs, README | regenerated outputs with source JSON; smoke and gates | Publication formats and retained data. Full wrapper stages executed separately, wrapper syntax checked; no redundant full campaign. |
+
+Ordinary file/command failures were corrected: UNC apply_patch write failed, so project edits used PowerShell-to-WSL stdin; overly long Windows command and triple-quote serialization failures were split/corrected; a shell executable-bit dependency was removed by invoking bash. These failures did not alter scientific results. Pilot subprocess timeout polling had coarse wall resolution; final timing uses a blocking wait plus independent watchdog and excludes pilot estimates from key claims.
+
+The final source hash manifest and artifact inventory provide the exact file set. The report makes the decision to defer live migration explicit. Next experiments are the three evidence-driven extensions in the report, not unscheduled work or hidden cluster jobs.

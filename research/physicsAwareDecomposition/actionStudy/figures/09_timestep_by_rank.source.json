@@ -1,0 +1,186 @@
+{
+  "A0": {
+    "0": {
+      "stepWall": 6.130482911,
+      "rhoWall": 0.006853903,
+      "momentumWall": 0.012523998,
+      "chemistryWall": 3.587132088,
+      "speciesWall": 2.417172409,
+      "energyWall": 0.032630965,
+      "pressureWall": 0.046823725,
+      "turbulenceWall": 6.473e-05,
+      "ioWall": 0.00735111
+    },
+    "1": {
+      "stepWall": 6.132444152,
+      "rhoWall": 0.010995218,
+      "momentumWall": 0.015058099,
+      "chemistryWall": 4.202497264,
+      "speciesWall": 1.801443911,
+      "energyWall": 0.03136153,
+      "pressureWall": 0.048515241,
+      "turbulenceWall": 7.4607e-05,
+      "ioWall": 0.007417021
+    },
+    "2": {
+      "stepWall": 6.132231045,
+      "rhoWall": 0.009068090000000001,
+      "momentumWall": 0.016668317,
+      "chemistryWall": 4.333312298,
+      "speciesWall": 1.668565524,
+      "energyWall": 0.033314495,
+      "pressureWall": 0.048559475,
+      "turbulenceWall": 6.8019e-05,
+      "ioWall": 0.007527813
+    },
+    "3": {
+      "stepWall": 6.132331248,
+      "rhoWall": 0.010917529,
+      "momentumWall": 0.01539588,
+      "chemistryWall": 3.699291601,
+      "speciesWall": 2.304534256,
+      "energyWall": 0.031513305,
+      "pressureWall": 0.048592825,
+      "turbulenceWall": 6.584e-05,
+      "ioWall": 0.0074370339999999995
+    }
+  },
+  "AC": {
+    "0": {
+      "stepWall": 4.981600296,
+      "rhoWall": 0.007519134,
+      "momentumWall": 0.013297151,
+      "chemistryWall": 4.500874233,
+      "speciesWall": 0.349728463,
+      "energyWall": 0.035153438,
+      "pressureWall": 0.048917348,
+      "turbulenceWall": 5.854e-05,
+      "ioWall": 0.005859079
+    },
+    "1": {
+      "stepWall": 4.983868619,
+      "rhoWall": 0.011613398,
+      "momentumWall": 0.015825046,
+      "chemistryWall": 4.490215,
+      "speciesWall": 0.359809177,
+      "energyWall": 0.033717838,
+      "pressureWall": 0.050684331,
+      "turbulenceWall": 6.0938e-05,
+      "ioWall": 0.00595472
+    },
+    "2": {
+      "stepWall": 4.984839518,
+      "rhoWall": 0.009967323,
+      "momentumWall": 0.017301957,
+      "chemistryWall": 4.521573178,
+      "speciesWall": 0.325949547,
+      "energyWall": 0.036036952,
+      "pressureWall": 0.050744365,
+      "turbulenceWall": 6.7099e-05,
+      "ioWall": 0.0067107189999999995
+    },
+    "3": {
+      "stepWall": 4.984474821,
+      "rhoWall": 0.011677583,
+      "momentumWall": 0.015651543,
+      "chemistryWall": 4.596364531,
+      "speciesWall": 0.253386824,
+      "energyWall": 0.033931026,
+      "pressureWall": 0.050837882,
+      "turbulenceWall": 5.791e-05,
+      "ioWall": 0.00649381
+    }
+  },
+  "AM": {
+    "0": {
+      "stepWall": 8.265138907,
+      "rhoWall": 0.007026851,
+      "momentumWall": 0.012729491,
+      "chemistryWall": 2.383411318,
+      "speciesWall": 5.746605334,
+      "energyWall": 0.039962035,
+      "pressureWall": 0.048622991,
+      "turbulenceWall": 6.731e-05,
+      "ioWall": 0.006983566
+    },
+    "1": {
+      "stepWall": 8.267230232,
+      "rhoWall": 0.011014609,
+      "momentumWall": 0.01570664,
+      "chemistryWall": 6.743768055,
+      "speciesWall": 1.385130114,
+      "energyWall": 0.038545619,
+      "pressureWall": 0.050493661,
+      "turbulenceWall": 6.193e-05,
+      "ioWall": 0.006711246
+    },
+    "2": {
+      "stepWall": 8.267398443,
+      "rhoWall": 0.011122868,
+      "momentumWall": 0.015183797,
+      "chemistryWall": 1.908433723,
+      "speciesWall": 6.221183531,
+      "energyWall": 0.038576859,
+      "pressureWall": 0.05038379,
+      "turbulenceWall": 6.956e-05,
+      "ioWall": 0.006972774
+    },
+    "3": {
+      "stepWall": 8.266859627,
+      "rhoWall": 0.009414557,
+      "momentumWall": 0.01667983,
+      "chemistryWall": 4.861739951,
+      "speciesWall": 3.265297812,
+      "energyWall": 0.040506205,
+      "pressureWall": 0.050612014,
+      "turbulenceWall": 6.9239e-05,
+      "ioWall": 0.0061667219999999995
+    }
+  },
+  "AH": {
+    "0": {
+      "stepWall": 5.103451535,
+      "rhoWall": 0.007245215,
+      "momentumWall": 0.012763778,
+      "chemistryWall": 4.583363553,
+      "speciesWall": 0.38379908,
+      "energyWall": 0.039676386,
+      "pressureWall": 0.050424876,
+      "turbulenceWall": 6.192e-05,
+      "ioWall": 0.006539935
+    },
+    "1": {
+      "stepWall": 5.105818011,
+      "rhoWall": 0.010973366,
+      "momentumWall": 0.015756248,
+      "chemistryWall": 4.699660141,
+      "speciesWall": 0.266604068,
+      "energyWall": 0.038442175,
+      "pressureWall": 0.05235129,
+      "turbulenceWall": 6.253e-05,
+      "ioWall": 0.00666769
+    },
+    "2": {
+      "stepWall": 5.105678677,
+      "rhoWall": 0.010859164,
+      "momentumWall": 0.01537753,
+      "chemistryWall": 4.489100995,
+      "speciesWall": 0.477139885,
+      "energyWall": 0.03845921,
+      "pressureWall": 0.052287791,
+      "turbulenceWall": 7.4927e-05,
+      "ioWall": 0.005800929
+    },
+    "3": {
+      "stepWall": 5.105581585,
+      "rhoWall": 0.008977595,
+      "momentumWall": 0.017179666,
+      "chemistryWall": 4.536280833,
+      "speciesWall": 0.428060888,
+      "energyWall": 0.040496014,
+      "pressureWall": 0.052392707,
+      "turbulenceWall": 6.797e-05,
+      "ioWall": 0.006009116
+    }
+  }
+}

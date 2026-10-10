@@ -1,0 +1,11 @@
+{
+  "parentManifestSHA256": "7048ffc49e0f6d8e706489804065c91cca28fe46079df3704247d9c78a601886",
+  "driverSHA256": "a3578a0620b83f8a67cf6bcf9b1871c3a55cd3f1f95d19645a8b69e115ace31d",
+  "files": {
+    "CpHS.dat": "32ada1bf57fd9643ec4a951f7e74a7cc3833e3368e71e6f0026be93925bd5072",
+    "legacy.dat": "25ca83cdc16c625732d08b5e30ea0daf98e64ad5d466fdf054ee933448b2c014",
+    "chem.inp": "b33eb0ed3e1d92ec3da6f2d4b7f015432b09c3f6b91b5c6895220aab1cb1b7c8",
+    "driver_snapshot.py": "a3578a0620b83f8a67cf6bcf9b1871c3a55cd3f1f95d19645a8b69e115ace31d"
+  },
+  "scope": "Comments stripped and LF serialization only. No species, stoichiometry, rate, thermo coefficient or initial-state modification. Four original parser failures remain retained."
+}

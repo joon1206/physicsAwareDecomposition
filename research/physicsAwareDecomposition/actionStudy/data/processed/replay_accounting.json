@@ -1,0 +1,5 @@
+{
+  "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+  "modelRefit": false,
+  "correction": "Feature-driven AM/AH reuse the required weight acquisition already charged in J; only additional inference is added. A0/AC selections pay feature acquisition. Each inference timer executes the corresponding frozen policy."
+}

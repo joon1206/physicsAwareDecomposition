@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "repeat": 0,
+      "Linf": {
+        "padDivPhi": 89437.72365360617,
+        "padDivReconstructedPhi": 2.5055157948372653e-09,
+        "padCellX": 1.0408340855860843e-17,
+        "padCellY": 2.6020852139652106e-18
+      }
+    },
+    {
+      "repeat": 1,
+      "Linf": {
+        "padDivPhi": 4.488498461796553e-09,
+        "padDivReconstructedPhi": 1.452292508474784e-09,
+        "padCellX": 1.0408340855860843e-17,
+        "padCellY": 2.6020852139652106e-18
+      }
+    },
+    {
+      "repeat": 2,
+      "Linf": {
+        "padDivPhi": 4.3498857849044725e-09,
+        "padDivReconstructedPhi": 1.930658299897914e-09,
+        "padCellX": 1.0408340855860843e-17,
+        "padCellY": 2.6020852139652106e-18
+      }
+    }
+  ],
+  "scope": "Stored mass-flux divergence versus divergence reconstructed from equivalent cell rho/U, plus canonical cell coordinates. A mismatch in the stored flux with matching reconstructed flux/geometry localizes a mapped surface-state error; it does not by itself supply a corrected migration algorithm."
+}

@@ -1,0 +1,153 @@
+{
+  "seed": 20261006,
+  "order": [
+    [
+      true,
+      2
+    ],
+    [
+      true,
+      1
+    ],
+    [
+      false,
+      1
+    ],
+    [
+      false,
+      2
+    ],
+    [
+      false,
+      0
+    ],
+    [
+      true,
+      0
+    ]
+  ],
+  "records": [
+    {
+      "name": "timing_ledger1_trial2",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": true,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.68859408300068
+    },
+    {
+      "name": "timing_ledger1_trial1",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": true,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.460400811
+    },
+    {
+      "name": "timing_ledger0_trial1",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": false,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.26141419600026
+    },
+    {
+      "name": "timing_ledger0_trial2",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": false,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.418153556000107
+    },
+    {
+      "name": "timing_ledger0_trial0",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": false,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.443038266999793
+    },
+    {
+      "name": "timing_ledger1_trial0",
+      "kind": "F",
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "ranks": 4,
+      "steps": 120,
+      "enabled": true,
+      "action": "A0",
+      "exe": "reactingEnergyAudit",
+      "nx": 32,
+      "ny": 8,
+      "tolerance": null,
+      "solverWall": 8.380291090000355
+    }
+  ],
+  "statistics": {
+    "False": {
+      "n": 3,
+      "median": 8.418153556000107,
+      "mean": 8.374202006333386,
+      "std": 0.09846638934271155,
+      "samples": [
+        8.26141419600026,
+        8.418153556000107,
+        8.443038266999793
+      ]
+    },
+    "True": {
+      "n": 3,
+      "median": 8.460400811,
+      "mean": 8.509761994667011,
+      "std": 0.15996899297362593,
+      "samples": [
+        8.68859408300068,
+        8.460400811,
+        8.380291090000355
+      ]
+    }
+  },
+  "medianAuditOverhead": 0.0050185892569969415,
+  "scope": "Three local bound-MPI process-wall trials per audit setting after warmup; includes startup and endpoint I/O; no corrected method or large-scale inference; no bootstrap interval with n=3."
+}

@@ -1,0 +1,56 @@
+{
+  "status": "DERIVED from measured data",
+  "best": {
+    "ranks": 4,
+    "method": "scotch",
+    "gamma": 1,
+    "trials": 5,
+    "wallMedian": 1.7400929870054824,
+    "wallStd": 0.09701122565543507,
+    "wallMin": 1.6924539289975655,
+    "wallMax": 1.9318647020045319,
+    "wallCV": 0.04867241635563739,
+    "wallSpeedup": 1.1591207631214855,
+    "wallSpeedupCI_low": 1.0300881334840675,
+    "wallSpeedupCI_high": 1.2230899754602182,
+    "steadyMaxRankMedian": 1.26990344,
+    "steadySpeedup": 1.1916319960516053,
+    "chemistryFraction": 0.21925807725156335,
+    "chemistryImbalance": 1.8027297563761358,
+    "stepImbalance": 1.0003912059913225,
+    "decompositionMedian": 0.16383100099483272,
+    "processorFaces": 116,
+    "maxNeighbours": 3,
+    "predictedCostImbalance": 1.3140261467823955,
+    "partitionValidationPass": true
+  },
+  "steadySavingPerIteration": 0.0035268714637681164,
+  "coldCostAccounting": {
+    "trainingWall": 2.32008304700139,
+    "weightedDecompositionWall": 0.16383100099483272,
+    "weightConstructionMedian": 0.0006959325000934768,
+    "coldSetupBreakEvenIterations": 705,
+    "incrementalDecompositionOnlyBreakEvenIterations": 3,
+    "limitations": "Indicative static restart arithmetic; training was an earlier unbound serial trace; no live migration or physical-time horizon measured."
+  },
+  "nativeInventoryComparison": {
+    "totalMassKg": {
+      "reference": 4.456045454575205e-06,
+      "test": 4.456045454784522e-06,
+      "absoluteDifference": 2.093170878595882e-16,
+      "relativeDifference": 4.6973732650028e-11
+    },
+    "sensiblePlusKineticEnergyJ": {
+      "reference": 1.4559469199331976,
+      "test": 1.4559469197585726,
+      "absoluteDifference": 1.7462498114184655e-10,
+      "relativeDifference": 1.1993911230627746e-10
+    },
+    "QdotIntegralW": {
+      "reference": 44.001665518014875,
+      "test": 44.00166552012192,
+      "absoluteDifference": 2.107043428623001e-09,
+      "relativeDifference": 4.7885538054470895e-11
+    }
+  }
+}

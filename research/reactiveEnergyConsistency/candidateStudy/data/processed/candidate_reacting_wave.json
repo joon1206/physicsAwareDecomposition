@@ -1,0 +1,1280 @@
+[
+  {
+    "name": "ReactingWave_none_nx32_dt2e-08_v2",
+    "mode": "none",
+    "nx": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 1.6800784509978257,
+    "errors": {
+      "rho": {
+        "L1": 0.0003708886717342791,
+        "L2": 0.0004128905017841362,
+        "Linf": 0.0005918237155094208
+      },
+      "T": {
+        "L1": 0.590397284486393,
+        "L2": 0.6585563486604703,
+        "Linf": 1.02510546641156
+      },
+      "p": {
+        "L1": 14.37448671017546,
+        "L2": 15.9706661794111,
+        "Linf": 24.11205146390421
+      },
+      "Ux": {
+        "L1": 0.22879039030975923,
+        "L2": 0.25389951484716844,
+        "Linf": 0.3588734053754479
+      },
+      "A": {
+        "L1": 0.0011387639752032065,
+        "L2": 0.0012685730621535727,
+        "Linf": 0.0018024565370240858
+      },
+      "B": {
+        "L1": 0.0011387639752032108,
+        "L2": 0.0012685730621535773,
+        "Linf": 0.0018024565370241552
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278775328945,
+    "signedEnergyDrift": 3.7159651047977085e-08,
+    "massDrift": 2.2114202477062705e-15,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1122349234916196,
+    "maxCellClosure": 3.473701969024587e-18,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx32_dt2e-08_v2",
+    "mode": "conservativeState",
+    "nx": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 2.3246119069990527,
+    "errors": {
+      "rho": {
+        "L1": 0.00037045189182193655,
+        "L2": 0.00041242815637476546,
+        "Linf": 0.0005909993449172424
+      },
+      "T": {
+        "L1": 0.5909513749020157,
+        "L2": 0.6596146951674345,
+        "Linf": 1.0270746284064671
+      },
+      "p": {
+        "L1": 14.274711971996112,
+        "L2": 15.885413239870374,
+        "Linf": 23.94715472109965
+      },
+      "Ux": {
+        "L1": 0.2294709691314356,
+        "L2": 0.25447744007238887,
+        "Linf": 0.3587581809770981
+      },
+      "A": {
+        "L1": 0.0011387627648078527,
+        "L2": 0.001268578705287808,
+        "Linf": 0.0018024982896091835
+      },
+      "B": {
+        "L1": 0.0011387627648098003,
+        "L2": 0.0012685787052880075,
+        "Linf": 0.0018024982896095443
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546627820060744,
+    "signedEnergyDrift": -3.589173200639673e-16,
+    "massDrift": -5.203341759308872e-16,
+    "sumYError": 3.574918139293004e-14,
+    "minY": 0.1122349652442047,
+    "maxCellClosure": 1.555214756484803e-16,
+    "maxEOSRelative": 1.3691825528596702e-16,
+    "maxMomentumDeltaU": 7.926141028429171e-07
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx32_dt2e-08_v2",
+    "mode": "blockConservative",
+    "nx": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 2.8881753489986295,
+    "errors": {
+      "rho": {
+        "L1": 0.00037211705439565285,
+        "L2": 0.00041425156711244595,
+        "Linf": 0.0005939846510697455
+      },
+      "T": {
+        "L1": 0.5889328411501253,
+        "L2": 0.6579429654467608,
+        "Linf": 1.025264781990586
+      },
+      "p": {
+        "L1": 14.30950175998214,
+        "L2": 15.912220342944535,
+        "Linf": 24.033518754600664
+      },
+      "Ux": {
+        "L1": 0.2283539424554517,
+        "L2": 0.25354840859215755,
+        "Linf": 0.3588694001529973
+      },
+      "A": {
+        "L1": 0.0011387644193233248,
+        "L2": 0.00126858518126172,
+        "Linf": 0.001802539633996375
+      },
+      "B": {
+        "L1": 0.0011387644193209222,
+        "L2": 0.001268585181258116,
+        "Linf": 0.0018025396339991229
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546627820060745,
+    "signedEnergyDrift": 3.589173200639673e-16,
+    "massDrift": -9.105848078790526e-16,
+    "sumYError": 3.042011087472929e-14,
+    "minY": 0.1122350065885919,
+    "maxCellClosure": 1.3798585473461818e-16,
+    "maxEOSRelative": 1.3691844239616737e-16,
+    "maxMomentumDeltaU": 1.810486830743862e-08
+  },
+  {
+    "name": "ReactingWave_none_nx64_dt2e-08_v2",
+    "mode": "none",
+    "nx": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 1.8321285559977696,
+    "errors": {
+      "rho": {
+        "L1": 0.00018790704402788481,
+        "L2": 0.0002087433229493407,
+        "Linf": 0.000299312334640478
+      },
+      "T": {
+        "L1": 0.2971334296023844,
+        "L2": 0.33154619176655487,
+        "Linf": 0.5166152450431127
+      },
+      "p": {
+        "L1": 7.3607875461029835,
+        "L2": 8.186768508678492,
+        "Linf": 12.384631103894208
+      },
+      "Ux": {
+        "L1": 0.11583910879524861,
+        "L2": 0.12867883976788239,
+        "Linf": 0.18222997490163806
+      },
+      "A": {
+        "L1": 0.0005749927826428009,
+        "L2": 0.0006395197028607106,
+        "Linf": 0.0009096829491784808
+      },
+      "B": {
+        "L1": 0.0005749927826427977,
+        "L2": 0.0006395197028607062,
+        "Linf": 0.0009096829491784808
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278650784798,
+    "signedEnergyDrift": 2.910702548401764e-08,
+    "massDrift": 2.3415037916889922e-15,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1112736692900855,
+    "maxCellClosure": 1.7367214273488524e-18,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx64_dt2e-08_v2",
+    "mode": "conservativeState",
+    "nx": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 2.36338308500126,
+    "errors": {
+      "rho": {
+        "L1": 0.0001877834030293837,
+        "L2": 0.00020868448753886038,
+        "Linf": 0.0002993125610505354
+      },
+      "T": {
+        "L1": 0.2978481714773533,
+        "L2": 0.33229882652437687,
+        "Linf": 0.5175922028932973
+      },
+      "p": {
+        "L1": 7.323817132976501,
+        "L2": 8.145855132992487,
+        "Linf": 12.349278181500267
+      },
+      "Ux": {
+        "L1": 0.11608996031363195,
+        "L2": 0.12896736941399475,
+        "Linf": 0.18239687227689672
+      },
+      "A": {
+        "L1": 0.0005749902254040852,
+        "L2": 0.0006395234925958073,
+        "Linf": 0.0009097486909906832
+      },
+      "B": {
+        "L1": 0.0005749902254050983,
+        "L2": 0.0006395234925977268,
+        "Linf": 0.0009097486910181196
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607447,
+    "signedEnergyDrift": 1.7945866003198366e-16,
+    "massDrift": 2.9919215116026013e-15,
+    "sumYError": 2.964295475749168e-14,
+    "minY": 0.1112736922634524,
+    "maxCellClosure": 6.596222108555266e-17,
+    "maxEOSRelative": 1.3692875061195603e-16,
+    "maxMomentumDeltaU": 3.9810140163883966e-07
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx64_dt2e-08_v2",
+    "mode": "blockConservative",
+    "nx": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 2.931700566001382,
+    "errors": {
+      "rho": {
+        "L1": 0.00018848719917212084,
+        "L2": 0.0002093669115644506,
+        "Linf": 0.0003002292990505473
+      },
+      "T": {
+        "L1": 0.29726504211776295,
+        "L2": 0.3316663092854007,
+        "Linf": 0.5170442222292877
+      },
+      "p": {
+        "L1": 7.3254393224015075,
+        "L2": 8.145962292740053,
+        "Linf": 12.352504369104281
+      },
+      "Ux": {
+        "L1": 0.11556088418609234,
+        "L2": 0.12840191073661616,
+        "Linf": 0.18169491318072772
+      },
+      "A": {
+        "L1": 0.0005749925208093597,
+        "L2": 0.000639527727079847,
+        "Linf": 0.0009097602062029808
+      },
+      "B": {
+        "L1": 0.0005749925208115882,
+        "L2": 0.0006395277270816131,
+        "Linf": 0.0009097602061995946
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607445,
+    "signedEnergyDrift": 0.0,
+    "massDrift": 1.0406683518617744e-15,
+    "sumYError": 2.375877272697835e-14,
+    "minY": 0.1112737050410613,
+    "maxCellClosure": 5.4502286575162727e-17,
+    "maxEOSRelative": 1.3692854203622074e-16,
+    "maxMomentumDeltaU": 1.7661844045240287e-08
+  },
+  {
+    "name": "ReactingWave_none_nx128_dt2e-08_v2",
+    "mode": "none",
+    "nx": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 2.404126217999874,
+    "errors": {
+      "rho": {
+        "L1": 9.457839411490662e-05,
+        "L2": 0.00010507523900848583,
+        "Linf": 0.00015073865094628047
+      },
+      "T": {
+        "L1": 0.14931218283409287,
+        "L2": 0.16663849207779052,
+        "Linf": 0.260022670241824
+      },
+      "p": {
+        "L1": 3.7003426628944,
+        "L2": 4.114869608029806,
+        "Linf": 6.241772135297651
+      },
+      "Ux": {
+        "L1": 0.05831245956916675,
+        "L2": 0.06476543491742509,
+        "Linf": 0.09181359726345306
+      },
+      "A": {
+        "L1": 0.000289024831916945,
+        "L2": 0.00032163065956564184,
+        "Linf": 0.0004575251964748922
+      },
+      "B": {
+        "L1": 0.0002890248319169517,
+        "L2": 0.00032163065956564575,
+        "Linf": 0.0004575251964749061
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278628367833,
+    "signedEnergyDrift": 2.7657616310373742e-08,
+    "massDrift": -1.6910860717753833e-15,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1108316451600002,
+    "maxCellClosure": 8.73806095345651e-19,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx128_dt2e-08_v2",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 3.328320705997612,
+    "errors": {
+      "rho": {
+        "L1": 9.460704331334729e-05,
+        "L2": 0.00010510875663259975,
+        "Linf": 0.0001507832730434644
+      },
+      "T": {
+        "L1": 0.14969162627936416,
+        "L2": 0.16708142271497978,
+        "Linf": 0.26070451923180826
+      },
+      "p": {
+        "L1": 3.6802230811182426,
+        "L2": 4.093063349601142,
+        "Linf": 6.218027953800629
+      },
+      "Ux": {
+        "L1": 0.05845351621500999,
+        "L2": 0.06490603210322089,
+        "Linf": 0.09186527457463001
+      },
+      "A": {
+        "L1": 0.0002890227735666967,
+        "L2": 0.0003216342387560401,
+        "Linf": 0.0004575581249965932
+      },
+      "B": {
+        "L1": 0.00028902277356378236,
+        "L2": 0.0003216342387528258,
+        "Linf": 0.00045755812502767945
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546627820060744,
+    "signedEnergyDrift": -3.589173200639673e-16,
+    "massDrift": -2.3415037916889922e-15,
+    "sumYError": 3.730349362740526e-14,
+    "minY": 0.1108316483903369,
+    "maxCellClosure": 4.338285285381483e-17,
+    "maxEOSRelative": 1.3692992109168777e-16,
+    "maxMomentumDeltaU": 1.9842659702914405e-07
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx128_dt2e-08_v2",
+    "mode": "blockConservative",
+    "nx": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 3.3636247559988988,
+    "errors": {
+      "rho": {
+        "L1": 9.478254697377776e-05,
+        "L2": 0.00010530054553924102,
+        "Linf": 0.00015111994690508723
+      },
+      "T": {
+        "L1": 0.1495092946401808,
+        "L2": 0.16690055836617532,
+        "Linf": 0.2604836100844068
+      },
+      "p": {
+        "L1": 3.673338329080252,
+        "L2": 4.086040114044808,
+        "Linf": 6.205991836293833
+      },
+      "Ux": {
+        "L1": 0.05819571820404207,
+        "L2": 0.0646211228027884,
+        "Linf": 0.09137136512539712
+      },
+      "A": {
+        "L1": 0.00028902354526031716,
+        "L2": 0.0003216357983370216,
+        "Linf": 0.0004575617473660948
+      },
+      "B": {
+        "L1": 0.0002890235452581314,
+        "L2": 0.0003216357983350852,
+        "Linf": 0.0004575617473668858
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607445,
+    "signedEnergyDrift": 0.0,
+    "massDrift": -2.9919215116026013e-15,
+    "sumYError": 2.4980018054066022e-14,
+    "minY": 0.1108316489969936,
+    "maxCellClosure": 2.8294745532592755e-17,
+    "maxEOSRelative": 1.3692988185848644e-16,
+    "maxMomentumDeltaU": 1.3664052392722863e-08
+  },
+  {
+    "name": "ReactingWave_none_nx128_dt2e-07_v2",
+    "mode": "none",
+    "nx": 128,
+    "dt": 2e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.44776904200261924,
+    "errors": {
+      "rho": {
+        "L1": 9.662333401422394e-05,
+        "L2": 0.00010734809264077385,
+        "Linf": 0.00015320447164157702
+      },
+      "T": {
+        "L1": 0.15866640683258026,
+        "L2": 0.17701372180500455,
+        "Linf": 0.27552186810839885
+      },
+      "p": {
+        "L1": 3.0319822880453557,
+        "L2": 3.3670826384570978,
+        "Linf": 4.967146828304976
+      },
+      "Ux": {
+        "L1": 0.0585923636674478,
+        "L2": 0.06507004890392439,
+        "Linf": 0.09215420632349947
+      },
+      "A": {
+        "L1": 0.00030221063590014864,
+        "L2": 0.00033626108182286535,
+        "Linf": 0.0004781321720015025
+      },
+      "B": {
+        "L1": 0.00030221063590014745,
+        "L2": 0.00033626108182286323,
+        "Linf": 0.0004781321720015441
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546628319053098,
+    "signedEnergyDrift": 3.2263246986499506e-07,
+    "massDrift": -1.300835439827218e-16,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1108525074771787,
+    "maxCellClosure": 8.076608044580013e-19,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx128_dt2e-07_v2",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 2e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.513260662999528,
+    "errors": {
+      "rho": {
+        "L1": 9.646635975312434e-05,
+        "L2": 0.00010716083290796054,
+        "Linf": 0.0001531597659906736
+      },
+      "T": {
+        "L1": 0.1584502622296311,
+        "L2": 0.17682875983566598,
+        "Linf": 0.27549259251316016
+      },
+      "p": {
+        "L1": 3.0279429763807,
+        "L2": 3.366715948753024,
+        "Linf": 5.075691840800573
+      },
+      "Ux": {
+        "L1": 0.05799456855087537,
+        "L2": 0.06439439932610956,
+        "Linf": 0.0910600593416433
+      },
+      "A": {
+        "L1": 0.00030219696817550235,
+        "L2": 0.00033629729181699054,
+        "Linf": 0.00047841582771189495
+      },
+      "B": {
+        "L1": 0.00030219696817561457,
+        "L2": 0.0003362972918171253,
+        "Linf": 0.0004784158277136852
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607447,
+    "signedEnergyDrift": 1.7945866003198366e-16,
+    "massDrift": -2.601670879654436e-16,
+    "sumYError": 2.886579864025407e-15,
+    "minY": 0.1108525312380593,
+    "maxCellClosure": 4.3679365626798965e-18,
+    "maxEOSRelative": 1.3692662527652879e-16,
+    "maxMomentumDeltaU": 1.886255024118609e-05
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx128_dt2e-07_v2",
+    "mode": "blockConservative",
+    "nx": 128,
+    "dt": 2e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.6028331549969153,
+    "errors": {
+      "rho": {
+        "L1": 9.662939510515691e-05,
+        "L2": 0.00010734678014323345,
+        "Linf": 0.000153497978735595
+      },
+      "T": {
+        "L1": 0.15826562583064607,
+        "L2": 0.17665107709824038,
+        "Linf": 0.2752761004542208
+      },
+      "p": {
+        "L1": 3.0063360652567326,
+        "L2": 3.342890947711921,
+        "Linf": 5.039701286805212
+      },
+      "Ux": {
+        "L1": 0.0577468264733918,
+        "L2": 0.06412028290425004,
+        "Linf": 0.09064011120950255
+      },
+      "A": {
+        "L1": 0.00030219863687215196,
+        "L2": 0.00033629867886325924,
+        "Linf": 0.00047841932551799526
+      },
+      "B": {
+        "L1": 0.0003021986368722234,
+        "L2": 0.00033629867886332033,
+        "Linf": 0.00047841932551695443
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607445,
+    "signedEnergyDrift": 0.0,
+    "massDrift": 0.0,
+    "sumYError": 2.6645352591003757e-15,
+    "minY": 0.1108525321281259,
+    "maxCellClosure": 4.184451625775261e-18,
+    "maxEOSRelative": 1.3692939140997789e-16,
+    "maxMomentumDeltaU": 2.702672218163514e-08
+  },
+  {
+    "name": "ReactingWave_none_nx128_dt1e-07_v2",
+    "mode": "none",
+    "nx": 128,
+    "dt": 1e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.6383005580028112,
+    "errors": {
+      "rho": {
+        "L1": 9.547912965050982e-05,
+        "L2": 0.00010607600796945354,
+        "Linf": 0.00015181983844386737
+      },
+      "T": {
+        "L1": 0.15347432373229442,
+        "L2": 0.17125377346660017,
+        "Linf": 0.2669195635231745
+      },
+      "p": {
+        "L1": 3.3998470670372853,
+        "L2": 3.7784218814814623,
+        "Linf": 5.670139816502342
+      },
+      "Ux": {
+        "L1": 0.05846615547703038,
+        "L2": 0.06493463982152144,
+        "Linf": 0.09201139312087037
+      },
+      "A": {
+        "L1": 0.00029488606668456245,
+        "L2": 0.0003281333638479468,
+        "Linf": 0.0004666860823373947
+      },
+      "B": {
+        "L1": 0.00029488606668456527,
+        "L2": 0.0003281333638479509,
+        "Linf": 0.0004666860823373531
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546628065904197,
+    "signedEnergyDrift": 1.5895450046295345e-07,
+    "massDrift": -1.300835439827218e-16,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1108409189712982,
+    "maxCellClosure": 9.110997400577574e-19,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx128_dt1e-07_v2",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 1e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.7863588729996991,
+    "errors": {
+      "rho": {
+        "L1": 9.541074616561647e-05,
+        "L2": 0.0001059947855456187,
+        "Linf": 0.00015178966308238007
+      },
+      "T": {
+        "L1": 0.15360272202531888,
+        "L2": 0.17143375752421197,
+        "Linf": 0.2673010119585797
+      },
+      "p": {
+        "L1": 3.3816654192578426,
+        "L2": 3.7611633135065397,
+        "Linf": 5.694375511302496
+      },
+      "Ux": {
+        "L1": 0.058263999713368986,
+        "L2": 0.0646941866488127,
+        "Linf": 0.09152270521367711
+      },
+      "A": {
+        "L1": 0.00029487847550046826,
+        "L2": 0.0003281514679385477,
+        "Linf": 0.0004668287909609936
+      },
+      "B": {
+        "L1": 0.0002948784755002175,
+        "L2": 0.000328151467938527,
+        "Linf": 0.0004668287909594948
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607442,
+    "signedEnergyDrift": -1.7945866003198366e-16,
+    "massDrift": 0.0,
+    "sumYError": 4.3298697960381105e-15,
+    "minY": 0.1108409299951225,
+    "maxCellClosure": 5.893322943744097e-18,
+    "maxEOSRelative": 1.3692948443207518e-16,
+    "maxMomentumDeltaU": 4.850202580048938e-06
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx128_dt1e-07_v2",
+    "mode": "blockConservative",
+    "nx": 128,
+    "dt": 1e-07,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 0.976625826999225,
+    "errors": {
+      "rho": {
+        "L1": 9.558380131098046e-05,
+        "L2": 0.000106187782649098,
+        "Linf": 0.00015213337076647182
+      },
+      "T": {
+        "L1": 0.15341669973275796,
+        "L2": 0.17125115927348533,
+        "Linf": 0.26707768029871204
+      },
+      "p": {
+        "L1": 3.370042524041992,
+        "L2": 3.748174857196907,
+        "Linf": 5.673633692204021
+      },
+      "Ux": {
+        "L1": 0.05801095089482172,
+        "L2": 0.06441459344934661,
+        "Linf": 0.09106723608388734
+      },
+      "A": {
+        "L1": 0.00029487923745647306,
+        "L2": 0.0003281529842523138,
+        "Linf": 0.0004668324442938937
+      },
+      "B": {
+        "L1": 0.00029487923745617935,
+        "L2": 0.00032815298425201535,
+        "Linf": 0.0004668324442931304
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607445,
+    "signedEnergyDrift": 0.0,
+    "massDrift": 0.0,
+    "sumYError": 3.552713678800501e-15,
+    "minY": 0.1108409307394713,
+    "maxCellClosure": 4.993661468101936e-18,
+    "maxEOSRelative": 1.3692978470357198e-16,
+    "maxMomentumDeltaU": 9.248039571784837e-08
+  },
+  {
+    "name": "ReactingWave_none_nx128_dt5e-08_v2",
+    "mode": "none",
+    "nx": 128,
+    "dt": 5e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 1.034557887000119,
+    "errors": {
+      "rho": {
+        "L1": 9.491447752482327e-05,
+        "L2": 0.00010544855860286314,
+        "Linf": 0.00015114077661015912
+      },
+      "T": {
+        "L1": 0.1508739307940168,
+        "L2": 0.1683700532133022,
+        "Linf": 0.2626107382174041
+      },
+      "p": {
+        "L1": 3.5870071384877065,
+        "L2": 3.987997809995376,
+        "Linf": 6.0268511714966735
+      },
+      "Ux": {
+        "L1": 0.05837626239061133,
+        "L2": 0.06483559341182395,
+        "Linf": 0.0918964852465507
+      },
+      "A": {
+        "L1": 0.0002912229591887193,
+        "L2": 0.0003240692252702526,
+        "Linf": 0.00046096094402760246
+      },
+      "B": {
+        "L1": 0.0002912229591887231,
+        "L2": 0.0003240692252702558,
+        "Linf": 0.0004609609440275886
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.1546627939036141,
+    "signedEnergyDrift": 7.692567981515498e-08,
+    "massDrift": 3.902506319481654e-16,
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.1108351231494671,
+    "maxCellClosure": 9.897555173248123e-19,
+    "maxEOSRelative": 0.0,
+    "maxMomentumDeltaU": 0.0
+  },
+  {
+    "name": "ReactingWave_conservativeState_nx128_dt5e-08_v2",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 5e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 1.4574002409972309,
+    "errors": {
+      "rho": {
+        "L1": 9.4903783321183e-05,
+        "L2": 0.00010543564939312529,
+        "Linf": 0.00015115018597938734
+      },
+      "T": {
+        "L1": 0.1511621045132605,
+        "L2": 0.16871774775904927,
+        "Linf": 0.2631832104990508
+      },
+      "p": {
+        "L1": 3.5667614192949486,
+        "L2": 3.9668441021799947,
+        "Linf": 6.018583237106213
+      },
+      "Ux": {
+        "L1": 0.05838551638768086,
+        "L2": 0.06482983152937558,
+        "Linf": 0.09173950120799645
+      },
+      "A": {
+        "L1": 0.00029121874590401226,
+        "L2": 0.0003240782482433601,
+        "Linf": 0.00046103471972790133
+      },
+      "B": {
+        "L1": 0.0002912187459040089,
+        "L2": 0.0003240782482434411,
+        "Linf": 0.0004610347197254727
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607445,
+    "signedEnergyDrift": 0.0,
+    "massDrift": -2.601670879654436e-16,
+    "sumYError": 5.551115123125783e-15,
+    "minY": 0.1108351290530531,
+    "maxCellClosure": 7.304597342388254e-18,
+    "maxEOSRelative": 1.369272758847121e-16,
+    "maxMomentumDeltaU": 1.2297359786374877e-06
+  },
+  {
+    "name": "ReactingWave_blockConservative_nx128_dt5e-08_v2",
+    "mode": "blockConservative",
+    "nx": 128,
+    "dt": 5e-08,
+    "TF": 2e-05,
+    "rate": 50000.0,
+    "Hf": 2000000.0,
+    "executable": "reactingEnergyBlockCandidates",
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Analytic synthetic reacting transport; equal-property nitrogen isomers, no reaction heat, not a flame benchmark",
+    "wall": 1.5792808119986148,
+    "errors": {
+      "rho": {
+        "L1": 9.507929610410746e-05,
+        "L2": 0.00010562903048956994,
+        "Linf": 0.0001514915179604004
+      },
+      "T": {
+        "L1": 0.15097745437310728,
+        "L2": 0.16853515639708141,
+        "Linf": 0.26295988031779416
+      },
+      "p": {
+        "L1": 3.5582499412003017,
+        "L2": 3.9579173505567105,
+        "Linf": 6.003653974505141
+      },
+      "Ux": {
+        "L1": 0.05812914638170835,
+        "L2": 0.06454663149483703,
+        "Linf": 0.09126126748312657
+      },
+      "A": {
+        "L1": 0.0002912195214643126,
+        "L2": 0.0003240798028666683,
+        "Linf": 0.00046103838397880403
+      },
+      "B": {
+        "L1": 0.00029121952146363844,
+        "L2": 0.00032407980286595,
+        "Linf": 0.0004610383839772636
+      }
+    },
+    "E0": 0.15466278200607445,
+    "Ef": 0.15466278200607442,
+    "signedEnergyDrift": -1.7945866003198366e-16,
+    "massDrift": -1.300835439827218e-16,
+    "sumYError": 7.327471962526033e-15,
+    "minY": 0.1108351297167302,
+    "maxCellClosure": 9.593308825244531e-18,
+    "maxEOSRelative": 1.3692984932039746e-16,
+    "maxMomentumDeltaU": 4.393228544102825e-08
+  }
+]

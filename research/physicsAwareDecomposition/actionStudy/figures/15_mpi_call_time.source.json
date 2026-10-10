@@ -1,0 +1,550 @@
+[
+  {
+    "action": "A0",
+    "ranks": [
+      {
+        "rank": 2.0,
+        "sends": 15606.0,
+        "receives": 15606.0,
+        "sendPayloadBytes": 1139745.0,
+        "receiveBufferBytes": 1139741.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.7286011354881339,
+        "waitSeconds": 1.636772050143918
+      },
+      {
+        "rank": 3.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.3054386506119044,
+        "waitSeconds": 2.1728216355259065
+      },
+      {
+        "rank": 1.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.7286465836223215,
+        "waitSeconds": 1.6097354092780733
+      },
+      {
+        "rank": 0.0,
+        "sends": 15663.0,
+        "receives": 15553.0,
+        "sendPayloadBytes": 1146998.0,
+        "receiveBufferBytes": 1132816.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.2531977950711735,
+        "waitSeconds": 2.1159984368132427
+      },
+      {
+        "rank": 2.0,
+        "sends": 15606.0,
+        "receives": 15606.0,
+        "sendPayloadBytes": 1139745.0,
+        "receiveBufferBytes": 1139741.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.626315660207183,
+        "waitSeconds": 1.5633828491554596
+      },
+      {
+        "rank": 3.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.319317969144322,
+        "waitSeconds": 2.159536345061497
+      },
+      {
+        "rank": 1.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.560104853429948,
+        "waitSeconds": 1.457188744447194
+      },
+      {
+        "rank": 0.0,
+        "sends": 15663.0,
+        "receives": 15553.0,
+        "sendPayloadBytes": 1146998.0,
+        "receiveBufferBytes": 1132816.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.317890374615672,
+        "waitSeconds": 2.226463963816059
+      },
+      {
+        "rank": 2.0,
+        "sends": 15606.0,
+        "receives": 15606.0,
+        "sendPayloadBytes": 1139745.0,
+        "receiveBufferBytes": 1139741.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.702565020590555,
+        "waitSeconds": 1.5861603998491773
+      },
+      {
+        "rank": 3.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.3698220878723077,
+        "waitSeconds": 2.2400023784139194
+      },
+      {
+        "rank": 1.0,
+        "sends": 15298.0,
+        "receives": 15353.0,
+        "sendPayloadBytes": 1130618.0,
+        "receiveBufferBytes": 1137711.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 1.7111536531156162,
+        "waitSeconds": 1.5971295550698414
+      },
+      {
+        "rank": 0.0,
+        "sends": 15663.0,
+        "receives": 15553.0,
+        "sendPayloadBytes": 1146998.0,
+        "receiveBufferBytes": 1132816.0,
+        "collectives": 17197.0,
+        "waits": 7522.0,
+        "callSeconds": 2.393168702867115,
+        "waitSeconds": 2.216172032392933
+      }
+    ]
+  },
+  {
+    "action": "AC",
+    "ranks": [
+      {
+        "rank": 2.0,
+        "sends": 15910.0,
+        "receives": 15892.0,
+        "sendPayloadBytes": 1608517.0,
+        "receiveBufferBytes": 1607097.0,
+        "collectives": 17197.0,
+        "waits": 7750.0,
+        "callSeconds": 0.7248764072573977,
+        "waitSeconds": 0.6751700733439066
+      },
+      {
+        "rank": 3.0,
+        "sends": 15496.0,
+        "receives": 15573.0,
+        "sendPayloadBytes": 1573830.0,
+        "receiveBufferBytes": 1582387.0,
+        "collectives": 17197.0,
+        "waits": 7753.0,
+        "callSeconds": 0.6852749679237604,
+        "waitSeconds": 0.6508160066150595
+      },
+      {
+        "rank": 1.0,
+        "sends": 15519.0,
+        "receives": 15556.0,
+        "sendPayloadBytes": 1577270.0,
+        "receiveBufferBytes": 1585507.0,
+        "collectives": 17197.0,
+        "waits": 7759.0,
+        "callSeconds": 0.677479436955764,
+        "waitSeconds": 0.640284335881006
+      },
+      {
+        "rank": 0.0,
+        "sends": 15954.0,
+        "receives": 15858.0,
+        "sendPayloadBytes": 1618938.0,
+        "receiveBufferBytes": 1603564.0,
+        "collectives": 17197.0,
+        "waits": 7756.0,
+        "callSeconds": 0.7055776967463316,
+        "waitSeconds": 0.6628419287444558
+      },
+      {
+        "rank": 2.0,
+        "sends": 15919.0,
+        "receives": 15901.0,
+        "sendPayloadBytes": 1624277.0,
+        "receiveBufferBytes": 1622857.0,
+        "collectives": 17197.0,
+        "waits": 7759.0,
+        "callSeconds": 0.7845930411858717,
+        "waitSeconds": 0.7344684074487304
+      },
+      {
+        "rank": 3.0,
+        "sends": 15505.0,
+        "receives": 15582.0,
+        "sendPayloadBytes": 1594622.0,
+        "receiveBufferBytes": 1603179.0,
+        "collectives": 17197.0,
+        "waits": 7759.0,
+        "callSeconds": 0.7894072665367275,
+        "waitSeconds": 0.7552309538295958
+      },
+      {
+        "rank": 1.0,
+        "sends": 15518.0,
+        "receives": 15548.0,
+        "sendPayloadBytes": 1571638.0,
+        "receiveBufferBytes": 1579819.0,
+        "collectives": 17197.0,
+        "waits": 7759.0,
+        "callSeconds": 0.7708404992445139,
+        "waitSeconds": 0.729509777520434
+      },
+      {
+        "rank": 0.0,
+        "sends": 15946.0,
+        "receives": 15857.0,
+        "sendPayloadBytes": 1610586.0,
+        "receiveBufferBytes": 1595268.0,
+        "collectives": 17197.0,
+        "waits": 7756.0,
+        "callSeconds": 0.7541262135346187,
+        "waitSeconds": 0.7190927955962252
+      },
+      {
+        "rank": 2.0,
+        "sends": 15922.0,
+        "receives": 15898.0,
+        "sendPayloadBytes": 1612165.0,
+        "receiveBufferBytes": 1610697.0,
+        "collectives": 17197.0,
+        "waits": 7759.0,
+        "callSeconds": 0.6737528587254928,
+        "waitSeconds": 0.631378427206073
+      },
+      {
+        "rank": 3.0,
+        "sends": 15505.0,
+        "receives": 15579.0,
+        "sendPayloadBytes": 1572422.0,
+        "receiveBufferBytes": 1580955.0,
+        "collectives": 17197.0,
+        "waits": 7753.0,
+        "callSeconds": 0.7445120499178302,
+        "waitSeconds": 0.7122623111354187
+      },
+      {
+        "rank": 1.0,
+        "sends": 15512.0,
+        "receives": 15551.0,
+        "sendPayloadBytes": 1561526.0,
+        "receiveBufferBytes": 1569779.0,
+        "collectives": 17197.0,
+        "waits": 7753.0,
+        "callSeconds": 0.7338245326245669,
+        "waitSeconds": 0.7015219588211039
+      },
+      {
+        "rank": 0.0,
+        "sends": 15943.0,
+        "receives": 15854.0,
+        "sendPayloadBytes": 1605234.0,
+        "receiveBufferBytes": 1589916.0,
+        "collectives": 17197.0,
+        "waits": 7756.0,
+        "callSeconds": 0.6894037481833948,
+        "waitSeconds": 0.6604765739466529
+      }
+    ]
+  },
+  {
+    "action": "AM",
+    "ranks": [
+      {
+        "rank": 2.0,
+        "sends": 19018.0,
+        "receives": 19018.0,
+        "sendPayloadBytes": 1610637.0,
+        "receiveBufferBytes": 1610633.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 6.129324961468228,
+        "waitSeconds": 3.04410389289842
+      },
+      {
+        "rank": 3.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1601486.0,
+        "receiveBufferBytes": 1608603.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 3.209088579955278,
+        "waitSeconds": 3.104332834336674
+      },
+      {
+        "rank": 1.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1348986.0,
+        "receiveBufferBytes": 1356103.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 1.2578019314387348,
+        "waitSeconds": 1.2178461799776414
+      },
+      {
+        "rank": 0.0,
+        "sends": 19075.0,
+        "receives": 18965.0,
+        "sendPayloadBytes": 1365414.0,
+        "receiveBufferBytes": 1351184.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 5.57933249726193,
+        "waitSeconds": 5.164002506615361
+      },
+      {
+        "rank": 2.0,
+        "sends": 19018.0,
+        "receives": 19018.0,
+        "sendPayloadBytes": 1610637.0,
+        "receiveBufferBytes": 1610633.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 6.085094038688112,
+        "waitSeconds": 2.9970819947047858
+      },
+      {
+        "rank": 3.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1601486.0,
+        "receiveBufferBytes": 1608603.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 3.205258222616976,
+        "waitSeconds": 3.1189720134134404
+      },
+      {
+        "rank": 1.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1348986.0,
+        "receiveBufferBytes": 1356103.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 1.2392230117984582,
+        "waitSeconds": 1.2070368491549743
+      },
+      {
+        "rank": 0.0,
+        "sends": 19075.0,
+        "receives": 18965.0,
+        "sendPayloadBytes": 1365414.0,
+        "receiveBufferBytes": 1351184.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 5.591500333845033,
+        "waitSeconds": 5.14492686878657
+      },
+      {
+        "rank": 2.0,
+        "sends": 19018.0,
+        "receives": 19018.0,
+        "sendPayloadBytes": 1610637.0,
+        "receiveBufferBytes": 1610633.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 5.964421477197902,
+        "waitSeconds": 3.0357204829051625
+      },
+      {
+        "rank": 3.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1601486.0,
+        "receiveBufferBytes": 1608603.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 3.0565367973031243,
+        "waitSeconds": 2.951895650388906
+      },
+      {
+        "rank": 1.0,
+        "sends": 18710.0,
+        "receives": 18765.0,
+        "sendPayloadBytes": 1348986.0,
+        "receiveBufferBytes": 1356103.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 1.2698630548256915,
+        "waitSeconds": 1.2383440155535936
+      },
+      {
+        "rank": 0.0,
+        "sends": 19075.0,
+        "receives": 18965.0,
+        "sendPayloadBytes": 1365414.0,
+        "receiveBufferBytes": 1351184.0,
+        "collectives": 22315.0,
+        "waits": 9228.0,
+        "callSeconds": 5.44633080996573,
+        "waitSeconds": 4.99107708792144
+      }
+    ]
+  },
+  {
+    "action": "AH",
+    "ranks": [
+      {
+        "rank": 2.0,
+        "sends": 19281.0,
+        "receives": 19375.0,
+        "sendPayloadBytes": 2223825.0,
+        "receiveBufferBytes": 2223301.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.8544680471968604,
+        "waitSeconds": 0.7948195140488679
+      },
+      {
+        "rank": 3.0,
+        "sends": 18978.0,
+        "receives": 18969.0,
+        "sendPayloadBytes": 2153298.0,
+        "receiveBufferBytes": 2161191.0,
+        "collectives": 22315.0,
+        "waits": 9456.0,
+        "callSeconds": 0.9800801134551875,
+        "waitSeconds": 0.9112842433241894
+      },
+      {
+        "rank": 1.0,
+        "sends": 19039.0,
+        "receives": 19022.0,
+        "sendPayloadBytes": 2351206.0,
+        "receiveBufferBytes": 2359035.0,
+        "collectives": 22315.0,
+        "waits": 9462.0,
+        "callSeconds": 1.0163737881812267,
+        "waitSeconds": 0.9820688473701011
+      },
+      {
+        "rank": 0.0,
+        "sends": 19367.0,
+        "receives": 19299.0,
+        "sendPayloadBytes": 2088370.0,
+        "receiveBufferBytes": 2073172.0,
+        "collectives": 22315.0,
+        "waits": 9462.0,
+        "callSeconds": 0.8463678080297541,
+        "waitSeconds": 0.79651107385871
+      },
+      {
+        "rank": 2.0,
+        "sends": 19278.0,
+        "receives": 19372.0,
+        "sendPayloadBytes": 2258137.0,
+        "receiveBufferBytes": 2257613.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.7749046091048513,
+        "waitSeconds": 0.7215605414967285
+      },
+      {
+        "rank": 3.0,
+        "sends": 18979.0,
+        "receives": 18968.0,
+        "sendPayloadBytes": 2158338.0,
+        "receiveBufferBytes": 2166215.0,
+        "collectives": 22315.0,
+        "waits": 9462.0,
+        "callSeconds": 0.8714930388814537,
+        "waitSeconds": 0.8110634244949324
+      },
+      {
+        "rank": 1.0,
+        "sends": 19044.0,
+        "receives": 19029.0,
+        "sendPayloadBytes": 2332598.0,
+        "receiveBufferBytes": 2340443.0,
+        "collectives": 22315.0,
+        "waits": 9462.0,
+        "callSeconds": 0.8904688325128518,
+        "waitSeconds": 0.8566543302731588
+      },
+      {
+        "rank": 0.0,
+        "sends": 19364.0,
+        "receives": 19296.0,
+        "sendPayloadBytes": 2048682.0,
+        "receiveBufferBytes": 2033484.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.6518112655758159,
+        "waitSeconds": 0.6052805362414801
+      },
+      {
+        "rank": 2.0,
+        "sends": 19280.0,
+        "receives": 19370.0,
+        "sendPayloadBytes": 2275913.0,
+        "receiveBufferBytes": 2275357.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.8916453501442447,
+        "waitSeconds": 0.8361515318974853
+      },
+      {
+        "rank": 3.0,
+        "sends": 18980.0,
+        "receives": 18967.0,
+        "sendPayloadBytes": 2141474.0,
+        "receiveBufferBytes": 2149335.0,
+        "collectives": 22315.0,
+        "waits": 9456.0,
+        "callSeconds": 0.9662768486014102,
+        "waitSeconds": 0.9009964555880288
+      },
+      {
+        "rank": 1.0,
+        "sends": 19043.0,
+        "receives": 19030.0,
+        "sendPayloadBytes": 2378766.0,
+        "receiveBufferBytes": 2386627.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.8805183692456922,
+        "waitSeconds": 0.844425948758726
+      },
+      {
+        "rank": 0.0,
+        "sends": 19365.0,
+        "receives": 19301.0,
+        "sendPayloadBytes": 2069114.0,
+        "receiveBufferBytes": 2053948.0,
+        "collectives": 22315.0,
+        "waits": 9465.0,
+        "callSeconds": 0.7131529002072057,
+        "waitSeconds": 0.6624993099394487
+      }
+    ]
+  }
+]

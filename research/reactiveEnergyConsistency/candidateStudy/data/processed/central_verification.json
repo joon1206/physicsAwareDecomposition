@@ -1,0 +1,2057 @@
+[
+  {
+    "name": "Central_B_nx8_dt1.25e-07_TF0.00024_hRecovery",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1.25e-07,
+    "TF": 0.00024,
+    "steps": 1920,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 4.048396466998383,
+    "Tmean": 2928.2600085680115,
+    "Tmin": 2928.260008568011,
+    "Tmax": 2928.260008568012,
+    "maxLocalEnergyResidual": 9.083578333957119e-19,
+    "maxYsumError": 1.9984014443252818e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.9594742495243622e-11,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263978486,
+      "E_NASA": 0.02752339126397868,
+      "C": -0.08842779356698169,
+      "H_stored": 0.15458853081613758,
+      "H_NASA": 0.15458853081613777,
+      "J": 1.600290042482162e-33,
+      "P": 0.0386373459851774,
+      "max_h_inversion_error": 6.51925802230835e-09,
+      "elements": {
+        "H": 1.0511199649765252e-09,
+        "O": 8.356960852286785e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 8.697759567081628e-15,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": 1.0820585472237953e-14,
+      "O": 1.3857344530426424e-15,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt1.25e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1.25e-07,
+    "TF": 0.00024,
+    "steps": 1920,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 3.783346600001096,
+    "Tmean": 2928.260008568889,
+    "Tmin": 2928.260008568888,
+    "Tmax": 2928.26000856889,
+    "maxLocalEnergyResidual": 9.367795428261167e-19,
+    "maxYsumError": 1.9984014443252818e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.536438057480609e-15,
+    "maxRootResidual": 1.7648562788963318e-07,
+    "maxRootTolerance": 1.7710295174046403e-07,
+    "oldRootCriterionUnmet": 535.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263978507,
+      "E_NASA": 0.027523391263978562,
+      "C": -0.08842779356702818,
+      "H_stored": 0.15458853081619328,
+      "H_NASA": 0.15458853081619334,
+      "J": 1.9940883292954207e-33,
+      "P": 0.038637345985186596,
+      "max_h_inversion_error": 3.725290298461914e-09,
+      "elements": {
+        "H": 1.0511199649765233e-09,
+        "O": 8.356960852286772e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 4.411907026780536e-15,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": 9.04994421314447e-15,
+      "O": -1.979620647203775e-16,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt1e-06_TF0.00024_hRecovery",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1e-06,
+    "TF": 0.00024,
+    "steps": 240,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.050747250999848,
+    "Tmean": 2928.260798321514,
+    "Tmin": 2928.260798321513,
+    "Tmax": 2928.260798321515,
+    "maxLocalEnergyResidual": 1.0095391189679507e-18,
+    "maxYsumError": 7.771561172376096e-16,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.8213642399844687e-11,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.027523391263977175,
+      "E_NASA": 0.027523391263983392,
+      "C": -0.08842783539837502,
+      "H_stored": 0.1545885809641796,
+      "H_NASA": 0.15458858096418582,
+      "J": 2.4292135282937836e-34,
+      "P": 0.0386373543018274,
+      "max_h_inversion_error": 1.6763806343078613e-07,
+      "elements": {
+        "H": 1.0511199649765121e-09,
+        "O": 8.356960852286762e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122382e-08
+      }
+    },
+    "signedEnergyDrift": 1.7987975220616642e-13,
+    "massDrift": 0.0,
+    "elementDrift": {
+      "H": -1.5739033414164295e-15,
+      "O": -1.3857344530426424e-15,
+      "N": 4.772086734922721e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt1e-06_TF0.00024_hRecovery2",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1e-06,
+    "TF": 0.00024,
+    "steps": 240,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "b04a9ede13b66eebbb285091ab36fba4b9c3fd205de81b4878f10bc3b8463e4e",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/90dd669a6b6baaf8000d6b9c95a7e00ae7b57e714b3dc14e9ccdabd4d25d665a",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "02a124c6d94151580076351c4d9253b39702942a2ff46f37e8eaf6f0fb9fc86a",
+    "wall": 1.0676866399990104,
+    "Tmean": 2928.2607983290527,
+    "Tmin": 2928.260798329052,
+    "Tmax": 2928.260798329053,
+    "maxLocalEnergyResidual": 1.0095391189679509e-18,
+    "maxYsumError": 6.661338147750939e-16,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 2.7582103268031233e-15,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.02752339126397845,
+      "E_NASA": 0.02752339126397848,
+      "C": -0.08842783539877912,
+      "H_stored": 0.1545885809646639,
+      "H_NASA": 0.15458858096466394,
+      "J": 1.8285473416528638e-34,
+      "P": 0.03863735430190634,
+      "max_h_inversion_error": 1.862645149230957e-09,
+      "elements": {
+        "H": 1.051119964976512e-09,
+        "O": 8.356960852286772e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 1.3865993512738828e-15,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": -1.7706412590934831e-15,
+      "O": -1.979620647203775e-16,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt1e-06_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 1e-06,
+    "TF": 0.00024,
+    "steps": 240,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.9628665079981147,
+    "Tmean": 2928.260798329173,
+    "Tmin": 2928.260798329173,
+    "Tmax": 2928.260798329174,
+    "maxLocalEnergyResidual": 1.0095391189679509e-18,
+    "maxYsumError": 1.1102230246251565e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.314393452555578e-15,
+    "maxRootResidual": 1.7043203115463257e-07,
+    "maxRootTolerance": 1.7710295495927073e-07,
+    "oldRootCriterionUnmet": 40.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.027523391263984683,
+      "E_NASA": 0.02752339126398482,
+      "C": -0.08842783539877924,
+      "H_stored": 0.15458858096467187,
+      "H_NASA": 0.154588580964672,
+      "J": 2.5387272529300237e-34,
+      "P": 0.03863735430190795,
+      "max_h_inversion_error": 3.259629011154175e-09,
+      "elements": {
+        "H": 1.0511199649765142e-09,
+        "O": 8.356960852286785e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122382e-08
+      }
+    },
+    "signedEnergyDrift": 2.318142006356973e-13,
+    "massDrift": 0.0,
+    "elementDrift": {
+      "H": 3.934758353541074e-16,
+      "O": 1.3857344530426424e-15,
+      "N": 4.772086734922721e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt2.5e-07_TF0.00024_hRecovery",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 2.5e-07,
+    "TF": 0.00024,
+    "steps": 960,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 2.498113342000579,
+    "Tmean": 2928.2601150429823,
+    "Tmin": 2928.260115042982,
+    "Tmax": 2928.260115042983,
+    "maxLocalEnergyResidual": 9.367795428261154e-19,
+    "maxYsumError": 1.1102230246251565e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.954335998588519e-11,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263978722,
+      "E_NASA": 0.02752339126397922,
+      "C": -0.08842779920659229,
+      "H_stored": 0.1545885375769564,
+      "H_NASA": 0.1545885375769569,
+      "J": 4.847019376938065e-34,
+      "P": 0.03863734710638539,
+      "max_h_inversion_error": 1.4901161193847656e-08,
+      "elements": {
+        "H": 1.0511199649765183e-09,
+        "O": 8.356960852286794e-09,
+        "AR": 0.0,
+        "N": 2.773396741512238e-08
+      }
+    },
+    "signedEnergyDrift": 2.8362259457874874e-14,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": 4.328234188895181e-15,
+      "O": 2.37554477664453e-15,
+      "N": 3.5790650511920405e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt2.5e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 2.5e-07,
+    "TF": 0.00024,
+    "steps": 960,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 2.3559242519986583,
+    "Tmean": 2928.2601150448145,
+    "Tmin": 2928.260115044814,
+    "Tmax": 2928.260115044815,
+    "maxLocalEnergyResidual": 9.367795428261154e-19,
+    "maxYsumError": 2.220446049250313e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.4878658001532585e-15,
+    "maxRootResidual": 1.739244908094406e-07,
+    "maxRootTolerance": 1.7710295217555245e-07,
+    "oldRootCriterionUnmet": 292.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263978708,
+      "E_NASA": 0.02752339126397893,
+      "C": -0.0884277992066897,
+      "H_stored": 0.15458853757707303,
+      "H_NASA": 0.15458853757707325,
+      "J": 2.5561498909403497e-34,
+      "P": 0.038637347106404624,
+      "max_h_inversion_error": 7.916241884231567e-09,
+      "elements": {
+        "H": 1.0511199649765196e-09,
+        "O": 8.356960852286828e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122375e-08
+      }
+    },
+    "signedEnergyDrift": 1.7773682593601586e-14,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": 5.508661694957503e-15,
+      "O": 6.532748135772457e-15,
+      "N": 2.3860433674613605e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt5e-07_TF0.00024_hRecovery",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 5e-07,
+    "TF": 0.00024,
+    "steps": 480,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.501560070002597,
+    "Tmean": 2928.2603353783625,
+    "Tmin": 2928.260335378362,
+    "Tmax": 2928.260335378363,
+    "maxLocalEnergyResidual": 9.504219633527088e-19,
+    "maxYsumError": 1.1102230246251565e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.9246115118276563e-11,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238565e-08,
+      "E_stored": 0.027523391263979693,
+      "E_NASA": 0.027523391263981303,
+      "C": -0.08842781087748121,
+      "H_stored": 0.15458855156837667,
+      "H_NASA": 0.15458855156837828,
+      "J": 3.180875911024097e-34,
+      "P": 0.03863734942691577,
+      "max_h_inversion_error": 4.563480615615845e-08,
+      "elements": {
+        "H": 1.051119964976516e-09,
+        "O": 8.35696085228679e-09,
+        "AR": 0.0,
+        "N": 2.773396741512238e-08
+      }
+    },
+    "signedEnergyDrift": 1.039949513455412e-13,
+    "massDrift": -1.7816585824833976e-16,
+    "elementDrift": {
+      "H": 2.1641170944475906e-15,
+      "O": 1.9796206472037747e-15,
+      "N": 3.5790650511920405e-16
+    }
+  },
+  {
+    "name": "Central_B_nx8_dt5e-07_TF0.00024_hRecovery3",
+    "kind": "B",
+    "nx": 8,
+    "nCells": 8,
+    "dt": 5e-07,
+    "TF": 0.00024,
+    "steps": 480,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 1.4814888460023212,
+    "Tmean": 2928.2603353821155,
+    "Tmin": 2928.260335382115,
+    "Tmax": 2928.260335382116,
+    "maxLocalEnergyResidual": 1.00953911896795e-18,
+    "maxYsumError": 8.881784197001252e-16,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.484396353201305e-15,
+    "maxRootResidual": 1.7462298274040222e-07,
+    "maxRootTolerance": 1.7710295308799382e-07,
+    "oldRootCriterionUnmet": 167.0,
+    "initial": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.02752339126397844,
+      "E_NASA": 0.02752339126397844,
+      "C": 2.469563299531251e-06,
+      "H_stored": 0.04373292170067891,
+      "H_NASA": 0.04373292170067891,
+      "J": 0.0,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.0511199649765138e-09,
+        "O": 8.356960852286774e-09,
+        "AR": 0.0,
+        "N": 2.773396741512237e-08
+      }
+    },
+    "end": {
+      "mass": 3.714204823238566e-08,
+      "E_stored": 0.027523391263979916,
+      "E_NASA": 0.027523391263980054,
+      "C": -0.08842781087768126,
+      "H_stored": 0.15458855156861634,
+      "H_NASA": 0.15458855156861648,
+      "J": 2.8407196451086314e-34,
+      "P": 0.03863734942695517,
+      "max_h_inversion_error": 3.725290298461914e-09,
+      "elements": {
+        "H": 1.051119964976518e-09,
+        "O": 8.3569608522868e-09,
+        "AR": 0.0,
+        "N": 2.7733967415122382e-08
+      }
+    },
+    "signedEnergyDrift": 5.86153362129414e-14,
+    "massDrift": 0.0,
+    "elementDrift": {
+      "H": 3.934758353541074e-15,
+      "O": 3.16739303552604e-15,
+      "N": 4.772086734922721e-16
+    }
+  },
+  {
+    "name": "Central_F_nx128_dt1.5625e-08_TF0.00024_hRecovery",
+    "kind": "F",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 1.5625e-08,
+    "TF": 0.00024,
+    "steps": 15360,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 79.25495940399924,
+    "Tmean": 698.9092205089341,
+    "Tmin": 640.2644308291507,
+    "Tmax": 762.9377374270778,
+    "maxLocalEnergyResidual": 7.38144267931074e-20,
+    "maxYsumError": 7.327471962526033e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.7229520561706835e-12,
+    "initial": {
+      "mass": 5.914518725870898e-08,
+      "E_stored": 0.01749656300098076,
+      "E_NASA": 0.01749656300098076,
+      "C": 3.932545208173339e-06,
+      "H_stored": 0.033278785107509826,
+      "H_NASA": 0.033278785107509826,
+      "J": 0.0004258453482627072,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087994214722e-09,
+        "O": 1.3307667133209552e-08,
+        "AR": 0.0,
+        "N": 4.416371132607825e-08
+      }
+    },
+    "end": {
+      "mass": 5.9145187258687966e-08,
+      "E_stored": 0.017496562999641287,
+      "E_NASA": 0.01749656300455723,
+      "C": -6.002616563265841e-05,
+      "H_stored": 0.033470036999679126,
+      "H_NASA": 0.03347003700459507,
+      "J": 0.0004258457839960191,
+      "P": 0.016339293618401203,
+      "max_h_inversion_error": 0.00017887342255562544,
+      "elements": {
+        "H": 1.6738087994208167e-09,
+        "O": 1.330766713320433e-08,
+        "AR": 0.0,
+        "N": 4.416371132606101e-08
+      }
+    },
+    "signedEnergyDrift": 2.0440980219258207e-10,
+    "massDrift": -3.553459880313867e-13,
+    "elementDrift": {
+      "H": -3.916460683411705e-13,
+      "O": -3.923425476584991e-13,
+      "N": -3.9033051000462364e-13
+    }
+  },
+  {
+    "name": "Central_F_nx128_dt3.125e-08_TF0.00024_hRecovery",
+    "kind": "F",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 3.125e-08,
+    "TF": 0.00024,
+    "steps": 7680,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 40.045760189997964,
+    "Tmean": 698.9772979761722,
+    "Tmin": 640.1518955436117,
+    "Tmax": 763.2313844142693,
+    "maxLocalEnergyResidual": 7.01483315879153e-20,
+    "maxYsumError": 3.863576125695545e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 3.3638092311605305e-12,
+    "initial": {
+      "mass": 5.914518725870898e-08,
+      "E_stored": 0.01749656300098076,
+      "E_NASA": 0.01749656300098076,
+      "C": 3.932545208173339e-06,
+      "H_stored": 0.033278785107509826,
+      "H_NASA": 0.033278785107509826,
+      "J": 0.0004258453482627072,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087994214722e-09,
+        "O": 1.3307667133209552e-08,
+        "AR": 0.0,
+        "N": 4.416371132607825e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518725869864e-08,
+      "E_stored": 0.017496562997663372,
+      "E_NASA": 0.017496563009890564,
+      "C": -6.336714502516857e-05,
+      "H_stored": 0.03347454748456524,
+      "H_NASA": 0.033474547496792434,
+      "J": 0.00042584584091551636,
+      "P": 0.016340463182792222,
+      "max_h_inversion_error": 0.0006829637568444014,
+      "elements": {
+        "H": 1.6738087994211413e-09,
+        "O": 1.3307667133206954e-08,
+        "AR": 0.0,
+        "N": 4.416371132606953e-08
+      }
+    },
+    "signedEnergyDrift": 5.092316388130512e-10,
+    "massDrift": -1.748758750922725e-13,
+    "elementDrift": {
+      "H": -1.976762490050072e-13,
+      "O": -1.951767426564777e-13,
+      "N": -1.9748775899658117e-13
+    }
+  },
+  {
+    "name": "Central_F_nx256_dt1.5625e-08_TF0.00024_hRecovery",
+    "kind": "F",
+    "nx": 256,
+    "nCells": 256,
+    "dt": 1.5625e-08,
+    "TF": 0.00024,
+    "steps": 15360,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 161.95711324500007,
+    "Tmean": 2844.429700305005,
+    "Tmin": 2766.582679237365,
+    "Tmax": 2930.462436758855,
+    "maxLocalEnergyResidual": 7.560084502866704e-20,
+    "maxYsumError": 2.6201263381153694e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 1.2212522659815761e-11,
+    "initial": {
+      "mass": 5.914518726229e-08,
+      "E_stored": 0.017496562976040665,
+      "E_NASA": 0.017496562976040665,
+      "C": 3.9325452084114155e-06,
+      "H_stored": 0.033278785082543706,
+      "H_NASA": 0.033278785082543706,
+      "J": 0.00042584534828848556,
+      "P": 0.016211999999999935,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995228054e-09,
+        "O": 1.3307667134015196e-08,
+        "AR": 0.0,
+        "N": 4.416371132875174e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518726226669e-08,
+      "E_stored": 0.017496562975526035,
+      "E_NASA": 0.01749656297808993,
+      "C": -0.16068091569091447,
+      "H_stored": 0.23655808425975805,
+      "H_NASA": 0.23655808426232194,
+      "J": 0.00042607653586686255,
+      "P": 0.058806682129184405,
+      "max_h_inversion_error": 0.0001306138001382351,
+      "elements": {
+        "H": 1.673808799522138e-09,
+        "O": 1.3307667134009995e-08,
+        "AR": 0.0,
+        "N": 4.4163711328733865e-08
+      }
+    },
+    "signedEnergyDrift": 1.1712377679245514e-10,
+    "massDrift": -3.941699986646028e-13,
+    "elementDrift": {
+      "H": -3.986882846878371e-13,
+      "O": -3.9085075087567925e-13,
+      "N": -4.0471505084785663e-13
+    }
+  },
+  {
+    "name": "Central_F_nx256_dt1.5625e-08_TF0.00024_hRecovery2",
+    "kind": "F",
+    "nx": 256,
+    "nCells": 256,
+    "dt": 1.5625e-08,
+    "TF": 0.00024,
+    "steps": 15360,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "b04a9ede13b66eebbb285091ab36fba4b9c3fd205de81b4878f10bc3b8463e4e",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/90dd669a6b6baaf8000d6b9c95a7e00ae7b57e714b3dc14e9ccdabd4d25d665a",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "02a124c6d94151580076351c4d9253b39702942a2ff46f37e8eaf6f0fb9fc86a",
+    "wall": 162.46616539500246,
+    "Tmean": 2844.4297002991143,
+    "Tmin": 2766.582679216779,
+    "Tmax": 2930.462437024507,
+    "maxLocalEnergyResidual": 7.044587135851704e-20,
+    "maxYsumError": 2.5646151868841116e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.071532165918825e-16,
+    "initial": {
+      "mass": 5.914518726229e-08,
+      "E_stored": 0.017496562976040665,
+      "E_NASA": 0.017496562976040665,
+      "C": 3.9325452084114155e-06,
+      "H_stored": 0.033278785082543706,
+      "H_NASA": 0.033278785082543706,
+      "J": 0.00042584534828848556,
+      "P": 0.016211999999999935,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995228054e-09,
+        "O": 1.3307667134015196e-08,
+        "AR": 0.0,
+        "N": 4.416371132875174e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518726226662e-08,
+      "E_stored": 0.017496562976034774,
+      "E_NASA": 0.017496562976032498,
+      "C": -0.1606809156929386,
+      "H_stored": 0.23655808426210223,
+      "H_NASA": 0.23655808426209995,
+      "J": 0.00042607653593603807,
+      "P": 0.0588066821290649,
+      "max_h_inversion_error": 7.264316082000732e-08,
+      "elements": {
+        "H": 1.6738087995221339e-09,
+        "O": 1.3307667134009948e-08,
+        "AR": 0.0,
+        "N": 4.4163711328733965e-08
+      }
+    },
+    "signedEnergyDrift": -4.667818551610731e-13,
+    "massDrift": -3.952888462339034e-13,
+    "elementDrift": {
+      "H": -4.011592378002501e-13,
+      "O": -3.9433160998017003e-13,
+      "N": -4.0246746633740946e-13
+    }
+  },
+  {
+    "name": "Central_F_nx32_dt1.25e-07_TF0.00024_hRecovery",
+    "kind": "F",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 1.25e-07,
+    "TF": 0.00024,
+    "steps": 1920,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 4.562891163997847,
+    "Tmean": 695.4497210350374,
+    "Tmin": 693.4416736808406,
+    "Tmax": 697.4603669048687,
+    "maxLocalEnergyResidual": 2.582201119594169e-19,
+    "maxYsumError": 5.551115123125783e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 4.824099453237807e-12,
+    "initial": {
+      "mass": 5.91451120101885e-08,
+      "E_stored": 0.017496612061541125,
+      "E_NASA": 0.017496612061541125,
+      "C": 3.932540204922479e-06,
+      "H_stored": 0.03327883471486285,
+      "H_NASA": 0.03327883471486285,
+      "J": 0.00042584480647335705,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738066698883353e-09,
+        "O": 1.3307650202292402e-08,
+        "AR": 0.0,
+        "N": 4.416365513800774e-08
+      }
+    },
+    "end": {
+      "mass": 5.914511201018766e-08,
+      "E_stored": 0.017496612061425817,
+      "E_NASA": 0.017496612061850166,
+      "C": 3.923739756526067e-06,
+      "H_stored": 0.03338837279972041,
+      "H_NASA": 0.033388372800144756,
+      "J": 0.0004258448384116204,
+      "P": 0.016321529316462732,
+      "max_h_inversion_error": 1.4411401934921741e-05,
+      "elements": {
+        "H": 1.6738066698883276e-09,
+        "O": 1.3307650202292258e-08,
+        "AR": 0.0,
+        "N": 4.416365513800724e-08
+      }
+    },
+    "signedEnergyDrift": 1.7662904461633667e-11,
+    "massDrift": -1.4209382209118207e-14,
+    "elementDrift": {
+      "H": -4.571269074119507e-15,
+      "O": -1.0815540264158224e-14,
+      "N": -1.1387776008589858e-14
+    }
+  },
+  {
+    "name": "Central_F_nx512_dt7.8125e-09_TF0.00024_hRecovery3",
+    "kind": "F",
+    "nx": 512,
+    "nCells": 512,
+    "dt": 7.8125e-09,
+    "TF": 0.00024,
+    "steps": 30720,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 598.1971911559995,
+    "Tmean": 2842.7212158716065,
+    "Tmin": 2737.440074109089,
+    "Tmax": 2980.12244175246,
+    "maxLocalEnergyResidual": 3.793076963631907e-20,
+    "maxYsumError": 3.4638958368304884e-14,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 6.626643678231403e-16,
+    "maxRootResidual": 1.896405592560768e-07,
+    "maxRootTolerance": 1.9348750242221526e-07,
+    "oldRootCriterionUnmet": 199575.0,
+    "initial": {
+      "mass": 5.914518726327144e-08,
+      "E_stored": 0.017496562963136574,
+      "E_NASA": 0.017496562963136574,
+      "C": 3.9325452084767226e-06,
+      "H_stored": 0.03327878506963265,
+      "H_NASA": 0.03327878506963265,
+      "J": 0.0004258453482955563,
+      "P": 0.016212000000000105,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087995505796e-09,
+        "O": 1.3307667134236341e-08,
+        "AR": 0.0,
+        "N": 4.4163711329485455e-08
+      }
+    },
+    "end": {
+      "mass": 5.914518726325208e-08,
+      "E_stored": 0.017496562963130013,
+      "E_NASA": 0.01749656296313032,
+      "C": -0.16043215640730532,
+      "H_stored": 0.23626726293859454,
+      "H_NASA": 0.23626726293859485,
+      "J": 0.00042676058827931576,
+      "P": 0.05876530415643852,
+      "max_h_inversion_error": 5.774199962615967e-08,
+      "elements": {
+        "H": 1.6738087995500566e-09,
+        "O": 1.3307667134231974e-08,
+        "AR": 0.0,
+        "N": 4.41637113294702e-08
+      }
+    },
+    "signedEnergyDrift": -3.5752238125578525e-13,
+    "massDrift": -3.2737479877192436e-13,
+    "elementDrift": {
+      "H": -3.1245202105943884e-13,
+      "O": -3.2819528698939127e-13,
+      "N": -3.4537881976631297e-13
+    }
+  },
+  {
+    "name": "Central_F_nx64_dt6.25e-08_TF0.00024_hRecovery",
+    "kind": "F",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 6.25e-08,
+    "TF": 0.00024,
+    "steps": 3840,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 12.76843251399987,
+    "Tmean": 695.6948568304535,
+    "Tmin": 676.4283165074596,
+    "Tmax": 715.2404759947849,
+    "maxLocalEnergyResidual": 1.4086509736443917e-19,
+    "maxYsumError": 6.439293542825908e-15,
+    "minY": 0.0,
+    "maxThermoEnergyMismatch": 4.817139742652188e-12,
+    "initial": {
+      "mass": 5.914518724841e-08,
+      "E_stored": 0.017496563496257868,
+      "E_NASA": 0.017496563496257868,
+      "C": 3.932545207488562e-06,
+      "H_stored": 0.03327878560286183,
+      "H_NASA": 0.03327878560286183,
+      "J": 0.0004258453481885519,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 1.6738087991300013e-09,
+        "O": 1.3307667130892237e-08,
+        "AR": 0.0,
+        "N": 4.416371131838774e-08
+      }
+    },
+    "end": {
+      "mass": 5.9145187248406727e-08,
+      "E_stored": 0.017496563494019547,
+      "E_NASA": 0.017496563502263307,
+      "C": 3.7965961816187286e-06,
+      "H_stored": 0.03338797494907809,
+      "H_NASA": 0.03338797495732185,
+      "J": 0.0004258457708175949,
+      "P": 0.016321053822057757,
+      "max_h_inversion_error": 0.00028547714464366436,
+      "elements": {
+        "H": 1.673808799129907e-09,
+        "O": 1.3307667130891428e-08,
+        "AR": 0.0,
+        "N": 4.4163711318385234e-08
+      }
+    },
+    "signedEnergyDrift": 3.432353560611225e-10,
+    "massDrift": -5.538295469337699e-14,
+    "elementDrift": {
+      "H": -5.63377309762375e-14,
+      "O": -6.079071794626572e-14,
+      "N": -5.678896864395903e-14
+    }
+  },
+  {
+    "name": "Central_ReactingWave_nx128_dt2e-08_TF2e-05_hRecovery",
+    "kind": "ReactingWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.3050893469990115,
+    "Tmean": 800.8370988366231,
+    "Tmin": 764.9713415709348,
+    "Tmax": 838.2399075750251,
+    "maxLocalEnergyResidual": 3.638955803353413e-19,
+    "maxYsumError": 2.0650148258027912e-14,
+    "minY": 0.11668432616978248,
+    "maxThermoEnergyMismatch": 2.498001805406602e-16,
+    "errors": {
+      "rho": {
+        "L1": 0.001164578962118044,
+        "L2": 0.0012936825340638144,
+        "Linf": 0.001865689681122662
+      },
+      "T": {
+        "L1": 2.1946137946436517,
+        "L2": 2.450704444342894,
+        "Linf": 3.857645248596441
+      },
+      "p": {
+        "L1": 2.4635937734274194e-09,
+        "L2": 2.5448064816542546e-09,
+        "Linf": 3.6961864680051804e-09
+      },
+      "Ux": {
+        "L1": 4.115707774587918e-12,
+        "L2": 4.481236861167034e-12,
+        "Linf": 7.503331289626658e-12
+      },
+      "A": {
+        "L1": 0.004014573628026596,
+        "L2": 0.00446114217572446,
+        "Linf": 0.006318762069300515
+      },
+      "B": {
+        "L1": 0.004014573628025536,
+        "L2": 0.004461142175723168,
+        "Linf": 0.006318762069298822
+      }
+    },
+    "signedEnergyDrift": -2.2791249824061926e-14,
+    "massDrift": -2.1854035389097263e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx128_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 1.2394666660002258,
+    "Tmean": 800.837098836623,
+    "Tmin": 764.9713415709364,
+    "Tmax": 838.2399075750238,
+    "maxLocalEnergyResidual": 3.6380676249336866e-19,
+    "maxYsumError": 2.0650148258027912e-14,
+    "minY": 0.11668432616978261,
+    "maxThermoEnergyMismatch": 2.220446049250313e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.456061398403866e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.0011645789621184096,
+        "L2": 0.001293682534064046,
+        "Linf": 0.0018656896811219403
+      },
+      "T": {
+        "L1": 2.194613794643841,
+        "L2": 2.4507044443431036,
+        "Linf": 3.8576452485976915
+      },
+      "p": {
+        "L1": 2.461320036672987e-09,
+        "L2": 2.5528406522065244e-09,
+        "Linf": 3.5070115700364113e-09
+      },
+      "Ux": {
+        "L1": 3.923750213630228e-12,
+        "L2": 4.3667368556021205e-12,
+        "Linf": 8.220979452744359e-12
+      },
+      "A": {
+        "L1": 0.00401457362802655,
+        "L2": 0.004461142175724406,
+        "Linf": 0.0063187620693006125
+      },
+      "B": {
+        "L1": 0.004014573628025989,
+        "L2": 0.004461142175723558,
+        "Linf": 0.006318762069298489
+      }
+    },
+    "signedEnergyDrift": -2.261179116402994e-14,
+    "massDrift": -2.1854035389097263e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx32_dt2e-08_TF2e-05_hRecovery",
+    "kind": "ReactingWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 0.9992857029974402,
+    "Tmean": 800.4890444563135,
+    "Tmin": 772.8886273854874,
+    "Tmax": 828.8156399007695,
+    "maxLocalEnergyResidual": 1.4530421310610136e-18,
+    "maxYsumError": 3.108624468950438e-14,
+    "minY": 0.13254705821527624,
+    "maxThermoEnergyMismatch": 2.7755575615628914e-16,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331137655,
+        "L2": 0.0045404971800874026,
+        "Linf": 0.006480438287580992
+      },
+      "T": {
+        "L1": 7.6927839627197905,
+        "L2": 8.576972192835898,
+        "Linf": 13.248280534662626
+      },
+      "p": {
+        "L1": 1.8330865714233369e-09,
+        "L2": 2.0977908833425734e-09,
+        "Linf": 4.001776687800884e-09
+      },
+      "Ux": {
+        "L1": 1.4373391366007127e-11,
+        "L2": 1.6529797775202902e-11,
+        "Linf": 2.7327473617333453e-11
+      },
+      "A": {
+        "L1": 0.014088285131550096,
+        "L2": 0.015653433197349888,
+        "Linf": 0.022145256678436004
+      },
+      "B": {
+        "L1": 0.01408828513154392,
+        "L2": 0.015653433197343584,
+        "Linf": 0.022145256678437808
+      }
+    },
+    "signedEnergyDrift": -1.0767519601919019e-14,
+    "massDrift": -1.886211387749466e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx32_dt2e-08_TF2e-05_hRecovery2",
+    "kind": "ReactingWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "b04a9ede13b66eebbb285091ab36fba4b9c3fd205de81b4878f10bc3b8463e4e",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/90dd669a6b6baaf8000d6b9c95a7e00ae7b57e714b3dc14e9ccdabd4d25d665a",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "02a124c6d94151580076351c4d9253b39702942a2ff46f37e8eaf6f0fb9fc86a",
+    "wall": 0.9946392259989807,
+    "Tmean": 800.4890444563106,
+    "Tmin": 772.8886273854843,
+    "Tmax": 828.8156399007663,
+    "maxLocalEnergyResidual": 1.455306986031249e-18,
+    "maxYsumError": 3.108624468950438e-14,
+    "minY": 0.1325470582152763,
+    "maxThermoEnergyMismatch": 3.0531133177191805e-16,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331137433,
+        "L2": 0.004540497180087195,
+        "Linf": 0.006480438287581103
+      },
+      "T": {
+        "L1": 7.692783962719577,
+        "L2": 8.576972192836047,
+        "Linf": 13.24828053466581
+      },
+      "p": {
+        "L1": 1.7148522601928562e-09,
+        "L2": 1.9950507942111795e-09,
+        "Linf": 3.5943230614066124e-09
+      },
+      "Ux": {
+        "L1": 1.4482637311630242e-11,
+        "L2": 1.660198231288167e-11,
+        "Linf": 2.596323156467406e-11
+      },
+      "A": {
+        "L1": 0.01408828513154998,
+        "L2": 0.015653433197349756,
+        "Linf": 0.022145256678435504
+      },
+      "B": {
+        "L1": 0.014088285131544628,
+        "L2": 0.015653433197344257,
+        "Linf": 0.022145256678438363
+      }
+    },
+    "signedEnergyDrift": -1.1664812902078938e-14,
+    "massDrift": -1.8992197421477384e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx32_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.8979003749991534,
+    "Tmean": 800.4890444563106,
+    "Tmin": 772.8886273854843,
+    "Tmax": 828.8156399007663,
+    "maxLocalEnergyResidual": 1.455306986031249e-18,
+    "maxYsumError": 3.108624468950438e-14,
+    "minY": 0.1325470582152763,
+    "maxThermoEnergyMismatch": 3.0531133177191805e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.4559412931459957e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331137433,
+        "L2": 0.004540497180087195,
+        "Linf": 0.006480438287581103
+      },
+      "T": {
+        "L1": 7.692783962719577,
+        "L2": 8.576972192836047,
+        "Linf": 13.24828053466581
+      },
+      "p": {
+        "L1": 1.7148522601928562e-09,
+        "L2": 1.9950507942111795e-09,
+        "Linf": 3.5943230614066124e-09
+      },
+      "Ux": {
+        "L1": 1.4482637311630242e-11,
+        "L2": 1.660198231288167e-11,
+        "Linf": 2.596323156467406e-11
+      },
+      "A": {
+        "L1": 0.01408828513154998,
+        "L2": 0.015653433197349756,
+        "Linf": 0.022145256678435504
+      },
+      "B": {
+        "L1": 0.014088285131544628,
+        "L2": 0.015653433197344257,
+        "Linf": 0.022145256678438363
+      }
+    },
+    "signedEnergyDrift": -1.1664812902078938e-14,
+    "massDrift": -1.8992197421477384e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx64_dt2e-08_TF2e-05_hRecovery",
+    "kind": "ReactingWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.1070558300016273,
+    "Tmean": 800.6994876846006,
+    "Tmin": 767.8086227069297,
+    "Tmax": 834.7794993815437,
+    "maxLocalEnergyResidual": 7.276179658788358e-19,
+    "maxYsumError": 3.086420008457935e-14,
+    "minY": 0.12245164924197806,
+    "maxThermoEnergyMismatch": 2.220446049250313e-16,
+    "errors": {
+      "rho": {
+        "L1": 0.002229213931660118,
+        "L2": 0.002476395685667582,
+        "Linf": 0.0035572748709655766
+      },
+      "T": {
+        "L1": 4.1986944782255815,
+        "L2": 4.6858452192932605,
+        "Linf": 7.324994852340751
+      },
+      "p": {
+        "L1": 2.092974682454951e-09,
+        "L2": 2.277979771946694e-09,
+        "Linf": 4.103640094399452e-09
+      },
+      "Ux": {
+        "L1": 6.603828595075356e-12,
+        "L2": 7.654483424802627e-12,
+        "Linf": 1.4637180356658064e-11
+      },
+      "A": {
+        "L1": 0.00768014243201669,
+        "L2": 0.00853839867116766,
+        "Linf": 0.012086540432479823
+      },
+      "B": {
+        "L1": 0.0076801424320098,
+        "L2": 0.008538398671160744,
+        "Linf": 0.012086540432466042
+      }
+    },
+    "signedEnergyDrift": -1.7945866003198365e-14,
+    "massDrift": -1.7301111349702e-14
+  },
+  {
+    "name": "Central_ReactingWave_nx64_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "ReactingWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.990157926997199,
+    "Tmean": 800.6994876846002,
+    "Tmin": 767.8086227069289,
+    "Tmax": 834.7794993815417,
+    "maxLocalEnergyResidual": 7.276135249867373e-19,
+    "maxYsumError": 3.197442310920451e-14,
+    "minY": 0.12245164924197789,
+    "maxThermoEnergyMismatch": 1.942890293094024e-16,
+    "maxRootResidual": 1.3969838619232178e-09,
+    "maxRootTolerance": 1.4560364884564234e-07,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.0022292139316600667,
+        "L2": 0.002476395685667389,
+        "Linf": 0.003557274870965743
+      },
+      "T": {
+        "L1": 4.198694478225374,
+        "L2": 4.685845219293019,
+        "Linf": 7.3249948523427975
+      },
+      "p": {
+        "L1": 2.19279172597453e-09,
+        "L2": 2.3770551855207164e-09,
+        "Linf": 4.20550350099802e-09
+      },
+      "Ux": {
+        "L1": 6.526112983351595e-12,
+        "L2": 7.578777794250633e-12,
+        "Linf": 1.4857448604743695e-11
+      },
+      "A": {
+        "L1": 0.007680142432016613,
+        "L2": 0.008538398671167582,
+        "Linf": 0.012086540432479628
+      },
+      "B": {
+        "L1": 0.007680142432010102,
+        "L2": 0.008538398671160971,
+        "Linf": 0.01208654043246693
+      }
+    },
+    "signedEnergyDrift": -1.86637006433263e-14,
+    "massDrift": -1.7691361981650164e-14
+  },
+  {
+    "name": "Central_Wave_nx128_dt2e-08_TF2e-05_hRecovery",
+    "kind": "Wave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.0289842310012318,
+    "Tmean": 800.8370988366256,
+    "Tmin": 764.9713415709549,
+    "Tmax": 838.2399075750373,
+    "maxLocalEnergyResidual": 4.548666998616151e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "errors": {
+      "rho": {
+        "L1": 0.001164578962112338,
+        "L2": 0.0012936825340584947,
+        "Linf": 0.0018656896811145574
+      },
+      "T": {
+        "L1": 2.1946137946347424,
+        "L2": 2.450704444334766,
+        "Linf": 3.8576452485842765
+      },
+      "p": {
+        "L1": 2.2083668227423914e-09,
+        "L2": 2.2164887834000465e-09,
+        "Linf": 2.6047928258776665e-09
+      },
+      "Ux": {
+        "L1": 8.817946373085306e-13,
+        "L2": 1.0502665685603642e-12,
+        "Linf": 2.1671553440683056e-12
+      }
+    },
+    "signedEnergyDrift": -2.1459266277749506e-14,
+    "massDrift": -2.1854035389097263e-14
+  },
+  {
+    "name": "Central_Wave_nx128_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.9514135749996058,
+    "Tmean": 800.8370988366257,
+    "Tmin": 764.9713415709549,
+    "Tmax": 838.2399075750371,
+    "maxLocalEnergyResidual": 4.548722509767382e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.1919302118770576e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.0011645789621122422,
+        "L2": 0.001293682534058405,
+        "Linf": 0.0018656896811145574
+      },
+      "T": {
+        "L1": 2.1946137946345203,
+        "L2": 2.450704444334576,
+        "Linf": 3.85764524858439
+      },
+      "p": {
+        "L1": 2.2038193492335267e-09,
+        "L2": 2.2134735630693024e-09,
+        "Linf": 2.6047928258776665e-09
+      },
+      "Ux": {
+        "L1": 9.066636330601341e-13,
+        "L2": 1.0832327199744555e-12,
+        "Linf": 2.1316282072803006e-12
+      }
+    },
+    "signedEnergyDrift": -2.1267665685983883e-14,
+    "massDrift": -2.1984118933079984e-14
+  },
+  {
+    "name": "Central_Wave_nx32_dt2e-08_TF2e-05_hRecovery",
+    "kind": "Wave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 0.9020056850022229,
+    "Tmean": 800.4890444562889,
+    "Tmin": 772.8886273854022,
+    "Tmax": 828.8156399007983,
+    "maxLocalEnergyResidual": 1.8191226303088133e-19,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.734723475976807e-17,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331123817,
+        "L2": 0.004540497180071451,
+        "Linf": 0.006480438287555679
+      },
+      "T": {
+        "L1": 7.692783962690484,
+        "L2": 8.576972192805297,
+        "Linf": 13.248280534633864
+      },
+      "p": {
+        "L1": 2.4538167053833604e-09,
+        "L2": 2.4655433477304546e-09,
+        "Linf": 2.9976945370435715e-09
+      },
+      "Ux": {
+        "L1": 2.4800161924076747e-12,
+        "L2": 2.996308831281829e-12,
+        "Linf": 5.350386800273554e-12
+      }
+    },
+    "signedEnergyDrift": -2.9506491131905576e-14,
+    "massDrift": -1.9382448053425548e-14
+  },
+  {
+    "name": "Central_Wave_nx32_dt2e-08_TF2e-05_hRecovery2",
+    "kind": "Wave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "b04a9ede13b66eebbb285091ab36fba4b9c3fd205de81b4878f10bc3b8463e4e",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/90dd669a6b6baaf8000d6b9c95a7e00ae7b57e714b3dc14e9ccdabd4d25d665a",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "02a124c6d94151580076351c4d9253b39702942a2ff46f37e8eaf6f0fb9fc86a",
+    "wall": 0.8708430519982358,
+    "Tmean": 800.489044456289,
+    "Tmin": 772.8886273854024,
+    "Tmax": 828.8156399007984,
+    "maxLocalEnergyResidual": 1.8189449946248733e-19,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331123798,
+        "L2": 0.004540497180071424,
+        "Linf": 0.006480438287555679
+      },
+      "T": {
+        "L1": 7.69278396269047,
+        "L2": 8.57697219280526,
+        "Linf": 13.24828053463375
+      },
+      "p": {
+        "L1": 2.450633473927155e-09,
+        "L2": 2.4610772022112567e-09,
+        "Linf": 2.9976945370435715e-09
+      },
+      "Ux": {
+        "L1": 2.511102437097179e-12,
+        "L2": 3.000042413851453e-12,
+        "Linf": 5.329070518200751e-12
+      }
+    },
+    "signedEnergyDrift": -2.9123289948374337e-14,
+    "massDrift": -1.951253159740827e-14
+  },
+  {
+    "name": "Central_Wave_nx32_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.8055253870006709,
+    "Tmean": 800.489044456289,
+    "Tmin": 772.8886273854024,
+    "Tmax": 828.8156399007984,
+    "maxLocalEnergyResidual": 1.8189449946248733e-19,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.190729159298356e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.004087539331123798,
+        "L2": 0.004540497180071424,
+        "Linf": 0.006480438287555679
+      },
+      "T": {
+        "L1": 7.69278396269047,
+        "L2": 8.57697219280526,
+        "Linf": 13.24828053463375
+      },
+      "p": {
+        "L1": 2.450633473927155e-09,
+        "L2": 2.4610772022112567e-09,
+        "Linf": 2.9976945370435715e-09
+      },
+      "Ux": {
+        "L1": 2.511102437097179e-12,
+        "L2": 3.000042413851453e-12,
+        "Linf": 5.329070518200751e-12
+      }
+    },
+    "signedEnergyDrift": -2.9123289948374337e-14,
+    "massDrift": -1.951253159740827e-14
+  },
+  {
+    "name": "Central_Wave_nx64_dt2e-08_TF2e-05_hRecovery",
+    "kind": "Wave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "31c1fdffb92349dda1f6d03c6106123d2bca6fdf3f9f1518c338d2576bec63f8",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "9413d1c254b1e36742b3cf1fb4883756eaf632ebb9684eb8178fd93682e7f32c"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae",
+    "wall": 1.068779495999479,
+    "Tmean": 800.699487684605,
+    "Tmin": 767.8086227069919,
+    "Tmax": 834.7794993815866,
+    "maxLocalEnergyResidual": 9.096612352266253e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.3877787807814457e-17,
+    "errors": {
+      "rho": {
+        "L1": 0.002229213931653644,
+        "L2": 0.002476395685663238,
+        "Linf": 0.0035572748709517543
+      },
+      "T": {
+        "L1": 4.198694478206811,
+        "L2": 4.6858452192763576,
+        "Linf": 7.324994852297891
+      },
+      "p": {
+        "L1": 1.6464127838844433e-09,
+        "L2": 1.681436062742171e-09,
+        "Linf": 2.0954757928848267e-09
+      },
+      "Ux": {
+        "L1": 3.1381564014054675e-12,
+        "L2": 3.649058959816849e-12,
+        "Linf": 7.283063041541027e-12
+      }
+    },
+    "signedEnergyDrift": -1.4944846157718405e-14,
+    "massDrift": -1.7301111349702e-14
+  },
+  {
+    "name": "Central_Wave_nx64_dt2e-08_TF2e-05_hRecovery3",
+    "kind": "Wave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "scope": "Inviscid conservative central reference; different spatial flux from pressure-based candidate",
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "wall": 0.8773358860016742,
+    "Tmean": 800.6994876846047,
+    "Tmin": 767.808622706992,
+    "Tmax": 834.7794993815866,
+    "maxLocalEnergyResidual": 9.096612352266253e-20,
+    "maxYsumError": 0.0,
+    "minY": 1.0,
+    "maxThermoEnergyMismatch": 1.734723475976807e-17,
+    "maxRootResidual": 1.7462298274040222e-10,
+    "maxRootTolerance": 3.191681112402631e-08,
+    "oldRootCriterionUnmet": 0.0,
+    "errors": {
+      "rho": {
+        "L1": 0.002229213931653694,
+        "L2": 0.002476395685663278,
+        "Linf": 0.0035572748709517543
+      },
+      "T": {
+        "L1": 4.198694478206914,
+        "L2": 4.685845219276465,
+        "Linf": 7.324994852297891
+      },
+      "p": {
+        "L1": 1.6684680304024369e-09,
+        "L2": 1.7019209859022501e-09,
+        "Linf": 2.0954757928848267e-09
+      },
+      "Ux": {
+        "L1": 3.0834224062914473e-12,
+        "L2": 3.5848448941011306e-12,
+        "Linf": 7.112532784958603e-12
+      }
+    },
+    "signedEnergyDrift": -1.5328047341249648e-14,
+    "massDrift": -1.743119489368472e-14
+  }
+]

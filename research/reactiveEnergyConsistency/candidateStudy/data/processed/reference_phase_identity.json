@@ -1,0 +1,12 @@
+{
+  "canteraVersion": "3.2.0",
+  "initialPressure": 101325.0,
+  "cloned": {
+    "pressure": 101323.27412661677,
+    "molecularWeightError": 0.0020000000000024443
+  },
+  "originalPhase": {
+    "pressure": 101324.99999999999,
+    "molecularWeightError": 0.0
+  }
+}

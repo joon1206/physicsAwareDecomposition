@@ -1,0 +1,417 @@
+{
+  "records": [
+    {
+      "name": "exact2_pressure_nx32_dt2e-08",
+      "nx": 32,
+      "dt": 2e-08,
+      "solver": "reactingEnergyAudit",
+      "wall": 1.1659803259999535,
+      "errors": {
+        "rho": {
+          "L1": 0.0003708886717349851,
+          "L2": 0.0004128905017848665,
+          "Linf": 0.0005918237155092543
+        },
+        "T": {
+          "L1": 0.5903972844881231,
+          "L2": 0.6585563486620541,
+          "Linf": 1.025105466413038
+        },
+        "p": {
+          "L1": 14.374486710136807,
+          "L2": 15.970666179443228,
+          "Linf": 24.112051464093383
+        },
+        "Ux": {
+          "L1": 0.2287903903103783,
+          "L2": 0.2538995148478273,
+          "Linf": 0.3588734053779632
+        }
+      },
+      "E0": 0.01810770478307127,
+      "Ef": 0.018107710530286012,
+      "signedEnergyDrift": 3.173905699898907e-07,
+      "massDrift": 1.6910860717753833e-15,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.7692766534319,
+      "minP": 101300.8879485359,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": 1.6910860717753833e-15
+      }
+    },
+    {
+      "name": "exact2_density_nx32_dt2e-08",
+      "nx": 32,
+      "dt": 2e-08,
+      "solver": "rhoCentralFoam",
+      "wall": 0.7508605510001871,
+      "errors": {
+        "rho": {
+          "L1": 0.004087539331123774,
+          "L2": 0.0045404971800714145,
+          "Linf": 0.006480438287555679
+        },
+        "T": {
+          "L1": 7.692783962690374,
+          "L2": 8.576972192805169,
+          "Linf": 13.24828053463375
+        },
+        "p": {
+          "L1": 2.4442670110147446e-09,
+          "L2": 2.4552543511018876e-09,
+          "Linf": 2.9976945370435715e-09
+        },
+        "Ux": {
+          "L1": 2.504885188159278e-12,
+          "L2": 3.020128705096386e-12,
+          "Linf": 5.343281372915953e-12
+        }
+      },
+      "E0": 0.01810770478307127,
+      "Ef": 0.018107704783070735,
+      "signedEnergyDrift": -2.9506491131905576e-14,
+      "massDrift": -1.9252364509442826e-14,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 772.8886273854021,
+      "minP": 101324.999999997,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": -1.9252364509442826e-14
+      }
+    },
+    {
+      "name": "exact2_pressure_nx64_dt2e-08",
+      "nx": 64,
+      "dt": 2e-08,
+      "solver": "reactingEnergyAudit",
+      "wall": 1.2591403970000101,
+      "errors": {
+        "rho": {
+          "L1": 0.00018790704402773736,
+          "L2": 0.0002087433229490442,
+          "Linf": 0.0002993123346438642
+        },
+        "T": {
+          "L1": 0.29713342960262246,
+          "L2": 0.3315461917664922,
+          "Linf": 0.5166152450431127
+        },
+        "p": {
+          "L1": 7.3607875461316326,
+          "L2": 8.186768508630236,
+          "Linf": 12.38463110300654
+        },
+        "Ux": {
+          "L1": 0.11583910879523684,
+          "L2": 0.1286788397677778,
+          "Linf": 0.18222997490101278
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107709284844564,
+      "signedEnergyDrift": 2.486109280485844e-07,
+      "massDrift": 2.9919215116026013e-15,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.3225905045031,
+      "minP": 101312.615368897,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": 2.9919215116026013e-15
+      }
+    },
+    {
+      "name": "exact2_density_nx64_dt2e-08",
+      "nx": 64,
+      "dt": 2e-08,
+      "solver": "rhoCentralFoam",
+      "wall": 0.7567456730002959,
+      "errors": {
+        "rho": {
+          "L1": 0.0022292139316536326,
+          "L2": 0.002476395685663206,
+          "Linf": 0.0035572748709517543
+        },
+        "T": {
+          "L1": 4.19869447820683,
+          "L2": 4.685845219276304,
+          "Linf": 7.324994852297323
+        },
+        "p": {
+          "L1": 1.650960257393308e-09,
+          "L2": 1.6848585117633862e-09,
+          "Linf": 2.0954757928848267e-09
+        },
+        "Ux": {
+          "L1": 3.0492275371329924e-12,
+          "L2": 3.568641095861502e-12,
+          "Linf": 7.247535904753022e-12
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107704783071006,
+      "signedEnergyDrift": -1.4753245565952785e-14,
+      "massDrift": -1.743119489368472e-14,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 767.8086227069923,
+      "minP": 101324.9999999979,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": -1.743119489368472e-14
+      }
+    },
+    {
+      "name": "exact2_pressure_nx128_dt2e-08",
+      "nx": 128,
+      "dt": 2e-08,
+      "solver": "reactingEnergyAudit",
+      "wall": 1.4469215399994937,
+      "errors": {
+        "rho": {
+          "L1": 9.457839411506535e-05,
+          "L2": 0.00010507523900876605,
+          "Linf": 0.00015073865094911154
+        },
+        "T": {
+          "L1": 0.14931218283461334,
+          "L2": 0.16663849207829803,
+          "Linf": 0.2600226702455757
+        },
+        "p": {
+          "L1": 3.700342662915318,
+          "L2": 4.114869608019462,
+          "Linf": 6.241772135501378
+        },
+        "Ux": {
+          "L1": 0.05831245956924619,
+          "L2": 0.06476543491755413,
+          "Linf": 0.09181359726301253
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107709060675346,
+      "signedEnergyDrift": 2.3623115818840047e-07,
+      "massDrift": -1.951253159740827e-15,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.1210761397848,
+      "minP": 101318.7582278645,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": -1.951253159740827e-15
+      }
+    },
+    {
+      "name": "exact2_density_nx128_dt2e-08",
+      "nx": 128,
+      "dt": 2e-08,
+      "solver": "rhoCentralFoam",
+      "wall": 0.8181671049997021,
+      "errors": {
+        "rho": {
+          "L1": 0.0011645789621122734,
+          "L2": 0.0012936825340584108,
+          "Linf": 0.0018656896811143353
+        },
+        "T": {
+          "L1": 2.1946137946345994,
+          "L2": 2.450704444334607,
+          "Linf": 3.8576452485839354
+        },
+        "p": {
+          "L1": 2.2205313143786043e-09,
+          "L2": 2.2296981869281567e-09,
+          "Linf": 2.6047928258776665e-09
+        },
+        "Ux": {
+          "L1": 8.975042931069765e-13,
+          "L2": 1.0740361578119245e-12,
+          "Linf": 2.0605739337042905e-12
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.01810770478307088,
+      "signedEnergyDrift": -2.1650866869515126e-14,
+      "massDrift": -2.2114202477062705e-14,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 764.9713415709546,
+      "minP": 101324.9999999974,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": -2.2114202477062705e-14
+      }
+    },
+    {
+      "name": "exact2_pressure_nx128_dt2e-07",
+      "nx": 128,
+      "dt": 2e-07,
+      "solver": "reactingEnergyAudit",
+      "wall": 0.30378401699999813,
+      "errors": {
+        "rho": {
+          "L1": 9.66233340141823e-05,
+          "L2": 0.00010734809264074569,
+          "Linf": 0.00015320447164157702
+        },
+        "T": {
+          "L1": 0.15866640683254385,
+          "L2": 0.1770137218050788,
+          "Linf": 0.275521868107262
+        },
+        "p": {
+          "L1": 3.031982288029667,
+          "L2": 3.3670826384401633,
+          "Linf": 4.967146828101249
+        },
+        "Ux": {
+          "L1": 0.0585923636676538,
+          "L2": 0.06507004890407707,
+          "Linf": 0.09215420632345683
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107754682306625,
+      "signedEnergyDrift": 2.755690792904466e-06,
+      "massDrift": -1.300835439827218e-16,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.1351275993453,
+      "minP": 101320.0328531719,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": -1.300835439827218e-16
+      }
+    },
+    {
+      "name": "exact2_pressure_nx128_dt1e-07",
+      "nx": 128,
+      "dt": 1e-07,
+      "solver": "reactingEnergyAudit",
+      "wall": 0.4255956339993645,
+      "errors": {
+        "rho": {
+          "L1": 9.547912965063472e-05,
+          "L2": 0.00010607600796959487,
+          "Linf": 0.00015181983844370084
+        },
+        "T": {
+          "L1": 0.15347432373223757,
+          "L2": 0.17125377346644266,
+          "Linf": 0.26691956352158286
+        },
+        "p": {
+          "L1": 3.399847067073665,
+          "L2": 3.7784218815311594,
+          "Linf": 5.670139816604205
+        },
+        "Ux": {
+          "L1": 0.05846615547700157,
+          "L2": 0.06493463982141401,
+          "Linf": 0.09201139312055773
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107729367416586,
+      "signedEnergyDrift": 1.3576731898098154e-06,
+      "massDrift": 5.203341759308872e-16,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.1273270882206,
+      "minP": 101319.3298601834,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": 5.203341759308872e-16
+      }
+    },
+    {
+      "name": "exact2_pressure_nx128_dt5e-08",
+      "nx": 128,
+      "dt": 5e-08,
+      "solver": "reactingEnergyAudit",
+      "wall": 0.7293926659995122,
+      "errors": {
+        "rho": {
+          "L1": 9.491447752490176e-05,
+          "L2": 0.00010544855860283547,
+          "Linf": 0.00015114077660927094
+        },
+        "T": {
+          "L1": 0.15087393079428413,
+          "L2": 0.16837005321341716,
+          "Linf": 0.262610738216722
+        },
+        "p": {
+          "L1": 3.587007138477361,
+          "L2": 3.987997809970852,
+          "Linf": 6.026851171598537
+        },
+        "Ux": {
+          "L1": 0.05837626239068722,
+          "L2": 0.06483559341196402,
+          "Linf": 0.09189648524728256
+        }
+      },
+      "E0": 0.018107704783071273,
+      "Ef": 0.018107716680610876,
+      "signedEnergyDrift": 6.57042940855789e-07,
+      "massDrift": 3.902506319481654e-16,
+      "scope": "same constant-Cp perfect gas, zero viscosity/conduction/chemistry, mesh and dt; upwind reconstruction but different pressure and Kurganov convective fluxes",
+      "minT": 762.1234214632174,
+      "minP": 101318.9731488284,
+      "minY": 1.0,
+      "sumYError": 0.0,
+      "elementDrift": {
+        "N": 3.902506319481654e-16
+      }
+    }
+  ],
+  "spatialOrders": [
+    {
+      "solver": "reactingEnergyAudit",
+      "nx0": 32,
+      "nx1": 64,
+      "T_L1_order": 0.9905751581344084
+    },
+    {
+      "solver": "reactingEnergyAudit",
+      "nx0": 64,
+      "nx1": 128,
+      "T_L1_order": 0.9927790435068726
+    },
+    {
+      "solver": "rhoCentralFoam",
+      "nx0": 32,
+      "nx1": 64,
+      "T_L1_order": 0.8735649805625096
+    },
+    {
+      "solver": "rhoCentralFoam",
+      "nx0": 64,
+      "nx1": 128,
+      "T_L1_order": 0.9359737345406198
+    }
+  ],
+  "temporalSelfDifferences": [
+    {
+      "dt0": 2e-07,
+      "dt1": 1e-07,
+      "T_L1": 0.005223635482101585,
+      "T_L2": 0.005800894938331769,
+      "T_Linf": 0.00861266593108212
+    },
+    {
+      "dt0": 1e-07,
+      "dt1": 5e-08,
+      "T_L1": 0.002616521011406192,
+      "T_L2": 0.0029056308260040436,
+      "T_Linf": 0.004314281596634828
+    }
+  ],
+  "temporalSelfOrderT_L1": 0.9974043814032436,
+  "temporalNote": "Fixed-grid total field error has a spatial floor. Self-differences estimate temporal order of this smooth nonreacting discrete solution; this is not a formal coupled reacting MMS."
+}

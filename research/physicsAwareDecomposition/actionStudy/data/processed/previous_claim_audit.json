@@ -1,0 +1,96 @@
+{
+  "None": {
+    "runs": [
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_gNone_r0/manifest.json",
+        "wall": 2.1075151980039664,
+        "decomposition": 0.1551035850061453,
+        "log_sha256": "e8cbc2f60d46b96cf60040ad59b7922ecf41cbe6234dc1b0e14f83339e48e690",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_gNone_r1/manifest.json",
+        "wall": 2.01697791100014,
+        "decomposition": 0.15212191000318853,
+        "log_sha256": "5c001504fe9206d2b830c7ccb99c590278595cec236e787d9c2a6fca4575ba8d",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_gNone_r2/manifest.json",
+        "wall": 2.0731089479959337,
+        "decomposition": 0.15340142100467347,
+        "log_sha256": "e61a2d8a6065b9bf26d63a111256d42066905fd7adde2afe8b43233aecd64f86",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_gNone_r3/manifest.json",
+        "wall": 1.9316601230020751,
+        "decomposition": 0.15648901800159365,
+        "log_sha256": "49750e3aea1d37ec6c76660769dd40ea991c5020189ac2bae6a00fda52a44f65",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_gNone_r4/manifest.json",
+        "wall": 1.881044401001418,
+        "decomposition": 0.19201009300013538,
+        "log_sha256": "d8e861ba8afde2d120b42576e53f2a1a86e06df48ff4d4614b86fa560787b473",
+        "time_steps": 80,
+        "normal_exit": true
+      }
+    ],
+    "median": 2.01697791100014,
+    "n": 5
+  },
+  "1": {
+    "runs": [
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_g1_r0/manifest.json",
+        "wall": 1.9318647020045319,
+        "decomposition": 0.1673541269992711,
+        "log_sha256": "f94b59c5178e044fd0ffd6c7a5b288226900f3646e77bfaafee9d82c2b31512e",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_g1_r1/manifest.json",
+        "wall": 1.8261004469968611,
+        "decomposition": 0.16812146199663403,
+        "log_sha256": "9f0a26ca811f910c724df3b7443190b37ad44409332f7665dba9dae514fa8202",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_g1_r2/manifest.json",
+        "wall": 1.7400929870054824,
+        "decomposition": 0.16031782700156327,
+        "log_sha256": "3286efa19a6f2a6d215f1f5d046bb31c1e577bca26fee27b9acdd4576dc6013f",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_g1_r3/manifest.json",
+        "wall": 1.6924539289975655,
+        "decomposition": 0.15765937299875077,
+        "log_sha256": "7e801dd3dcfa21e5e975a15d56ded3d0377e1798659b9f36211973c05ca1477b",
+        "time_steps": 80,
+        "normal_exit": true
+      },
+      {
+        "manifest": "data/raw/reactiveTight/p4_scotch_g1_r4/manifest.json",
+        "wall": 1.7231072450013016,
+        "decomposition": 0.16383100099483272,
+        "log_sha256": "53ec9364a07db2efc679381f86543f9b33cffd77719dfbc1bec4a1f366cdd4ee",
+        "time_steps": 80,
+        "normal_exit": true
+      }
+    ],
+    "median": 1.7400929870054824,
+    "n": 5
+  },
+  "speedup": 1.1591207631214855,
+  "scope": "4 bound physical cores, one WSL2 guest, 4000 cells, 5 species/1 reaction, iterations 81-160 LTS; solver process wall includes startup/final IO; training/weight construction/decomposition excluded. Exploratory gamma selection."
+}

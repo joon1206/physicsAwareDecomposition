@@ -1,0 +1,22 @@
+[
+  {
+    "id": "oord2025",
+    "url": "https://pure.tudelft.nl/ws/portalfiles/portal/243087930/van-den-oord-et-al-2025-dynamic-multi-level-load-balancing-for-scalable-simulations-of-reacting-multiphase-flows.pdf",
+    "status": "PDF downloaded"
+  },
+  {
+    "id": "samfass2020",
+    "url": "https://mediatum.ub.tum.de/doc/1576020/file.pdf",
+    "status": "not a PDF"
+  },
+  {
+    "id": "retfalvi2026",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/64e4c2a1-42eb-4b23-ba92-8537d6e36076-MECA.pdf?abstractid=6678658&mirid=1",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "multithesis",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=23baeda1b751fbb3ac72f62e9acfc4eebec84c97&repid=rep1&type=pdf",
+    "status": "<urlopen error timed out>"
+  }
+]

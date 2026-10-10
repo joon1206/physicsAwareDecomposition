@@ -1,0 +1,837 @@
+{
+  "timestamp": "2026-10-06T12:21:53.563984+00:00",
+  "git": {
+    "exitCode": 0,
+    "output": "364ad1a11a0349636f132da81164e33bdc49f28b\n"
+  },
+  "hardware": {
+    "exitCode": 0,
+    "output": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 5 5600X 6-Core Processor\nCPU family:                              25\nModel:                                   33\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                2\nBogoMIPS:                                7400.09\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               192 KiB (6 instances)\nL2 cache:                                3 MiB (6 instances)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-11\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n"
+  },
+  "memory": {
+    "exitCode": 0,
+    "output": "               total        used        free      shared  buff/cache   available\nMem:     16730529792   640114688 15901515776     4210688   392777728 16090415104\nSwap:     4294967296           0  4294967296\n"
+  },
+  "kernel": {
+    "exitCode": 0,
+    "output": "Linux DESKTOP-MQL9TPV 6.18.40.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026 x86_64 GNU/Linux\n"
+  },
+  "mpi": {
+    "exitCode": 0,
+    "output": "mpirun (Open MPI) 4.0.3\n\nReport bugs to http://www.open-mpi.org/community/help/\n"
+  },
+  "clusterAvailability": {
+    "sbatch": {
+      "exitCode": 1,
+      "output": ""
+    },
+    "sinfo": {
+      "exitCode": 1,
+      "output": ""
+    },
+    "srun": {
+      "exitCode": 1,
+      "output": ""
+    }
+  },
+  "sources": [
+    {
+      "path": "src/stuttgartV2012/LoadBalancedChemistryModel.H",
+      "sha256": "f9a976641623fee1e39e09b0e5f262e8a29060249c3f41a98dfe761119bc48b4"
+    },
+    {
+      "path": "src/stuttgartV2012/makeLoadBalancedChemistryModels.C",
+      "sha256": "6a43e1933cc6e1ead6d36cbbde1c3f50800b20294e5ef1983fa43b2673caabb8"
+    },
+    {
+      "path": "src/stuttgartV2012/pointToPointBuffer.H",
+      "sha256": "db92486f8d952a3a8d41cd19b16169f5be05eec43727318ee59821a88b02a9d1"
+    },
+    {
+      "path": "src/stuttgartV2012/LoadBalancedChemistryModel.C",
+      "sha256": "3a000ec07119f8f3a5b23852f8d427558fc3b912e904c2f72a5a95a65ba2f8e3"
+    },
+    {
+      "path": "src/stuttgartV2012/baseDataContainer.H",
+      "sha256": "bbcbe250808e0862eaf5eb1a5609dd2e2e2ecd20e910224dcf11c783ba3df54c"
+    },
+    {
+      "path": "src/stuttgartV2012/baseDataContainer.C",
+      "sha256": "25a691a297ee5ef45bc8c4ad3d1f8f533472748550d7c7396be07adef564bc34"
+    },
+    {
+      "path": "src/stuttgartV2012/pointToPointBuffer.C",
+      "sha256": "5279bac7122658e85b8f3530e3f659087066a982df6bdc5ebc9512c8db72bc8e"
+    },
+    {
+      "path": "src/stuttgartV2012/registerStandard.C",
+      "sha256": "b9fd4ab7ee395b15a19eb28e16cac7714d077b669e95555cbbc1d5eeebc106e3"
+    },
+    {
+      "path": "src/costChemistry/costOde.H",
+      "sha256": "d45b3227a6b074eb8154dfb9d647df20dc25fb77ef9907ba61dc6cee02da5997"
+    },
+    {
+      "path": "src/costChemistry/costEulerImplicit.H",
+      "sha256": "2b4660fb1b4e648a43b23ba81d202301ee8fadd1c9e90008a1a68b40f3be2eea"
+    },
+    {
+      "path": "src/costChemistry/costChemistry.C",
+      "sha256": "9074baa9db16b25ecd7cc03a6820335fa2edc72ba4891afe1d2216b250c93150"
+    },
+    {
+      "path": "src/costChemistry/Make/options",
+      "sha256": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+    },
+    {
+      "path": "src/costChemistry/Make/files",
+      "sha256": "f61bd25935c1ece225817d46b70e6298614f70fc81c20bea3e6521bdb416af61"
+    },
+    {
+      "path": "src/stuttgartV2012/Make/options",
+      "sha256": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+    },
+    {
+      "path": "src/stuttgartV2012/Make/files",
+      "sha256": "619457434a515a57f354b313c04eff7d97e4d270a504bfb4e8dbadb229ef1327"
+    },
+    {
+      "path": "applications/redistributeParPAD/unmappedPassivePositionParticleCloud.H",
+      "sha256": "9b3994a76cad3204898fc22bfe4a67fc496b5ba71eaf15143aadf56af81c16d8"
+    },
+    {
+      "path": "applications/redistributeParPAD/distributedUnallocatedDirectFvPatchFieldMapper.H",
+      "sha256": "b937e11967efec4a1c78144a556d6cd91c764dfe8e27b55f5864ab78a5f31040"
+    },
+    {
+      "path": "applications/redistributeParPAD/loadOrCreateMesh.C",
+      "sha256": "0da6cd4bc7f4b4bb327c5c24216bcd53b7698816ce29657709f39a15719dae93"
+    },
+    {
+      "path": "applications/redistributeParPAD/parFvFieldReconstructor.C",
+      "sha256": "975f8569490417d29f4310dc869978bc0f46e0be373ff2f89587e0284f1120d8"
+    },
+    {
+      "path": "applications/redistributeParPAD/parFvFieldReconstructor.H",
+      "sha256": "6dcb4fb87dcc34b420ab862523607232fa181995c364c708efd98ab5d2206af3"
+    },
+    {
+      "path": "applications/redistributeParPAD/passivePositionParticleCloud.H",
+      "sha256": "b2b13c6b2c620fba35aa521675ef31b61e74d20970ecd21d7e8197087fbbf87d"
+    },
+    {
+      "path": "applications/redistributeParPAD/redistributePar.C",
+      "sha256": "814727a3f8b24d7e996043f6b1c861324e727ec6bca2c4a1b469c9c768b8809b"
+    },
+    {
+      "path": "applications/redistributeParPAD/parLagrangianRedistributor.H",
+      "sha256": "c0c7dfd43c30c77430c9fd6b6e98c9c3aad03119ad59df46d91267df228fdb62"
+    },
+    {
+      "path": "applications/redistributeParPAD/parLagrangianRedistributorFields.C",
+      "sha256": "c382e0c64d575feb4a8e530a59781e642afe499044533ae4b482c2dfcc06c60a"
+    },
+    {
+      "path": "applications/redistributeParPAD/parLagrangianRedistributor.C",
+      "sha256": "43b868bedc1ceaac725ac2483912804ee2fb31a9c43b646c4cb6d05e94a7193c"
+    },
+    {
+      "path": "applications/redistributeParPAD/passivePositionParticle.H",
+      "sha256": "d3b20cee48162b698a6dec6028ff7246e8f1b4ae33e9ee07b563d4f7f958df0d"
+    },
+    {
+      "path": "applications/redistributeParPAD/distributedUnallocatedDirectFieldMapper.H",
+      "sha256": "548d4bb9a7c0a8ae77ecff8895640f17e4e12c9aacfd49778fae8022f40e62bd"
+    },
+    {
+      "path": "applications/redistributeParPAD/passivePositionParticleCloud.C",
+      "sha256": "8b6aa7f969c5824ac87a127ba64d9248e8f72bcd96601c80e5976cd8c2dd5827"
+    },
+    {
+      "path": "applications/redistributeParPAD/parFvFieldReconstructorFields.C",
+      "sha256": "5ea8118343dcd3538e56d3230f621c7b05ec66d2a2da045eb379adebcac318e4"
+    },
+    {
+      "path": "applications/redistributeParPAD/loadOrCreateMesh.H",
+      "sha256": "a59fe6a0f3e8f1fb4e621ae9dd38cd642407dcd543cb7e988f700639b3479286"
+    },
+    {
+      "path": "applications/padFluxState/padFluxState.C",
+      "sha256": "60a172ee477e5fe9bb1c9ca5a797d49659742521b763fe47a2fc9e8e5fb803f3"
+    },
+    {
+      "path": "applications/padWorkloadFoam/padWorkloadFoam.C",
+      "sha256": "617b1d06aae742d131a4fe3997c3a22e083050b4403e24b11be9c1ac216d6e7f"
+    },
+    {
+      "path": "applications/padFluxAudit/padFluxAudit.C",
+      "sha256": "3ecc4936bc61a96947e408543b5fc42d0e85c60e5cde8c98d525d1b5047514f4"
+    },
+    {
+      "path": "applications/reactingFoamPAD/YEqn.H",
+      "sha256": "0080d2ad4da05d93e420460399755280695a8fb838c3c1527e507277eb932522"
+    },
+    {
+      "path": "applications/reactingFoamPAD/reactingFoamPAD.C",
+      "sha256": "896db8ce3d1bee8be3a0b2d5f59218a4287dc5a41ea12f7d3945c7f1ba7f9a9e"
+    },
+    {
+      "path": "applications/reactingFoamPAD/createFieldRefs.H",
+      "sha256": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3"
+    },
+    {
+      "path": "applications/reactingFoamPAD/pEqn.H",
+      "sha256": "e8218de66593172ea2a69a0382f02be432700289b7aa5a469f1af3d9defafcad"
+    },
+    {
+      "path": "applications/reactingFoamPAD/setRDeltaT.H",
+      "sha256": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e"
+    },
+    {
+      "path": "applications/reactingFoamPAD/UEqn.H",
+      "sha256": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607"
+    },
+    {
+      "path": "applications/reactingFoamPAD/EEqn.H",
+      "sha256": "2623cb9a2e48b73f21955d830656c6a5435694c2368a088643b8ef31fe919f38"
+    },
+    {
+      "path": "applications/reactingFoamPAD/pcEqn.H",
+      "sha256": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3"
+    },
+    {
+      "path": "applications/reactingFoamPAD/createFields.H",
+      "sha256": "cb5b16939d3fec78972607f9fb13b28b96305fc6343275983c426675eae4c946"
+    },
+    {
+      "path": "applications/reactingFoamPAD/padCreateDpdt.H",
+      "sha256": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15"
+    },
+    {
+      "path": "applications/reactingFoamPAD/phaseTimers.H",
+      "sha256": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    {
+      "path": "applications/padNativeInventory/nativeInventory.C",
+      "sha256": "bad26b589ce808cb677a831741c45bf387817edecd51a3c425c3463da2fb8b99"
+    },
+    {
+      "path": "applications/padNativeInventory/Make/options",
+      "sha256": "3c50978f298aaa8a4efd29fab49b7730595614c456d00835655a59f08078e20f"
+    },
+    {
+      "path": "applications/padNativeInventory/Make/files",
+      "sha256": "224c253f008b491539cfe0c3a383b99b22ce639e2d3f671eb035c49c5f7e21ad"
+    },
+    {
+      "path": "applications/reactingFoamPAD/Make/options",
+      "sha256": "3c50978f298aaa8a4efd29fab49b7730595614c456d00835655a59f08078e20f"
+    },
+    {
+      "path": "applications/reactingFoamPAD/Make/files",
+      "sha256": "5b44dcf41786ea6b8d1c61fed433ebe8fe9513c5353bcde8d7cfb83978cdec3b"
+    },
+    {
+      "path": "applications/padFluxAudit/Make/options",
+      "sha256": "0e3853fb95fcd3e7b165f157d502a4408f84e2e5b5e7b79e36fff2843d63b6fb"
+    },
+    {
+      "path": "applications/padFluxAudit/Make/files",
+      "sha256": "e086ae1749c28626e1cdbbb44a9087b42b07462b7ccf6f0bc52926779ca5ee54"
+    },
+    {
+      "path": "applications/padWorkloadFoam/Make/options",
+      "sha256": "33a99aa055cb04654f0a14c7d10939a0a6eeb27a986bf844ecc9ac4a32e6312f"
+    },
+    {
+      "path": "applications/padWorkloadFoam/Make/files",
+      "sha256": "7a5c99f5169a07d75cd30aeb70317c481d6c7f2b0b0859976bb6fe36e47ec64b"
+    },
+    {
+      "path": "applications/padFluxState/Make/options",
+      "sha256": "0e3853fb95fcd3e7b165f157d502a4408f84e2e5b5e7b79e36fff2843d63b6fb"
+    },
+    {
+      "path": "applications/padFluxState/Make/files",
+      "sha256": "3b6cb22d10273f34b8584d7eeefae5e90f39da18ca2f041e1da914e85352471e"
+    },
+    {
+      "path": "applications/redistributeParPAD/Make/options",
+      "sha256": "1bea08272af8ce093a9289cb935541a1409262229a15b08c8ef8544e85de64ee"
+    },
+    {
+      "path": "applications/redistributeParPAD/Make/files",
+      "sha256": "0c00e0deca6c7aa0828a13684e9e91d729940fde7c2eb33996af0fea1af74199"
+    },
+    {
+      "path": "actionStudy/scripts/conservationDiagnosis.py",
+      "sha256": "4c20d128f88360e37376b37c2473ac62ed7b340de539810ad116869ae5529ed2"
+    },
+    {
+      "path": "actionStudy/scripts/assembleTimingEvidence.py",
+      "sha256": "9b559d0eb79be888e2924305b967c77e07c5bb9b7b7e67b45e379a218e579a61"
+    },
+    {
+      "path": "actionStudy/scripts/generateFigures.sh",
+      "sha256": "3e9450b56ff4ab2d3fd8cf8f251dbba21fda9b8817d840e645ccb67b0bc3ed07"
+    },
+    {
+      "path": "actionStudy/scripts/restartRegression.py",
+      "sha256": "1cbbc4502f877f264e323b15039e48fd20d7f212d5a307ef93aa9d2eca9e97fc"
+    },
+    {
+      "path": "actionStudy/scripts/nativePush.py",
+      "sha256": "410e1b240ff051590c29a6132361973702127a9073335b8578067261d51e235b"
+    },
+    {
+      "path": "actionStudy/scripts/archiveRetentionRace.py",
+      "sha256": "514fe6da66b81b80a0d216c81ab191a122ac462019aa989bbde3cb1aef8ffde6"
+    },
+    {
+      "path": "actionStudy/scripts/splitTimingEvidence.py",
+      "sha256": "a4af4077b5e4c41b103d66e6991098c21ee173c837d65e7051b272fa88a6cdd2"
+    },
+    {
+      "path": "actionStudy/scripts/archiveQuicklbBuild.py",
+      "sha256": "6f0325ef5e5a06ecbce6d483efc72b624b9cdd72472a11bf0ab84e680ab1f963"
+    },
+    {
+      "path": "actionStudy/scripts/stopOwnedCampaign.py",
+      "sha256": "9bdce07a723f811c4c6d7ad88c1b74e3a1124a31356ef08559465d3e1f3a7bef"
+    },
+    {
+      "path": "actionStudy/scripts/buildRestart.sh",
+      "sha256": "7360ea31e14c999ee141442a5b2577db04e26cf64425365630d01b9288f1d94b"
+    },
+    {
+      "path": "actionStudy/scripts/literatureFollowup.py",
+      "sha256": "7f98abd717c4b0afff2cdf83df0c95d176cc7dc02eae92caf60ab740a1fac1d4"
+    },
+    {
+      "path": "actionStudy/scripts/buildMPI.sh",
+      "sha256": "69eef175d6c8a9b035bfb8e4c9c9561b486b7741ca003171d795290e75d53188"
+    },
+    {
+      "path": "actionStudy/scripts/liveMeshFollowup.py",
+      "sha256": "9aabb1f7766cfcc06809444e275649f2c971116baba16530725a813234770d84"
+    },
+    {
+      "path": "actionStudy/scripts/debugFlux.py",
+      "sha256": "6358575ba3d11aa558ff8e48fb7be10bd68ff8f4d1ddda201c89a1418a59b55e"
+    },
+    {
+      "path": "actionStudy/scripts/verifyNumerics.py",
+      "sha256": "425315886947861e5b930edc601b227e5b782278e151aa2ec897a221fa0195c0"
+    },
+    {
+      "path": "actionStudy/scripts/accuracyFollowup.py",
+      "sha256": "11c399be82984933612fba401954eaab046e08fd12b5a2e64c7f08836e8b2cf4"
+    },
+    {
+      "path": "actionStudy/scripts/bootstrapQuicklb.py",
+      "sha256": "c1c0e84fb154095edcda23adcfc2371d66089172d18ae3fd3dd662538815de68"
+    },
+    {
+      "path": "actionStudy/scripts/processQuicklb.sh",
+      "sha256": "65289e63b84ada49540f2477849c04bef86feebd9cf0c93f48a052467dfdcb29"
+    },
+    {
+      "path": "actionStudy/scripts/inspectQuicklbCompiler.py",
+      "sha256": "e06e2f7d82c71da8e8f0afb9e06b4c1ee4b2b376c6516f23cc14f440c232aed9"
+    },
+    {
+      "path": "actionStudy/scripts/buildFluxState.sh",
+      "sha256": "31807a651f2e57b8511066ac54f60abce0611c0cd6eb4cf2c5e1e84534670a03"
+    },
+    {
+      "path": "actionStudy/scripts/recomputeReplay.py",
+      "sha256": "b15090e074ed91cfb04b661010a5e769e6d12a85edb74155b90fe4c92833a4a7"
+    },
+    {
+      "path": "actionStudy/scripts/writeAnswers.py",
+      "sha256": "ec92d2c25d61d3e033e7bf4cdaf5adf8f429cb3d45adedad32d8e61b16de00bb"
+    },
+    {
+      "path": "actionStudy/scripts/auditWarnings.py",
+      "sha256": "f5a189ccce4bd5c22b78bb75c575d93cfdb8d9f056bd7aa943a7b1d755a98b8a"
+    },
+    {
+      "path": "actionStudy/scripts/writeReport.py",
+      "sha256": "6c32a8a109bae986277924fe92d20537fd81c2f3269043edc34c93fc8400ffab"
+    },
+    {
+      "path": "actionStudy/scripts/actionInventories.py",
+      "sha256": "ae283961b9e94469b91585dabdeaba0d02e7961e60085cb0ab30ee9fba3f3ee9"
+    },
+    {
+      "path": "actionStudy/scripts/processQuicklb.py",
+      "sha256": "fea3bb50201ddbb2455848e2bba84297f9f2ca48f0307ac48e06af6bd4253e03"
+    },
+    {
+      "path": "actionStudy/scripts/confirmChemistry.py",
+      "sha256": "4c8f134391067f133a676bbab0792060a9d36bb8eabafb4c11df57fd019ddcd8"
+    },
+    {
+      "path": "actionStudy/scripts/mapping.py",
+      "sha256": "01bfca7af7e05b3a515b7b9b8daf57d0505ea06ecd608f97a67482389569fc25"
+    },
+    {
+      "path": "actionStudy/scripts/buildRedistributor.sh",
+      "sha256": "a32081281ef77b62eadd6f43b501744f996bb057782531416e62a5dccbb04a24"
+    },
+    {
+      "path": "actionStudy/scripts/stopOwnedPush.py",
+      "sha256": "253e7c4833daf65ce29f01df094fcbfb66f331028e7060dc263effad2b3bca57"
+    },
+    {
+      "path": "actionStudy/scripts/test.sh",
+      "sha256": "ba0643d84d2439f1264698a0e14d779e26279153b53847114d1126e12e8b8bb4"
+    },
+    {
+      "path": "actionStudy/scripts/checkpoint.py",
+      "sha256": "243ba8c182f195ce512a0281782e5ab5ac6cdf986fa472af69de36351d686f58"
+    },
+    {
+      "path": "actionStudy/scripts/profileController.py",
+      "sha256": "e87b32e1325bc605f4e37b1e32c31a27d85f04d36e2c775404c041df95f40915"
+    },
+    {
+      "path": "actionStudy/scripts/generateFigures.py",
+      "sha256": "01ab32d9234b31ca73e7ad3eeb9e15479a74c41a0130f809773ef190157c9f89"
+    },
+    {
+      "path": "actionStudy/scripts/testReproduction.py",
+      "sha256": "a254ac3852bf3c67546f1996498f32b15a1919e1acc8883a7336cb2998a681d8"
+    },
+    {
+      "path": "actionStudy/scripts/verifyFigureReproduction.py",
+      "sha256": "fb0519e10e53a7eb9755058658eb063ba0bab4b2aed33b79d21410191eff6fea"
+    },
+    {
+      "path": "actionStudy/scripts/quicklbDemo.py",
+      "sha256": "ef5f782466f3f588a4947b9f323ad90a040489bc0cec6359e60c739aae5b7f59"
+    },
+    {
+      "path": "actionStudy/scripts/validateContinuousOracle.py",
+      "sha256": "58bd4f65d8484043e8c46c5b5eeb0ac650a307676bf0284a7ec07f0803bdd232"
+    },
+    {
+      "path": "actionStudy/scripts/buildInitialState.sh",
+      "sha256": "54b828023204c6dec9bd6a914535e4c0b78ad5bf76981889aba32e1b03d9f156"
+    },
+    {
+      "path": "actionStudy/scripts/repeatedMigrationRegression.py",
+      "sha256": "5b06c270b4036653af83b00bddecbdc5ec0ef4abd846cd37730e8cc28b3a3185"
+    },
+    {
+      "path": "actionStudy/scripts/mpiConsequenceStudy.py",
+      "sha256": "6e3ab1c0fcdb363d7970ea2450227851aebbaf8846db4da54f39247f716cdc36"
+    },
+    {
+      "path": "actionStudy/scripts/supplement.py",
+      "sha256": "cd84f5e4e56f5e08f7f601f98abbaff2e43c0eb6df714f9c16efed6fee38d21f"
+    },
+    {
+      "path": "actionStudy/scripts/endpointRegression.py",
+      "sha256": "d178696ee02fb463f908cb0af68db76a58522475acbf817b085e293746bdb496"
+    },
+    {
+      "path": "actionStudy/scripts/archiveLiveEvidence.py",
+      "sha256": "29887a8edeedf1df4b55a80735812a717b0979ced2cefa626f0f8ce9acb4e492"
+    },
+    {
+      "path": "actionStudy/scripts/debugMigration.py",
+      "sha256": "e763538eb4e32b1dc0a343a3ccfadc7f22e1299b4cf422491d198937a7b3c34f"
+    },
+    {
+      "path": "actionStudy/scripts/fluxRepair.py",
+      "sha256": "6baac3da9a3d89a8dd0e7e6e0558e7eceec2aa034d98d234ba43665de4a3d799"
+    },
+    {
+      "path": "actionStudy/scripts/caseFactory.py",
+      "sha256": "5ac5b9be1f4500780f40c611ec7f06235c746c593fb80a51b9e71db9558bf73f"
+    },
+    {
+      "path": "actionStudy/scripts/reproduceQuicklb.sh",
+      "sha256": "24f4e36354980c298254d11d26a2ba8140ac6ace8365b24bc958afc96d7d697f"
+    },
+    {
+      "path": "actionStudy/scripts/refinement2.py",
+      "sha256": "76813e9222259cd01366ffbb1ebf464f7145f3b03176bd85bb17246e3c1ef97c"
+    },
+    {
+      "path": "actionStudy/scripts/executeAccuracy.py",
+      "sha256": "c28c59e4a0b9d4395ec0e79816e7c5d027ff2360c437899ec2d56d041e92ae39"
+    },
+    {
+      "path": "actionStudy/scripts/cleanBuild.sh",
+      "sha256": "68eb88a6cef41fcea9fadb50b90ca83e0a517f21a2179fc10dd4ad76333986c6"
+    },
+    {
+      "path": "actionStudy/scripts/executeRemaining.py",
+      "sha256": "b774cefef59f83a311d00603a7903065a298bc2fde5e22c500dcf77fca7036e5"
+    },
+    {
+      "path": "actionStudy/scripts/fluxDiagnosis.py",
+      "sha256": "21243a28579f8d762605364bc66586d1e70b94042c1527dc3f769e42b65b43f8"
+    },
+    {
+      "path": "actionStudy/scripts/status.py",
+      "sha256": "7f2711d98d0bea6996a076db992c80401cb422ced4a8212e1eb25485baf1415a"
+    },
+    {
+      "path": "actionStudy/scripts/adminRead.py",
+      "sha256": "29f92db68716a96a9c54c1b31ff88f1072edac93379c87a27cebaa59c43aff04"
+    },
+    {
+      "path": "actionStudy/scripts/buildFluxAudit.sh",
+      "sha256": "dfde2e8ea050a614d9ed23c6adb5d5dc9897569ebe3f423ea2e4c72d6bc86a34"
+    },
+    {
+      "path": "actionStudy/scripts/initialStateLong.py",
+      "sha256": "76970f366598f027ab67634ff3da23214bc7e31d690ce9c2b046f1f2f383d7ca"
+    },
+    {
+      "path": "actionStudy/scripts/qualityControl.py",
+      "sha256": "433259818ef4ef18e475367960bda2ab3e256c6b4c9362f711d954df185a9f92"
+    },
+    {
+      "path": "actionStudy/scripts/run.sh",
+      "sha256": "78cc3de7eb49e6e368f851e75df9ee97ad60e07479664d68747833832c44da40"
+    },
+    {
+      "path": "actionStudy/scripts/nativeInventory.C",
+      "sha256": "bad26b589ce808cb677a831741c45bf387817edecd51a3c425c3463da2fb8b99"
+    },
+    {
+      "path": "actionStudy/scripts/startPreservedStudy.py",
+      "sha256": "a15789afb745ca5f796fd200941e0c205e4b1843c21216ab763fb0f2b0ec276e"
+    },
+    {
+      "path": "actionStudy/scripts/figureContactSheets.sh",
+      "sha256": "f28debbb345c0586e1e618e6261482ecdb54bbe65cf85b8a650f456f894383eb"
+    },
+    {
+      "path": "actionStudy/scripts/archiveEvidence.py",
+      "sha256": "08329f37c409f018e9d94cfd1ffda0c37fc9d0b9d7f7d81f2689bfc703eccad1"
+    },
+    {
+      "path": "actionStudy/scripts/executeQuicklb.py",
+      "sha256": "47c4e5dbef3f36850edd34d7241c50ab5581ad9469646ca38deb6b1aac3d247f"
+    },
+    {
+      "path": "actionStudy/scripts/consequenceModels.py",
+      "sha256": "4eda152b645616ee1e977f5bedb64cafb5ead233bc7beead055c978286d5fa05"
+    },
+    {
+      "path": "actionStudy/scripts/setup.sh",
+      "sha256": "619d7ae842bc747942b26c4cd455a13af6ee267ca04e132e8bdd86108aa5ba4b"
+    },
+    {
+      "path": "actionStudy/scripts/physicalFieldAudit.py",
+      "sha256": "d0a7caa81ce6509fe9b22ee8668b8f317a062649025a289a8253be88e9e56888"
+    },
+    {
+      "path": "actionStudy/scripts/prepareRedistributor.py",
+      "sha256": "d77016b7cff1284ae10c2b803c0f67795ccf0d4af1d59ffdd28c5a40645e2c15"
+    },
+    {
+      "path": "actionStudy/scripts/oracle.py",
+      "sha256": "4a220aacb2c54e85fb41d327260fcca71fe8fed79eb6216d3a00a9fbae0d261b"
+    },
+    {
+      "path": "actionStudy/scripts/verifyBibliography.py",
+      "sha256": "daea58071f12405bdddb554f4c0e9355ec8ab30d651704797da8bdb6ac2b9419"
+    },
+    {
+      "path": "actionStudy/scripts/initialStateDiagnosis.py",
+      "sha256": "8559f67aeb3561884cde519697f39e05a34a2bda55d52c35dff4ed5b05a3c56f"
+    },
+    {
+      "path": "actionStudy/scripts/buildInventory.sh",
+      "sha256": "9aedaf4a2850ce8bdeee78743a11775d24fce630c010f4adcab69292bbf4d562"
+    },
+    {
+      "path": "actionStudy/scripts/prepareGitHubPublication.py",
+      "sha256": "17115575434deb60fc399564c43281fd86900467b90fc4bcbbf1788eee62985f"
+    },
+    {
+      "path": "actionStudy/scripts/build.sh",
+      "sha256": "b716f4e9b4b4903a9c2e8f60fed6b24c3a51c7b63e6e132079ec17c4d64f7424"
+    },
+    {
+      "path": "actionStudy/scripts/debugOneStep.py",
+      "sha256": "506b4440c01a9a69672ef8b856b0de095e616fef38883ded10ffdc72be767e62"
+    },
+    {
+      "path": "actionStudy/scripts/finalizeArtifact.py",
+      "sha256": "7787227cc67e666e40eac24c3d241019fc893accc50d0da2a3ac05b54b51e0c1"
+    },
+    {
+      "path": "actionStudy/scripts/refinement.py",
+      "sha256": "defcb6a3d756f01a8a53abc68d7c296e7252488f7ac4bc32cb8cdecdfedef724"
+    },
+    {
+      "path": "actionStudy/scripts/captureProvenance.py",
+      "sha256": "8d6fcf0c56edbefad16610e47d2e9a4cc43bbe739478736a7c74d3d127323db4"
+    },
+    {
+      "path": "actionStudy/scripts/liveMeshDiagnosis.py",
+      "sha256": "f0c05748fd5bc60101e21015c7730bf89e0e3768352c89f54d1b7de48d181122"
+    },
+    {
+      "path": "actionStudy/scripts/reproduce.sh",
+      "sha256": "769732197d5d9924234cd16866a87f2f233baeee3edb7121f4f536ca6bf131db"
+    },
+    {
+      "path": "actionStudy/scripts/controller.py",
+      "sha256": "fb3c0f4bc11f76d7587085e02199ef01a1f4c7cb3755a2b9016bdcf48873b231"
+    },
+    {
+      "path": "actionStudy/scripts/writeLiterature.py",
+      "sha256": "6125009acd791a703e5faf645d72e7c3a32e410ad38ddf73e458551e5c658ab8"
+    },
+    {
+      "path": "actionStudy/scripts/validation.py",
+      "sha256": "1db60bda6bd7250db15d83ef3deff292dec6180831df6b625c51174940c9c139"
+    },
+    {
+      "path": "actionStudy/scripts/executeStudy.py",
+      "sha256": "4b22562c9331f1788f5a48d15530736b6d5dc990e26a260c2c355973f7043beb"
+    },
+    {
+      "path": "actionStudy/scripts/conservationCouplingFollowup.py",
+      "sha256": "96035389710619e5146dc1ec7f710f9a2617e3636f5033d6d435f3be38118a7d"
+    },
+    {
+      "path": "actionStudy/scripts/finish.py",
+      "sha256": "3708a0c593a532e317ff5c91cdbca582ec9084b43c87b8d4c3720bc6ba019dc7"
+    },
+    {
+      "path": "actionStudy/scripts/workload.py",
+      "sha256": "0d18796ba3ed1983f6960f22bb39278cb8ed7802a07ed4f1ea04191f869a7f34"
+    },
+    {
+      "path": "actionStudy/scripts/analysis.py",
+      "sha256": "6339d2425be8495757b9f994a0420875a0c9f57d02bbfe187b6b7bfcd87b5bf1"
+    },
+    {
+      "path": "actionStudy/scripts/restartFinish.py",
+      "sha256": "b92c2aef57f43b52e24f99988c6be2ada5b3a5eeee6f8189263d4ac59b7f9e7d"
+    },
+    {
+      "path": "actionStudy/scripts/slurmPilot.sh",
+      "sha256": "59da2ed81e0a4c79e83c483df39bc37e1307aa12c8ed65fd2d796f12ffe75569"
+    },
+    {
+      "path": "actionStudy/scripts/mpiProfile.c",
+      "sha256": "2f61bda4310c1d4dd78970cdd7d7bfa2bb6fe1e5c81d59b54e02da3afb428562"
+    },
+    {
+      "path": "actionStudy/scripts/figureContactSheets.py",
+      "sha256": "067ee5fce11b03bf207f1567d6bba7dc8bed2f27e0482cbb121861bac159b348"
+    },
+    {
+      "path": "actionStudy/scripts/features.py",
+      "sha256": "f311ae2f06d9624b03a03758c74706e4ad923b0a8d58a3b03c52b2da3ff6cb75"
+    },
+    {
+      "path": "actionStudy/scripts/archiveLiveCyclic.py",
+      "sha256": "85cbdf3a8416035b8ba4dcce7da49c3c205e62e075bc2d04f0159674e03c2b30"
+    },
+    {
+      "path": "actionStudy/scripts/prepareEvidenceDelivery.sh",
+      "sha256": "27b74b1857be336646f4928b4c65881a604df4319314b6b870958994f1f24880"
+    },
+    {
+      "path": "actionStudy/scripts/archiveNativeRestart.py",
+      "sha256": "608b4579b145df1dbaf06648b439c7fc54bbca3267f0aa1121a4468b524b0c24"
+    },
+    {
+      "path": "actionStudy/tests/test_endpoint.py",
+      "sha256": "88510c030f3b13263bfca3b879b01b97f9c2e30f31c9773c230e19a1cc3c86f0"
+    },
+    {
+      "path": "actionStudy/tests/test_models.py",
+      "sha256": "05a77525a2ea7424f67f2095cff0b9a59c2cd019b37366af3f8d958010701701"
+    },
+    {
+      "path": "actionStudy/tests/test_validation.py",
+      "sha256": "01b5d5e83564a4682f762c0dd8f1171653cc2642e41e5ebc866f4651d34d9f59"
+    },
+    {
+      "path": "actionStudy/tests/test_features.py",
+      "sha256": "d401363f166f18a669f350ef977573885830eb390a89103207399575d4576387"
+    },
+    {
+      "path": "tools/wrappers/g++",
+      "sha256": "3cc544ead0edfc401d12be5919a019262d8aec74a9792aee556e7076a6df56e6"
+    },
+    {
+      "path": "scripts/compareFields.py",
+      "sha256": "4ca686a4214ba42c28c4480aa378efee25204b066b18c4781e0225db5dbba54f"
+    },
+    {
+      "path": "scripts/indexArtifacts.py",
+      "sha256": "ab792c828b8facf7ac39461ee182c7a965e4526e077da517713b11e488da4dec"
+    },
+    {
+      "path": "scripts/models.py",
+      "sha256": "0c996e96b8c923e77fd96d7ab87b133a50bfc86dc0f803c2fc5912e162c14c36"
+    },
+    {
+      "path": "scripts/study.py",
+      "sha256": "a5b0764264cbe009d2367dc83c75191833f83966e58fd45a1e7b80aa28c48e85"
+    },
+    {
+      "path": "scripts/generatePlots.py",
+      "sha256": "326806f248f7ea7a27131fbac306e97ecc7aba5210620d11c9919f0889e63461"
+    },
+    {
+      "path": "scripts/writeReport.py",
+      "sha256": "05eca1ef8813033488485350b9479df975c64a8e12da7db27cc6746aeeeac977"
+    },
+    {
+      "path": "scripts/transientStudy.py",
+      "sha256": "04845d6316b4abcb9179501a2856f6af3da553b92b78d012cc4c87cc5a6d341d"
+    },
+    {
+      "path": "scripts/env.sh",
+      "sha256": "d206af3882c1791531a89b39b990538795da5cc251e865ea950bc9e7a80f20c8"
+    },
+    {
+      "path": "scripts/analyzeAdditional.py",
+      "sha256": "0447c5fe67dba48d768a683d58a2fe5e787bcd849e4c17d69fe5573164eed30d"
+    },
+    {
+      "path": "scripts/probeValidation.py",
+      "sha256": "4234d183ca0d7d56f860205de1a5d720b73514d9706829d5557155d2044ef572"
+    },
+    {
+      "path": "scripts/integrationChecks.py",
+      "sha256": "54058362e225a26a4d205e9a5393bb1127386b3b2b86e3d4bcf8d67f501b3109"
+    },
+    {
+      "path": "scripts/generateTables.py",
+      "sha256": "c4c2b9a8ed3d891e40f14cee3094f5f13e3b6cf23d45dbf09627366019766dc3"
+    },
+    {
+      "path": "scripts/tightStudy.py",
+      "sha256": "a0471fec05496ab0a8ded0809d66f5a0840183033eab927353937957b41d6522"
+    },
+    {
+      "path": "scripts/overhead.py",
+      "sha256": "5a07f2446dc5f98dfa791922f95d0c16d7ad051f14f3546fb4074cb17d62b295"
+    },
+    {
+      "path": "scripts/foamio.py",
+      "sha256": "d34319d97d468e0f79c7e1f9dbae81f7779223a13e3dcc33737f8e7325b135de"
+    },
+    {
+      "path": "scripts/analyzeTiming.py",
+      "sha256": "d6eff392db1b2e0604127f5c9ae1e66e6a2a07cb1d0cd21125bd04a752b9d0f3"
+    },
+    {
+      "path": "scripts/run.sh",
+      "sha256": "ee935a2a9c2ab375086778c99cae311fc30cdbdca3341aee4c6b5b7be39759bf"
+    },
+    {
+      "path": "scripts/verifyDeliverables.py",
+      "sha256": "5b77e0982fbc744b7574d59f8e132fe12f31381ead56b49958042ba44669cd50"
+    },
+    {
+      "path": "scripts/smokeTest.sh",
+      "sha256": "0c5c52f1de4629726fdbff2a91c68788911022a5097e033ff84ee1f5aab5c49a"
+    },
+    {
+      "path": "scripts/summarizeEvidence.py",
+      "sha256": "f6a6804324123d060b57c2dd9d754aa2d75ac970503415e36ea6cd78b2366ef0"
+    },
+    {
+      "path": "scripts/build.sh",
+      "sha256": "df15d296e05ff83e659784d35006f86f8e2d40766eb7a542279b8a048372962b"
+    },
+    {
+      "path": "scripts/compilerEnv.sh",
+      "sha256": "27aa3d6b85934f6f77af17a008c974d1992661ccfe5d5e3d7abcc20b8fc97e36"
+    },
+    {
+      "path": "scripts/reproduceStudy.sh",
+      "sha256": "af5ba217e84fc56f9af7f7cdaa4005e7c3e2ed1d00b2c120454b12e0d3919b9c"
+    },
+    {
+      "path": "scripts/sensitivity.py",
+      "sha256": "45936a2a90c956b9b89e0f60f24d49abfa925ee0b5bccb0ed2d7dd3f3cc23b7f"
+    },
+    {
+      "path": "scripts/renderFigureIndex.py",
+      "sha256": "3ddf54f4413585e0b98bcd1cb38f92c28d2f8a021cb85ccc2437c0b27f6abba1"
+    },
+    {
+      "path": "scripts/synthetic.py",
+      "sha256": "5a0a227fe5d40b205a286a58c2afc5e63a448d29fd35b9ac948c88ce57aedb43"
+    },
+    {
+      "path": "scripts/syntheticRuntime.py",
+      "sha256": "2664ed9000225341d6fe9d06f30a5e411d5b1380d201b631f923ab0c9899878c"
+    },
+    {
+      "path": "scripts/collectMachineInfo.py",
+      "sha256": "9c9d42380767c96847e4adb292642013fe219446a13a11104154f5bde0ae7e98"
+    },
+    {
+      "path": "scripts/postprocessThermo.py",
+      "sha256": "7f41ea10eb68acd26ad0763e90313af156eaf863a6ea454cd088fc59fdc22599"
+    }
+  ],
+  "binaries": [
+    {
+      "path": "build/bin/redistributeParPAD",
+      "sha256": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    {
+      "path": "build/bin/reactingFoamPADRestart",
+      "sha256": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82"
+    },
+    {
+      "path": "build/bin/reactingFoamPADInitialState",
+      "sha256": "66cbbd55e5822b8ab6927296c79649a812a8f14cf166ca2320bc96a38d0dd1ef"
+    },
+    {
+      "path": "build/bin/padFluxState",
+      "sha256": "ed0fd8e7b9baa34eca4c2fd57e2c73c827e1076170f58976e5b0f756bfdc12a0"
+    },
+    {
+      "path": "build/bin/padWorkloadFoam",
+      "sha256": "dc19bc6d01ae9dfcc5b9cbd6462a8c67c35f89ce610896cfaa82fde7175e668f"
+    },
+    {
+      "path": "build/bin/padFluxAudit",
+      "sha256": "3c07d6f1f5176f5374a1e9698ccfdf0afc819dccafa22b6c7a60f7db470b2a97"
+    },
+    {
+      "path": "build/bin/reactingFoamPAD",
+      "sha256": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82"
+    },
+    {
+      "path": "build/bin/padNativeInventory",
+      "sha256": "362b4d869a095b7dd538a9a9b5ec85e13674d27432c52c6fc2e4fa98549b401a"
+    },
+    {
+      "path": "build/lib/libstuttgartV2012.so",
+      "sha256": "fdfc3575a6e301dfb56f7358ac1f3dc4014ee123ae47db5ff868b76148f90902"
+    },
+    {
+      "path": "build/lib/libcostChemistry.so",
+      "sha256": "7c9f186ad895eaf8b2edc3877501109aad5008f40bbad8839143fca8ef87fec2"
+    },
+    {
+      "path": "build/lib/libpadMPIProfile.so",
+      "sha256": "9eb397de8dd3de62a18b908f872bee29b8a7ff5fbb16fbf55f952aa7909a4e32"
+    },
+    {
+      "path": "build/lib/mpiProfile.o",
+      "sha256": "f7b4b40993752c505086ad3d0cfaa8ac3a00ea6f6f3b7d329b60e0a508d516c3"
+    }
+  ]
+}

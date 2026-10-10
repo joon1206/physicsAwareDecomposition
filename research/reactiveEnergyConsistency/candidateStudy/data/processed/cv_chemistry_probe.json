@@ -1,0 +1,162 @@
+[
+  {
+    "cell": 0.0,
+    "T": 600.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 7.107047278791467e-09,
+    "massResidualRelative": 6.045348620848951e-17,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 1.0,
+    "T": 800.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 1.3279592685982539e-08,
+    "massResidualRelative": 0.0,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 2.0,
+    "T": 1100.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 1.0735567107964795e-08,
+    "massResidualRelative": 5.494579583746066e-17,
+    "thermalResidualRelative": 1.3193632976560882e-17,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 3.0,
+    "T": 1400.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 6.56091179560162e-08,
+    "massResidualRelative": 1.750697009192545e-16,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 4.0,
+    "T": 1800.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 3.434360985451963e-08,
+    "massResidualRelative": 2.224775919320672e-16,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 5.0,
+    "T": 2200.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 5.006382593019242e-08,
+    "massResidualRelative": 0.0,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 6.0,
+    "T": 2600.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 3.011845182693435e-08,
+    "massResidualRelative": 6.905893050635241e-17,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 7.0,
+    "T": 3000.0,
+    "path": "constantPressure",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 7.697405126235763e-08,
+    "massResidualRelative": 4.833711307547252e-17,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 0.0,
+    "T": 600.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 3.3903780106393747e-09,
+    "massResidualRelative": 6.045348620848951e-17,
+    "thermalResidualRelative": 3.8230431295032455e-17,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 1.0,
+    "T": 800.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 2.571352367900561e-08,
+    "massResidualRelative": 0.0,
+    "thermalResidualRelative": 2.2302573925243646e-17,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 2.0,
+    "T": 1100.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 1.3691416376219823e-08,
+    "massResidualRelative": 5.494579583746066e-17,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 3.0,
+    "T": 1400.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 4.637517267436321e-08,
+    "massResidualRelative": 1.750697009192545e-16,
+    "thermalResidualRelative": 0.0,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 4.0,
+    "T": 1800.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 3.575006174924738e-08,
+    "massResidualRelative": 2.224775919320672e-16,
+    "thermalResidualRelative": 7.7217592107286e-18,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 5.0,
+    "T": 2200.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 2.3708716733890068e-08,
+    "massResidualRelative": 0.0,
+    "thermalResidualRelative": 1.6678122470102457e-16,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 6.0,
+    "T": 2600.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 3.605026732534154e-08,
+    "massResidualRelative": 6.905893050635241e-17,
+    "thermalResidualRelative": 2.6396299236759237e-17,
+    "pressureResidualRelative": 0.0
+  },
+  {
+    "cell": 7.0,
+    "T": 3000.0,
+    "path": "constantVolume",
+    "timeDerivativeMax": 0.0,
+    "directionalJacobianRelativeError": 9.203292811906352e-09,
+    "massResidualRelative": 4.833711307547252e-17,
+    "thermalResidualRelative": 2.445081080288676e-17,
+    "pressureResidualRelative": 0.0
+  }
+]

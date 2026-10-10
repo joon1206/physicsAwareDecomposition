@@ -1,0 +1,2051 @@
+[
+  {
+    "regime": "heldoutMoving",
+    "policy": "nativeContinuous",
+    "repeat": 0,
+    "totalWall": 9.206650421008817,
+    "componentWall": 9.198163437991752,
+    "orchestratorOtherWall": 0.008486983017064631,
+    "decompositionWall": 0.26069398698746227,
+    "preprocessingWall": 0.15916705199924763,
+    "events": [],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_nativeContinuous_r0"
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "imbalanceThreshold",
+    "repeat": 0,
+    "totalWall": 8.029856135995942,
+    "componentWall": 8.017998684968916,
+    "orchestratorOtherWall": 0.0118574510270264,
+    "decompositionWall": 0.19836059999943245,
+    "preprocessingWall": 0.15284892199269962,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "AC",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.8296826265446937,
+          "chemistryFraction": 0.4031002157960356,
+          "chemistrySeconds": 0.00878373935,
+          "timestepSeconds": 0.021790460549999998,
+          "totalCellCost": 0.031646566,
+          "cellCostCV": 1.0284927470647236,
+          "correlation": 0.5455626683942043,
+          "topOverlap": 0.20930232558139536,
+          "lifetimeSteps": 16.503349579057026,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.010156166299955064,
+          "observedCostVelocity": 121.21719929489599,
+          "persistenceLagSteps": 10,
+          "persistenceAvailable": true,
+          "previousImbalance": 2.8585668556216794,
+          "twoSnapshotEMAImbalance": 2.192244981734766,
+          "pressureSeconds": 0.00053012285,
+          "transportSeconds": 0.01132523055,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 3.335369084990816,
+        "featureWall": 0.011834040997200646,
+        "inferenceWall": 1.8699938664212823e-06,
+        "decisionWall": 0.0002226979995612055,
+        "migrationWall": 0.0,
+        "cumulativeWall": 4.287552312001935,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "AC",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.9894570581320643,
+          "chemistryFraction": 0.7866784054714347,
+          "chemistrySeconds": 0.1573854765,
+          "timestepSeconds": 0.2000632983,
+          "totalCellCost": 0.356447,
+          "cellCostCV": 0.7682805910274971,
+          "correlation": 0.5227596248638449,
+          "topOverlap": 0.061224489795918366,
+          "lifetimeSteps": 61.66810413004182,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.011929297107171404,
+          "observedCostVelocity": 22.164135090204255,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.8296826265446937,
+          "twoSnapshotEMAImbalance": 1.9764284677680022,
+          "pressureSeconds": 0.00063170755,
+          "transportSeconds": 0.041000046500000005,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 0.0
+        },
+        "solverWall": 2.3242007980006747,
+        "featureWall": 0.004151704997639172,
+        "inferenceWall": 1.0899966582655907e-06,
+        "decisionWall": 0.0002555070095695555,
+        "migrationWall": 0.0,
+        "cumulativeWall": 6.618815373003599,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "A0",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.0850677303424034,
+          "chemistryFraction": 0.856329091119544,
+          "chemistrySeconds": 0.0293051279,
+          "timestepSeconds": 0.03422180585,
+          "totalCellCost": 0.101284,
+          "cellCostCV": 0.18588765326818918,
+          "correlation": 0.40096305892280487,
+          "topOverlap": 0.15555555555555556,
+          "lifetimeSteps": 43.76913635784176,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.013103453385433029,
+          "observedCostVelocity": 14.67695347827031,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.9894570581320643,
+          "twoSnapshotEMAImbalance": 1.7893391533455238,
+          "pressureSeconds": 0.0005116974,
+          "transportSeconds": 0.0034566983,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 0.0
+        },
+        "solverWall": 1.4035237549978774,
+        "featureWall": 0.004022706008981913,
+        "inferenceWall": 1.9099970813840628e-06,
+        "decisionWall": 0.0003036969865206629,
+        "migrationWall": 0.0,
+        "cumulativeWall": 8.029676167003345,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_imbalanceThreshold_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 5.002220859751105e-12,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.1641532182693481e-09,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.8990143619012088e-12,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0007219491526484489,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 7.806255641895632e-17,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.673617379884035e-18,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 7.494005416219807e-16,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 6.895525817007808e-17,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.6020852139652106e-16,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.200782296141404e-19,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.705769144237564e-20,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1102230246251565e-15,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.30385160446167e-08,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.609823385706477e-15,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "controller",
+    "repeat": 0,
+    "totalWall": 10.282404945988674,
+    "componentWall": 10.271449863983435,
+    "orchestratorOtherWall": 0.010955082005239092,
+    "decompositionWall": 0.21057649800786749,
+    "preprocessingWall": 0.16066587099339813,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "A0",
+        "predicted": {
+          "AC": {
+            "solverDelta": -0.2525371814412345,
+            "setup": 0.0002296080201631412,
+            "uncertainty": 0.8231081329062517,
+            "margin": 0.021183377,
+            "score": 0.5919839364851803
+          },
+          "AM": {
+            "solverDelta": 0.18444456743010687,
+            "setup": 0.5215917449968401,
+            "uncertainty": 1.2320421103975328,
+            "margin": 0.021183377,
+            "score": 1.95926179982448
+          },
+          "AH": {
+            "solverDelta": -0.19576072755605312,
+            "setup": 0.5319310039922129,
+            "uncertainty": 0.8002922826306926,
+            "margin": 0.021183377,
+            "score": 1.1576459360668525
+          }
+        },
+        "features": {
+          "chemistryImbalance": 1.8312267560450521,
+          "chemistryFraction": 0.3929157848628196,
+          "chemistrySeconds": 0.0083232832,
+          "timestepSeconds": 0.021183377,
+          "totalCellCost": 0.031403864,
+          "cellCostCV": 1.018521197815409,
+          "correlation": 0.5391072587394751,
+          "topOverlap": 0.15555555555555556,
+          "lifetimeSteps": 16.185400995806262,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.01015977935688021,
+          "observedCostVelocity": 122.00292275663791,
+          "persistenceLagSteps": 10,
+          "persistenceAvailable": true,
+          "previousImbalance": 2.870221164197929,
+          "twoSnapshotEMAImbalance": 2.189994263147222,
+          "pressureSeconds": 0.0005150572,
+          "transportSeconds": 0.0113605592,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 5.5533202679944225,
+        "featureWall": 0.007809532995452173,
+        "inferenceWall": 2.3639004211872816e-05,
+        "decisionWall": 0.00031960800697561353,
+        "migrationWall": 0.0,
+        "cumulativeWall": 6.527251504987362,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "AC",
+        "predicted": {
+          "AC": {
+            "solverDelta": -13.450109943622405,
+            "setup": 0.0002296080201631412,
+            "uncertainty": 0.8231081329062517,
+            "margin": 0.31693777465000006,
+            "score": -12.309834428045988
+          },
+          "AM": {
+            "solverDelta": 13.174578258584472,
+            "setup": 0.5215917449968401,
+            "uncertainty": 1.2320421103975328,
+            "margin": 0.31693777465000006,
+            "score": 15.245149888628845
+          },
+          "AH": {
+            "solverDelta": -11.875180829673821,
+            "setup": 0.5319310039922129,
+            "uncertainty": 0.8002922826306926,
+            "margin": 0.31693777465000006,
+            "score": -10.226019768400915
+          }
+        },
+        "features": {
+          "chemistryImbalance": 2.044060469563661,
+          "chemistryFraction": 0.436575655435208,
+          "chemistrySeconds": 0.1383673167,
+          "timestepSeconds": 0.31693777465,
+          "totalCellCost": 0.373144548,
+          "cellCostCV": 0.7834615096288757,
+          "correlation": 0.5408791772204886,
+          "topOverlap": 0.08333333333333333,
+          "lifetimeSteps": 65.08728492887973,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.011868095537981953,
+          "observedCostVelocity": 21.353952263771784,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.8312267560450521,
+          "twoSnapshotEMAImbalance": 2.0275388350801387,
+          "pressureSeconds": 0.00060543535,
+          "transportSeconds": 0.17683268545,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 2.279804489997332,
+        "featureWall": 0.00293023900303524,
+        "inferenceWall": 1.933000748977065e-05,
+        "decisionWall": 0.00022535701282322407,
+        "migrationWall": 0.0,
+        "cumulativeWall": 8.81228809899767,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "A0",
+        "predicted": {
+          "AC": {
+            "solverDelta": -0.6322466485677153,
+            "setup": 0.0002296080201631412,
+            "uncertainty": 0.8231081329062517,
+            "margin": 0.03842567115,
+            "score": 0.2295167635086996
+          },
+          "AM": {
+            "solverDelta": 0.5773941312158947,
+            "setup": 0.5215917449968401,
+            "uncertainty": 1.2320421103975328,
+            "margin": 0.03842567115,
+            "score": 2.3694536577602676
+          },
+          "AH": {
+            "solverDelta": -0.534485836228674,
+            "setup": 0.5319310039922129,
+            "uncertainty": 0.8002922826306926,
+            "margin": 0.03842567115,
+            "score": 0.8361631215442316
+          }
+        },
+        "features": {
+          "chemistryImbalance": 1.1347748013676726,
+          "chemistryFraction": 0.866741099198732,
+          "chemistrySeconds": 0.03330510845,
+          "timestepSeconds": 0.03842567115,
+          "totalCellCost": 0.121959,
+          "cellCostCV": 0.24987131174734067,
+          "correlation": 0.3150592252024173,
+          "topOverlap": 0.2682926829268293,
+          "lifetimeSteps": 34.632195310015284,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.01090068744586561,
+          "observedCostVelocity": -12.092601151454295,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 2.044060469563661,
+          "twoSnapshotEMAImbalance": 1.8200758682504936,
+          "pressureSeconds": 0.0006127315,
+          "transportSeconds": 0.0032624629,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 0.0
+        },
+        "solverWall": 1.4634863289975328,
+        "featureWall": 0.003606330996262841,
+        "inferenceWall": 2.9938993975520134e-05,
+        "decisionWall": 0.00025406798522453755,
+        "migrationWall": 0.0,
+        "cumulativeWall": 10.282232817990007,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_controller_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 5.002220859751105e-12,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.1641532182693481e-09,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.8990143619012088e-12,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0007219491526484489,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 7.806255641895632e-17,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.673617379884035e-18,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 7.494005416219807e-16,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 6.895525817007808e-17,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.6020852139652106e-16,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.200782296141404e-19,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.705769144237564e-20,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1102230246251565e-15,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.30385160446167e-08,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.609823385706477e-15,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "ACContinuous",
+    "repeat": 0,
+    "totalWall": 7.653831237999839,
+    "componentWall": 7.648281538014999,
+    "orchestratorOtherWall": 0.005549699984840117,
+    "decompositionWall": 0.20691528399765957,
+    "preprocessingWall": 0.15065063700603787,
+    "events": [],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_ACContinuous_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "continuous",
+    "repeat": 0,
+    "totalWall": 9.374313149994123,
+    "componentWall": 9.37053882998589,
+    "orchestratorOtherWall": 0.0037743200082331896,
+    "decompositionWall": 0.2211458489910001,
+    "preprocessingWall": 0.1649573809991125,
+    "events": [],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_continuous_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "AM",
+    "repeat": 0,
+    "totalWall": 12.035460423008772,
+    "componentWall": 12.022267934953561,
+    "orchestratorOtherWall": 0.01319248805521056,
+    "decompositionWall": 0.23691559401049744,
+    "preprocessingWall": 0.1936391039926093,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "AM",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.8067627411543128,
+          "chemistryFraction": 0.4009520446681228,
+          "chemistrySeconds": 0.0086900004,
+          "timestepSeconds": 0.02167341585,
+          "totalCellCost": 0.033842283,
+          "cellCostCV": 1.0257150196195144,
+          "correlation": 0.5129729017482919,
+          "topOverlap": 0.15555555555555556,
+          "lifetimeSteps": 14.98054944240087,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.010114479208377417,
+          "observedCostVelocity": 131.51032244482005,
+          "persistenceLagSteps": 10,
+          "persistenceAvailable": true,
+          "previousImbalance": 3.074552884219,
+          "twoSnapshotEMAImbalance": 2.393523116765533,
+          "pressureSeconds": 0.00051694285,
+          "transportSeconds": 0.0113056023,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 5.556880404998083,
+        "featureWall": 0.008607187002780847,
+        "inferenceWall": 6.699992809444666e-07,
+        "decisionWall": 0.00157722199219279,
+        "migrationWall": 0.4729597149998881,
+        "cumulativeWall": 7.10694580701238,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "AM",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.4238915431854597,
+          "chemistryFraction": 0.5370178386330619,
+          "chemistrySeconds": 0.15433320275,
+          "timestepSeconds": 0.287389341,
+          "totalCellCost": 0.384683841,
+          "cellCostCV": 0.7120260524006881,
+          "correlation": 0.5747941203113285,
+          "topOverlap": 0.061224489795918366,
+          "lifetimeSteps": 72.23562994642498,
+          "processorFaces": 34.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.40625,
+          "centerX": 0.011656859655520688,
+          "observedCostVelocity": 19.279755589290897,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.5113093877265904,
+          "twoSnapshotEMAImbalance": 1.4198071994186916,
+          "pressureSeconds": 0.0005531368,
+          "transportSeconds": 0.13134963565,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 2.4021281029999955,
+        "featureWall": 0.003642415991635062,
+        "inferenceWall": 4.6000059228390455e-07,
+        "decisionWall": 0.0014403239911189303,
+        "migrationWall": 0.49687542900210246,
+        "cumulativeWall": 10.013571413001046,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "AM",
+        "predicted": {},
+        "features": {
+          "chemistryImbalance": 1.2125318557312936,
+          "chemistryFraction": 0.7197774127866085,
+          "chemistrySeconds": 0.02930110545,
+          "timestepSeconds": 0.0407085648,
+          "totalCellCost": 0.10518123,
+          "cellCostCV": 0.1823323510289112,
+          "correlation": 0.13367069876226043,
+          "topOverlap": 0.04,
+          "lifetimeSteps": 19.877001359133168,
+          "processorFaces": 33.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.125,
+          "centerX": 0.004128999192706092,
+          "observedCostVelocity": -94.09825578518246,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.5471797995278933,
+          "twoSnapshotEMAImbalance": 1.3598538361597128,
+          "pressureSeconds": 0.00057757705,
+          "transportSeconds": 0.00972916525,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 1.5479594270000234,
+        "featureWall": 0.004018966996227391,
+        "inferenceWall": 7.999915396794677e-07,
+        "decisionWall": 0.0018940290028695017,
+        "migrationWall": 0.4646884839894483,
+        "cumulativeWall": 12.035318515001563,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "redistributeParPAD",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_AM_r0",
+    "gate": {
+      "pass_": false,
+      "fields": {
+        "T": {
+          "Linf": 0.33829228698186853,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "p": {
+          "Linf": 130.20240781159373,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "U": {
+          "Linf": 0.013718470751001632,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "Qdot": {
+          "Linf": 178004.42254338972,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "H2": {
+          "Linf": 1.7935316963067077e-06,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "H": {
+          "Linf": 4.086611022225805e-07,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "O2": {
+          "Linf": 9.182207235019016e-06,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "O": {
+          "Linf": 2.765737147694073e-06,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "OH": {
+          "Linf": 1.1734554994419569e-05,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "HO2": {
+          "Linf": 1.3207090380799996e-08,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "H2O2": {
+          "Linf": 1.0515266592010647e-09,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 2.5898950792607733e-05,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 2.55351295663786e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 614.1285926159471,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        },
+        "rho": {
+          "Linf": 0.00011173651619028613,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": false
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "AC",
+    "repeat": 0,
+    "totalWall": 8.494658023002557,
+    "componentWall": 8.480881701994804,
+    "orchestratorOtherWall": 0.013776321007753722,
+    "decompositionWall": 0.21826007700292394,
+    "preprocessingWall": 0.15503034299763385,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "AC",
+        "predicted": {},
+        "features": {},
+        "solverWall": 3.6998498030006886,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.00028857699362561107,
+        "migrationWall": 0.0,
+        "cumulativeWall": 4.688946020993171,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "AC",
+        "predicted": {},
+        "features": {},
+        "solverWall": 2.3315816539980005,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.0002552270016167313,
+        "migrationWall": 0.0,
+        "cumulativeWall": 7.023520332004409,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "AC",
+        "predicted": {},
+        "features": {},
+        "solverWall": 1.4682047230016906,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.0002803959941957146,
+        "migrationWall": 0.0,
+        "cumulativeWall": 8.494528723997064,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_AC_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 5.002220859751105e-12,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.1641532182693481e-09,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.8990143619012088e-12,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0007219491526484489,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 7.806255641895632e-17,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.673617379884035e-18,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 7.494005416219807e-16,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 6.895525817007808e-17,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.6020852139652106e-16,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.200782296141404e-19,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.705769144237564e-20,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1102230246251565e-15,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.30385160446167e-08,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.609823385706477e-15,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "A0",
+    "repeat": 0,
+    "totalWall": 10.531860870003584,
+    "componentWall": 10.519838879015879,
+    "orchestratorOtherWall": 0.012021990987705067,
+    "decompositionWall": 0.2146391889982624,
+    "preprocessingWall": 0.16550650700810365,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "A0",
+        "predicted": {},
+        "features": {},
+        "solverWall": 5.691650423003011,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.0003616660105763003,
+        "migrationWall": 0.0,
+        "cumulativeWall": 6.69109061799827,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "A0",
+        "predicted": {},
+        "features": {},
+        "solverWall": 2.365632118002395,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.00026333700225222856,
+        "migrationWall": 0.0,
+        "cumulativeWall": 9.059076620993437,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "A0",
+        "predicted": {},
+        "features": {},
+        "solverWall": 1.4698269410000648,
+        "featureWall": 0,
+        "inferenceWall": 0,
+        "decisionWall": 0.0002941759885288775,
+        "migrationWall": 0.0,
+        "cumulativeWall": 10.531643852998968,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_A0_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 5.002220859751105e-12,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.1641532182693481e-09,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.8990143619012088e-12,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0007219491526484489,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 7.806255641895632e-17,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.673617379884035e-18,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 7.494005416219807e-16,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 6.895525817007808e-17,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.6020852139652106e-16,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.200782296141404e-19,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.705769144237564e-20,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1102230246251565e-15,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.30385160446167e-08,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.609823385706477e-15,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "heldoutMoving",
+    "policy": "persistenceBreakEven",
+    "repeat": 0,
+    "totalWall": 8.572325839995756,
+    "componentWall": 8.560487939961604,
+    "orchestratorOtherWall": 0.011837900034151971,
+    "decompositionWall": 0.24088838099851273,
+    "preprocessingWall": 0.25799148000078276,
+    "events": [
+      {
+        "index": 20,
+        "time": 4e-05,
+        "action": "AC",
+        "predicted": {
+          "expectedSaved": 0.06678906074869327,
+          "setup": 0.0002296080201631412
+        },
+        "features": {
+          "chemistryImbalance": 1.7376824599527338,
+          "chemistryFraction": 0.42719722282450895,
+          "chemistrySeconds": 0.0090155961,
+          "timestepSeconds": 0.02110406065,
+          "totalCellCost": 0.036497872,
+          "cellCostCV": 0.9359697100538987,
+          "correlation": 0.5638064618827123,
+          "topOverlap": 0.10638297872340426,
+          "lifetimeSteps": 17.450659684359223,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.010241585721610906,
+          "observedCostVelocity": 120.79268404342386,
+          "persistenceLagSteps": 10,
+          "persistenceAvailable": true,
+          "previousImbalance": 2.5370784251451033,
+          "twoSnapshotEMAImbalance": 1.997537406241557,
+          "pressureSeconds": 0.0005385825,
+          "transportSeconds": 0.010577726249999999,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 1.0
+        },
+        "solverWall": 3.641448622001917,
+        "featureWall": 0.008417299992288463,
+        "inferenceWall": 3.4800032153725624e-06,
+        "decisionWall": 0.00020582700381055474,
+        "migrationWall": 0.0,
+        "cumulativeWall": 4.751916257999255,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 60,
+        "time": 0.00012,
+        "action": "AC",
+        "predicted": {
+          "expectedSaved": 3.6063860621173705,
+          "setup": 0.0002296080201631412
+        },
+        "features": {
+          "chemistryImbalance": 2.0551844043843395,
+          "chemistryFraction": 0.8025388298668095,
+          "chemistrySeconds": 0.17560410199999998,
+          "timestepSeconds": 0.2188107235,
+          "totalCellCost": 0.37615699999999996,
+          "cellCostCV": 0.7993820332890652,
+          "correlation": 0.5772417128782645,
+          "topOverlap": 0.13043478260869565,
+          "lifetimeSteps": 72.79421865049007,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.01187948775404575,
+          "observedCostVelocity": 20.473775405435564,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 1.7376824599527338,
+          "twoSnapshotEMAImbalance": 2.027102474146967,
+          "pressureSeconds": 0.0005925896,
+          "transportSeconds": 0.04167237245,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 0.0
+        },
+        "solverWall": 2.2900861429952784,
+        "featureWall": 0.0030343769903993234,
+        "inferenceWall": 3.2999960239976645e-06,
+        "decisionWall": 0.0002795269974740222,
+        "migrationWall": 0.0,
+        "cumulativeWall": 7.047563870000886,
+        "cumulativeScope": "direct wall since preprocessing began"
+      },
+      {
+        "index": 100,
+        "time": 0.0002,
+        "action": "AC",
+        "predicted": {
+          "expectedSaved": 0.21193929656435295,
+          "setup": 0.0002296080201631412
+        },
+        "features": {
+          "chemistryImbalance": 1.1818706744414897,
+          "chemistryFraction": 0.8340843699535374,
+          "chemistrySeconds": 0.03443172465,
+          "timestepSeconds": 0.04128086545,
+          "totalCellCost": 0.122961,
+          "cellCostCV": 0.2666432980157679,
+          "correlation": 0.4185991610911699,
+          "topOverlap": 0.2682926829268293,
+          "lifetimeSteps": 45.932585019979676,
+          "processorFaces": 32.0,
+          "maxNeighbours": 2,
+          "cellImbalance": 1.0,
+          "centerX": 0.012525901640564703,
+          "observedCostVelocity": 8.080173581486903,
+          "persistenceLagSteps": 40,
+          "persistenceAvailable": true,
+          "previousImbalance": 2.0551844043843395,
+          "twoSnapshotEMAImbalance": 1.8400378267263455,
+          "pressureSeconds": 0.00063485965,
+          "transportSeconds": 0.0051464009000000005,
+          "velocity": 120,
+          "nCells": 256,
+          "ranks": 4,
+          "nSpecies": 10,
+          "substepsMean": 0.0
+        },
+        "solverWall": 1.5181328109902097,
+        "featureWall": 0.003774860000703484,
+        "inferenceWall": 4.068991984240711e-06,
+        "decisionWall": 0.00030222699570003897,
+        "migrationWall": 0.0,
+        "cumulativeWall": 8.572204891999718,
+        "cumulativeScope": "direct wall since preprocessing began"
+      }
+    ],
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "executablesSHA256": {
+      "reactingFoamPADRestart": "e3ddcf6fd896c48bf2de935f732a230589bd2f3eb97e46abd2d6150705df3d82",
+      "redistributeParPAD": "4bef86f797ff3ba593f0f9c2756992b7fcfa633bbf88902c3fe5d1a99133d0d3"
+    },
+    "migrationUtility": "unused",
+    "restartState": "solved he and dpdt restored; psi.oldTime preallocated before restart thermo update; opt-in state-preserving executable",
+    "scope": "end to end 140 physical steps: preprocessing, decomposition, prefix, every process startup/write and controller action; offline reusable model acquisition reported separately",
+    "path": "data/raw/live/heldoutMoving_persistenceBreakEven_r0",
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 5.002220859751105e-12,
+          "referenceScale": 2860.857017939066,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.1641532182693481e-09,
+          "referenceScale": 363588.33088158,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.8990143619012088e-12,
+          "referenceScale": 153.1830534073861,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0007219491526484489,
+          "referenceScale": 9423812.609447923,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 7.806255641895632e-17,
+          "referenceScale": 0.00304172575985183,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.673617379884035e-18,
+          "referenceScale": 0.0004226090384849886,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 7.494005416219807e-16,
+          "referenceScale": 0.01719601134833523,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 6.895525817007808e-17,
+          "referenceScale": 0.002714727966023817,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.6020852139652106e-16,
+          "referenceScale": 0.01694735108385548,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.200782296141404e-19,
+          "referenceScale": 1.411508271548377e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.705769144237564e-20,
+          "referenceScale": 1.275317938958852e-06,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1102230246251565e-15,
+          "referenceScale": 0.219887538549251,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-15,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.30385160446167e-08,
+          "referenceScale": 4030877.693146818,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.609823385706477e-15,
+          "referenceScale": 0.3747433026621708,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  }
+]

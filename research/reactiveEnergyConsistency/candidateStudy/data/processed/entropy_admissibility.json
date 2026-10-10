@@ -1,0 +1,3018 @@
+{
+  "records": [
+    {
+      "name": "F_blockConservative_dt1.25e-07_s1_g0_o1_p1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563180097616324,
+        "mass": 5.91451120101888e-08,
+        "minT": 2794.40156441703,
+        "minP": 358051.4681728549,
+        "minY": 0.0,
+        "maxYsumError": 6.217248937900877e-14
+      },
+      "entropyChange": 7.029271844779183e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204312954845,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.579989017897,
+        "minP": 367378.5009268207,
+        "minY": 0.0,
+        "maxYsumError": 1.532107773982716e-14
+      },
+      "entropyChange": 7.029513998164396e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_mpi",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204312954845,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.579989017897,
+        "minP": 367378.5009268207,
+        "minY": 0.0,
+        "maxYsumError": 1.532107773982716e-14
+      },
+      "entropyChange": 7.029513998164396e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_timing1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204312954845,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.579989017897,
+        "minP": 367378.5009268207,
+        "minY": 0.0,
+        "maxYsumError": 1.532107773982716e-14
+      },
+      "entropyChange": 7.029513998164396e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_timing2",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204312954845,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.579989017897,
+        "minP": 367378.5009268207,
+        "minY": 0.0,
+        "maxYsumError": 1.532107773982716e-14
+      },
+      "entropyChange": 7.029513998164396e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_timing3",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204312954845,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.579989017897,
+        "minP": 367378.5009268207,
+        "minY": 0.0,
+        "maxYsumError": 1.532107773982716e-14
+      },
+      "entropyChange": 7.029513998164396e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204323711838,
+        "mass": 5.91451120101884e-08,
+        "minT": 2779.546039853793,
+        "minP": 367354.912964649,
+        "minY": 0.0,
+        "maxYsumError": 1.4210854715202004e-14
+      },
+      "entropyChange": 7.029514105734327e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001_mpi",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204323711838,
+        "mass": 5.91451120101884e-08,
+        "minT": 2779.546039853793,
+        "minP": 367354.912964649,
+        "minY": 0.0,
+        "maxYsumError": 1.4210854715202004e-14
+      },
+      "entropyChange": 7.029514105734327e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.001",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204265704763,
+        "mass": 5.914511201018852e-08,
+        "minT": 2779.503500448178,
+        "minP": 367335.6419365068,
+        "minY": 0.0,
+        "maxYsumError": 1.2545520178264269e-14
+      },
+      "entropyChange": 7.02951352566357e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.01",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656318743407007,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2779.117867087414,
+        "minP": 367326.5798414899,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-14
+      },
+      "entropyChange": 7.029345209316642e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt2.5e-07_s1_g0_o1_p1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563218856727233,
+        "mass": 5.914511201018798e-08,
+        "minT": 2775.110362356043,
+        "minP": 365881.8162740226,
+        "minY": 0.0,
+        "maxYsumError": 1.8207657603852567e-14
+      },
+      "entropyChange": 7.029659435888271e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt2e-06_s1_g0_o1_p1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005906746587087177,
+        "mass": 5.914511201018854e-08,
+        "minT": 653.5937481207912,
+        "minP": 105389.9914290429,
+        "minY": 0.0,
+        "maxYsumError": 8.326672684688674e-15
+      },
+      "entropyChange": 4.649367394877124e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt2e-06_s1_g0_o1_p1_tol0.0001_negative",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005906751810369362,
+        "mass": 5.9145112010188464e-08,
+        "minT": 653.6012022134282,
+        "minP": 105388.7432655804,
+        "minY": 0.0,
+        "maxYsumError": 7.438494264988549e-15
+      },
+      "entropyChange": 4.64988972309567e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt5e-07_s1_g0_o1_p1",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563204976580835,
+        "mass": 5.914511201018846e-08,
+        "minT": 2775.544964848541,
+        "minP": 367054.1158801471,
+        "minY": 0.0,
+        "maxYsumError": 1.554312234475219e-14
+      },
+      "entropyChange": 7.029520634424297e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_conservativeState_dt1.25e-07_s1_g0_o1_p1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562448775323719,
+        "mass": 5.9145112010190925e-08,
+        "minT": 2820.275740280644,
+        "minP": 338368.3474372907,
+        "minY": 0.0,
+        "maxYsumError": 2.560174294785611e-13
+      },
+      "entropyChange": 7.021958621853135e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_capFallback_componentOff",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_capFallback_componentOn",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/9db32f14eb7577e7f647a37d01aecb0de7fa2a05fd61372b926a7c8cf284eeb2",
+      "executableSHA256": "5ae94e2ab5dbe1aaf0baac1c1581886cfa73762896dc71fd46d59034d87dea70"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_cpFDSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656313258859995,
+        "mass": 5.914511201018849e-08,
+        "minT": 2778.955975128717,
+        "minP": 367094.4871421892,
+        "minY": 0.0,
+        "maxYsumError": 1.3655743202889425e-14
+      },
+      "entropyChange": 7.028796754615446e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563142795307796,
+        "mass": 5.9145112010188444e-08,
+        "minT": 2779.556212482563,
+        "minP": 367134.9660701774,
+        "minY": 0.0,
+        "maxYsumError": 1.354472090042691e-14
+      },
+      "entropyChange": 7.0288988216939e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_mpi",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOff",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOn",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_timing1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_timing2",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_timing3",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOff",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOff_nonzeroSutherland",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563148106249053,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2778.834037694579,
+        "minP": 367105.9325598469,
+        "minY": 0.0,
+        "maxYsumError": 1.27675647831893e-14
+      },
+      "entropyChange": 7.028951931106471e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOff_nonzeroSutherland_coupledSync",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563148106249053,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2778.834037694579,
+        "minP": 367105.9325598469,
+        "minY": 0.0,
+        "maxYsumError": 1.27675647831893e-14
+      },
+      "entropyChange": 7.028951931106471e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOn",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563132526237951,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2778.959162790978,
+        "minP": 367094.4179827053,
+        "minY": 0.0,
+        "maxYsumError": 1.5765166949677223e-14
+      },
+      "entropyChange": 7.028796130995453e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOn_nonzeroSutherland",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563148119903111,
+        "mass": 5.914511201018851e-08,
+        "minT": 2778.835231260373,
+        "minP": 367105.9522218555,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-14
+      },
+      "entropyChange": 7.028952067647054e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_transportOn_nonzeroSutherland_coupledSync",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563148119903111,
+        "mass": 5.914511201018851e-08,
+        "minT": 2778.835231260373,
+        "minP": 367105.9522218555,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-14
+      },
+      "entropyChange": 7.028952067647054e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_conservativeState_dt2.5e-07_s1_g0_o1_p1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562759821603796,
+        "mass": 5.914511201018814e-08,
+        "minT": 2741.538898441906,
+        "minP": 343477.5400505641,
+        "minY": 0.0,
+        "maxYsumError": 1.0347278589506459e-13
+      },
+      "entropyChange": 7.025069084653905e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005909254318219899,
+        "mass": 5.9145112010188497e-08,
+        "minT": 654.549699878646,
+        "minP": 105834.5227520049,
+        "minY": 0.0,
+        "maxYsumError": 8.43769498715119e-15
+      },
+      "entropyChange": 4.900140508149343e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_cpFDSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005909219486742402,
+        "mass": 5.914511201018845e-08,
+        "minT": 654.5337120476787,
+        "minP": 105828.2524304033,
+        "minY": 0.0,
+        "maxYsumError": 8.881784197001252e-15
+      },
+      "entropyChange": 4.896657360399623e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000590997937274838,
+        "mass": 5.914511201018851e-08,
+        "minT": 654.8723263535742,
+        "minP": 105965.4869638839,
+        "minY": 0.0,
+        "maxYsumError": 9.769962616701378e-15
+      },
+      "entropyChange": 4.97264596099748e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_transportOff",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005909254318219899,
+        "mass": 5.9145112010188497e-08,
+        "minT": 654.549699878646,
+        "minP": 105834.5227520049,
+        "minY": 0.0,
+        "maxYsumError": 8.43769498715119e-15
+      },
+      "entropyChange": 4.900140508149343e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_transportOn",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005909254318219899,
+        "mass": 5.9145112010188497e-08,
+        "minT": 654.549699878646,
+        "minP": 105834.5227520049,
+        "minY": 0.0,
+        "maxYsumError": 8.43769498715119e-15
+      },
+      "entropyChange": 4.900140508149343e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p2",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005907283245105589,
+        "mass": 5.914511201018845e-08,
+        "minT": 653.6450610008168,
+        "minP": 105500.7085717064,
+        "minY": 0.0,
+        "maxYsumError": 7.327471962526033e-15
+      },
+      "entropyChange": 4.7030331967183765e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt5e-07_s1_g0_o1_p1",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563041953874946,
+        "mass": 5.914511201018832e-08,
+        "minT": 2785.273192189391,
+        "minP": 361698.1596909239,
+        "minY": 0.0,
+        "maxYsumError": 2.2648549702353193e-14
+      },
+      "entropyChange": 7.027890407365405e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_conservativeState_dt5e-07_s1_g0_o1_p1_transportOff_nonzeroSutherland",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563044291065601,
+        "mass": 5.914511201018844e-08,
+        "minT": 2784.680632724445,
+        "minP": 361637.720289718,
+        "minY": 0.0,
+        "maxYsumError": 2.4980018054066022e-14
+      },
+      "entropyChange": 7.027913779271953e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt5e-07_s1_g0_o1_p1_transportOff_nonzeroSutherland_coupledSync",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563044291065601,
+        "mass": 5.914511201018844e-08,
+        "minT": 2784.680632724445,
+        "minP": 361637.720289718,
+        "minY": 0.0,
+        "maxYsumError": 2.4980018054066022e-14
+      },
+      "entropyChange": 7.027913779271953e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_conservativeState_dt5e-07_s1_g0_o1_p1_transportOn_nonzeroSutherland",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656304430023665,
+        "mass": 5.91451120101883e-08,
+        "minT": 2784.681465414396,
+        "minP": 361637.787480199,
+        "minY": 0.0,
+        "maxYsumError": 2.0650148258027912e-14
+      },
+      "entropyChange": 7.027913870982447e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_conservativeState_dt5e-07_s1_g0_o1_p1_transportOn_nonzeroSutherland_coupledSync",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656304430023665,
+        "mass": 5.91451120101883e-08,
+        "minT": 2784.681465414396,
+        "minP": 361637.787480199,
+        "minY": 0.0,
+        "maxYsumError": 2.0650148258027912e-14
+      },
+      "entropyChange": 7.027913870982447e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_localInternal_dt1e-06_s1_g0_o1_p1",
+      "mode": "localInternal",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006582547149824753,
+        "mass": 5.9145112496022216e-08,
+        "minT": 2537.743708066252,
+        "minP": 255337.8271473731,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.222942366863472e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d7a1d1b100fd18ad7ea3e6f4805b25e3b57c28fe1cc6ad7836ea86a84d530d22",
+      "executableSHA256": "6d3509f7f06a0ab416b131b977f1d34a042502d4ff1ef5bf0f9a57230a787250"
+    },
+    {
+      "name": "F_localInternal_dt2e-06_s1_g0_o1_p1",
+      "mode": "localInternal",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006575872890673031,
+        "mass": 5.914511217519746e-08,
+        "minT": 2808.6896885871,
+        "minP": 349865.61555946,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.156199775346257e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d7a1d1b100fd18ad7ea3e6f4805b25e3b57c28fe1cc6ad7836ea86a84d530d22",
+      "executableSHA256": "6d3509f7f06a0ab416b131b977f1d34a042502d4ff1ef5bf0f9a57230a787250"
+    },
+    {
+      "name": "F_localInternal_dt2e-06_s1_g0_o1_p1_EOS2",
+      "mode": "localInternal",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006575872870197732,
+        "mass": 5.9145112010188364e-08,
+        "minT": 2808.689695404074,
+        "minP": 349865.6163851721,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.156199570593268e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/98abf87228efb2fd6f02dc094d1e37fd1cf8dab39611128da47bb28b82816656",
+      "executableSHA256": "3075a86c65ef1f9f6f5f38da89ce25dfb421c2808f405899198fe1dc6357bf4a"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/fbdb129dc705dccdffe32bb769a3cc1c7c60f50303e0b08ab2dc8a719424ebfa",
+      "executableSHA256": "06f2665cc2691b8d5451a87b2aacffddf99851cba3cf5c7caa9b3ea291c02f17"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_cpFDSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840532292446,
+        "mass": 5.9145112010188424e-08,
+        "minT": 2786.48228739706,
+        "minP": 367526.1738195818,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.0358761915404e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562052612882643,
+        "mass": 5.914511201018855e-08,
+        "minT": 2784.754381982974,
+        "minP": 366774.024089952,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.017996997442377e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_mpi",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOff",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOff_nonzeroSutherland",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563737900936143,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2786.623454184856,
+        "minP": 367485.6278687115,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03484987797737e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOff_nonzeroSutherland_coupledSync",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563737900936143,
+        "mass": 5.9145112010188536e-08,
+        "minT": 2786.623454184856,
+        "minP": 367485.6278687115,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03484987797737e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOn",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563840760580073,
+        "mass": 5.9145112010188464e-08,
+        "minT": 2786.482049878613,
+        "minP": 367526.0464747959,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.035878474416675e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOn_nonzeroSutherland",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563737737599814,
+        "mass": 5.914511201018854e-08,
+        "minT": 2786.623805566325,
+        "minP": 367485.5479229257,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 7.034848244614079e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_transportOn_nonzeroSutherland_coupledSync",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563737737599814,
+        "mass": 5.914511201018854e-08,
+        "minT": 2786.623805566325,
+        "minP": 367485.5479229257,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 7.034848244614079e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p2_mpi",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563802729477658,
+        "mass": 5.914511201018854e-08,
+        "minT": 2780.317591856767,
+        "minP": 367493.233081867,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03549816339252e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p2_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563802729477658,
+        "mass": 5.914511201018854e-08,
+        "minT": 2780.317591856767,
+        "minP": 367493.233081867,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03549816339252e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p2_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563802729477658,
+        "mass": 5.914511201018854e-08,
+        "minT": 2780.317591856767,
+        "minP": 367493.233081867,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03549816339252e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p2_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563802729477658,
+        "mass": 5.914511201018854e-08,
+        "minT": 2780.317591856767,
+        "minP": 367493.233081867,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.03549816339252e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o2_p1_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006739964697182587,
+        "mass": 5.9145112010188483e-08,
+        "minT": 3023.763502329183,
+        "minP": 403260.81567228,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 8.797117840441814e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o2_p1_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006739964697182587,
+        "mass": 5.9145112010188483e-08,
+        "minT": 3023.763502329183,
+        "minP": 403260.81567228,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 8.797117840441814e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o2_p1_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006739964697182587,
+        "mass": 5.9145112010188483e-08,
+        "minT": 3023.763502329183,
+        "minP": 403260.81567228,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 8.797117840441814e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o1_p1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006544807492595028,
+        "mass": 5.914511201018782e-08,
+        "minT": 2795.994066443823,
+        "minP": 332112.706142808,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.845545794566222e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/fbdb129dc705dccdffe32bb769a3cc1c7c60f50303e0b08ab2dc8a719424ebfa",
+      "executableSHA256": "06f2665cc2691b8d5451a87b2aacffddf99851cba3cf5c7caa9b3ea291c02f17"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o1_p1_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006544807492595028,
+        "mass": 5.914511201018782e-08,
+        "minT": 2795.994066443823,
+        "minP": 332112.706142808,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.845545794566222e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o1_p1_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006544807492595028,
+        "mass": 5.914511201018782e-08,
+        "minT": 2795.994066443823,
+        "minP": 332112.706142808,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.845545794566222e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o1_p1_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006544807492595028,
+        "mass": 5.914511201018782e-08,
+        "minT": 2795.994066443823,
+        "minP": 332112.706142808,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.845545794566222e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o2_p1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006600089768783606,
+        "mass": 5.914511201018814e-08,
+        "minT": 2871.982550891285,
+        "minP": 374624.5171269203,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.398368556451999e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d7a1d1b100fd18ad7ea3e6f4805b25e3b57c28fe1cc6ad7836ea86a84d530d22",
+      "executableSHA256": "6d3509f7f06a0ab416b131b977f1d34a042502d4ff1ef5bf0f9a57230a787250"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o2_p1_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006600089768783606,
+        "mass": 5.914511201018814e-08,
+        "minT": 2871.982550891285,
+        "minP": 374624.5171269203,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.398368556451999e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o2_p1_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006600089768783606,
+        "mass": 5.914511201018814e-08,
+        "minT": 2871.982550891285,
+        "minP": 374624.5171269203,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.398368556451999e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2.5e-07_s1_g0_o2_p1_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006600089768783606,
+        "mass": 5.914511201018814e-08,
+        "minT": 2871.982550891285,
+        "minP": 374624.5171269203,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.398368556451999e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006551850111486179,
+        "mass": 5.9145112010188497e-08,
+        "minT": 2779.870210414976,
+        "minP": 364615.765433195,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.915971983477735e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/fbdb129dc705dccdffe32bb769a3cc1c7c60f50303e0b08ab2dc8a719424ebfa",
+      "executableSHA256": "06f2665cc2691b8d5451a87b2aacffddf99851cba3cf5c7caa9b3ea291c02f17"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_cpFDSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006551852541295804,
+        "mass": 5.9145112010188404e-08,
+        "minT": 2779.866347584161,
+        "minP": 364616.376518067,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.915996281573985e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006548093353166461,
+        "mass": 5.9145112010188497e-08,
+        "minT": 2776.331421769713,
+        "minP": 363654.0396813203,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.878404400280553e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_pilot",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000586460040470482,
+        "mass": 5.914511201018854e-08,
+        "minT": 600.0040129882047,
+        "minP": 100813.9786444601,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 4.347491566414558e-07,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/fbdb129dc705dccdffe32bb769a3cc1c7c60f50303e0b08ab2dc8a719424ebfa",
+      "executableSHA256": "06f2665cc2691b8d5451a87b2aacffddf99851cba3cf5c7caa9b3ea291c02f17"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_transportOff",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006551850111486179,
+        "mass": 5.9145112010188497e-08,
+        "minT": 2779.870210414976,
+        "minP": 364615.765433195,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.915971983477735e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_transportOn",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006551850111486179,
+        "mass": 5.9145112010188497e-08,
+        "minT": 2779.870210414976,
+        "minP": 364615.765433195,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.915971983477735e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006564516494755788,
+        "mass": 5.914511201018856e-08,
+        "minT": 2788.76588494502,
+        "minP": 367890.1766224656,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.042635816173828e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d7a1d1b100fd18ad7ea3e6f4805b25e3b57c28fe1cc6ad7836ea86a84d530d22",
+      "executableSHA256": "6d3509f7f06a0ab416b131b977f1d34a042502d4ff1ef5bf0f9a57230a787250"
+    },
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p4",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006565822106663867,
+        "mass": 5.914511201018858e-08,
+        "minT": 2785.503470507384,
+        "minP": 368190.969040679,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 7.055691935254618e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d7a1d1b100fd18ad7ea3e6f4805b25e3b57c28fe1cc6ad7836ea86a84d530d22",
+      "executableSHA256": "6d3509f7f06a0ab416b131b977f1d34a042502d4ff1ef5bf0f9a57230a787250"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006550650247145168,
+        "mass": 5.914511201018854e-08,
+        "minT": 2728.870649452731,
+        "minP": 350982.470930295,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.903973340067625e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/fbdb129dc705dccdffe32bb769a3cc1c7c60f50303e0b08ab2dc8a719424ebfa",
+      "executableSHA256": "06f2665cc2691b8d5451a87b2aacffddf99851cba3cf5c7caa9b3ea291c02f17"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_timing1",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006550650247145168,
+        "mass": 5.914511201018854e-08,
+        "minT": 2728.870649452731,
+        "minP": 350982.470930295,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.903973340067625e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_timing2",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006550650247145168,
+        "mass": 5.914511201018854e-08,
+        "minT": 2728.870649452731,
+        "minP": 350982.470930295,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.903973340067625e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_timing3",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006550650247145168,
+        "mass": 5.914511201018854e-08,
+        "minT": 2728.870649452731,
+        "minP": 350982.470930295,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.903973340067625e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_transportOff_nonzeroSutherland",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006549271276642779,
+        "mass": 5.9145112010188596e-08,
+        "minT": 2725.506604091819,
+        "minP": 349534.071532495,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.890183635043737e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_transportOff_nonzeroSutherland_coupledSync",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006549271276642779,
+        "mass": 5.9145112010188596e-08,
+        "minT": 2725.506604091819,
+        "minP": 349534.071532495,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.890183635043737e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_transportOn_nonzeroSutherland",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006549270722098208,
+        "mass": 5.9145112010188616e-08,
+        "minT": 2725.505429692238,
+        "minP": 349534.0146425917,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.890178089598027e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/e1eed03aad2142f12f9f1499ed6ebe16fa5fe8593df075b31dc293f63f052133",
+      "executableSHA256": "3c574a656df6f8f85a2bc3e38f36594c68af45b94b03e46ab40fc7e578cae06b"
+    },
+    {
+      "name": "F_none_dt5e-07_s1_g0_o1_p1_transportOn_nonzeroSutherland_coupledSync",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006549270722098208,
+        "mass": 5.9145112010188616e-08,
+        "minT": 2725.505429692238,
+        "minP": 349534.0146425917,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.890178089598027e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/8b900d78dd1eab35a4bf24d81839b36f42cb961edcea926c73bd44c75587367e",
+      "executableSHA256": "2f335a5f8c318449ca2d8ff99cd4c98841ab0864a407a9030573b4503b759c42"
+    },
+    {
+      "name": "F_speciesFlux_dt1e-06_s1_g0_o1_p1",
+      "mode": "speciesFlux",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006584111613967981,
+        "mass": 5.914511201018853e-08,
+        "minT": 2816.997420410977,
+        "minP": 371600.7423353202,
+        "minY": 0.0,
+        "maxYsumError": 1.3988810110276972e-14
+      },
+      "entropyChange": 7.238587008295751e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/98abf87228efb2fd6f02dc094d1e37fd1cf8dab39611128da47bb28b82816656",
+      "executableSHA256": "3075a86c65ef1f9f6f5f38da89ce25dfb421c2808f405899198fe1dc6357bf4a"
+    },
+    {
+      "name": "F_speciesFlux_dt2e-06_s1_g0_o1_p1",
+      "mode": "speciesFlux",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.914511201018847e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006598263963148512,
+        "mass": 5.914511201018851e-08,
+        "minT": 2854.947948179974,
+        "minP": 375686.8314057296,
+        "minY": 0.0,
+        "maxYsumError": 2.886579864025407e-14
+      },
+      "entropyChange": 7.380110500101067e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/98abf87228efb2fd6f02dc094d1e37fd1cf8dab39611128da47bb28b82816656",
+      "executableSHA256": "3075a86c65ef1f9f6f5f38da89ce25dfb421c2808f405899198fe1dc6357bf4a"
+    },
+    {
+      "name": "InvF_blockConservative_nx128_dt3.125e-08_TF0.00024",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562056061998652,
+        "mass": 5.9145187258712e-08,
+        "minT": 2729.02894714309,
+        "minP": 351527.4549393764,
+        "minY": 0.0,
+        "maxYsumError": 6.532552276894421e-13
+      },
+      "entropyChange": 7.017978493943742e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "InvF_blockConservative_nx32_dt1.25e-07_TF0.00024",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.91451120101885e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563180097616327,
+        "mass": 5.914511201018835e-08,
+        "minT": 2794.401564416934,
+        "minP": 358051.4681729187,
+        "minY": 0.0,
+        "maxYsumError": 1.687538997430238e-14
+      },
+      "entropyChange": 7.029271844779215e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "InvF_blockConservative_nx64_dt6.25e-08_TF0.00024",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.0005860258221855104,
+        "mass": 5.914518724841e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656254587804644,
+        "mass": 5.914518724841171e-08,
+        "minT": 2768.624192010484,
+        "minP": 345829.733930096,
+        "minY": 0.0,
+        "maxYsumError": 6.139533326177116e-14
+      },
+      "entropyChange": 7.022876561913361e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "InvF_conservativeState_nx128_dt3.125e-08_TF0.00024",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.000656156204650223,
+        "mass": 5.914518725870945e-08,
+        "minT": 2715.265197228025,
+        "minP": 344278.0069456394,
+        "minY": 0.0,
+        "maxYsumError": 9.103828801926284e-15
+      },
+      "entropyChange": 7.013038338979513e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "InvF_conservativeState_nx32_dt1.25e-07_TF0.00024",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.91451120101885e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562448775323743,
+        "mass": 5.914511201018853e-08,
+        "minT": 2820.275740280497,
+        "minP": 338368.3474373859,
+        "minY": 0.0,
+        "maxYsumError": 4.107825191113079e-15
+      },
+      "entropyChange": 7.021958621853373e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "InvF_conservativeState_nx64_dt6.25e-08_TF0.00024",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.0005860258221855104,
+        "mass": 5.914518724841e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562180320476413,
+        "mass": 5.9145187248410015e-08,
+        "minT": 2727.76111128718,
+        "minP": 339878.4030010289,
+        "minY": 0.0,
+        "maxYsumError": 6.439293542825908e-15
+      },
+      "entropyChange": 7.019220986213088e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "InvF_none_nx128_dt3.125e-08_TF0.00024",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006554946787286105,
+        "mass": 5.914518725870903e-08,
+        "minT": 2691.660293672172,
+        "minP": 338996.1883098191,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-16
+      },
+      "entropyChange": 6.946885746818266e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "InvF_none_nx32_dt1.25e-07_TF0.00024",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.91451120101885e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006549983998302251,
+        "mass": 5.914511201018828e-08,
+        "minT": 2734.81307210545,
+        "minP": 339699.1679754057,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 6.897310851638452e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "InvF_none_nx64_dt6.25e-08_TF0.00024",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.0005860258221855104,
+        "mass": 5.914518724841e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006555018913743936,
+        "mass": 5.914518724840999e-08,
+        "minT": 2708.739540851165,
+        "minP": 338752.5634381645,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 6.94760691888832e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "Central_F_nx128_dt1.5625e-08_TF0.00024_hRecovery",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005887222773782825,
+        "mass": 5.9145187258687966e-08,
+        "minT": 640.2644308291507,
+        "minP": 102069.7785419762,
+        "minY": 0.0,
+        "maxYsumError": 6.972200594645983e-14
+      },
+      "entropyChange": 2.696456117854697e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+      "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae"
+    },
+    {
+      "name": "Central_F_nx128_dt3.125e-08_TF0.00024_hRecovery",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005887262041677077,
+        "mass": 5.914518725869864e-08,
+        "minT": 640.1518955436117,
+        "minP": 102073.8163367933,
+        "minY": 0.0,
+        "maxYsumError": 3.730349362740526e-14
+      },
+      "entropyChange": 2.7003829072798965e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+      "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae"
+    },
+    {
+      "name": "Central_F_nx256_dt1.5625e-08_TF0.00024_hRecovery",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258215638855,
+        "mass": 5.914518726229e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563164170608026,
+        "mass": 5.914518726226669e-08,
+        "minT": 2766.582679237365,
+        "minP": 361395.4315619129,
+        "minY": 0.0,
+        "maxYsumError": 1.887379141862766e-14
+      },
+      "entropyChange": 7.029059549691706e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+      "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae"
+    },
+    {
+      "name": "Central_F_nx256_dt1.5625e-08_TF0.00024_hRecovery2",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258215638855,
+        "mass": 5.914518726229e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563164170600041,
+        "mass": 5.914518726226662e-08,
+        "minT": 2766.582679216779,
+        "minP": 361395.4315691688,
+        "minY": 0.0,
+        "maxYsumError": 1.8984813721090177e-14
+      },
+      "entropyChange": 7.029059549611865e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/90dd669a6b6baaf8000d6b9c95a7e00ae7b57e714b3dc14e9ccdabd4d25d665a",
+      "executableSHA256": "02a124c6d94151580076351c4d9253b39702942a2ff46f37e8eaf6f0fb9fc86a"
+    },
+    {
+      "name": "Central_F_nx32_dt1.25e-07_TF0.00024_hRecovery",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.91451120101885e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005887881989890729,
+        "mass": 5.914511201018766e-08,
+        "minT": 693.4416736808406,
+        "minP": 102002.5568598649,
+        "minY": 0.0,
+        "maxYsumError": 5.551115123125783e-15
+      },
+      "entropyChange": 2.7629076752322965e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+      "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae"
+    },
+    {
+      "name": "Central_F_nx512_dt7.8125e-09_TF0.00024_hRecovery3",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258214098728,
+        "mass": 5.914518726327144e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562651146697574,
+        "mass": 5.914518726325208e-08,
+        "minT": 2737.440074109089,
+        "minP": 360335.2809977251,
+        "minY": 0.0,
+        "maxYsumError": 1.354472090042691e-14
+      },
+      "entropyChange": 7.023929325988452e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+      "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6"
+    },
+    {
+      "name": "Central_F_nx64_dt6.25e-08_TF0.00024_hRecovery",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.0005860258221855104,
+        "mass": 5.914518724841e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0005887724758631004,
+        "mass": 5.9145187248406727e-08,
+        "minT": 676.4283165074596,
+        "minP": 101981.0801660228,
+        "minY": 0.0,
+        "maxYsumError": 3.774758283725532e-15
+      },
+      "entropyChange": 2.7466536775900066e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a0b8a63105daa2a119b320312b03eedffd5a08838035b0737487fc9cdd80f054",
+      "executableSHA256": "376b19116d74dc3d2ef505bec414e76c2a10659cd62ed6a62f99e94ebcc30fae"
+    },
+    {
+      "name": "HLLC_F_nx128_dt1.5625e-08_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562117703095555,
+        "mass": 5.914518725868788e-08,
+        "minT": 2733.23863657197,
+        "minP": 365136.5940761646,
+        "minY": 0.0,
+        "maxYsumError": 4.629630012686903e-14
+      },
+      "entropyChange": 7.018594904912765e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx128_dt3.125e-08_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258212604278,
+        "mass": 5.914518725870898e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562107622644373,
+        "mass": 5.914518725869852e-08,
+        "minT": 2731.843087943612,
+        "minP": 364280.0304657064,
+        "minY": 0.0,
+        "maxYsumError": 2.1316282072803006e-14
+      },
+      "entropyChange": 7.018494100400946e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx256_dt1.5625e-08_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258215638855,
+        "mass": 5.914518726229e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006561480094614625,
+        "mass": 5.914518726226613e-08,
+        "minT": 2668.949300697541,
+        "minP": 340390.5545052352,
+        "minY": 0.0,
+        "maxYsumError": 2.531308496145357e-14
+      },
+      "entropyChange": 7.012218789757699e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx256_dt7.8125e-09_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258215638855,
+        "mass": 5.914518726229e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006561487086845315,
+        "mass": 5.914518726224233e-08,
+        "minT": 2672.400456234544,
+        "minP": 342149.8590626242,
+        "minY": 0.0,
+        "maxYsumError": 4.04121180963557e-14
+      },
+      "entropyChange": 7.012288712064598e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx32_dt1.25e-07_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860252913138406,
+        "mass": 5.91451120101885e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006563136210751406,
+        "mass": 5.914511201018776e-08,
+        "minT": 2774.812188420092,
+        "minP": 366698.9845843518,
+        "minY": 0.0,
+        "maxYsumError": 2.220446049250313e-15
+      },
+      "entropyChange": 7.028832976130003e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx512_dt7.8125e-09_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258214098728,
+        "mass": 5.914518726327144e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006558779999041989,
+        "mass": 5.9145187263255e-08,
+        "minT": 2310.365387417534,
+        "minP": 342122.2419123104,
+        "minY": 0.0,
+        "maxYsumError": 7.438494264988549e-14
+      },
+      "entropyChange": 6.9852178494326e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "HLLC_F_nx64_dt6.25e-08_TF0.00024_hRecovery3",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.0005860258221855104,
+        "mass": 5.914518724841e-08,
+        "minT": 600.0,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0006562631944677136,
+        "mass": 5.9145187248406806e-08,
+        "minT": 2753.014932540875,
+        "minP": 362419.2277626291,
+        "minY": 0.0,
+        "maxYsumError": 6.8833827526759706e-15
+      },
+      "entropyChange": 7.023737228220312e-05,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "ThermoWave_blockConservative_nx128_dt2e-08",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.6569557314850786e-08,
+        "minT": 600.0602362607592,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048581173054112315,
+        "mass": 3.656955731485087e-08,
+        "minT": 601.2115499330273,
+        "minP": 101249.7400691111,
+        "minY": 0.0,
+        "maxYsumError": 2.842170943040401e-14
+      },
+      "entropyChange": 2.5646667897575616e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "ThermoWave_blockConservative_nx32_dt2e-08",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.656955731485081e-08,
+        "minT": 600.9630546655605,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858853985387433,
+        "mass": 3.65695573148508e-08,
+        "minT": 604.7964026501854,
+        "minP": 101029.3963815134,
+        "minY": 0.0,
+        "maxYsumError": 2.5091040356528538e-14
+      },
+      "entropyChange": 9.931466551774994e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "ThermoWave_blockConservative_nx64_dt2e-08",
+      "mode": "blockConservative",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.65695573148508e-08,
+        "minT": 600.2409087589656,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858367793488336,
+        "mass": 3.656955731485074e-08,
+        "minT": 602.3312442032376,
+        "minP": 101175.75847469,
+        "minY": 0.0,
+        "maxYsumError": 2.6201263381153694e-14
+      },
+      "entropyChange": 5.069547560801295e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "ThermoWave_central_nx128_dt2e-08",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.6569557314850786e-08,
+        "minT": 600.0602362607592,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004862216817244625,
+        "mass": 3.65695573148502e-08,
+        "minT": 620.1395614834831,
+        "minP": 101372.9685083955,
+        "minY": 0.0,
+        "maxYsumError": 2.3314683517128287e-14
+      },
+      "entropyChange": 4.355978512369054e-07,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+      "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6"
+    },
+    {
+      "name": "ThermoWave_central_nx32_dt2e-08",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.656955731485081e-08,
+        "minT": 600.9630546655605,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004870204793969032,
+        "mass": 3.656955731485035e-08,
+        "minT": 666.4746004792155,
+        "minP": 101472.9060471603,
+        "minY": 0.0,
+        "maxYsumError": 2.4868995751603507e-14
+      },
+      "entropyChange": 1.2343955236776344e-06,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+      "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6"
+    },
+    {
+      "name": "ThermoWave_central_nx64_dt2e-08",
+      "mode": "central",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.65695573148508e-08,
+        "minT": 600.2409087589656,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048655753489517387,
+        "mass": 3.6569557314850144e-08,
+        "minT": 637.5206898174309,
+        "minP": 101413.4985654448,
+        "minY": 0.0,
+        "maxYsumError": 2.7977620220553945e-14
+      },
+      "entropyChange": 7.714510219483011e-07,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+      "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6"
+    },
+    {
+      "name": "ThermoWave_conservativeState_nx128_dt2e-08",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.6569557314850786e-08,
+        "minT": 600.0602362607592,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048581173057439357,
+        "mass": 3.6569557314850806e-08,
+        "minT": 601.2158003569396,
+        "minP": 101250.2591457007,
+        "minY": 0.0,
+        "maxYsumError": 1.3655743202889425e-14
+      },
+      "entropyChange": 2.5646701167999792e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "ThermoWave_conservativeState_nx32_dt2e-08",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.656955731485081e-08,
+        "minT": 600.9630546655605,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048588539344537364,
+        "mass": 3.656955731485082e-08,
+        "minT": 604.8338107204086,
+        "minP": 101033.3447039601,
+        "minY": 0.0,
+        "maxYsumError": 2.1649348980190553e-14
+      },
+      "entropyChange": 9.930957214806775e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "ThermoWave_conservativeState_nx64_dt2e-08",
+      "mode": "conservativeState",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.65695573148508e-08,
+        "minT": 600.2409087589656,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858367788598809,
+        "mass": 3.656955731485075e-08,
+        "minT": 602.3474754217858,
+        "minP": 101176.9590377881,
+        "minY": 0.0,
+        "maxYsumError": 1.354472090042691e-14
+      },
+      "entropyChange": 5.0694986655330353e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "ThermoWave_hllc_nx128_dt2e-08",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.6569557314850786e-08,
+        "minT": 600.0602362607592,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048581147268914244,
+        "mass": 3.6569557314849886e-08,
+        "minT": 601.2585003588738,
+        "minP": 101327.5562668537,
+        "minY": 0.0,
+        "maxYsumError": 9.614531393253856e-14
+      },
+      "entropyChange": 2.5388815916868677e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "ThermoWave_hllc_nx32_dt2e-08",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.656955731485081e-08,
+        "minT": 600.9630546655605,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858851862276579,
+        "mass": 3.656955731484994e-08,
+        "minT": 604.9938994965524,
+        "minP": 101335.7345456905,
+        "minY": 0.0,
+        "maxYsumError": 9.237055564881302e-14
+      },
+      "entropyChange": 9.910235443231661e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "ThermoWave_hllc_nx64_dt2e-08",
+      "mode": "hllc",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.65695573148508e-08,
+        "minT": 600.2409087589656,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858365305661672,
+        "mass": 3.6569557314850025e-08,
+        "minT": 602.4352579575424,
+        "minP": 101330.3091429034,
+        "minY": 0.0,
+        "maxYsumError": 1.021405182655144e-13
+      },
+      "entropyChange": 5.044669294161598e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+      "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da"
+    },
+    {
+      "name": "ThermoWave_none_nx128_dt2e-08",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.6569557314850786e-08,
+        "minT": 600.0602362607592,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858132805026573,
+        "mass": 3.6569557314850806e-08,
+        "minT": 601.2146084473268,
+        "minP": 101250.6712111297,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 2.7196629431749508e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "ThermoWave_none_nx32_dt2e-08",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.656955731485081e-08,
+        "minT": 600.9630546655605,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.00048588708155392817,
+        "mass": 3.656955731485086e-08,
+        "minT": 604.8238450358199,
+        "minP": 101031.4471536394,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 1.0099768070259479e-07,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    },
+    {
+      "name": "ThermoWave_none_nx64_dt2e-08",
+      "mode": "none",
+      "initial": {
+        "totalEntropy": 0.00048578608387322557,
+        "mass": 3.65695573148508e-08,
+        "minT": 600.2409087589656,
+        "minP": 101325.0,
+        "minY": 0.0,
+        "maxYsumError": 0.0
+      },
+      "end": {
+        "totalEntropy": 0.0004858383726845247,
+        "mass": 3.6569557314850726e-08,
+        "minT": 602.3429373123131,
+        "minP": 101176.8979990367,
+        "minY": 0.0,
+        "maxYsumError": 1.1102230246251565e-16
+      },
+      "entropyChange": 5.2288811299154754e-08,
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+      "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4"
+    }
+  ],
+  "scope": "Independent NASA7 ideal-mixture entropy using pstandard=100000 Pa. Endpoint closed-domain screen only: positive entropy change is not a local entropy inequality or a proof of entropy stability. Non-positive species traces are reported; their entropy limiting term is omitted below the stated -1e-12 rejection threshold, without changing fields."
+}

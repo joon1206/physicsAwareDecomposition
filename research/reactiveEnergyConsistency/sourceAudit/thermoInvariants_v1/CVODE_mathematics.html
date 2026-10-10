@@ -1,0 +1,812 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="readthedocs-addons-api-version" content="1"><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KESEG9QED"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3KESEG9QED');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3.2. Mathematical Considerations &mdash; Documentation for SUNDIALS  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=04ee5843" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/versions.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3.3. Code Organization" href="Organization_link.html" />
+    <link rel="prev" title="3.1. Introduction" href="Introduction_link.html" /> 
+<script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="sundials" /><meta name="readthedocs-version-slug" content="latest" /><meta name="readthedocs-resolver-filename" content="/cvode/Mathematics_link.html" /><meta name="readthedocs-http-status" content="200" /></head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Documentation for SUNDIALS
+              <img src="../_static/sundials_logo_blue.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="switch-menus">
+                <div class="version-switch"></div>
+                <div class="language-switch"></div>
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+    
+              <p class="caption" role="heading"><span class="caption-text">USAGE</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../sundials/index.html">1. Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arkode/index.html">2. ARKODE Documentation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. CVODE Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Introduction_link.html">3.1. Introduction</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.2. Mathematical Considerations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ivp-solution">3.2.1. IVP solution</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#nonlinear-solve">3.2.1.1. Nonlinear Solve</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#local-error-test">3.2.1.2. Local Error Test</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#step-size-and-order-selection">3.2.1.3. Step Size and Order Selection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#inequality-constraints">3.2.1.4. Inequality Constraints</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ivps-with-constraints">3.2.2. IVPs with constraints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#preconditioning">3.2.3. Preconditioning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bdf-stability-limit-detection">3.2.4. BDF stability limit detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rootfinding">3.2.5. Rootfinding</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Organization_link.html">3.3. Code Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Usage/index.html">3.4. Using CVODE for IVP Solution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Constants_link.html">3.5. CVODE Constants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cvodes/index.html">4. CVODES Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ida/index.html">5. IDA Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../idas/index.html">6. IDAS Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kinsol/index.html">7. KINSOL Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nvectors/index.html">8. Vector Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunmatrix/index.html">9. Matrix Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunlinsol/index.html">10. Linear Algebraic Solvers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunnonlinsol/index.html">11. Nonlinear Algebraic Solvers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sundomeigest/index.html">12. Dominant Eigenvalue Estimators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunadaptcontroller/index.html">13. Time Step Adaptivity Controllers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunstepper/index.html">14. Stepper Data Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunadjoint/index.html">15. Adjoint Sensitivity Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sunmemory/index.html">16. Tools for Memory Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Publications_link.html">17. SUNDIALS Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../History_link.html">18. Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Changelog_link.html">19. Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../FAQ_link.html">20. Frequently Asked Questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INTERFACES</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Fortran/index.html">21. Fortran</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Python/index.html">22. Python</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXAMPLES</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/arkode/index-superbuild.html">ARKODE Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/cvode/index-superbuild.html">CVODE Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/cvodes/index-superbuild.html">CVODES Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/ida/index-superbuild.html">IDA Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/idas/index-superbuild.html">IDAS Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/kinsol/index-superbuild.html">KINSOL Examples</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developers/index.html">Developer Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">REFERENCES</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../References.html">Bibliography</a></li>
+</ul>
+
+    <li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+  
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Documentation for SUNDIALS</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html"><span class="section-number">3. </span>CVODE Documentation</a></li>
+      <li class="breadcrumb-item active"><span class="section-number">3.2. </span>Mathematical Considerations</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mathematical-considerations">
+<span id="cvode-mathematics"></span><h1><span class="section-number">3.2. </span>Mathematical Considerations<a class="headerlink" href="#mathematical-considerations" title="Link to this heading"></a></h1>
+<p>CVODE solves ODE initial value problems (IVPs) in real
+<span class="math notranslate nohighlight">\(N\)</span>-space, which we write in the abstract form</p>
+<div class="math notranslate nohighlight" id="equation-cvode-ivp">
+<span class="eqno">(3.1)<a class="headerlink" href="#equation-cvode-ivp" title="Link to this equation"></a></span>\[\dot{y} = f(t,y) \, ,\quad y(t_0) = y_0 \,\]</div>
+<p>where <span class="math notranslate nohighlight">\(y \in \mathbb{R}^N\)</span> and
+<span class="math notranslate nohighlight">\(f: \mathbb{R} \times \mathbb{R}^N \rightarrow \mathbb{R}^N\)</span>.
+Here we use <span class="math notranslate nohighlight">\(\dot{y}\)</span> to denote <span class="math notranslate nohighlight">\(\mathrm dy/\mathrm dt\)</span>. While we use
+<span class="math notranslate nohighlight">\(t\)</span> to denote the independent variable, and usually this is time,
+it certainly need not be. CVODE solves both stiff and nonstiff
+systems. Roughly speaking, stiffness is characterized by the presence of
+at least one rapidly damped mode, whose time constant is small compared
+to the time scale of the solution itself.</p>
+<p>For problems <a class="reference internal" href="#equation-cvode-ivp">(3.1)</a> where the analytical solution <span class="math notranslate nohighlight">\(y(t)\)</span>
+satisfies an implicit constraint <span class="math notranslate nohighlight">\(g(t,y)=0\)</span> (including the initial
+condition, <span class="math notranslate nohighlight">\(g(t_0,y_0)=0\)</span>) for
+<span class="math notranslate nohighlight">\(g(t,y): \mathbb{R} \times \mathbb{R}^N \rightarrow \mathbb{R}^{M}\)</span> with
+<span class="math notranslate nohighlight">\(M&lt;N\)</span>,  CVODE may be configured to explicitly enforce these constraints
+via solving the modified problem</p>
+<div class="math notranslate nohighlight" id="equation-cvode-ivp-constr">
+<span class="eqno">(3.2)<a class="headerlink" href="#equation-cvode-ivp-constr" title="Link to this equation"></a></span>\[\begin{split}\begin{aligned}
+   \dot{y} &amp;= f(t,y) \, ,\quad y(t_0) = y_0 \, ,\\
+   0 &amp;= g(t,y).
+\end{aligned}\end{split}\]</div>
+<section id="ivp-solution">
+<span id="cvode-mathematics-ivp-sol"></span><h2><span class="section-number">3.2.1. </span>IVP solution<a class="headerlink" href="#ivp-solution" title="Link to this heading"></a></h2>
+<p>The methods used in CVODE are variable-order, variable-step
+multistep methods, based on formulas of the form</p>
+<div class="math notranslate nohighlight" id="equation-cvode-lmm">
+<span class="eqno">(3.3)<a class="headerlink" href="#equation-cvode-lmm" title="Link to this equation"></a></span>\[\sum_{i = 0}^{K_1} \alpha_{n,i} y^{n-i} +
+     h_n \sum_{i = 0}^{K_2} \beta_{n,i} {\dot{y}}^{n-i} = 0 \, .\]</div>
+<p>Here the <span class="math notranslate nohighlight">\(y^n\)</span> are computed approximations to <span class="math notranslate nohighlight">\(y(t_n)\)</span>, and
+<span class="math notranslate nohighlight">\(h_n = t_n - t_{n-1}\)</span> is the step size. The user of CVODE must
+choose appropriately one of two multistep methods. For nonstiff
+problems, CVODE includes the Adams-Moulton formulas, characterized
+by <span class="math notranslate nohighlight">\(K_1 = 1\)</span> and <span class="math notranslate nohighlight">\(K_2 = q-1\)</span> above, where the order
+<span class="math notranslate nohighlight">\(q\)</span> varies between <span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(12\)</span>. For stiff problems,
+CVODE includes the Backward Differentiation Formulas (BDF) in
+so-called fixed-leading coefficient (FLC) form, given by <span class="math notranslate nohighlight">\(K_1 = q\)</span>
+and <span class="math notranslate nohighlight">\(K_2 = 0\)</span>, with order <span class="math notranslate nohighlight">\(q\)</span> varying between <span class="math notranslate nohighlight">\(1\)</span> and
+<span class="math notranslate nohighlight">\(5\)</span>. The coefficients are uniquely determined by the method type,
+its order, the recent history of the step sizes, and the normalization
+<span class="math notranslate nohighlight">\(\alpha_{n,0} = -1\)</span>. See <span class="bibtex-citation" id="id1">[<a class="reference internal" href="../References.html#id47" title="G. D. Byrne and A. C. Hindmarsh. A Polyalgorithm for the Numerical Solution of Ordinary Differential Equations. ACM Trans. Math. Softw., 1:71–96, 1975. doi:10.1145/355626.355636.">32</a>]</span> and
+<span class="bibtex-citation" id="id2">[<a class="reference internal" href="../References.html#id48" title="K. R. Jackson and R. Sacks-Davis. An Alternative Implementation of Variable Step-Size Multistep Formulas for Stiff ODEs. ACM Trans. Math. Softw., 6(3):295–318, 1980. doi:10.1145/355900.355903.">91</a>]</span>.</p>
+<p>For either choice of formula, a nonlinear system must be solved
+(approximately) at each integration step. This nonlinear system can be
+formulated as either a rootfinding problem</p>
+<div class="math notranslate nohighlight" id="equation-cvode-nonlinear">
+<span class="eqno">(3.4)<a class="headerlink" href="#equation-cvode-nonlinear" title="Link to this equation"></a></span>\[F(y^n) \equiv y^n - h_n \beta_{n,0} f(t_n,y^n) - a_n = 0 \, ,\]</div>
+<p>or as a fixed-point problem</p>
+<div class="math notranslate nohighlight" id="equation-cvode-nonlinear-fixedpoint">
+<span class="eqno">(3.5)<a class="headerlink" href="#equation-cvode-nonlinear-fixedpoint" title="Link to this equation"></a></span>\[G(y^n) \equiv h_n \beta_{n,0} f(t_n,y^n) + a_n = y^n \, .\]</div>
+<p>where
+<span class="math notranslate nohighlight">\(a_n\equiv\sum_{i&gt;0}(\alpha_{n,i}y^{n-i}+h_n\beta_{n,i} {\dot{y}}^{n-i})\)</span>.</p>
+<p>In the process of controlling errors at various levels, CVODE uses a
+weighted root-mean-square norm, denoted
+<span class="math notranslate nohighlight">\(\|\cdot\|_{\text{WRMS}}\)</span>, for all error-like
+quantities. The multiplicative weights used are based on the current
+solution and on the relative and absolute tolerances input by the user,
+namely</p>
+<div class="math notranslate nohighlight" id="equation-cvode-errwt">
+<span class="eqno">(3.6)<a class="headerlink" href="#equation-cvode-errwt" title="Link to this equation"></a></span>\[W_i = 1 / [\text{rtol} \cdot |y_i| + \text{atol}_i ] \, .\]</div>
+<p>Because <span class="math notranslate nohighlight">\(1/W_i\)</span> represents a tolerance in the component
+<span class="math notranslate nohighlight">\(y_i\)</span>, a vector whose WRMS norm is 1 is regarded as “small.”</p>
+<section id="nonlinear-solve">
+<span id="cvode-mathematics-nls"></span><h3><span class="section-number">3.2.1.1. </span>Nonlinear Solve<a class="headerlink" href="#nonlinear-solve" title="Link to this heading"></a></h3>
+<p>CVODE provides several nonlinear solver choices as well as the
+option of using a user-defined nonlinear solver (see
+<a class="reference internal" href="../sunnonlinsol/index.html#sunnonlinsol"><span class="std std-numref">§11</span></a>). By default CVODE solves <a class="reference internal" href="#equation-cvode-nonlinear">(3.4)</a> with a
+<em>Newton iteration</em> which requires the solution of linear systems</p>
+<div class="math notranslate nohighlight" id="equation-cvode-newton">
+<span class="eqno">(3.7)<a class="headerlink" href="#equation-cvode-newton" title="Link to this equation"></a></span>\[M [y^{n(m+1)} - y^{n(m)}] = -F(y^{n(m)}) \, ,\]</div>
+<p>in which</p>
+<div class="math notranslate nohighlight" id="equation-cvode-newtonmat">
+<span class="eqno">(3.8)<a class="headerlink" href="#equation-cvode-newtonmat" title="Link to this equation"></a></span>\[M \approx I - \gamma J \, ,
+\quad J = \partial f / \partial y \, ,
+\quad \mbox{and} \quad
+\gamma = h_n \beta_{n,0} \, .\]</div>
+<p>The exact variation of the Newton iteration depends on the choice of linear
+solver and is discussed below and in <a class="reference internal" href="../sunnonlinsol/SUNNonlinSol_links.html#sunnonlinsol-newton"><span class="std std-numref">§11.7</span></a>. For nonstiff
+systems, a <em>fixed-point iteration</em> (previously referred to as a functional
+iteration in this guide) solving <a class="reference internal" href="#equation-cvode-nonlinear-fixedpoint">(3.5)</a> is also
+available. This involves evaluations of <span class="math notranslate nohighlight">\(f\)</span> only and can (optionally) use
+Anderson’s method <span class="bibtex-citation" id="id3">[<a class="reference internal" href="../References.html#id137" title="D. G. Anderson. Iterative procedures for nonlinear integral equations. J. Assoc. Comput. Machinery, 12:547-560, 1965. doi:10.1145/321296.321305.">11</a>, <a class="reference internal" href="../References.html#id140" title="H. Fang and Y. Saad. Two classes of secant methods for nonlinear acceleration. Numer. Linear Algebra Appl., 16(3):197-221, 2009. doi:10.1002/nla.617.">58</a>, <a class="reference internal" href="../References.html#id141" title="P. A. Lott, H. F. Walker, C. S. Woodward, and U. M. Yang. An accelerated Picard method for nonlinear systems related to variably saturated flow. Adv. Wat. Resour., 38:92–101, 2012. doi:10.1016/j.advwatres.2011.12.013.">109</a>, <a class="reference internal" href="../References.html#id136" title="H. F. Walker and P. Ni. Anderson Acceleration for Fixed-Point Iterations. SIAM Jour. Num. Anal., 49(4):1715–1735, 2011. doi:10.1137/10078356X.">168</a>]</span> to
+accelerate convergence (see <a class="reference internal" href="../sunnonlinsol/SUNNonlinSol_links.html#sunnonlinsol-fixedpoint"><span class="std std-numref">§11.8</span></a> for more details).
+For any nonlinear solver, the initial guess for the iteration is a predicted
+value <span class="math notranslate nohighlight">\(y^{n(0)}\)</span> computed explicitly from the available history data.</p>
+<p>For nonlinear solvers that require the solution of the linear system
+<a class="reference internal" href="#equation-cvode-newton">(3.7)</a> (e.g., the default Newton iteration),
+CVODE provides several linear solver choices, including the option
+of a user-supplied linear solver module (see
+<a class="reference internal" href="../sunlinsol/index.html#sunlinsol"><span class="std std-numref">§10</span></a>). The linear solver modules distributed
+with SUNDIALS are organized in two families, a <em>direct</em> family
+comprising direct linear solvers for dense, banded, or sparse matrices,
+and a <em>spils</em> family comprising scaled preconditioned iterative (Krylov)
+linear solvers. The methods offered through these modules are as
+follows:</p>
+<ul class="simple">
+<li><p>dense direct solvers, including an internal implementation, an interface to
+BLAS/LAPACK, an interface to MAGMA <span class="bibtex-citation" id="id4">[<a class="reference internal" href="../References.html#id146" title="Stanimire Tomov, Jack Dongarra, and Marc Baboulin. Towards dense linear algebra for hybrid GPU accelerated manycore systems. Parallel Computing, 36(5-6):232–240, June 2010. doi:10.1016/j.parco.2009.12.005.">160</a>]</span> and an interface to
+the oneMKL library <span class="bibtex-citation" id="id5">[<a class="reference internal" href="../References.html#id154" title="Intel oneAPI Programming Guide. https://software.intel.com/content/www/us/en/develop/documentation/oneapi-programming-guide/top.html.">3</a>]</span>,</p></li>
+<li><p>band direct solvers, including an internal implementation or an interface to BLAS/LAPACK,</p></li>
+<li><p>sparse direct solver interfaces to various libraries, including KLU <span class="bibtex-citation" id="id6">[<a class="reference internal" href="../References.html#id68" title="KLU Sparse Matrix Factorization Library. http://faculty.cse.tamu.edu/davis/suitesparse.html.">4</a>, <a class="reference internal" href="../References.html#id67" title="T. A. Davis and P. N. Ekanathan. Algorithm 907: KLU, a direct sparse solver for circuit simulation problems. ACM Trans. Math. Softw., 37(3):1-17, 2010. doi:10.1145/1824801.1824814.">45</a>]</span>,
+SuperLU_MT <span class="bibtex-citation" id="id7">[<a class="reference internal" href="../References.html#id71" title="SuperLU_MT Threaded Sparse Matrix Factorization Library. https://portal.nersc.gov/project/sparse/superlu/#superlu_mt.">9</a>, <a class="reference internal" href="../References.html#id70" title="J. W. Demmel, J. R. Gilbert, and X. S. Li. An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination. SIAM J. Matrix Analysis and Applications, 20(4):915–952, 1999. doi:10.1137/S0895479897317685.">47</a>, <a class="reference internal" href="../References.html#id69" title="X. S. Li. An overview of SuperLU: algorithms, implementation, and user interface. ACM Trans. Math. Softw., 31(3):302–325, September 2005. doi:10.1145/1089014.1089017.">106</a>]</span>, SuperLU_Dist
+<span class="bibtex-citation" id="id8">[<a class="reference internal" href="../References.html#id75" title="SuperLU_DIST Parallel Sparse Matrix Factorization Library. https://portal.nersc.gov/project/sparse/superlu/#superlu_dist.">8</a>, <a class="reference internal" href="../References.html#id72" title="Laura Grigori, James W. Demmel, and Xiaoye S. Li. Parallel symbolic factorization for sparse LU with static pivoting. SIAM J. Scientific Computing, 29(3):1289-1314, 2007. doi:10.1137/050638102.">70</a>, <a class="reference internal" href="../References.html#id74" title="X.S. Li, J.W. Demmel, J.R. Gilbert, L. Grigori, M. Shao, and I. Yamazaki. SuperLU Users' Guide. Technical Report LBNL-44289, Lawrence Berkeley National Laboratory, September 1999. http://crd.lbl.gov/ xiaoye/SuperLU/. Last update: August 2011.">107</a>, <a class="reference internal" href="../References.html#id73" title="Xiaoye S. Li and James W. Demmel. SuperLU_DIST: A scalable distributed-memory sparse direct solver for unsymmetric linear systems. ACM Trans. Mathematical Software, 29(2):110-140, June 2003. doi:10.1145/779359.779361.">108</a>]</span>, and cuSPARSE <span class="bibtex-citation" id="id9">[<a class="reference internal" href="../References.html#id152" title="NVIDIA cuSPARSE Programming Guide. https://docs.nvidia.com/cuda/cusparse/index.html.">7</a>]</span>,</p></li>
+<li><p>SPGMR, a scaled preconditioned GMRES (Generalized Minimal Residual method) solver,</p></li>
+<li><p>SPFGMR, a scaled preconditioned FGMRES (Flexible Generalized Minimal Residual method) solver,</p></li>
+<li><p>SPBCG, a scaled preconditioned Bi-CGStab (Bi-Conjugate Gradient Stable method) solver,</p></li>
+<li><p>SPTFQMR, a scaled preconditioned TFQMR (Transpose-Free Quasi-Minimal Residual method) solver, or</p></li>
+<li><p>PCG, a scaled preconditioned CG (Conjugate Gradient method) solver.</p></li>
+</ul>
+<p>For large stiff systems, where direct methods are often not feasible,
+the combination of a BDF integrator and a preconditioned Krylov method
+yields a powerful tool because it combines established methods for stiff
+integration, nonlinear iteration, and Krylov (linear) iteration with a
+problem-specific treatment of the dominant source of stiffness, in the
+form of the user-supplied preconditioner matrix
+<span class="bibtex-citation" id="id10">[<a class="reference internal" href="../References.html#id46" title="P. N. Brown and A. C. Hindmarsh. Reduced storage matrix methods in stiff ODE systems. J. Appl. Math. &amp; Comp., 31:49–91, 1989. doi:10.1016/0096-3003(89)90110-0.">26</a>]</span>.</p>
+<p>In addition, CVODE also provides a linear solver module which only
+uses a diagonal approximation of the Jacobian matrix.</p>
+<p>In the case of a matrix-based linear solver, the default Newton
+iteration is a Modified Newton iteration, in that the iteration matrix
+<span class="math notranslate nohighlight">\(M\)</span> is fixed throughout the nonlinear iterations. However, in the
+case that a matrix-free iterative linear solver is used, the default
+Newton iteration is an Inexact Newton iteration, in which <span class="math notranslate nohighlight">\(M\)</span> is
+applied in a matrix-free manner, with matrix-vector products <span class="math notranslate nohighlight">\(Jv\)</span>
+obtained by either difference quotients or a user-supplied routine. With
+the default Newton iteration, the matrix <span class="math notranslate nohighlight">\(M\)</span> and preconditioner
+matrix <span class="math notranslate nohighlight">\(P\)</span> are updated as infrequently as possible to balance the
+high costs of matrix operations against other costs. Specifically, this
+matrix update occurs when:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>starting the problem,</p></li>
+<li><p>more than 20 steps have been taken since the last update,</p></li>
+<li><p>the value <span class="math notranslate nohighlight">\(\bar{\gamma}\)</span> of <span class="math notranslate nohighlight">\(\gamma\)</span> at the last update
+satisfies <span class="math notranslate nohighlight">\(|\gamma/\bar{\gamma} - 1| &gt; 0.3\)</span>,</p></li>
+<li><p>a non-fatal convergence failure just occurred, or</p></li>
+<li><p>an error test failure just occurred.</p></li>
+</ul>
+</div></blockquote>
+<p>When an update of <span class="math notranslate nohighlight">\(M\)</span> or <span class="math notranslate nohighlight">\(P\)</span> occurs, it may or may not involve a
+reevaluation of <span class="math notranslate nohighlight">\(J\)</span> (in <span class="math notranslate nohighlight">\(M\)</span>) or of Jacobian data (in <span class="math notranslate nohighlight">\(P\)</span>),
+depending on whether Jacobian error was the likely cause of the update.
+Reevaluating <span class="math notranslate nohighlight">\(J\)</span> (or instructing the user to update Jacobian data in
+<span class="math notranslate nohighlight">\(P\)</span>) occurs when:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>starting the problem,</p></li>
+<li><p>more than 50 steps have been taken since the last evaluation,</p></li>
+<li><p>a convergence failure occurred with an outdated matrix, and the value
+<span class="math notranslate nohighlight">\(\bar{\gamma}\)</span> of <span class="math notranslate nohighlight">\(\gamma\)</span> at the last update satisfies
+<span class="math notranslate nohighlight">\(|\gamma/\bar{\gamma} - 1| &lt; 0.2\)</span>, or</p></li>
+<li><p>a convergence failure occurred that forced a step size reduction.</p></li>
+</ul>
+</div></blockquote>
+<p>The default stopping test for nonlinear solver iterations is related to
+the subsequent local error test, with the goal of keeping the nonlinear
+iteration errors from interfering with local error control. As described
+below, the final computed value <span class="math notranslate nohighlight">\(y^{n(m)}\)</span> will have to satisfy a
+local error test <span class="math notranslate nohighlight">\(\|y^{n(m)} - y^{n(0)}\|_{\text{WRMS}} \leq 1\)</span>. Letting <span class="math notranslate nohighlight">\(y^n\)</span>
+denote the exact solution of <a class="reference internal" href="#equation-cvode-nonlinear">(3.4)</a>, we want to ensure that the
+iteration error <span class="math notranslate nohighlight">\(y^n - y^{n(m)}\)</span> is “small”. For this, we also
+estimate the linear convergence rate constant <span class="math notranslate nohighlight">\(R\)</span> as follows. We
+initialize <span class="math notranslate nohighlight">\(R\)</span> to 1, and reset <span class="math notranslate nohighlight">\(R = 1\)</span> when <span class="math notranslate nohighlight">\(M\)</span> or
+<span class="math notranslate nohighlight">\(P\)</span> is updated. After computing a correction
+<span class="math notranslate nohighlight">\(\delta_m = y^{n(m)}-y^{n(m-1)}\)</span>, we update <span class="math notranslate nohighlight">\(R\)</span> if
+<span class="math notranslate nohighlight">\(m &gt; 1\)</span> as</p>
+<div class="math notranslate nohighlight">
+\[R \leftarrow \max\{0.3R , \|\delta_m\|_{\text{WRMS}} / \|\delta_{m-1}\|_{\text{WRMS}} \} \, .\]</div>
+<p>Now we use the estimate</p>
+<div class="math notranslate nohighlight">
+\[\| y^n - y^{n(m)} \|_{\text{WRMS}} \approx \| y^{n(m+1)} - y^{n(m)} \|_{\text{WRMS}}
+  \approx R \| y^{n(m)} - y^{n(m-1)} \|_{\text{WRMS}}  =  R \|\delta_m \|_{\text{WRMS}} \, .\]</div>
+<p>Therefore the convergence (stopping) test is</p>
+<div class="math notranslate nohighlight">
+\[R \|\delta_m\|_{\text{WRMS}} &lt; \epsilon_N \epsilon \, .\]</div>
+<p>where the factor <span class="math notranslate nohighlight">\(\epsilon_N\)</span> has default value 0.1 and <span class="math notranslate nohighlight">\(\epsilon\)</span> is a
+constant relating the nonlinear solver error to CVODE’s error estimate. We allow at most 3
+iterations (but this limit can be changed by the user). We also declare the
+iteration diverged if any <span class="math notranslate nohighlight">\(\|\delta_m\|_{\text{WRMS}} / \|\delta_{m-1}\|_{\text{WRMS}} &gt; 2\)</span> with
+<span class="math notranslate nohighlight">\(m &gt; 1\)</span>. If convergence fails with <span class="math notranslate nohighlight">\(J\)</span> or <span class="math notranslate nohighlight">\(P\)</span> current, we are
+forced to reduce the step size, and we replace <span class="math notranslate nohighlight">\(h_n\)</span> by
+<span class="math notranslate nohighlight">\(h_n = \eta_{\mathrm{cf}} * h_n\)</span> where the default is
+<span class="math notranslate nohighlight">\(\eta_{\mathrm{cf}} = 0.25\)</span>. The integration is halted after a preset
+number of convergence failures; the default value of this limit is 10, but this
+can be changed by the user.</p>
+<p>When an iterative method is used to solve the linear Newton systems
+<a class="reference internal" href="#equation-cvode-newton">(3.7)</a>, its errors must also be controlled. To this end,
+we approximate the linear iteration error in the correction vector
+<span class="math notranslate nohighlight">\(\delta_m\)</span> using the scaled, preconditioned residual vector. With left
+preconditioning, this is <span class="math notranslate nohighlight">\(\tilde{r} = S P^{-1} r\)</span>, where
+<span class="math notranslate nohighlight">\(r = M \delta_m + F(y^{n(m)})\)</span> is the unscaled residual and the diagonal
+matrix <span class="math notranslate nohighlight">\(S\)</span> has entries <span class="math notranslate nohighlight">\(S_{i,i} = W_i\)</span> as defined in
+<a class="reference internal" href="#equation-cvode-errwt">(3.6)</a>. The linear iteration error should be at least as small as
+the nonlinear iteration error so that the linear solver does not interfere with
+the nonlinear solver and local time integration error controls. Most iterative
+linear solver libraries measure error in the <span class="math notranslate nohighlight">\(L_2\)</span> norm rather than the
+WRMS norm, so we define the linear solver tolerance as</p>
+<div class="math notranslate nohighlight" id="equation-cvode-lineartolerance">
+<span class="eqno">(3.9)<a class="headerlink" href="#equation-cvode-lineartolerance" title="Link to this equation"></a></span>\[\|\tilde{r}\|_2 \le \text{tol}, \qquad
+\text{tol} = C \epsilon_L \epsilon_N \epsilon.\]</div>
+<p>The constant <span class="math notranslate nohighlight">\(C\)</span> is a norm conversion factor that defaults to
+<span class="math notranslate nohighlight">\(\sqrt{N}\)</span> but can be modified with <a class="reference internal" href="Usage/index.html#c.CVodeSetLSNormFactor" title="CVodeSetLSNormFactor"><code class="xref c c-func docutils literal notranslate"><span class="pre">CVodeSetLSNormFactor()</span></code></a>.
+The factor <span class="math notranslate nohighlight">\(\epsilon_N\)</span> is the nonlinear solver tolerance from the
+nonlinear convergence test above, while <span class="math notranslate nohighlight">\(\epsilon_L\)</span> sets the desired
+ratio between the linear and nonlinear tolerances.  Smaller values of
+<span class="math notranslate nohighlight">\(\epsilon_L\)</span> are typically useful for strongly nonlinear or very stiff
+ODE systems, while easier ODE systems may benefit from a value closer to 1.
+The default values are <span class="math notranslate nohighlight">\(\epsilon_L = 0.05\)</span> and <span class="math notranslate nohighlight">\(\epsilon_N = 0.1\)</span>
+but may be modified by the user. Finally, <span class="math notranslate nohighlight">\(\epsilon\)</span> is a constant
+relating the nonlinear solver error to CVODE’s error estimate. If the linear
+solver does not support scaling, it is not performed, and instead, the tolerance
+is scaled by <span class="math notranslate nohighlight">\(1 / \|x\|_{\text{WRMS}}\)</span> where <span class="math notranslate nohighlight">\(x \in \mathbb{R}^N\)</span> is
+a vector of ones.</p>
+<p>When the Jacobian is stored using either the <a class="reference internal" href="../sunmatrix/SUNMatrix_links.html#sunmatrix-dense"><span class="std std-ref">SUNMATRIX_DENSE</span></a>
+or <a class="reference internal" href="../sunmatrix/SUNMatrix_links.html#sunmatrix-band"><span class="std std-ref">SUNMATRIX_BAND</span></a> matrix
+objects, the Jacobian may be supplied by a user routine, or approximated
+by difference quotients, at the user’s option. In the latter case, we
+use the usual approximation</p>
+<div class="math notranslate nohighlight">
+\[J_{ij} = [f_i(t,y+\sigma_j e_j) - f_i(t,y)]/\sigma_j \, .\]</div>
+<p>The increments <span class="math notranslate nohighlight">\(\sigma_j\)</span> are given by</p>
+<div class="math notranslate nohighlight">
+\[\sigma_j = \max\left\{\sqrt{U} \; |y_j| , \sigma_0 / W_j \right\} \, ,\]</div>
+<p>where <span class="math notranslate nohighlight">\(U\)</span> is the unit roundoff, <span class="math notranslate nohighlight">\(\sigma_0\)</span> is a
+dimensionless value, and <span class="math notranslate nohighlight">\(W_j\)</span> is the error weight defined in
+<a class="reference internal" href="#equation-cvode-errwt">(3.6)</a>. In the dense case, this scheme requires
+<span class="math notranslate nohighlight">\(N\)</span> evaluations of <span class="math notranslate nohighlight">\(f\)</span>, one for each column of <span class="math notranslate nohighlight">\(J\)</span>. In
+the band case, the columns of <span class="math notranslate nohighlight">\(J\)</span> are computed in groups, by the
+Curtis-Powell-Reid algorithm, with the number of <span class="math notranslate nohighlight">\(f\)</span> evaluations
+equal to the bandwidth.</p>
+<p>We note that with sparse and user-supplied <code class="docutils literal notranslate"><span class="pre">SUNMatrix</span></code> objects, the
+Jacobian <em>must</em> be supplied by a user routine.</p>
+<p>In the case of a Krylov method, preconditioning may be used on the left,
+on the right, or both, with user-supplied routines for the
+preconditioning setup and solve operations, and optionally also for the
+required matrix-vector products <span class="math notranslate nohighlight">\(Jv\)</span>. If a routine for <span class="math notranslate nohighlight">\(Jv\)</span>
+is not supplied, these products are computed as</p>
+<div class="math notranslate nohighlight" id="equation-cvode-jacobv">
+<span class="eqno">(3.10)<a class="headerlink" href="#equation-cvode-jacobv" title="Link to this equation"></a></span>\[Jv = [f(t,y+\sigma v) - f(t,y)]/\sigma \, .\]</div>
+<p>The increment <span class="math notranslate nohighlight">\(\sigma\)</span> is <span class="math notranslate nohighlight">\(1/\|v\|_{\text{WRMS}}\)</span>, so that
+<span class="math notranslate nohighlight">\(\sigma v\)</span> has WRMS norm 1.</p>
+</section>
+<section id="local-error-test">
+<span id="cvode-mathematics-err-test"></span><h3><span class="section-number">3.2.1.2. </span>Local Error Test<a class="headerlink" href="#local-error-test" title="Link to this heading"></a></h3>
+<p>A critical part of CVODE — making it an ODE “solver” rather than
+just an ODE method, is its control of local error. At every step, the
+local error is estimated and required to satisfy tolerance conditions,
+and the step is redone with reduced step size whenever that error test
+fails. As with any linear multistep method, the local truncation error
+LTE, at order <span class="math notranslate nohighlight">\(q\)</span> and step size <span class="math notranslate nohighlight">\(h\)</span>, satisfies an asymptotic
+relation</p>
+<div class="math notranslate nohighlight">
+\[\mbox{LTE} = C h^{q+1} y^{(q+1)} + O(h^{q+2})\]</div>
+<p>for some constant <span class="math notranslate nohighlight">\(C\)</span>, under mild assumptions on the step sizes. A
+similar relation holds for the error in the predictor <span class="math notranslate nohighlight">\(y^{n(0)}\)</span>.
+These are combined to get a relation</p>
+<div class="math notranslate nohighlight">
+\[\mbox{LTE} = C' [y^n - y^{n(0)}] + O(h^{q+2}) \, .\]</div>
+<p>The local error test is simply <span class="math notranslate nohighlight">\(|\mbox{LTE}| \leq 1\)</span>. Using the
+above, it is performed on the predictor-corrector difference
+<span class="math notranslate nohighlight">\(\Delta_n \equiv y^{n(m)} - y^{n(0)}\)</span> (with <span class="math notranslate nohighlight">\(y^{n(m)}\)</span> the
+final iterate computed), and takes the form</p>
+<div class="math notranslate nohighlight">
+\[\|\Delta_n\|_{\text{WRMS}} \leq \epsilon \equiv 1/|C'| \, .\]</div>
+</section>
+<section id="step-size-and-order-selection">
+<span id="cvode-mathematics-step-order-select"></span><h3><span class="section-number">3.2.1.3. </span>Step Size and Order Selection<a class="headerlink" href="#step-size-and-order-selection" title="Link to this heading"></a></h3>
+<p>If the local error test passes, the step is considered successful. If it fails,
+the step is rejected and a new step size <span class="math notranslate nohighlight">\(h'\)</span> is computed based on the
+asymptotic behavior of the local error, namely by the equation</p>
+<div class="math notranslate nohighlight">
+\[(h'/h)^{q+1} \|\Delta_n\|_{\text{WRMS}} = \epsilon/6 \, .\]</div>
+<p>Here 1/6 is a safety factor. A new attempt at the step is made, and the
+error test repeated. If it fails three times, the order <span class="math notranslate nohighlight">\(q\)</span> is
+reset to 1 (if <span class="math notranslate nohighlight">\(q &gt; 1\)</span>), or the step is restarted from scratch (if
+<span class="math notranslate nohighlight">\(q = 1\)</span>). The ratio <span class="math notranslate nohighlight">\(\eta = h'/h\)</span> is limited above to
+<span class="math notranslate nohighlight">\(\eta_{\mathrm{max\_ef}}\)</span> (default 0.2) after two error test failures,
+and limited below to <span class="math notranslate nohighlight">\(\eta_{\mathrm{min\_ef}}\)</span> (default 0.1) after three.
+After seven failures, CVODE returns to the user with a give-up message.</p>
+<p>In addition to adjusting the step size to meet the local error test,
+CVODE periodically adjusts the order, with the goal of maximizing
+the step size. The integration starts out at order 1 and varies the
+order dynamically after that. The basic idea is to pick the order
+<span class="math notranslate nohighlight">\(q\)</span> for which a polynomial of order <span class="math notranslate nohighlight">\(q\)</span> best fits the
+discrete data involved in the multistep method. However, if either a
+convergence failure or an error test failure occurred on the step just
+completed, no change in step size or order is done. At the current order
+<span class="math notranslate nohighlight">\(q\)</span>, selecting a new step size is done exactly as when the error
+test fails, giving a tentative step size ratio</p>
+<div class="math notranslate nohighlight">
+\[h'/h = (\epsilon / 6 \|\Delta_n\|_{\text{WRMS}} )^{1/(q+1)} \equiv \eta_q \, .\]</div>
+<p>We consider changing order only after taking <span class="math notranslate nohighlight">\(q+1\)</span> steps at order
+<span class="math notranslate nohighlight">\(q\)</span>, and then we consider only orders <span class="math notranslate nohighlight">\(q' = q - 1\)</span> (if
+<span class="math notranslate nohighlight">\(q &gt; 1\)</span>) or <span class="math notranslate nohighlight">\(q' = q + 1\)</span> (if <span class="math notranslate nohighlight">\(q &lt; 5\)</span>). The local
+truncation error at order <span class="math notranslate nohighlight">\(q'\)</span> is estimated using the history
+data. Then a tentative step size ratio is computed on the basis that
+this error, LTE<span class="math notranslate nohighlight">\((q')\)</span>, behaves asymptotically as
+<span class="math notranslate nohighlight">\(h^{q'+1}\)</span>. With safety factors of 1/6 and 1/10 respectively,
+these ratios are:</p>
+<div class="math notranslate nohighlight">
+\[h'/h = [1 / 6 \|\mbox{LTE}(q-1)\|_{\text{WRMS}} ]^{1/q} \equiv \eta_{q-1}\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[h'/h = [1 / 10 \|\mbox{LTE}(q+1)\|_{\text{WRMS}} ]^{1/(q+2)} \equiv \eta_{q+1} \, .\]</div>
+<p>The new order and step size are then set according to</p>
+<div class="math notranslate nohighlight">
+\[\eta = \max\{\eta_{q-1},\eta_q,\eta_{q+1}\} \, ,\]</div>
+<p>with <span class="math notranslate nohighlight">\(q'\)</span> set to the index achieving the above maximum. However, if we
+find that <span class="math notranslate nohighlight">\(\eta &lt; \eta_{\mathrm{max\_fx}}\)</span> (default 1.5), we do not bother
+with the change. Also, <span class="math notranslate nohighlight">\(\eta\)</span> is always limited to
+<span class="math notranslate nohighlight">\(\eta_{\mathrm{max\_gs}}\)</span> (default 10), except on the first step, when it is
+limited to <span class="math notranslate nohighlight">\(\eta_{\mathrm{max\_fs}} = 10^4\)</span>.</p>
+<p>The various algorithmic features of CVODE described above, as inherited from
+VODE and VODPK, are documented in <span class="bibtex-citation" id="id11">[<a class="reference internal" href="../References.html#id34" title="P. N. Brown, G. D. Byrne, and A. C. Hindmarsh. VODE, a Variable-Coefficient ODE Solver. SIAM J. Sci. Stat. Comput., 10:1038–1051, 1989. doi:10.1137/0910062.">25</a>, <a class="reference internal" href="../References.html#id39" title="G. D. Byrne. Pragmatic Experiments with Krylov Methods in the Stiff ODE Setting. In J.R. Cash and I. Gladwell, editors, Computational Ordinary Differential Equations, 323–356. Oxford, 1992. Oxford University Press.">31</a>, <a class="reference internal" href="../References.html#id26" title="A. C. Hindmarsh. The PVODE and IDA Algorithms. Technical Report UCRL-ID-141558, LLNL, Dec 2000.">83</a>]</span>. They are also
+summarized in <span class="bibtex-citation" id="id12">[<a class="reference internal" href="../References.html#id20" title="A. C. Hindmarsh, P. N. Brown, K. E. Grant, S. L. Lee, R. Serban, D. E. Shumaker, and C. S. Woodward. SUNDIALS: Suite of nonlinear and differential/algebraic equation solvers. ACM Trans. Math. Softw., pages 363–396, 2005. doi:10.1145/1089014.1089020.">84</a>]</span>.</p>
+<p>Normally, CVODE takes steps until a user-defined output value
+<span class="math notranslate nohighlight">\(t = t_{\text{out}}\)</span> is overtaken, and then it
+computes <span class="math notranslate nohighlight">\(y(t_{\text{out}})\)</span> by interpolation.
+However, a “one step” mode option is available, where control returns to
+the calling program after each step. There are also options to force
+CVODE not to integrate past a given stopping point
+<span class="math notranslate nohighlight">\(t = t_{\text{stop}}\)</span>.</p>
+</section>
+<section id="inequality-constraints">
+<span id="cvode-mathematics-ineq-constr"></span><h3><span class="section-number">3.2.1.4. </span>Inequality Constraints<a class="headerlink" href="#inequality-constraints" title="Link to this heading"></a></h3>
+<p>CVODE permits the user to impose optional inequality constraints on
+individual components of the solution vector <span class="math notranslate nohighlight">\(y\)</span>. Any of the
+following four constraints can be imposed: <span class="math notranslate nohighlight">\(y_i &gt; 0\)</span>,
+<span class="math notranslate nohighlight">\(y_i &lt; 0\)</span>, <span class="math notranslate nohighlight">\(y_i \geq 0\)</span>, or <span class="math notranslate nohighlight">\(y_i \leq 0\)</span>. The
+constraint satisfaction is tested after a successful nonlinear system
+solution. If any constraint fails, we declare a convergence failure of
+the Newton iteration and reduce the step size. Rather than cutting the
+step size by some arbitrary factor, CVODE estimates a new step size
+<span class="math notranslate nohighlight">\(h'\)</span> using a linear approximation of the components in <span class="math notranslate nohighlight">\(y\)</span>
+that failed the constraint test (including a safety factor of
+<span class="math notranslate nohighlight">\(0.9\)</span> to cover the strict inequality case). If a step fails to
+satisfy the constraints repeatedly within a step attempt or fails with
+the minimum step size then the integration is halted and an error is
+returned. In this case the user may need to employ other strategies as
+discussed in <a class="reference internal" href="Usage/index.html#cvode-usage-cc-callable-fct-sim-cvtolerances"><span class="std std-numref">§3.4.3.2</span></a> to satisfy
+the inequality constraints.</p>
+</section>
+</section>
+<section id="ivps-with-constraints">
+<span id="cvode-mathematics-constraints"></span><h2><span class="section-number">3.2.2. </span>IVPs with constraints<a class="headerlink" href="#ivps-with-constraints" title="Link to this heading"></a></h2>
+<p>For IVPs whose analytical solutions implicitly satisfy constraints as
+in <a class="reference internal" href="#equation-cvode-ivp-constr">(3.2)</a>, CVODE ensures that the solution satisfies
+the constraint equation by projecting a successfully computed time step
+onto the invariant manifold. As discussed in
+<span class="bibtex-citation" id="id13">[<a class="reference internal" href="../References.html#id51" title="Edda Eich. Convergence results for a coordinate projection method applied to mechanical systems with algebraic constraints. SIAM Journal on Numerical Analysis, 30(5):1467–1482, 1993. doi:10.1137/0730076.">53</a>]</span> and
+<span class="bibtex-citation" id="id14">[<a class="reference internal" href="../References.html#id52" title="LF Shampine. Conservation laws and the numerical solution of ODEs, II. Computers &amp; Mathematics with Applications, 38(2):61–72, 1999. doi:10.1016/S0898-1221(99)00183-2.">142</a>]</span>, this approach reduces the
+error in the solution and retains the order of convergence of the
+numerical method. Therefore, in an attempt to advance the solution to a
+new point in time (i.e., taking a new integration step), CVODE
+performs the following operations:</p>
+<ol class="arabic simple">
+<li><p>predict solution</p></li>
+<li><p>solve nonlinear system and correct solution</p></li>
+<li><p>project solution</p></li>
+<li><p>test error</p></li>
+<li><p>select order and step size for next step</p></li>
+</ol>
+<p>and includes several recovery attempts in case there are convergence
+failures (or difficulties) in the nonlinear solver or in the projection
+step, or if the solution fails to satisfy the error test. Note that at
+this time projection is only supported with BDF methods and the
+projection function must be user-defined. See <a class="reference internal" href="Usage/index.html#cvode-usage-cc-cvprojinit"><span class="std std-numref">§3.4.3.8</span></a> and
+<a class="reference internal" href="Usage/index.html#c.CVodeSetProjFn" title="CVodeSetProjFn"><code class="xref c c-func docutils literal notranslate"><span class="pre">CVodeSetProjFn()</span></code></a> for more information on providing a
+projection function to CVODE.</p>
+<p>When using a coordinate projection method the solution <span class="math notranslate nohighlight">\(y_n\)</span> is
+obtained by projecting (orthogonally or otherwise) the solution
+<span class="math notranslate nohighlight">\(\tilde{y}_n\)</span> from step 2 above onto
+the manifold given by the constraint. As such <span class="math notranslate nohighlight">\(y_n\)</span> is computed as
+the solution of the nonlinear constrained least squares problem</p>
+<div class="math notranslate nohighlight" id="equation-cvode-proj">
+<span class="eqno">(3.11)<a class="headerlink" href="#equation-cvode-proj" title="Link to this equation"></a></span>\[\begin{split}\begin{split}
+  \text{minimize}   &amp;\quad \| y_n - \tilde{y}_n \|_{\text{WRMS}} \\
+  \text{subject to} &amp;\quad g(t_n,y_n) = 0.
+\end{split}\end{split}\]</div>
+<p>The solution of <a class="reference internal" href="#equation-cvode-proj">(3.11)</a> can be computed iteratively with
+a Newton method. Given an initial guess <span class="math notranslate nohighlight">\(y_n^{(0)}\)</span> the iterations
+are computed as</p>
+<div class="math notranslate nohighlight">
+\[y_n^{(i+1)} = y_n^{(i)} + \delta y_n^{(i)}\]</div>
+<p>where the increment <span class="math notranslate nohighlight">\(\delta y_n^{(i)}\)</span> is the solution of the
+least-norm problem</p>
+<div class="math notranslate nohighlight" id="equation-cvode-leastnorm">
+<span class="eqno">(3.12)<a class="headerlink" href="#equation-cvode-leastnorm" title="Link to this equation"></a></span>\[\begin{split}\begin{split}
+    \text{minimize}   &amp;\quad \| \delta y_n^{(i)} \|_{\text{WRMS}} \\
+    \text{subject to} &amp;\quad G(t_n,y_n^{(i)}) \; \delta y_n^{(i)} = -g(t_n,y_n^{(i)})
+\end{split}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(G(t,y) = \partial g(t,y) / \partial y\)</span>.</p>
+<p>If the projected solution satisfies the error test then the step is
+accepted and the correction to the unprojected solution,
+<span class="math notranslate nohighlight">\(\Delta_p = y_n - \tilde{y}_n\)</span>, is used to update the Nordsieck
+history array for the next step.</p>
+</section>
+<section id="preconditioning">
+<span id="cvode-mathematics-preconditioning"></span><h2><span class="section-number">3.2.3. </span>Preconditioning<a class="headerlink" href="#preconditioning" title="Link to this heading"></a></h2>
+<p>When using a nonlinear solver that requires the solution of the linear
+system, e.g., the default Newton iteration (<a class="reference internal" href="../sunnonlinsol/SUNNonlinSol_links.html#sunnonlinsol-newton"><span class="std std-numref">§11.7</span></a>),
+CVODE makes repeated use of a linear solver to solve
+linear systems of the form <span class="math notranslate nohighlight">\(M x = - r\)</span>, where <span class="math notranslate nohighlight">\(x\)</span> is a
+correction vector and <span class="math notranslate nohighlight">\(r\)</span> is a residual vector. If this linear
+system solve is done with one of the scaled preconditioned iterative
+linear solvers supplied with SUNDIALS, these solvers are rarely
+successful if used without preconditioning; it is generally necessary to
+precondition the system in order to obtain acceptable efficiency. A
+system <span class="math notranslate nohighlight">\(A x = b\)</span> can be preconditioned on the left, as
+<span class="math notranslate nohighlight">\((P^{-1}A) x = P^{-1} b\)</span>; on the right, as
+<span class="math notranslate nohighlight">\((A P^{-1}) P x = b\)</span>; or on both sides, as
+<span class="math notranslate nohighlight">\((P_L^{-1} A P_R^{-1}) P_R x = P_L^{-1}b\)</span>. The Krylov method is
+then applied to a system with the matrix <span class="math notranslate nohighlight">\(P^{-1}A\)</span>, or
+<span class="math notranslate nohighlight">\(AP^{-1}\)</span>, or <span class="math notranslate nohighlight">\(P_L^{-1} A P_R^{-1}\)</span>, instead of <span class="math notranslate nohighlight">\(A\)</span>.
+In order to improve the convergence of the Krylov iteration, the
+preconditioner matrix <span class="math notranslate nohighlight">\(P\)</span>, or the product <span class="math notranslate nohighlight">\(P_L P_R\)</span> in the
+last case, should in some sense approximate the system matrix <span class="math notranslate nohighlight">\(A\)</span>.
+Yet at the same time, in order to be cost-effective, the matrix
+<span class="math notranslate nohighlight">\(P\)</span>, or matrices <span class="math notranslate nohighlight">\(P_L\)</span> and <span class="math notranslate nohighlight">\(P_R\)</span>, should be reasonably
+efficient to evaluate and solve. Finding a good point in this tradeoff
+between rapid convergence and low cost can be very difficult. Good
+choices are often problem-dependent (for example, see
+<span class="bibtex-citation" id="id15">[<a class="reference internal" href="../References.html#id46" title="P. N. Brown and A. C. Hindmarsh. Reduced storage matrix methods in stiff ODE systems. J. Appl. Math. &amp; Comp., 31:49–91, 1989. doi:10.1016/0096-3003(89)90110-0.">26</a>]</span> for an extensive study of preconditioners
+for reaction-transport systems).</p>
+<p>Most of the iterative linear solvers supplied with SUNDIALS allow
+for preconditioning either side, or on both sides, although we know of
+no situation where preconditioning on both sides is clearly superior to
+preconditioning on one side only (with the product <span class="math notranslate nohighlight">\(P_L P_R\)</span>).
+Moreover, for a given preconditioner matrix, the merits of left
+vs. right preconditioning are unclear in general, and the user should
+experiment with both choices. Performance will differ because the
+inverse of the left preconditioner is included in the linear system
+residual whose norm is being tested in the Krylov algorithm. As a rule,
+however, if the preconditioner is the product of two matrices, we
+recommend that preconditioning be done either on the left only or the
+right only, rather than using one factor on each side.</p>
+<p>Typical preconditioners used with CVODE are based on approximations
+to the system Jacobian, <span class="math notranslate nohighlight">\(J = \partial f / \partial y\)</span>. Since the
+matrix involved is <span class="math notranslate nohighlight">\(M = I - \gamma J\)</span>, any approximation
+<span class="math notranslate nohighlight">\(\bar{J}\)</span> to <span class="math notranslate nohighlight">\(J\)</span> yields a matrix that is of potential use as
+a preconditioner, namely <span class="math notranslate nohighlight">\(P = I - \gamma \bar{J}\)</span>. Because the
+Krylov iteration occurs within a nonlinear solver iteration and further
+also within a time integration, and since each of these iterations has
+its own test for convergence, the preconditioner may use a very crude
+approximation, as long as it captures the dominant numerical feature(s)
+of the system. We have found that the combination of a preconditioner
+with the Newton-Krylov iteration, using even a fairly poor approximation
+to the Jacobian, can be surprisingly superior to using the same matrix
+without Krylov acceleration (i.e., a modified Newton iteration), as well
+as to using the Newton-Krylov method with no preconditioning.</p>
+</section>
+<section id="bdf-stability-limit-detection">
+<span id="cvode-mathematics-stablimit"></span><h2><span class="section-number">3.2.4. </span>BDF stability limit detection<a class="headerlink" href="#bdf-stability-limit-detection" title="Link to this heading"></a></h2>
+<p>CVODE includes an algorithm, STALD (STAbility Limit Detection),
+which provides protection against potentially unstable behavior of the
+BDF multistep integration methods in certain situations, as described
+below.</p>
+<p>When the BDF option is selected, CVODE uses Backward
+Differentiation Formula methods of orders 1 to 5. At order 1 or 2, the
+BDF method is A-stable, meaning that for any complex constant
+<span class="math notranslate nohighlight">\(\lambda\)</span> in the open left half-plane, the method is
+unconditionally stable (for any step size) for the standard scalar model
+problem <span class="math notranslate nohighlight">\(\dot{y} = \lambda y\)</span>. For an ODE system, this means that,
+roughly speaking, as long as all modes in the system are stable, the
+method is also stable for any choice of step size, at least in the sense
+of a local linear stability analysis.</p>
+<p>At orders 3 to 5, the BDF methods are not A-stable, although they are
+<em>stiffly stable</em>. In each case, in order for the method to be stable at
+step size <span class="math notranslate nohighlight">\(h\)</span> on the scalar model problem, the product
+<span class="math notranslate nohighlight">\(h\lambda\)</span> must lie within a <em>region of absolute stability</em>. That
+region excludes a portion of the left half-plane that is concentrated
+near the imaginary axis. The size of that region of instability grows as
+the order increases from 3 to 5. What this means is that, when running
+BDF at any of these orders, if an eigenvalue <span class="math notranslate nohighlight">\(\lambda\)</span> of the
+system lies close enough to the imaginary axis, the step sizes <span class="math notranslate nohighlight">\(h\)</span>
+for which the method is stable are limited (at least according to the
+linear stability theory) to a set that prevents <span class="math notranslate nohighlight">\(h\lambda\)</span> from
+leaving the stability region. The meaning of <em>close enough</em> depends on
+the order. At order 3, the unstable region is much narrower than at
+order 5, so the potential for unstable behavior grows with order.</p>
+<p>System eigenvalues that are likely to run into this instability are ones
+that correspond to weakly damped oscillations. A pure undamped
+oscillation corresponds to an eigenvalue on the imaginary axis. Problems
+with modes of that kind call for different considerations, since the
+oscillation generally must be followed by the solver, and this requires
+step sizes (<span class="math notranslate nohighlight">\(h \sim 1/\nu\)</span>, where <span class="math notranslate nohighlight">\(\nu\)</span> is the frequency)
+that are stable for BDF anyway. But for a weakly damped oscillatory
+mode, the oscillation in the solution is eventually damped to the noise
+level, and at that time it is important that the solver not be
+restricted to step sizes on the order of <span class="math notranslate nohighlight">\(1/\nu\)</span>. It is in this
+situation that the new option may be of great value.</p>
+<p>In terms of partial differential equations, the typical problems for
+which the stability limit detection option is appropriate are ODE
+systems resulting from semi-discretized PDEs (i.e., PDEs discretized in
+space) with advection and diffusion, but with advection dominating over
+diffusion. Diffusion alone produces pure decay modes, while advection
+tends to produce undamped oscillatory modes. A mix of the two with
+advection dominant will have weakly damped oscillatory modes.</p>
+<p>The STALD algorithm attempts to detect, in a direct manner, the
+presence of a stability region boundary that is limiting the step sizes
+in the presence of a weakly damped oscillation
+<span class="bibtex-citation" id="id16">[<a class="reference internal" href="../References.html#id49" title="A. C. Hindmarsh. Detecting Stability Barriers in BDF Solvers. In J.R. Cash and I. Gladwell, editor, Computational Ordinary Differential Equations, 87–96. Oxford, 1992. Oxford University Press.">81</a>]</span>. The algorithm supplements (but differs
+greatly from) the existing algorithms in CVODE for choosing step
+size and order based on estimated local truncation errors. The STALD
+algorithm works directly with history data that is readily available in
+CVODE. If it concludes that the step size is in fact
+stability-limited, it dictates a reduction in the method order,
+regardless of the outcome of the error-based algorithm. The STALD
+algorithm has been tested in combination with the VODE solver on
+linear advection-dominated advection-diffusion problems
+<span class="bibtex-citation" id="id17">[<a class="reference internal" href="../References.html#id50" title="A. C. Hindmarsh. Avoiding BDF stability barriers in the MOL solution of advection-dominated problems. Appl. Num. Math., 17(3):311–318, 1995. doi:10.1016/0168-9274(95)00036-T.">82</a>]</span>, where it works well. The implementation in
+CVODE has been successfully tested on linear and nonlinear
+advection-diffusion problems, among others.</p>
+<p>This stability limit detection option adds some computational overhead
+to the CVODE solution. (In timing tests, these overhead costs have
+ranged from 2% to 7% of the total, depending on the size and complexity
+of the problem, with lower relative costs for larger problems.)
+Therefore, it should be activated only when there is reasonable
+expectation of modes in the user’s system for which it is appropriate.
+In particular, if a CVODE solution with this option turned off
+appears to take an inordinately large number of steps at orders 3-5 for
+no apparent reason in terms of the solution time scale, then there is a
+good chance that step sizes are being limited by stability, and that
+turning on the option will improve the efficiency of the solution.</p>
+</section>
+<section id="rootfinding">
+<span id="cvode-mathematics-rootfinding"></span><h2><span class="section-number">3.2.5. </span>Rootfinding<a class="headerlink" href="#rootfinding" title="Link to this heading"></a></h2>
+<p>The CVODE solver has been augmented to include a rootfinding
+feature. This means that, while integrating the Initial Value Problem
+<a class="reference internal" href="#equation-cvode-ivp">(3.1)</a>, CVODE can also find the roots of a set of
+user-defined functions <span class="math notranslate nohighlight">\(g_i(t,y)\)</span> that depend both on <span class="math notranslate nohighlight">\(t\)</span>
+and on the solution vector <span class="math notranslate nohighlight">\(y = y(t)\)</span>. The number of these root
+functions is arbitrary, and if more than one <span class="math notranslate nohighlight">\(g_i\)</span> is found to
+have a root in any given interval, the various root locations are found
+and reported in the order that they occur on the <span class="math notranslate nohighlight">\(t\)</span> axis, in the
+direction of integration.</p>
+<p>Generally, this rootfinding feature finds only roots of odd
+multiplicity, corresponding to changes in sign of <span class="math notranslate nohighlight">\(g_i(t,y(t))\)</span>,
+denoted <span class="math notranslate nohighlight">\(g_i(t)\)</span> for short. If a user root function has a root of
+even multiplicity (no sign change), it will probably be missed by
+CVODE. If such a root is desired, the user should reformulate the
+root function so that it changes sign at the desired root.</p>
+<p>The basic scheme used is to check for sign changes of any <span class="math notranslate nohighlight">\(g_i(t)\)</span>
+over each time step taken, and then (when a sign change is found) to
+hone in on the root(s) with a modified secant method
+<span class="bibtex-citation" id="id18">[<a class="reference internal" href="../References.html#id54" title="K. L. Hiebert and L. F. Shampine. Implicitly Defined Output Points for Solutions of ODEs. Technical Report SAND80-0180, Sandia National Laboratories, February 1980.">79</a>]</span>. In addition, each time <span class="math notranslate nohighlight">\(g\)</span> is
+computed, CVODE checks to see if <span class="math notranslate nohighlight">\(g_i(t) = 0\)</span> exactly, and if
+so it reports this as a root. However, if an exact zero of any
+<span class="math notranslate nohighlight">\(g_i\)</span> is found at a point <span class="math notranslate nohighlight">\(t\)</span>, CVODE computes <span class="math notranslate nohighlight">\(g\)</span>
+at <span class="math notranslate nohighlight">\(t + \delta\)</span> for a small increment <span class="math notranslate nohighlight">\(\delta\)</span>, slightly
+further in the direction of integration, and if any
+<span class="math notranslate nohighlight">\(g_i(t + \delta)=0\)</span> also, CVODE stops and reports an error.
+This way, each time CVODE takes a time step, it is guaranteed that
+the values of all <span class="math notranslate nohighlight">\(g_i\)</span> are nonzero at some past value of
+<span class="math notranslate nohighlight">\(t\)</span>, beyond which a search for roots is to be done.</p>
+<p>At any given time in the course of the time-stepping, after suitable
+checking and adjusting has been done, CVODE has an interval
+<span class="math notranslate nohighlight">\((t_{lo},t_{hi}]\)</span> in which roots of the <span class="math notranslate nohighlight">\(g_i(t)\)</span> are to be
+sought, such that <span class="math notranslate nohighlight">\(t_{hi}\)</span> is further ahead in the direction of
+integration, and all <span class="math notranslate nohighlight">\(g_i(t_{lo}) \neq 0\)</span>. The endpoint
+<span class="math notranslate nohighlight">\(t_{hi}\)</span> is either <span class="math notranslate nohighlight">\(t_n\)</span>, the end of the time step last
+taken, or the next requested output time
+<span class="math notranslate nohighlight">\(t_{\text{out}}\)</span> if this comes sooner. The endpoint
+<span class="math notranslate nohighlight">\(t_{lo}\)</span> is either <span class="math notranslate nohighlight">\(t_{n-1}\)</span>, the last output time
+<span class="math notranslate nohighlight">\(t_{\text{out}}\)</span> (if this occurred within the last
+step), or the last root location (if a root was just located within this
+step), possibly adjusted slightly toward <span class="math notranslate nohighlight">\(t_n\)</span> if an exact zero
+was found. The algorithm checks <span class="math notranslate nohighlight">\(g_i\)</span> at <span class="math notranslate nohighlight">\(t_{hi}\)</span> for zeros
+and for sign changes in <span class="math notranslate nohighlight">\((t_{lo},t_{hi})\)</span>. If no sign changes were
+found, then either a root is reported (if some <span class="math notranslate nohighlight">\(g_i(t_{hi}) = 0\)</span>)
+or we proceed to the next time interval (starting at <span class="math notranslate nohighlight">\(t_{hi}\)</span>). If
+one or more sign changes were found, then a loop is entered to locate
+the root to within a rather tight tolerance, given by</p>
+<div class="math notranslate nohighlight">
+\[\tau = 100 * U * (|t_n| + |h|)~~~ (U = \mbox{unit roundoff}) ~.\]</div>
+<p>Whenever sign changes are seen in two or more root functions, the one
+deemed most likely to have its root occur first is the one with the
+largest value of <span class="math notranslate nohighlight">\(|g_i(t_{hi})|/|g_i(t_{hi}) - g_i(t_{lo})|\)</span>,
+corresponding to the closest to <span class="math notranslate nohighlight">\(t_{lo}\)</span> of the secant method
+values. At each pass through the loop, a new value <span class="math notranslate nohighlight">\(t_{mid}\)</span> is
+set, strictly within the search interval, and the values of
+<span class="math notranslate nohighlight">\(g_i(t_{mid})\)</span> are checked. Then either <span class="math notranslate nohighlight">\(t_{lo}\)</span> or
+<span class="math notranslate nohighlight">\(t_{hi}\)</span> is reset to <span class="math notranslate nohighlight">\(t_{mid}\)</span> according to which
+subinterval is found to include the sign change. If there is none in
+<span class="math notranslate nohighlight">\((t_{lo},t_{mid})\)</span> but some <span class="math notranslate nohighlight">\(g_i(t_{mid}) = 0\)</span>, then that
+root is reported. The loop continues until
+<span class="math notranslate nohighlight">\(|t_{hi}-t_{lo}| &lt; \tau\)</span>, and then the reported root location is
+<span class="math notranslate nohighlight">\(t_{hi}\)</span>.</p>
+<p>In the loop to locate the root of <span class="math notranslate nohighlight">\(g_i(t)\)</span>, the formula for
+<span class="math notranslate nohighlight">\(t_{mid}\)</span> is</p>
+<div class="math notranslate nohighlight">
+\[t_{mid} = t_{hi} - (t_{hi} - t_{lo})
+             g_i(t_{hi}) / [g_i(t_{hi}) - \alpha g_i(t_{lo})] ~,\]</div>
+<p>where <span class="math notranslate nohighlight">\(\alpha\)</span> is a weight parameter. On the first two passes
+through the loop, <span class="math notranslate nohighlight">\(\alpha\)</span> is set to <span class="math notranslate nohighlight">\(1\)</span>, making
+<span class="math notranslate nohighlight">\(t_{mid}\)</span> the secant method value. Thereafter, <span class="math notranslate nohighlight">\(\alpha\)</span> is
+reset according to the side of the subinterval (low vs. high, i.e.,
+toward <span class="math notranslate nohighlight">\(t_{lo}\)</span> vs. toward <span class="math notranslate nohighlight">\(t_{hi}\)</span>) in which the sign
+change was found in the previous two passes. If the two sides were
+opposite, <span class="math notranslate nohighlight">\(\alpha\)</span> is set to 1. If the two sides were the same,
+<span class="math notranslate nohighlight">\(\alpha\)</span> is halved (if on the low side) or doubled (if on the high
+side). The value of <span class="math notranslate nohighlight">\(t_{mid}\)</span> is closer to <span class="math notranslate nohighlight">\(t_{lo}\)</span> when
+<span class="math notranslate nohighlight">\(\alpha &lt; 1\)</span> and closer to <span class="math notranslate nohighlight">\(t_{hi}\)</span> when <span class="math notranslate nohighlight">\(\alpha &gt; 1\)</span>.
+If the above value of <span class="math notranslate nohighlight">\(t_{mid}\)</span> is within <span class="math notranslate nohighlight">\(\tau/2\)</span> of
+<span class="math notranslate nohighlight">\(t_{lo}\)</span> or <span class="math notranslate nohighlight">\(t_{hi}\)</span>, it is adjusted inward, such that its
+fractional distance from the endpoint (relative to the interval size) is
+between .1 and .5 (.5 being the midpoint), and the actual distance from
+the endpoint is at least <span class="math notranslate nohighlight">\(\tau/2\)</span>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Introduction_link.html" class="btn btn-neutral float-left" title="3.1. Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Organization_link.html" class="btn btn-neutral float-right" title="3.3. Code Organization" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright     2025-2026, Lawrence Livermore National Security, University of Maryland Baltimore County, and the SUNDIALS contributors.
+    Copyright (c) 2013-2025, Lawrence Livermore National Security and Southern Methodist University.
+    Copyright (c) 2002-2013, Lawrence Livermore National Security.
+      <span class="lastupdated">Last updated on Sep 03, 2026.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

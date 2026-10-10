@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="704.28pt" height="182.16pt" viewBox="0 0 704.28 182.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 182.16 
+L 704.28 182.16 
+L 704.28 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 12.4856 103.430375 
+L 167.4856 103.430375 
+Q 171.4856 103.430375 171.4856 99.430375 
+L 171.4856 82.729625 
+Q 171.4856 78.729625 167.4856 78.729625 
+L 12.4856 78.729625 
+Q 8.4856 78.729625 8.4856 82.729625 
+L 8.4856 99.430375 
+Q 8.4856 103.430375 12.4856 103.430375 
+z
+" style="fill: #edf5f7; stroke: #147d92; stroke-linejoin: miter"/>
+    </g>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(29.891225 88.808375)">Identical physical checkpoints</text>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(12.4856 97.766625)">whole-condition train / validation / test</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 154.072353 91.08 
+Q 165.869706 91.08 176.549025 91.08 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 172.949025 89.28 
+L 176.549025 91.08 
+L 172.949025 92.88 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_4">
+     <path d="M 183.7531 103.430375 
+L 341.1581 103.430375 
+Q 345.1581 103.430375 345.1581 99.430375 
+L 345.1581 82.729625 
+Q 345.1581 78.729625 341.1581 78.729625 
+L 183.7531 78.729625 
+Q 179.7531 78.729625 179.7531 82.729625 
+L 179.7531 99.430375 
+Q 179.7531 103.430375 183.7531 103.430375 
+z
+" style="fill: #edf5f7; stroke: #147d92; stroke-linejoin: miter"/>
+    </g>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(186.47935 88.808375)">Randomized four-action continuations</text>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(183.7531 97.766625)">5 repeats; physical endpoint assertions</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 326.542353 91.08 
+Q 338.339706 91.08 349.019025 91.08 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 345.419025 89.28 
+L 349.019025 91.08 
+L 345.419025 92.88 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <g id="patch_6">
+     <path d="M 371.4756 103.430375 
+L 498.3756 103.430375 
+Q 502.3756 103.430375 502.3756 99.430375 
+L 502.3756 82.729625 
+Q 502.3756 78.729625 498.3756 78.729625 
+L 371.4756 78.729625 
+Q 367.4756 78.729625 367.4756 82.729625 
+L 367.4756 99.430375 
+Q 367.4756 103.430375 371.4756 103.430375 
+z
+" style="fill: #edf5f7; stroke: #147d92; stroke-linejoin: miter"/>
+    </g>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(371.4756 88.808375)">Native field gates + inventories</text>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(373.951225 97.766625)">phase clocks + PMPI + scaling</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 499.012353 91.08 
+Q 510.809706 91.08 521.489025 91.08 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 517.889025 89.28 
+L 521.489025 91.08 
+L 517.889025 92.88 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_8">
+     <path d="M 535.839975 103.430375 
+L 678.951225 103.430375 
+Q 682.951225 103.430375 682.951225 99.430375 
+L 682.951225 82.729625 
+Q 682.951225 78.729625 678.951225 78.729625 
+L 535.839975 78.729625 
+Q 531.839975 78.729625 531.839975 82.729625 
+L 531.839975 99.430375 
+Q 531.839975 103.430375 535.839975 103.430375 
+z
+" style="fill: #edf5f7; stroke: #147d92; stroke-linejoin: miter"/>
+    </g>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(535.839975 88.808375)">Frozen deployment and live rollouts</text>
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(541.83935 97.766625)">statistics → figures → claim audit</text>
+   </g>
+  </g>
+ </g>
+</svg>

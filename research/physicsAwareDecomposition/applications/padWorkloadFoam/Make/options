@@ -1,0 +1,9 @@
+EXE_INC = \
+    -I$(MPI_ARCH_PATH)/include \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+EXE_LIBS = \
+    -lfiniteVolume \
+    -lmeshTools \
+    -L$(MPI_ARCH_PATH)/lib64 -lmpi

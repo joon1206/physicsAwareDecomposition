@@ -1,0 +1,485 @@
+{
+  "best": {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "H": 80,
+    "action": "AC",
+    "speedup": 1.3930471848350459,
+    "CI": [
+      1.3641983061218514,
+      1.4366961697251408
+    ],
+    "baselineMedian": 7.709099172992865,
+    "actionMedian": 5.533982808992732,
+    "context": "one six-core Ryzen 5600X WSL2 host; four bound MPI ranks; 256 cells; OpenCFD v2012; global dt 2e-6 s; five trials; complete forced-endpoint restart continuation costs; exploratory selection"
+  },
+  "oracleStates": 25,
+  "oracleTrials": 500,
+  "winners": {
+    "AC": 17,
+    "A0": 8
+  },
+  "heldoutReplay": {
+    "ablation_full": {
+      "n": 6,
+      "meanRegret": 0.5410072791783023,
+      "medianRegret": 0.031719453509140294,
+      "worstRegret": 2.204793842014624,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266775712262972,
+      "aggregateSpeedupCI": [
+        1.0165309676793568,
+        1.0357265559925737
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noCommunication": {
+      "n": 6,
+      "meanRegret": 0.5410069725063901,
+      "medianRegret": 0.031719038503069896,
+      "worstRegret": 2.204793602009886,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266776530714588,
+      "aggregateSpeedupCI": [
+        1.0165137124785133,
+        1.0357574332740274
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noMigration": {
+      "n": 6,
+      "meanRegret": 0.5410110575054811,
+      "medianRegret": 0.03171927850780776,
+      "worstRegret": 2.2047935420123395,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.026676562860493,
+      "aggregateSpeedupCI": [
+        1.0165482040783966,
+        1.035775255539262
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noPersistence": {
+      "n": 6,
+      "meanRegret": 0.674102346674772,
+      "medianRegret": 0.4307431535125943,
+      "worstRegret": 2.204793872006121,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923447542635084,
+      "aggregateSpeedupCI": [
+        0.9922783483176942,
+        0.9924462817595312
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noTransport": {
+      "n": 6,
+      "meanRegret": 0.541012539009292,
+      "medianRegret": 0.031725418513815384,
+      "worstRegret": 2.2047988520062063,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266761674750042,
+      "aggregateSpeedupCI": [
+        1.016555706021815,
+        1.0357863458054728
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noUncertainty": {
+      "n": 6,
+      "meanRegret": 0.18893817466596374,
+      "medianRegret": 0.03074347149959067,
+      "worstRegret": 0.9172747430129675,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.6666666666666666,
+      "unnecessaryFraction": 0.16666666666666666,
+      "missedFraction": 0.16666666666666666,
+      "aggregateSpeedup": 1.1301039207627908,
+      "aggregateSpeedupCI": [
+        1.1172219073783882,
+        1.147930420824283
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyEMA": {
+      "n": 6,
+      "meanRegret": 0.6741010466721491,
+      "medianRegret": 0.43074115851777606,
+      "worstRegret": 2.2047929120017216,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.992345078394346,
+      "aggregateSpeedupCI": [
+        0.9922757898263392,
+        0.9924453586578461
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyImbalance": {
+      "n": 6,
+      "meanRegret": 0.674100769671592,
+      "medianRegret": 0.4307408235108596,
+      "worstRegret": 2.2047927520034136,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923451474591745,
+      "aggregateSpeedupCI": [
+        0.9922756680884001,
+        0.9924492865416393
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyPreviousCost": {
+      "n": 6,
+      "meanRegret": 0.6741011250051088,
+      "medianRegret": 0.4307410285109654,
+      "worstRegret": 2.204793172000791,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923450588635119,
+      "aggregateSpeedupCI": [
+        0.9922782902682551,
+        0.9924474324198417
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "imbalanceThreshold": {
+      "n": 6,
+      "meanRegret": 0.03086297417030437,
+      "medianRegret": 0.030630670007667504,
+      "worstRegret": 0.03247204702347517,
+      "oracleOptimalFraction": 0.8333333333333334,
+      "harmfulFraction": 0.5,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.16666666666666666,
+      "aggregateSpeedup": 1.1836407770976753,
+      "aggregateSpeedupCI": [
+        1.1681942571320907,
+        1.2000949776197545
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "never": {
+      "n": 6,
+      "meanRegret": 0.6436342213395013,
+      "medianRegret": 0.3999399250096758,
+      "worstRegret": 2.1751163640001323,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 1.0,
+      "aggregateSpeedupCI": [
+        1.0,
+        1.0
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "oracle": {
+      "n": 6,
+      "meanRegret": 0.0,
+      "medianRegret": 0.0,
+      "worstRegret": 0.0,
+      "oracleOptimalFraction": 1,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1946908220741526,
+      "aggregateSpeedupCI": [
+        1.1790963664390763,
+        1.211994148997458
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "periodicChemistry": {
+      "n": 6,
+      "meanRegret": 0.014217357333109248,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.3333333333333333,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1895749809067966,
+      "aggregateSpeedupCI": [
+        1.1734844368924893,
+        1.210572771093465
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "periodicMesh": {
+      "n": 6,
+      "meanRegret": 1.845414991825237,
+      "medianRegret": 1.181886473983468,
+      "worstRegret": 4.1982927640056005,
+      "oracleOptimalFraction": 0,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.7667054367208745,
+      "aggregateSpeedupCI": [
+        0.7545547845439157,
+        0.7793310573746672
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "persistenceBreakEven": {
+      "n": 6,
+      "meanRegret": 0.17860308050876483,
+      "medianRegret": 0.030692827502207365,
+      "worstRegret": 0.9172690430132207,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.6666666666666666,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.3333333333333333,
+      "aggregateSpeedup": 1.1334557989908798,
+      "aggregateSpeedupCI": [
+        1.1215479092279772,
+        1.14903785960999
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "stuttgartEveryStep": {
+      "n": 6,
+      "meanRegret": 0.014217357333109248,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.3333333333333333,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1895749809067966,
+      "aggregateSpeedupCI": [
+        1.173858180217177,
+        1.2093491284040732
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "wholeSolver": {
+      "n": 6,
+      "meanRegret": 0.5410073955111633,
+      "medianRegret": 0.03171960850886535,
+      "worstRegret": 2.2047939210169716,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.026677540179174,
+      "aggregateSpeedupCI": [
+        1.016620473132261,
+        1.0356630974383925
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    }
+  },
+  "liveHeldout": {
+    "nativeContinuous": {
+      "speedup": 1.0,
+      "CI": [
+        1.0,
+        1.0
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "continuous": {
+      "speedup": 0.9960246092349637,
+      "CI": [
+        0.962107107384039,
+        1.0154879032743278
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "ACContinuous": {
+      "speedup": 1.2092367045119155,
+      "CI": [
+        1.1783532815748659,
+        1.2428827051601863
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "A0": {
+      "speedup": 0.8871190922416263,
+      "CI": [
+        0.8606541440937647,
+        0.9238786952626915
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "AC": {
+      "speedup": 1.0442728042195226,
+      "CI": [
+        1.0038325412043123,
+        1.0668135069886717
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "AM": {
+      "speedup": 0.6971160493777636,
+      "CI": [
+        0.68195332579907,
+        0.7173753407199631
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": false,
+      "ratioInterpretation": "descriptive timing ratio only; a predefined numerical gate failed; every original timing retained",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "imbalanceThreshold": {
+      "speedup": 1.0539526545728028,
+      "CI": [
+        1.019413713071192,
+        1.078730281532448
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "persistenceBreakEven": {
+      "speedup": 1.0367012940362474,
+      "CI": [
+        0.9918843171645645,
+        1.0658412671763569
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    },
+    "controller": {
+      "speedup": 0.9216155616653584,
+      "CI": [
+        0.8948358710846686,
+        0.9424717147983314
+      ],
+      "conditions": [
+        "heldoutMoving",
+        "heldoutIgnition",
+        "heldoutPersistent"
+      ],
+      "valid": true,
+      "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+      "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+    }
+  },
+  "oracleHeadroomAboveAlwaysChemistry": 1.0043005621751193,
+  "numerics": {
+    "gates": 375,
+    "failed": 0,
+    "maxTemperatureDifference": 1.6940339264692739e-07,
+    "maximumMassBudgetDrift": 0.0023146139584480064,
+    "maximumEnergyBudgetDrift": 0.22552524986677128,
+    "liveGates": 120,
+    "failedLiveGates": 1,
+    "failedLiveTrials": [
+      "data/raw/live/heldoutMoving_AM_r0"
+    ]
+  },
+  "trainingValidationAcquisitionLowerBound": 1456.9963255400799,
+  "modelFitWall": 0.0015363929996965453,
+  "independentConfirmation": {
+    "regime": "heldoutMoving",
+    "checkpoint": "4e-05",
+    "H": 80,
+    "baseline": {
+      "n": 20,
+      "median": 7.581239957500657,
+      "mean": 7.624953475850634,
+      "sd": 0.18299623323397307,
+      "min": 7.3402428519766545,
+      "max": 7.971497582999291,
+      "CV": 0.02399965243244427
+    },
+    "method": {
+      "n": 20,
+      "median": 5.56943254647922,
+      "mean": 5.578792438198434,
+      "sd": 0.12466149551365696,
+      "min": 5.415568281998276,
+      "max": 5.973989045989583,
+      "CV": 0.02234560559380016
+    },
+    "speedup": 1.3612230499664142,
+    "CI": [
+      1.34481649270426,
+      1.3959994893996106
+    ],
+    "selection": "Moving positive and uniform negative conditions preselected from the prior excluded protocol; independent 20-trial-per-action replication. Not used for model fitting, margin tuning or selecting a new best state."
+  },
+  "negativeConfirmation": {
+    "regime": "uniform",
+    "speedup": 0.9806293832913476,
+    "CI": [
+      0.9641183790960359,
+      1.002276062052233
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "definition": "[D(clean,G)-D(legacy,G)]-[D(clean,none)-D(legacy,none)]",
+  "records": [
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Endpoint change",
+      "interaction": -1.8070540154166426e-07,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dpressure",
+      "interaction": -3.753623188129489e-10,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dkinetic",
+      "interaction": 2.8207430787506073e-08,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DrhoH",
+      "interaction": -1.0863583437929758e-06,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DrhoC",
+      "interaction": 8.881524236337146e-07,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dchemistry",
+      "interaction": 1.4449785835823464e-18,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DspeciesTransport",
+      "interaction": -2.7052506526351838e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DspeciesResidual",
+      "interaction": 4.631009654999822e-18,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dequation",
+      "interaction": 2.1739890295453627e-16,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dtransport",
+      "interaction": 3.592907297971849e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "Dhistory",
+      "interaction": 0.0,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DpostH",
+      "interaction": -3.431127721417564e-08,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "HS",
+      "quantity": "DpostC",
+      "interaction": 2.397972724938423e-08,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Endpoint change",
+      "interaction": -1.6975471617275417e-07,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dpressure",
+      "interaction": -3.6757353660069905e-10,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dkinetic",
+      "interaction": 2.734109282850677e-08,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DrhoH",
+      "interaction": -1.0583883450730747e-06,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DrhoC",
+      "interaction": 8.712461222106643e-07,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dchemistry",
+      "interaction": 2.487483164167806e-18,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DspeciesTransport",
+      "interaction": -7.342275741599678e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DspeciesResidual",
+      "interaction": 9.762341346709177e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dequation",
+      "interaction": 5.493040810293173e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dtransport",
+      "interaction": 8.561565508874132e-17,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "Dhistory",
+      "interaction": 0.0,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DpostH",
+      "interaction": -3.245085024609559e-08,
+      "units": "J"
+    },
+    {
+      "dt": 2e-06,
+      "clean": "CpHS",
+      "quantity": "DpostC",
+      "interaction": 2.2864837458640022e-08,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Endpoint change",
+      "interaction": -1.3492135239601133e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dpressure",
+      "interaction": 5.108167106776277e-11,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dkinetic",
+      "interaction": -3.764723453093073e-10,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DrhoH",
+      "interaction": 1.4493746371569555e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DrhoC",
+      "interaction": -3.872666905768707e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dchemistry",
+      "interaction": 5.293286882447296e-19,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DspeciesTransport",
+      "interaction": 5.541714460387127e-17,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DspeciesResidual",
+      "interaction": 3.348320369074424e-17,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dequation",
+      "interaction": -1.0544551478317851e-16,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dtransport",
+      "interaction": -8.598469675594818e-17,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "Dhistory",
+      "interaction": 0.0,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DpostH",
+      "interaction": -1.0966899521933776e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "HS",
+      "quantity": "DpostC",
+      "interaction": 2.1740225102009209e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Endpoint change",
+      "interaction": -1.1667615162913592e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dpressure",
+      "interaction": 4.864596630467429e-11,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dkinetic",
+      "interaction": -2.5226334010656744e-10,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DrhoH",
+      "interaction": 1.453693403916101e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DrhoC",
+      "interaction": -3.6674190566268056e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dchemistry",
+      "interaction": 1.6856539154928835e-18,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DspeciesTransport",
+      "interaction": 5.457238892361742e-17,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DspeciesResidual",
+      "interaction": -1.6202904304127412e-16,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dequation",
+      "interaction": 1.4329961145426316e-18,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dtransport",
+      "interaction": -8.403697096351652e-17,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "Dhistory",
+      "interaction": 0.0,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DpostH",
+      "interaction": -1.0875099853025622e-07,
+      "units": "J"
+    },
+    {
+      "dt": 1e-06,
+      "clean": "CpHS",
+      "quantity": "DpostC",
+      "interaction": 2.136510292563218e-07,
+      "units": "J"
+    }
+  ],
+  "inputSHA256": "8ba36ddcfe513a953f065d6744639fdefe82fa5c06cce8a3379f415b6fb9ca46"
+}

@@ -1,0 +1,7 @@
+build/
+candidateStudy/data/raw/
+data/raw/
+__pycache__/
+*.pyc
+applications/**/Make/linux*/
+applications/**/lnInclude/

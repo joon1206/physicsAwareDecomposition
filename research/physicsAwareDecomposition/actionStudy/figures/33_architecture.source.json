@@ -1,0 +1,6 @@
+[
+  "reactingFoamPAD\nphase clocks + cell clocks",
+  "Past-only state features\nchemistry / persistence / transport",
+  "Frozen action model\nuncertainty + cooldown",
+  "A0 / AC / AM / AH\ncharge action + future solver"
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_mpi",
+    "rankCounters": [
+      {
+        "rank": 2.0,
+        "sends": 93085.0,
+        "receives": 93085.0,
+        "sendPayloadBytes": 6349050.0,
+        "receiveBufferBytes": 6349054.0,
+        "collectives": 91164.0,
+        "waits": 45027.0,
+        "callSeconds": 12.424289988677629,
+        "waitSeconds": 10.24839549259923
+      },
+      {
+        "rank": 3.0,
+        "sends": 91547.0,
+        "receives": 91593.0,
+        "sendPayloadBytes": 6330290.0,
+        "receiveBufferBytes": 6337112.0,
+        "collectives": 91164.0,
+        "waits": 45027.0,
+        "callSeconds": 13.092225496688116,
+        "waitSeconds": 7.669556966673554
+      },
+      {
+        "rank": 1.0,
+        "sends": 91547.0,
+        "receives": 91593.0,
+        "sendPayloadBytes": 6330290.0,
+        "receiveBufferBytes": 6337112.0,
+        "collectives": 91164.0,
+        "waits": 45027.0,
+        "callSeconds": 5.921702090638064,
+        "waitSeconds": 3.344939526736198
+      },
+      {
+        "rank": 0.0,
+        "sends": 93133.0,
+        "receives": 93041.0,
+        "sendPayloadBytes": 6356048.0,
+        "receiveBufferBytes": 6342400.0,
+        "collectives": 91164.0,
+        "waits": 45027.0,
+        "callSeconds": 11.951178258810614,
+        "waitSeconds": 9.712312168918288
+      }
+    ],
+    "sumRankCounters": {
+      "sends": 369312.0,
+      "receives": 369312.0,
+      "sendPayloadBytes": 25365678.0,
+      "receiveBufferBytes": 25365678.0,
+      "collectives": 364656.0,
+      "waits": 180108.0,
+      "callSeconds": 43.38939583481442,
+      "waitSeconds": 30.97520415492727
+    },
+    "timingContext": "Concurrent 0D tolerance campaign: operation counts retained; timing excluded from uncontended performance comparisons."
+  },
+  {
+    "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001_mpi",
+    "rankCounters": [
+      {
+        "rank": 2.0,
+        "sends": 169967.0,
+        "receives": 169967.0,
+        "sendPayloadBytes": 11457673.0,
+        "receiveBufferBytes": 11457677.0,
+        "collectives": 171027.0,
+        "waits": 82062.0,
+        "callSeconds": 5.779813881115842,
+        "waitSeconds": 5.091496793858823
+      },
+      {
+        "rank": 3.0,
+        "sends": 167023.0,
+        "receives": 167069.0,
+        "sendPayloadBytes": 11427618.0,
+        "receiveBufferBytes": 11434487.0,
+        "collectives": 171027.0,
+        "waits": 82062.0,
+        "callSeconds": 6.212958914926276,
+        "waitSeconds": 3.678560109121463
+      },
+      {
+        "rank": 1.0,
+        "sends": 167023.0,
+        "receives": 167069.0,
+        "sendPayloadBytes": 11427618.0,
+        "receiveBufferBytes": 11434487.0,
+        "collectives": 171027.0,
+        "waits": 82062.0,
+        "callSeconds": 2.2708762132424454,
+        "waitSeconds": 1.5544761139062757
+      },
+      {
+        "rank": 0.0,
+        "sends": 170015.0,
+        "receives": 169923.0,
+        "sendPayloadBytes": 11464718.0,
+        "receiveBufferBytes": 11450976.0,
+        "collectives": 171027.0,
+        "waits": 82062.0,
+        "callSeconds": 5.386234928249905,
+        "waitSeconds": 4.752593504195829
+      }
+    ],
+    "sumRankCounters": {
+      "sends": 674028.0,
+      "receives": 674028.0,
+      "sendPayloadBytes": 45777627.0,
+      "receiveBufferBytes": 45777627.0,
+      "collectives": 684108.0,
+      "waits": 328248.0,
+      "callSeconds": 19.64988393753447,
+      "waitSeconds": 15.077126521082391
+    },
+    "timingContext": "Sequential loose-block instrumentation after the logical campaigns; operation counts only, timing excluded from the paired three-trial comparison."
+  },
+  {
+    "name": "F_none_dt1e-06_s1_g0_o1_p2_mpi",
+    "rankCounters": [
+      {
+        "rank": 2.0,
+        "sends": 61375.0,
+        "receives": 61375.0,
+        "sendPayloadBytes": 4527485.0,
+        "receiveBufferBytes": 4527489.0,
+        "collectives": 65784.0,
+        "waits": 29931.0,
+        "callSeconds": 10.105590930490507,
+        "waitSeconds": 8.84643338908245
+      },
+      {
+        "rank": 3.0,
+        "sends": 60596.0,
+        "receives": 60642.0,
+        "sendPayloadBytes": 4514810.0,
+        "receiveBufferBytes": 4521619.0,
+        "collectives": 65784.0,
+        "waits": 29931.0,
+        "callSeconds": 10.021825184909176,
+        "waitSeconds": 6.429895049934203
+      },
+      {
+        "rank": 1.0,
+        "sends": 60596.0,
+        "receives": 60642.0,
+        "sendPayloadBytes": 4514810.0,
+        "receiveBufferBytes": 4521619.0,
+        "collectives": 65784.0,
+        "waits": 29931.0,
+        "callSeconds": 3.9666254509575083,
+        "waitSeconds": 2.7587127400529425
+      },
+      {
+        "rank": 0.0,
+        "sends": 61423.0,
+        "receives": 61331.0,
+        "sendPayloadBytes": 4534470.0,
+        "receiveBufferBytes": 4520848.0,
+        "collectives": 65784.0,
+        "waits": 29931.0,
+        "callSeconds": 9.284092617615897,
+        "waitSeconds": 7.941925329183505
+      }
+    ],
+    "sumRankCounters": {
+      "sends": 243990.0,
+      "receives": 243990.0,
+      "sendPayloadBytes": 18091575.0,
+      "receiveBufferBytes": 18091575.0,
+      "collectives": 263136.0,
+      "waits": 119724.0,
+      "callSeconds": 33.37813418397309,
+      "waitSeconds": 25.9769665082531
+    },
+    "timingContext": "Concurrent 0D tolerance campaign: operation counts retained; timing excluded from uncontended performance comparisons."
+  },
+  {
+    "name": "F_none_dt1e-06_s1_g0_o1_p1_mpi",
+    "rankCounters": [
+      {
+        "rank": 2.0,
+        "sends": 47697.0,
+        "receives": 47697.0,
+        "sendPayloadBytes": 3467773.0,
+        "receiveBufferBytes": 3467777.0,
+        "collectives": 50307.0,
+        "waits": 23092.0,
+        "callSeconds": 9.961316172186343,
+        "waitSeconds": 8.856403513933401
+      },
+      {
+        "rank": 3.0,
+        "sends": 46918.0,
+        "receives": 46964.0,
+        "sendPayloadBytes": 3455098.0,
+        "receiveBufferBytes": 3461907.0,
+        "collectives": 50307.0,
+        "waits": 23092.0,
+        "callSeconds": 10.306312047247047,
+        "waitSeconds": 6.397914490911717
+      },
+      {
+        "rank": 1.0,
+        "sends": 46918.0,
+        "receives": 46964.0,
+        "sendPayloadBytes": 3455098.0,
+        "receiveBufferBytes": 3461907.0,
+        "collectives": 50307.0,
+        "waits": 23092.0,
+        "callSeconds": 3.859777232442866,
+        "waitSeconds": 2.5654758330856566
+      },
+      {
+        "rank": 0.0,
+        "sends": 47745.0,
+        "receives": 47653.0,
+        "sendPayloadBytes": 3474758.0,
+        "receiveBufferBytes": 3461136.0,
+        "collectives": 50307.0,
+        "waits": 23092.0,
+        "callSeconds": 8.99052659548397,
+        "waitSeconds": 7.669540583097842
+      }
+    ],
+    "sumRankCounters": {
+      "sends": 189278.0,
+      "receives": 189278.0,
+      "sendPayloadBytes": 13852727.0,
+      "receiveBufferBytes": 13852727.0,
+      "collectives": 201228.0,
+      "waits": 92368.0,
+      "callSeconds": 33.11793204736023,
+      "waitSeconds": 25.489334421028616
+    },
+    "timingContext": "Concurrent 0D tolerance campaign: operation counts retained; timing excluded from uncontended performance comparisons."
+  },
+  {
+    "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_mpi",
+    "rankCounters": [
+      {
+        "rank": 2.0,
+        "sends": 371953.0,
+        "receives": 371953.0,
+        "sendPayloadBytes": 24784682.0,
+        "receiveBufferBytes": 24784686.0,
+        "collectives": 369792.0,
+        "waits": 179858.0,
+        "callSeconds": 18.270406757033925,
+        "waitSeconds": 14.838989625792237
+      },
+      {
+        "rank": 3.0,
+        "sends": 365812.0,
+        "receives": 365858.0,
+        "sendPayloadBytes": 24729098.0,
+        "receiveBufferBytes": 24735920.0,
+        "collectives": 369792.0,
+        "waits": 179858.0,
+        "callSeconds": 18.76354271163109,
+        "waitSeconds": 11.568411984308113
+      },
+      {
+        "rank": 1.0,
+        "sends": 365812.0,
+        "receives": 365858.0,
+        "sendPayloadBytes": 24729098.0,
+        "receiveBufferBytes": 24735920.0,
+        "collectives": 369792.0,
+        "waits": 179858.0,
+        "callSeconds": 11.210693987823106,
+        "waitSeconds": 7.390351823005403
+      },
+      {
+        "rank": 0.0,
+        "sends": 372001.0,
+        "receives": 371909.0,
+        "sendPayloadBytes": 24791680.0,
+        "receiveBufferBytes": 24778032.0,
+        "collectives": 369792.0,
+        "waits": 179858.0,
+        "callSeconds": 16.948484790462317,
+        "waitSeconds": 13.358781808832646
+      }
+    ],
+    "sumRankCounters": {
+      "sends": 1475578.0,
+      "receives": 1475578.0,
+      "sendPayloadBytes": 99034558.0,
+      "receiveBufferBytes": 99034558.0,
+      "collectives": 1479168.0,
+      "waits": 719432.0,
+      "callSeconds": 65.19312824695044,
+      "waitSeconds": 47.1565352419384
+    },
+    "timingContext": "Concurrent 0D tolerance campaign: operation counts retained; timing excluded from uncontended performance comparisons."
+  }
+]

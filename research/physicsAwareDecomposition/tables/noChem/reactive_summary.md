@@ -1,0 +1,5 @@
+| ranks | method | gamma | trials | wallMedian | wallStd | wallMin | wallMax | wallCV | wallSpeedup | wallSpeedupCI_low | wallSpeedupCI_high | steadyMaxRankMedian | steadySpeedup | chemistryFraction | chemistryImbalance | stepImbalance | decompositionMedian | processorFaces | maxNeighbours | predictedCostImbalance | partitionValidationPass |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | scotch | 1 | 5 | 1.0726 | 0.011887 | 1.0651 | 1.0962 | 0.0098835 | 0.86391 | 0.84348 | 0.88859 | 0.66039 | 0.83166 | 0.0013101 | 1.0457 | 1.0008 | 0.15755 | 116 | 3 | 1.314 | True |
+| 4 | scotch | 16 | 5 | 1.3762 | 0.038244 | 1.3523 | 1.451 | 0.024638 | 0.6733 | 0.63861 | 0.69531 | 0.90417 | 0.60743 | 0.0011145 | 1.1152 | 1.0005 | 0.1592 | 115 | 3 | 1.0369 | True |
+| 4 | scotch |  | 5 | 0.9266 | 0.018104 | 0.90518 | 0.95307 | 0.017418 | 1 | 0.9687 | 1.0323 | 0.54922 | 1 | 0.001573 | 1.0241 | 1.0009 | 0.15307 | 120 | 2 | 2.676 | True |

@@ -1,0 +1,13 @@
+{
+  "driverSHA256": "f3e22d061b2857c7cb01bc527417e6fd828a1bd62aa4e12afe85a750476e6575",
+  "inputs": {
+    "clean_thermo_campaign.json": "8ba36ddcfe513a953f065d6744639fdefe82fa5c06cce8a3379f415b6fb9ca46",
+    "clean_gri_campaign.json": "f5244eb828d2706434012133f1f8009b0a04c969d54f05ff07b5a22558b8f6d3",
+    "clean_thermo_branch.json": "8697a8008361d516b2f3f51166bb2f801dd1831ea65d6977050bc829aee6984a",
+    "clean_thermo_reference.json": "f94d39dc7aef1ee5869700c762663c07dc3ea876730ae4472501400ebb0270c8",
+    "mechanism_continuity_audit.json": "7f38ebd48b426fb5f973b5f690084f455c2ca9243e6be7d5e7331f4f1379734b",
+    "clean_thermo_interactions.json": "79b180f747b66eabffa2d950d141e21f5032bce05a0834bd792c04ac59410142",
+    "native_thermo_control_limits.json": "d949d677fee13a3a260b79a8eba10b4027578c3a5a989187a6cba039a197e169"
+  },
+  "completedMatchedRecords": 18
+}

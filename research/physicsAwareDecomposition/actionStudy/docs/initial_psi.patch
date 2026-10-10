@@ -1,0 +1,11 @@
+--- native-compatible/createFields.H
++++ diagnostic/createFields.H
+@@ -4,6 +4,8 @@
+ autoPtr<psiReactionThermo> pThermo(psiReactionThermo::New(mesh));
+ psiReactionThermo& thermo = pThermo();
+ thermo.validate(args.executable(), "h", "e");
++// Initialization diagnostic: preserve the initial Euler coefficient before thermo changes it.
++if (runTime.value() <= SMALL) thermo.psi().oldTime();
+ // heThermo initializes he from T/Y instead of reading the solved enthalpy.
+ if (runTime.controlDict().getOrDefault<bool>("padRestartState", false))
+ {

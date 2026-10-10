@@ -1,0 +1,27 @@
+[
+  {
+    "phase": "storedInventoryBuild",
+    "exitCode": 0,
+    "wall": 6.305806203992688
+  },
+  {
+    "phase": "storedInventory",
+    "exitCode": 0,
+    "wall": 3.4110209030041005
+  },
+  {
+    "phase": "accuracy",
+    "exitCode": 1,
+    "wall": 310.05167108499154
+  },
+  {
+    "phase": "extendedGates",
+    "exitCode": 1,
+    "wall": 1.993963974993676
+  },
+  {
+    "phase": "extendedNorms",
+    "exitCode": 1,
+    "wall": 0.5324890449992381
+  }
+]

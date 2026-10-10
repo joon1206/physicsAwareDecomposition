@@ -1,0 +1,16 @@
+test_closed_static_machine_precision (test_audit.AuditTests.test_closed_static_machine_precision) ... ok
+test_closed_transports_and_residuals_are_small (test_audit.AuditTests.test_closed_transports_and_residuals_are_small) ... ok
+test_documented_drift_reproduced (test_audit.AuditTests.test_documented_drift_reproduced) ... ok
+test_every_equation_budget_closes (test_audit.AuditTests.test_every_equation_budget_closes) ... ok
+test_exact_solution_and_conservative_reference (test_audit.AuditTests.test_exact_solution_and_conservative_reference) ... ok
+test_independent_thermodynamics (test_audit.AuditTests.test_independent_thermodynamics) ... ok
+test_instrumentation_has_no_field_effect (test_audit.AuditTests.test_instrumentation_has_no_field_effect) ... ok
+test_mass_elements_species_positivity (test_audit.AuditTests.test_mass_elements_species_positivity) ... ok
+test_published_artifact_frozen (test_audit.AuditTests.test_published_artifact_frozen) ... ok
+test_serial_and_restart_equivalence (test_audit.AuditTests.test_serial_and_restart_equivalence) ... ok
+test_stage_snapshots_preserve_rank_count_and_order (test_audit.AuditTests.test_stage_snapshots_preserve_rank_count_and_order) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.269s
+
+OK

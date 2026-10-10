@@ -1,0 +1,54 @@
+{
+  "status": "MEASURED or DERIVED as caption specifies",
+  "caption": "Measured 64x32 four-rank Gaussian CPU/halo workload, five trials per sample. Benefit diminishes at high communication pressure; the high-halo interval includes unity. Low/high campaigns were separate, so this is not a causal universal crossover threshold.",
+  "data": [
+    {
+      "nx": 64.0,
+      "ranks": 4.0,
+      "kind": "gaussian",
+      "haloPasses": 1.0,
+      "weighted": 1.0,
+      "trials": 5.0,
+      "stepMedian": 0.001443435,
+      "stepSpeedup": 1.4222864209333983,
+      "stepCI_low": 1.088574387531621,
+      "stepCI_high": 1.4902486083543767,
+      "communicationMedian": 0.000432915,
+      "synchronizationMedian": 0.000408086,
+      "computeImbalance": 1.297185937882533,
+      "processorFaces": 92.0
+    },
+    {
+      "nx": 64.0,
+      "ranks": 4.0,
+      "kind": "gaussian",
+      "haloPasses": 32.0,
+      "weighted": 1.0,
+      "trials": 5.0,
+      "stepMedian": 0.001474504,
+      "stepSpeedup": 1.3969226261848053,
+      "stepCI_low": 0.7338965495494757,
+      "stepCI_high": 1.573712244931177,
+      "communicationMedian": 0.000492135,
+      "synchronizationMedian": 1.64e-06,
+      "computeImbalance": 1.2844115865412622,
+      "processorFaces": 92.0
+    },
+    {
+      "nx": 64.0,
+      "ranks": 4.0,
+      "kind": "gaussian",
+      "haloPasses": 2048.0,
+      "weighted": 1.0,
+      "trials": 5.0,
+      "stepMedian": 0.003845527,
+      "stepSpeedup": 1.023718725677911,
+      "stepCI_low": 0.8304305004494159,
+      "stepCI_high": 1.271208601577885,
+      "communicationMedian": 0.002904898,
+      "synchronizationMedian": 1.87e-06,
+      "computeImbalance": 1.2930556007009235,
+      "processorFaces": 92.0
+    }
+  ]
+}

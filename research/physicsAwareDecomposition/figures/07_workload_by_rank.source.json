@@ -1,0 +1,1726 @@
+{
+  "status": "MEASURED or DERIVED as caption specifies",
+  "caption": "Native partition metrics; predicted cost is summed from the independent serial training trace, not measured parallel chemistry time.",
+  "data": [
+    {
+      "case": "data/raw/reactiveTight/p1_scotch_gNone_r0",
+      "rank": 0.0,
+      "nCells": 4000.0,
+      "processorFaces": 0.0,
+      "nNeighbours": 0.0,
+      "predictedCost": 0.012588853
+    },
+    {
+      "case": "data/raw/reactiveTight/p1_scotch_gNone_r1",
+      "rank": 0.0,
+      "nCells": 4000.0,
+      "processorFaces": 0.0,
+      "nNeighbours": 0.0,
+      "predictedCost": 0.012588853
+    },
+    {
+      "case": "data/raw/reactiveTight/p1_scotch_gNone_r2",
+      "rank": 0.0,
+      "nCells": 4000.0,
+      "processorFaces": 0.0,
+      "nNeighbours": 0.0,
+      "predictedCost": 0.012588853
+    },
+    {
+      "case": "data/raw/reactiveTight/p1_scotch_gNone_r3",
+      "rank": 0.0,
+      "nCells": 4000.0,
+      "processorFaces": 0.0,
+      "nNeighbours": 0.0,
+      "predictedCost": 0.012588853
+    },
+    {
+      "case": "data/raw/reactiveTight/p1_scotch_gNone_r4",
+      "rank": 0.0,
+      "nCells": 4000.0,
+      "processorFaces": 0.0,
+      "nNeighbours": 0.0,
+      "predictedCost": 0.012588853
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r0",
+      "rank": 0.0,
+      "nCells": 2200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002041064
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r0",
+      "rank": 1.0,
+      "nCells": 1800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.010547789
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r1",
+      "rank": 0.0,
+      "nCells": 2200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002041064
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r1",
+      "rank": 1.0,
+      "nCells": 1800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.010547789
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r2",
+      "rank": 0.0,
+      "nCells": 2200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002041064
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r2",
+      "rank": 1.0,
+      "nCells": 1800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.010547789
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r3",
+      "rank": 0.0,
+      "nCells": 2200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002041064
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r3",
+      "rank": 1.0,
+      "nCells": 1800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.010547789
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r4",
+      "rank": 0.0,
+      "nCells": 2200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002041064
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0.25_r4",
+      "rank": 1.0,
+      "nCells": 1800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.010547789
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r0",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r0",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r1",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r1",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r2",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r2",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r3",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r3",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r4",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g0_r4",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r0",
+      "rank": 0.0,
+      "nCells": 1183.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006312375
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r0",
+      "rank": 1.0,
+      "nCells": 2817.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006276478
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r1",
+      "rank": 0.0,
+      "nCells": 1183.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006312375
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r1",
+      "rank": 1.0,
+      "nCells": 2817.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006276478
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r2",
+      "rank": 0.0,
+      "nCells": 1183.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006312375
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r2",
+      "rank": 1.0,
+      "nCells": 2817.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006276478
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r3",
+      "rank": 0.0,
+      "nCells": 1183.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006312375
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r3",
+      "rank": 1.0,
+      "nCells": 2817.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006276478
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r4",
+      "rank": 0.0,
+      "nCells": 1183.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006312375
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g16_r4",
+      "rank": 1.0,
+      "nCells": 2817.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.006276478
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r0",
+      "rank": 0.0,
+      "nCells": 2699.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0044135405
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r0",
+      "rank": 1.0,
+      "nCells": 1301.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0081753125
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r1",
+      "rank": 0.0,
+      "nCells": 2699.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0044135405
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r1",
+      "rank": 1.0,
+      "nCells": 1301.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0081753125
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r2",
+      "rank": 0.0,
+      "nCells": 2699.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0044135405
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r2",
+      "rank": 1.0,
+      "nCells": 1301.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0081753125
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r3",
+      "rank": 0.0,
+      "nCells": 2699.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0044135405
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r3",
+      "rank": 1.0,
+      "nCells": 1301.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0081753125
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r4",
+      "rank": 0.0,
+      "nCells": 2699.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0044135405
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g1_r4",
+      "rank": 1.0,
+      "nCells": 1301.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0081753125
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r0",
+      "rank": 0.0,
+      "nCells": 1200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0066475685
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r0",
+      "rank": 1.0,
+      "nCells": 2800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0059412844999999995
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r1",
+      "rank": 0.0,
+      "nCells": 1200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0066475685
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r1",
+      "rank": 1.0,
+      "nCells": 2800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0059412844999999995
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r2",
+      "rank": 0.0,
+      "nCells": 1200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0066475685
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r2",
+      "rank": 1.0,
+      "nCells": 2800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0059412844999999995
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r3",
+      "rank": 0.0,
+      "nCells": 1200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0066475685
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r3",
+      "rank": 1.0,
+      "nCells": 2800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0059412844999999995
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r4",
+      "rank": 0.0,
+      "nCells": 1200.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0066475685
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_g4_r4",
+      "rank": 1.0,
+      "nCells": 2800.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0059412844999999995
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r0",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r0",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r1",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r1",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r2",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r2",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r3",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r3",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r4",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_scotch_gNone_r4",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r0",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r0",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r1",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r1",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r2",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r2",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r3",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r3",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r4",
+      "rank": 0.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0014581355
+    },
+    {
+      "case": "data/raw/reactiveTight/p2_simple_gNone_r4",
+      "rank": 1.0,
+      "nCells": 2000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0111307175
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r0",
+      "rank": 0.0,
+      "nCells": 996.0,
+      "processorFaces": 43.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0026502245
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r0",
+      "rank": 1.0,
+      "nCells": 816.0,
+      "processorFaces": 85.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0079411695
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r0",
+      "rank": 2.0,
+      "nCells": 1094.0,
+      "processorFaces": 88.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0013280195
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r0",
+      "rank": 3.0,
+      "nCells": 1094.0,
+      "processorFaces": 46.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006694394999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r1",
+      "rank": 0.0,
+      "nCells": 996.0,
+      "processorFaces": 43.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0026502245
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r1",
+      "rank": 1.0,
+      "nCells": 816.0,
+      "processorFaces": 85.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0079411695
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r1",
+      "rank": 2.0,
+      "nCells": 1094.0,
+      "processorFaces": 88.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0013280195
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r1",
+      "rank": 3.0,
+      "nCells": 1094.0,
+      "processorFaces": 46.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006694394999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r2",
+      "rank": 0.0,
+      "nCells": 996.0,
+      "processorFaces": 43.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0026502245
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r2",
+      "rank": 1.0,
+      "nCells": 816.0,
+      "processorFaces": 85.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0079411695
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r2",
+      "rank": 2.0,
+      "nCells": 1094.0,
+      "processorFaces": 88.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0013280195
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r2",
+      "rank": 3.0,
+      "nCells": 1094.0,
+      "processorFaces": 46.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006694394999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r3",
+      "rank": 0.0,
+      "nCells": 996.0,
+      "processorFaces": 43.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0026502245
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r3",
+      "rank": 1.0,
+      "nCells": 816.0,
+      "processorFaces": 85.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0079411695
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r3",
+      "rank": 2.0,
+      "nCells": 1094.0,
+      "processorFaces": 88.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0013280195
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r3",
+      "rank": 3.0,
+      "nCells": 1094.0,
+      "processorFaces": 46.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006694394999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r4",
+      "rank": 0.0,
+      "nCells": 996.0,
+      "processorFaces": 43.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0026502245
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r4",
+      "rank": 1.0,
+      "nCells": 816.0,
+      "processorFaces": 85.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0079411695
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r4",
+      "rank": 2.0,
+      "nCells": 1094.0,
+      "processorFaces": 88.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0013280195
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0.25_r4",
+      "rank": 3.0,
+      "nCells": 1094.0,
+      "processorFaces": 46.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006694394999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r0",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r0",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r0",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r0",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r1",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r1",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r1",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r1",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r2",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r2",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r2",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r2",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r3",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r3",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r3",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r3",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r4",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r4",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r4",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g0_r4",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r0",
+      "rank": 0.0,
+      "nCells": 2395.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003013177
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r0",
+      "rank": 1.0,
+      "nCells": 422.0,
+      "processorFaces": 75.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003263301
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r0",
+      "rank": 2.0,
+      "nCells": 1005.0,
+      "processorFaces": 47.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003081457
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r0",
+      "rank": 3.0,
+      "nCells": 178.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003230918
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r1",
+      "rank": 0.0,
+      "nCells": 2395.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003013177
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r1",
+      "rank": 1.0,
+      "nCells": 422.0,
+      "processorFaces": 75.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003263301
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r1",
+      "rank": 2.0,
+      "nCells": 1005.0,
+      "processorFaces": 47.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003081457
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r1",
+      "rank": 3.0,
+      "nCells": 178.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003230918
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r2",
+      "rank": 0.0,
+      "nCells": 2395.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003013177
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r2",
+      "rank": 1.0,
+      "nCells": 422.0,
+      "processorFaces": 75.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003263301
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r2",
+      "rank": 2.0,
+      "nCells": 1005.0,
+      "processorFaces": 47.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003081457
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r2",
+      "rank": 3.0,
+      "nCells": 178.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003230918
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r3",
+      "rank": 0.0,
+      "nCells": 2395.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003013177
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r3",
+      "rank": 1.0,
+      "nCells": 422.0,
+      "processorFaces": 75.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003263301
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r3",
+      "rank": 2.0,
+      "nCells": 1005.0,
+      "processorFaces": 47.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003081457
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r3",
+      "rank": 3.0,
+      "nCells": 178.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003230918
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r4",
+      "rank": 0.0,
+      "nCells": 2395.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003013177
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r4",
+      "rank": 1.0,
+      "nCells": 422.0,
+      "processorFaces": 75.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003263301
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r4",
+      "rank": 2.0,
+      "nCells": 1005.0,
+      "processorFaces": 47.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003081457
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g16_r4",
+      "rank": 3.0,
+      "nCells": 178.0,
+      "processorFaces": 54.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003230918
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r0",
+      "rank": 0.0,
+      "nCells": 1160.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003475328
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r0",
+      "rank": 1.0,
+      "nCells": 1539.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0009382125
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r0",
+      "rank": 2.0,
+      "nCells": 634.0,
+      "processorFaces": 56.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0041355205
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r0",
+      "rank": 3.0,
+      "nCells": 667.0,
+      "processorFaces": 53.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.004039792
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r1",
+      "rank": 0.0,
+      "nCells": 1160.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003475328
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r1",
+      "rank": 1.0,
+      "nCells": 1539.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0009382125
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r1",
+      "rank": 2.0,
+      "nCells": 634.0,
+      "processorFaces": 56.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0041355205
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r1",
+      "rank": 3.0,
+      "nCells": 667.0,
+      "processorFaces": 53.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.004039792
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r2",
+      "rank": 0.0,
+      "nCells": 1160.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003475328
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r2",
+      "rank": 1.0,
+      "nCells": 1539.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0009382125
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r2",
+      "rank": 2.0,
+      "nCells": 634.0,
+      "processorFaces": 56.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0041355205
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r2",
+      "rank": 3.0,
+      "nCells": 667.0,
+      "processorFaces": 53.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.004039792
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r3",
+      "rank": 0.0,
+      "nCells": 1160.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003475328
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r3",
+      "rank": 1.0,
+      "nCells": 1539.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0009382125
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r3",
+      "rank": 2.0,
+      "nCells": 634.0,
+      "processorFaces": 56.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0041355205
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r3",
+      "rank": 3.0,
+      "nCells": 667.0,
+      "processorFaces": 53.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.004039792
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r4",
+      "rank": 0.0,
+      "nCells": 1160.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.003475328
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r4",
+      "rank": 1.0,
+      "nCells": 1539.0,
+      "processorFaces": 41.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0009382125
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r4",
+      "rank": 2.0,
+      "nCells": 634.0,
+      "processorFaces": 56.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0041355205
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g1_r4",
+      "rank": 3.0,
+      "nCells": 667.0,
+      "processorFaces": 53.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.004039792
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r0",
+      "rank": 0.0,
+      "nCells": 970.0,
+      "processorFaces": 50.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0030195665
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r0",
+      "rank": 1.0,
+      "nCells": 230.0,
+      "processorFaces": 60.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003628002
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r0",
+      "rank": 2.0,
+      "nCells": 538.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.0036571785
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r0",
+      "rank": 3.0,
+      "nCells": 2262.0,
+      "processorFaces": 42.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002284106
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r1",
+      "rank": 0.0,
+      "nCells": 970.0,
+      "processorFaces": 50.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0030195665
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r1",
+      "rank": 1.0,
+      "nCells": 230.0,
+      "processorFaces": 60.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003628002
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r1",
+      "rank": 2.0,
+      "nCells": 538.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.0036571785
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r1",
+      "rank": 3.0,
+      "nCells": 2262.0,
+      "processorFaces": 42.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002284106
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r2",
+      "rank": 0.0,
+      "nCells": 970.0,
+      "processorFaces": 50.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0030195665
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r2",
+      "rank": 1.0,
+      "nCells": 230.0,
+      "processorFaces": 60.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003628002
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r2",
+      "rank": 2.0,
+      "nCells": 538.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.0036571785
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r2",
+      "rank": 3.0,
+      "nCells": 2262.0,
+      "processorFaces": 42.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002284106
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r3",
+      "rank": 0.0,
+      "nCells": 970.0,
+      "processorFaces": 50.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0030195665
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r3",
+      "rank": 1.0,
+      "nCells": 230.0,
+      "processorFaces": 60.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003628002
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r3",
+      "rank": 2.0,
+      "nCells": 538.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.0036571785
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r3",
+      "rank": 3.0,
+      "nCells": 2262.0,
+      "processorFaces": 42.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002284106
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r4",
+      "rank": 0.0,
+      "nCells": 970.0,
+      "processorFaces": 50.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0030195665
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r4",
+      "rank": 1.0,
+      "nCells": 230.0,
+      "processorFaces": 60.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.003628002
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r4",
+      "rank": 2.0,
+      "nCells": 538.0,
+      "processorFaces": 82.0,
+      "nNeighbours": 3.0,
+      "predictedCost": 0.0036571785
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_g4_r4",
+      "rank": 3.0,
+      "nCells": 2262.0,
+      "processorFaces": 42.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.002284106
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r0",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r0",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r0",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r0",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r1",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r1",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r1",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r1",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r2",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r2",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r2",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r2",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r3",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r3",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r3",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r3",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r4",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r4",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r4",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_scotch_gNone_r4",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r0",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r0",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r0",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r0",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r1",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r1",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r1",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r1",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r2",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r2",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r2",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r2",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r3",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r3",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r3",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r3",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r4",
+      "rank": 0.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0006127449999999999
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r4",
+      "rank": 1.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.0008453905
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r4",
+      "rank": 2.0,
+      "nCells": 1000.0,
+      "processorFaces": 80.0,
+      "nNeighbours": 2.0,
+      "predictedCost": 0.008421809
+    },
+    {
+      "case": "data/raw/reactiveTight/p4_simple_gNone_r4",
+      "rank": 3.0,
+      "nCells": 1000.0,
+      "processorFaces": 40.0,
+      "nNeighbours": 1.0,
+      "predictedCost": 0.0027089085
+    }
+  ]
+}

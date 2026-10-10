@@ -1,0 +1,26 @@
+{
+  "protocol": "native restart v2, superseded",
+  "directories": [
+    "histories",
+    "oracle",
+    "deployment",
+    "live",
+    "profilesOff",
+    "profilesOn",
+    "scaling",
+    "scalingSources",
+    "gamma",
+    "fineHistories",
+    "fineOracle",
+    "conservationRefinement",
+    "validation",
+    "campaignLogs",
+    "finishLogs",
+    "refine"
+  ],
+  "reason": "Forced physical endpoints fixed stale output, but static dpdt and psi oldTime were not preserved. Same-action gates passed; segmented/native regression failed. v3 preserves the actual continuous state.",
+  "retainedRaw": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/actionStudy/data/raw/nativeRestartProtocolV2",
+  "newProtocol": "physical endpoint + stored h/dpdt + psi oldTime initialization",
+  "modelsRefittedOnlyOnWholeTrainingConditions": true,
+  "hyperparametersUnchanged": true
+}

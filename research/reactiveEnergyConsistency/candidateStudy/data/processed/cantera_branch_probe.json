@@ -1,0 +1,572 @@
+[
+  {
+    "name": "cantera_Branch_T999",
+    "Tinitial": 999.0,
+    "pInitial": 101325.0,
+    "TF": 1e-05,
+    "Yinitial": {
+      "H2": 0.0283,
+      "O2": 0.225,
+      "H": 0.0001,
+      "OH": 0.0001,
+      "N2": 0.7465
+    },
+    "records": [
+      {
+        "rtol": 1e-08,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 999.0,
+          "p": 101325.00000000001,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.20243865825,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1059.5485117758997,
+          "p": 107162.50685115001,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.221322983,
+          "energyDrift": 1.1448153491584087e-07,
+          "H2": 0.02708309456190646,
+          "H": 0.0002977679143933809,
+          "O2": 0.2162236706571346,
+          "O": 0.0005463052871740126,
+          "OH": 0.00030020503692623334,
+          "HO2": 6.500454993295044e-05,
+          "H2O2": 5.51181439910248e-07,
+          "H2O": 0.00898340081109249,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.1462159741739368e-07,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-08",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 3.358602270964184e-06,
+            "nativeEnergyDriftDifference": 1.234240021266185e-10
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-08",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 3.357932428116328e-06,
+            "nativeEnergyDriftDifference": 1.2358085262235234e-10
+          }
+        ]
+      },
+      {
+        "rtol": 1e-10,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 999.0,
+          "p": 101325.00000000001,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.20243865825,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1059.5485084447112,
+          "p": 107162.50652902263,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.2213428793,
+          "energyDrift": 1.1460215111432793e-07,
+          "H2": 0.027083094695230733,
+          "H": 0.0002977678819668168,
+          "O2": 0.21622367153394148,
+          "O": 0.0005463052268450712,
+          "OH": 0.00030020500439604543,
+          "HO2": 6.500454938304881e-05,
+          "H2O2": 5.511814214946291e-07,
+          "H2O": 0.008983399926815093,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.1460435937367914e-07,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-10",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 3.650279722933192e-08,
+            "nativeEnergyDriftDifference": 2.346426759537855e-12
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-10",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 3.605714482546318e-08,
+            "nativeEnergyDriftDifference": 2.3735977115574513e-12
+          }
+        ]
+      },
+      {
+        "rtol": 1e-12,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 999.0,
+          "p": 101325.00000000001,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.20243865825,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1059.5485084114562,
+          "p": 107162.50652580486,
+          "rho": 0.2550836581431981,
+          "energyDensityLegacy": 164955.22134323904,
+          "energyDrift": 1.1460433202626787e-07,
+          "H2": 0.0270830946967126,
+          "H": 0.0002977678815980991,
+          "O2": 0.21622367154367683,
+          "O": 0.0005463052261286682,
+          "OH": 0.0003002050039946005,
+          "HO2": 6.500454938990552e-05,
+          "H2O2": 5.511814213401244e-07,
+          "H2O": 0.008983399917077643,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.1460449275847216e-07,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-12",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 2.6338966563344e-09,
+            "nativeEnergyDriftDifference": 2.0644768238266175e-13
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-12",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 3.26281224261038e-09,
+            "nativeEnergyDriftDifference": 1.6375047207371636e-13
+          }
+        ]
+      }
+    ],
+    "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+    "driverSHA256": "950ee1dec0b12301e1c405c6f4225ec8767b84ed972b0e02bb2ebc9574be9f55",
+    "canteraVersion": "3.2.0",
+    "scope": "Independent known Cv reactor at identical branch-probe states with unchanged matched NASA/mechanism. Energy drift is retained, not interpreted as an energy-conserving reference across discontinuities."
+  },
+  {
+    "name": "cantera_Branch_T1001",
+    "Tinitial": 1001.0,
+    "pInitial": 101325.0,
+    "TF": 1e-05,
+    "Yinitial": {
+      "H2": 0.0283,
+      "O2": 0.225,
+      "H": 0.0001,
+      "OH": 0.0001,
+      "N2": 0.7465
+    },
+    "records": [
+      {
+        "rtol": 1e-08,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1001.0,
+          "p": 101325.00000000001,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48808918314,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1062.0568187355402,
+          "p": 107199.50883689239,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48807360962,
+          "energyDrift": -9.426535979513586e-11,
+          "H2": 0.027055294690268752,
+          "H": 0.00030502389689369665,
+          "O2": 0.21604270333863038,
+          "O": 0.0005608065514887545,
+          "OH": 0.00030825409655181894,
+          "HO2": 6.450164722137454e-05,
+          "H2O2": 5.516619830367936e-07,
+          "H2O": 0.0091628641169621,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 9.426535979513586e-11,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-08",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 2.536517740736599e-06,
+            "nativeEnergyDriftDifference": 9.422589924055325e-11
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-08",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 2.5392646421096288e-06,
+            "nativeEnergyDriftDifference": 9.426254118409425e-11
+          }
+        ]
+      },
+      {
+        "rtol": 1e-10,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1001.0,
+          "p": 101325.00000000001,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48808918314,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1062.0568162283723,
+          "p": 107199.50859503384,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48808896184,
+          "energyDrift": -1.339546097533205e-12,
+          "H2": 0.027055294789755747,
+          "H": 0.0003050238727737579,
+          "O2": 0.21604270399382605,
+          "O": 0.0005608065065917123,
+          "OH": 0.0003082540726892554,
+          "HO2": 6.450164595540605e-05,
+          "H2O2": 5.516619681904403e-07,
+          "H2O": 0.009162863456440075,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.339546097533205e-12,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-10",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 3.2136085792444646e-08,
+            "nativeEnergyDriftDifference": 1.3354943441608835e-12
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-10",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 3.213085619790945e-08,
+            "nativeEnergyDriftDifference": 1.3356705073509845e-12
+          }
+        ]
+      },
+      {
+        "rtol": 1e-12,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1001.0,
+          "p": 101325.00000000001,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48808918314,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1062.0568161969431,
+          "p": 107199.50859200006,
+          "rho": 0.25457400048457035,
+          "energyDensityLegacy": 165209.48808917907,
+          "energyDrift": -2.4662868707870686e-14,
+          "H2": 0.027055294791064177,
+          "H": 0.00030502387245357127,
+          "O2": 0.21604270400245015,
+          "O": 0.0005608065059691654,
+          "OH": 0.00030825407234133517,
+          "HO2": 6.450164596156427e-05,
+          "H2O2": 5.516619680470841e-07,
+          "H2O": 0.009162863447791672,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 2.5367522099524135e-14,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-12",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 7.275957614183426e-10,
+            "nativeEnergyDriftDifference": 2.0082625765246255e-14
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-12",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 7.37827576813288e-10,
+            "nativeEnergyDriftDifference": 9.512834359189874e-15
+          }
+        ]
+      }
+    ],
+    "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+    "driverSHA256": "950ee1dec0b12301e1c405c6f4225ec8767b84ed972b0e02bb2ebc9574be9f55",
+    "canteraVersion": "3.2.0",
+    "scope": "Independent known Cv reactor at identical branch-probe states with unchanged matched NASA/mechanism. Energy drift is retained, not interpreted as an energy-conserving reference across discontinuities."
+  },
+  {
+    "name": "cantera_Branch_T1100",
+    "Tinitial": 1100.0,
+    "pInitial": 101325.0,
+    "TF": 1e-05,
+    "Yinitial": {
+      "H2": 0.0283,
+      "O2": 0.225,
+      "H": 0.0001,
+      "OH": 0.0001,
+      "N2": 0.7465
+    },
+    "records": [
+      {
+        "rtol": 1e-08,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1100.0,
+          "p": 101324.99999999997,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11338415055,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1216.7226139671259,
+          "p": 111532.6142413867,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11335491634,
+          "energyDrift": -1.652592381215132e-10,
+          "H2": 0.023573865973489507,
+          "H": 0.0012282053824491557,
+          "O2": 0.193188483129286,
+          "O": 0.002549647152884898,
+          "OH": 0.0015411939305953735,
+          "HO2": 3.948586997971775e-05,
+          "H2O2": 1.0668844566858947e-06,
+          "H2O": 0.031378051676859774,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.652592381215132e-10,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-08",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 4.2366677917016204e-06,
+            "nativeEnergyDriftDifference": 1.6510985196830324e-10
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-08",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 4.241645001457073e-06,
+            "nativeEnergyDriftDifference": 1.6520428770832805e-10
+          }
+        ]
+      },
+      {
+        "rtol": 1e-10,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1100.0,
+          "p": 101324.99999999997,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11338415055,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1216.7226100866992,
+          "p": 111532.61390297297,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11338148368,
+          "energyDrift": -1.507551129247152e-11,
+          "H2": 0.023573866179946265,
+          "H": 0.0012282053299496963,
+          "O2": 0.19318848450372025,
+          "O": 0.0025496470351050616,
+          "OH": 0.0015411938567832008,
+          "HO2": 3.9485869914892785e-05,
+          "H2O2": 1.0668844175816857e-06,
+          "H2O": 0.0313780503401609,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 1.507551129247152e-11,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-10",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 3.62685568688903e-07,
+            "nativeEnergyDriftDifference": 1.5067285182713262e-11
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-10",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 3.627333171607461e-07,
+            "nativeEnergyDriftDifference": 1.5064488305395454e-11
+          }
+        ]
+      },
+      {
+        "rtol": 1e-12,
+        "atol": 1e-16,
+        "initial": {
+          "time": 0.0,
+          "T": 1100.0,
+          "p": 101324.99999999997,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11338415055,
+          "energyDrift": 0.0,
+          "H2": 0.0283,
+          "H": 0.0001,
+          "O2": 0.225,
+          "O": 0.0,
+          "OH": 0.0001,
+          "HO2": 0.0,
+          "H2O2": 0.0,
+          "H2O": 0.0,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "end": {
+          "time": 1e-05,
+          "T": 1216.722609736349,
+          "p": 111532.61387242391,
+          "rho": 0.23166234044095896,
+          "energyDensityLegacy": 176899.11338398093,
+          "energyDrift": -9.588362123769428e-13,
+          "H2": 0.02357386619848928,
+          "H": 0.0012282053252459977,
+          "O2": 0.19318848462730004,
+          "O": 0.0025496470244920776,
+          "OH": 0.0015411938500522627,
+          "HO2": 3.9485869967618885e-05,
+          "H2O2": 1.0668844140593329e-06,
+          "H2O": 0.03137805022003872,
+          "AR": 0.0,
+          "N2": 0.7465
+        },
+        "maxEnergyDrift": 9.588362123769428e-13,
+        "reactorClone": false,
+        "reactorMolecularWeightMaxError": 0.0,
+        "comparisons": [
+          {
+            "name": "CvBranchProbe_chunks1_rtol1e-12",
+            "chunks": 1.0,
+            "nativeTemperatureDifference": 1.2447571862139739e-08,
+            "nativeEnergyDriftDifference": 9.49622969447693e-13
+          },
+          {
+            "name": "CvBranchProbe_chunks1000_rtol1e-12",
+            "chunks": 1000.0,
+            "nativeTemperatureDifference": 1.2442114893929102e-08,
+            "nativeEnergyDriftDifference": 9.483067918863716e-13
+          }
+        ]
+      }
+    ],
+    "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+    "driverSHA256": "950ee1dec0b12301e1c405c6f4225ec8767b84ed972b0e02bb2ebc9574be9f55",
+    "canteraVersion": "3.2.0",
+    "scope": "Independent known Cv reactor at identical branch-probe states with unchanged matched NASA/mechanism. Energy drift is retained, not interpreted as an energy-conserving reference across discontinuities."
+  }
+]

@@ -1,0 +1,9 @@
+gamma,rank,nCells,processorFaces,nNeighbours,reactingCells,criterion,chemistryWallSum,stepWallSum
+None,0,1000,40,1,0,"Qdot > 1 percent global maximum, diagnostic only",0.058241338000000004,1.593612676
+None,1,1000,80,2,0,"Qdot > 1 percent global maximum, diagnostic only",0.10672272000000001,1.595869139
+None,2,1000,80,2,529,"Qdot > 1 percent global maximum, diagnostic only",0.913427475,1.595788821
+None,3,1000,40,1,0,"Qdot > 1 percent global maximum, diagnostic only",0.094295413,1.595570322
+1,0,1160,82,3,506,"Qdot > 1 percent global maximum, diagnostic only",0.53618506,1.341276371
+1,1,1539,41,1,0,"Qdot > 1 percent global maximum, diagnostic only",0.09124168,1.34327441
+1,2,634,56,2,16,"Qdot > 1 percent global maximum, diagnostic only",0.303569336,1.343213017
+1,3,667,53,2,7,"Qdot > 1 percent global maximum, diagnostic only",0.259213437,1.343232676

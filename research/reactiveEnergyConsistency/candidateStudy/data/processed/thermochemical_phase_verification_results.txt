@@ -1,0 +1,22 @@
+test_abstract_map_algebra_and_post_map_counterexample (__main__.Verification.test_abstract_map_algebra_and_post_map_counterexample) ... ok
+test_all_declared_mechanisms_and_retained_sets (__main__.Verification.test_all_declared_mechanisms_and_retained_sets) ... ok
+test_complete_matched_h2_matrix (__main__.Verification.test_complete_matched_h2_matrix) ... ok
+test_continuity_and_reference_controls (__main__.Verification.test_continuity_and_reference_controls) ... ok
+test_continuous_source_failures_are_not_hidden (__main__.Verification.test_continuous_source_failures_are_not_hidden) ... ok
+test_density_defect_persists_h2_and_gri (__main__.Verification.test_density_defect_persists_h2_and_gri) ... ok
+test_direct_clean_branch_floor_removed (__main__.Verification.test_direct_clean_branch_floor_removed) ... ok
+test_eight_term_and_corrected_cell_ledgers (__main__.Verification.test_eight_term_and_corrected_cell_ledgers) ... ok
+test_gri_kinetics_and_field_equivalence (__main__.Verification.test_gri_kinetics_and_field_equivalence) ... ok
+test_independent_cv_cp_controls_and_event_identity (__main__.Verification.test_independent_cv_cp_controls_and_event_identity) ... ok
+test_matched_native_inputs (__main__.Verification.test_matched_native_inputs) ... ok
+test_phase_manifest_and_raw_snapshot_integrity (__main__.Verification.test_phase_manifest_and_raw_snapshot_integrity) ... ok
+test_primary_method_snapshots_and_five_decisions (__main__.Verification.test_primary_method_snapshots_and_five_decisions) ... ok
+test_projection_falsification_and_conditional_gates (__main__.Verification.test_projection_falsification_and_conditional_gates) ... ok
+test_reaction_elements_and_independent_properties (__main__.Verification.test_reaction_elements_and_independent_properties) ... ok
+test_reference_parser_failures_preserved (__main__.Verification.test_reference_parser_failures_preserved) ... ok
+test_report_hashes_and_interaction_completeness (__main__.Verification.test_report_hashes_and_interaction_completeness) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 4.049s
+
+OK

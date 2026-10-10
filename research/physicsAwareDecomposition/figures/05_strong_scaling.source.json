@@ -1,0 +1,111 @@
+{
+  "status": "MEASURED or DERIVED as caption specifies",
+  "caption": "Measured 1/2/4-core WSL strong scaling, including MPI launch and final output. No extrapolation beyond tested ranks.",
+  "data": [
+    {
+      "ranks": 1.0,
+      "method": "scotch",
+      "gamma": "",
+      "speedup": 1.0,
+      "efficiency": 1.0
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": 0.0,
+      "speedup": 1.160461300111797,
+      "efficiency": 0.5802306500558985
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": 0.25,
+      "speedup": 1.21013759554141,
+      "efficiency": 0.605068797770705
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": 1.0,
+      "speedup": 1.2346982543802463,
+      "efficiency": 0.6173491271901231
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": 16.0,
+      "speedup": 1.197577367525724,
+      "efficiency": 0.598788683762862
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": 4.0,
+      "speedup": 1.2026701647385996,
+      "efficiency": 0.6013350823692998
+    },
+    {
+      "ranks": 2.0,
+      "method": "scotch",
+      "gamma": "",
+      "speedup": 1.2076879631929058,
+      "efficiency": 0.6038439815964529
+    },
+    {
+      "ranks": 2.0,
+      "method": "simple",
+      "gamma": "",
+      "speedup": 1.141455038216822,
+      "efficiency": 0.570727519108411
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": 0.0,
+      "speedup": 1.3526693565289885,
+      "efficiency": 0.3381673391322471
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": 0.25,
+      "speedup": 1.390972175884718,
+      "efficiency": 0.3477430439711795
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": 1.0,
+      "speedup": 1.518768286369834,
+      "efficiency": 0.3796920715924585
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": 16.0,
+      "speedup": 1.318198902365052,
+      "efficiency": 0.329549725591263
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": 4.0,
+      "speedup": 1.3530984414371692,
+      "efficiency": 0.3382746103592923
+    },
+    {
+      "ranks": 4.0,
+      "method": "scotch",
+      "gamma": "",
+      "speedup": 1.3102761461021766,
+      "efficiency": 0.32756903652554414
+    },
+    {
+      "ranks": 4.0,
+      "method": "simple",
+      "gamma": "",
+      "speedup": 1.3315699869858846,
+      "efficiency": 0.33289249674647114
+    }
+  ]
+}

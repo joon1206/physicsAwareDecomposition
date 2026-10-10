@@ -1,0 +1,72 @@
+[
+  {
+    "phase": "baseline",
+    "exitCode": 0,
+    "wall": 4.654630306002218
+  },
+  {
+    "phase": "oracle",
+    "exitCode": 0,
+    "wall": 1725.8661140750046
+  },
+  {
+    "phase": "horizon",
+    "exitCode": 0,
+    "wall": 363.1690080739936
+  },
+  {
+    "phase": "analysis",
+    "exitCode": 0,
+    "wall": 2.0314848919952055
+  },
+  {
+    "phase": "deployment",
+    "exitCode": 0,
+    "wall": 498.0032028209971
+  },
+  {
+    "phase": "live",
+    "exitCode": 1,
+    "wall": 316.32116294700245
+  },
+  {
+    "phase": "profiles",
+    "exitCode": 0,
+    "wall": 181.03334498299228
+  },
+  {
+    "phase": "scaling",
+    "exitCode": 0,
+    "wall": 406.87885910600016
+  },
+  {
+    "phase": "gamma",
+    "exitCode": 0,
+    "wall": 142.76030773601087
+  },
+  {
+    "phase": "accuracy",
+    "exitCode": 0,
+    "wall": 707.552313379012
+  },
+  {
+    "phase": "workload",
+    "exitCode": 0,
+    "wall": 8.026163924994762
+  },
+  {
+    "phase": "inventories",
+    "exitCode": 0,
+    "wall": 3.719227313005831
+  },
+  {
+    "phase": "norms",
+    "exitCode": 0,
+    "wall": 2.742272872987087
+  },
+  {
+    "phase": "refinement",
+    "exitCode": 0,
+    "wall": 16.847074379998958
+  }
+]

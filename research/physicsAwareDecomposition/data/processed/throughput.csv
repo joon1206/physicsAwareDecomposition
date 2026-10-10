@@ -1,0 +1,3 @@
+gamma,steadySteps,iterationThroughputMaxRankProxy,chemistryCellVisitThroughputMaxRankProxy,meaning
+None,69,43.23662781225072,302158.63607562275,"Offline exclusive timer throughput; cell visits, not ODE RHS evaluations; no global barrier."
+1,69,51.367017406368966,514747.6507458078,"Offline exclusive timer throughput; cell visits, not ODE RHS evaluations; no global barrier."

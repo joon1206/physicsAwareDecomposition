@@ -1,0 +1,67 @@
+[
+  {
+    "phase": "inventoryBuild",
+    "exitCode": 0,
+    "wall": 6.813027654992766
+  },
+  {
+    "phase": "mpiBuild",
+    "exitCode": 0,
+    "wall": 0.6492197690095054
+  },
+  {
+    "phase": "horizon",
+    "exitCode": 0,
+    "wall": 356.9745851780026
+  },
+  {
+    "phase": "analysis",
+    "exitCode": 0,
+    "wall": 2.0382489070034353
+  },
+  {
+    "phase": "workload",
+    "exitCode": 0,
+    "wall": 7.582849100988824
+  },
+  {
+    "phase": "inventory",
+    "exitCode": 0,
+    "wall": 3.5006214949971763
+  },
+  {
+    "phase": "norms",
+    "exitCode": 0,
+    "wall": 2.236026125989156
+  },
+  {
+    "phase": "refinement",
+    "exitCode": 0,
+    "wall": 17.274145887000486
+  },
+  {
+    "phase": "deployment",
+    "exitCode": 0,
+    "wall": 501.56458407000173
+  },
+  {
+    "phase": "live",
+    "exitCode": 1,
+    "wall": 508.344708189994
+  },
+  {
+    "phase": "profiles",
+    "exitCode": 1,
+    "wall": 55.869820929990965
+  },
+  {
+    "phase": "scaling",
+    "exitCode": 1,
+    "wall": 255.03244391598855
+  },
+  {
+    "phase": "gamma",
+    "exitCode": 1,
+    "wall": 6.703685503001907
+  }
+]

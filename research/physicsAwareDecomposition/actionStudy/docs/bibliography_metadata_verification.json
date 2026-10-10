@@ -1,0 +1,725 @@
+[
+  {
+    "id": "tekgul2021",
+    "searchedDOI": "10.1016/j.cpc.2021.108073",
+    "searchedTitle": "DLBFoam: An open-source dynamic load balancing model for fast reacting flow simulations in OpenFOAM",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "DLBFoam: An open-source dynamic load balancing model for fast reacting flow simulations in OpenFOAM",
+    "authors": [
+      "Bulut Tekgül",
+      "Petteri Peltonen",
+      "Heikki Kahila",
+      "Ossi Kaario",
+      "Ville Vuorinen"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.cpc.2021.108073",
+    "registryPublicationDate": [
+      [
+        2021,
+        10
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "dlb_repo",
+    "searchedDOI": null,
+    "searchedTitle": "DLBFoam official source repository",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "morev2022",
+    "searchedDOI": "10.1063/5.0077437",
+    "searchedTitle": "Fast reactive flow simulations using analytical Jacobian and dynamic load balancing in OpenFOAM",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Fast reactive flow simulations using analytical Jacobian and dynamic load balancing in OpenFOAM",
+    "authors": [
+      "Ilya Morev",
+      "Bulut Tekgül",
+      "Mahmoud Gadalla",
+      "Ali Shahanaghi",
+      "Jeevananthan Kannan",
+      "Shervin Karimkashi",
+      "Ossi Kaario",
+      "Ville Vuorinen"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1063/5.0077437",
+    "registryPublicationDate": [
+      [
+        2022,
+        2,
+        1
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "ramirez2023",
+    "searchedDOI": "10.1016/j.compfluid.2022.105723",
+    "searchedTitle": "Dynamic load balance of chemical source term evaluation in high-fidelity combustion simulations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Dynamic load balance of chemical source term evaluation in high-fidelity combustion simulations",
+    "authors": [
+      "Guillem Ramirez-Miranda",
+      "Daniel Mira",
+      "Eduardo J. Pérez-Sánchez",
+      "Anurag Surapaneni",
+      "Ricard Borrell",
+      "Guillaume Houzeaux",
+      "Marta Garcia-Gasulla"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.compfluid.2022.105723",
+    "registryPublicationDate": [
+      [
+        2023,
+        1
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "micale2024",
+    "searchedDOI": "10.1021/acsengineeringau.3c00066",
+    "searchedTitle": "Increasing Computational Efficiency of CFD Simulations of Reactive Flows at Catalyst Surfaces through Dynamic Load Balancing",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Increasing Computational Efficiency of CFD Simulations of Reactive Flows at Catalyst Surfaces through Dynamic Load Balancing",
+    "authors": [
+      "Daniele Micale",
+      "Mauro Bracconi",
+      "Matteo Maestri"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1021/acsengineeringau.3c00066",
+    "registryPublicationDate": [
+      [
+        2024,
+        1,
+        19
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "oord2025",
+    "searchedDOI": "10.1177/10943420251329199",
+    "searchedTitle": "Dynamic multi-level load balancing for scalable simulations of reacting multiphase flows",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Dynamic multi-level load balancing for scalable simulations of reacting multiphase flows",
+    "authors": [
+      "Gijs van den Oord",
+      "Victor Azizi",
+      "Mohamad Fathi",
+      "Stefan Hickel"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1177/10943420251329199",
+    "registryPublicationDate": [
+      [
+        2025,
+        4,
+        3
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "wu2019",
+    "searchedDOI": "10.1016/j.cpc.2019.04.016",
+    "searchedTitle": "Efficient time-stepping techniques for simulating turbulent reactive flows with stiff chemistry",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Efficient time-stepping techniques for simulating turbulent reactive flows with stiff chemistry",
+    "authors": [
+      "Hao Wu",
+      "Peter C. Ma",
+      "Matthias Ihme"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.cpc.2019.04.016",
+    "registryPublicationDate": [
+      [
+        2019,
+        10
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "antonelli2011",
+    "searchedDOI": null,
+    "searchedTitle": "Dynamic Load Balancing for High-Performance Simulations of Combustion in Engine Applications",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "wartha2019",
+    "searchedDOI": null,
+    "searchedTitle": "Mesh Partitioning of Reactive Flow Simulations – Speed-up and Other Side Effects",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "scotch1996",
+    "searchedDOI": null,
+    "searchedTitle": "SCOTCH: A Software Package for Static Mapping by Dual Recursive Bipartitioning of Process and Architecture Graphs",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "metis1998",
+    "searchedDOI": "10.1137/S1064827595287997",
+    "searchedTitle": "A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs",
+    "authors": [
+      "George Karypis",
+      "Vipin Kumar"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1137/S1064827595287997",
+    "registryPublicationDate": [
+      [
+        1998,
+        1
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "schloegel2000",
+    "searchedDOI": "10.1109/SC.2000.10035",
+    "searchedTitle": "A Unified Algorithm for Load-balancing Adaptive Scientific Simulations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "A Unified Algorithm for Load-balancing Adaptive Scientific Simulations",
+    "authors": [
+      "K. Schloegel",
+      "G. Karypis",
+      "V. Kumar"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1109/SC.2000.10035",
+    "registryPublicationDate": [
+      [
+        2000
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "zoltan2002",
+    "searchedDOI": "10.1109/5992.988653",
+    "searchedTitle": "Zoltan data management services for parallel dynamic applications",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Zoltan data management services for parallel dynamic applications",
+    "authors": [
+      "K. Devine",
+      "E. Boman",
+      "R. Heaphy",
+      "B. Hendrickson",
+      "C. Vaughan"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1109/5992.988653",
+    "registryPublicationDate": [
+      [
+        2002
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "ampi_docs",
+    "searchedDOI": null,
+    "searchedTitle": "AMPI extensions documentation",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "fluent_docs",
+    "searchedDOI": null,
+    "searchedTitle": "Ansys Fluent User Guide: Mesh Partitioning and Load Balancing",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "pope1997",
+    "searchedDOI": "10.1080/713665229",
+    "searchedTitle": "Computationally efficient implementation of combustion chemistry using in situ adaptive tabulation",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Computationally efficient implementation of combustion chemistry using in situ adaptive tabulation",
+    "authors": [
+      "S.B. Pope"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1080/713665229",
+    "registryPublicationDate": [
+      [
+        1997,
+        1
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "lu2009",
+    "searchedDOI": "10.1016/j.jcp.2009.04.037",
+    "searchedTitle": "Computationally efficient implementation of combustion chemistry in parallel PDF calculations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Computationally efficient implementation of combustion chemistry in parallel PDF calculations",
+    "authors": [
+      "Liuyan Lu",
+      "Steven R. Lantz",
+      "Zhuyin Ren",
+      "Stephen B. Pope"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.jcp.2009.04.037",
+    "registryPublicationDate": [
+      [
+        2009,
+        8
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "shi2012",
+    "searchedDOI": "10.1016/j.combustflame.2012.02.016",
+    "searchedTitle": "Accelerating multi-dimensional combustion simulations using GPU and hybrid explicit/implicit ODE integration",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Accelerating multi-dimensional combustion simulations using GPU and hybrid explicit/implicit ODE integration",
+    "authors": [
+      "Yu Shi",
+      "William H. Green",
+      "Hsi-Wu Wong",
+      "Oluwayemisi O. Oluwole"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.combustflame.2012.02.016",
+    "registryPublicationDate": [
+      [
+        2012,
+        7
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "moure2025",
+    "searchedDOI": "10.1016/j.compfluid.2025.106846",
+    "searchedTitle": "Optimized workload distribution for GPU-accelerated combustion simulations in heterogeneous CPU–GPU architectures",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Optimized workload distribution for GPU-accelerated combustion simulations in heterogeneous CPU–GPU architectures",
+    "authors": [
+      "Álvaro Moure",
+      "Anurag Surapaneni",
+      "Daniel Mira"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.compfluid.2025.106846",
+    "registryPublicationDate": [
+      [
+        2025,
+        11
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "openfoam_v2012",
+    "searchedDOI": null,
+    "searchedTitle": "OpenCFD OpenFOAM v2012 source and parallel execution documentation",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "wang2017",
+    "searchedDOI": "10.1177/1687814017734109",
+    "searchedTitle": "Mesh partitioning using matrix value approximations for parallel computational fluid dynamics simulations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Mesh partitioning using matrix value approximations for parallel computational fluid dynamics simulations",
+    "authors": [
+      "Miao Wang",
+      "Xinhai Xu",
+      "Xiaoguang Ren",
+      "Chao Li",
+      "Juan Chen",
+      "Xuejun Yang"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1177/1687814017734109",
+    "registryPublicationDate": [
+      [
+        2017,
+        11
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "xu2019",
+    "searchedDOI": "10.1002/cpe.5412",
+    "searchedTitle": "Dynamic mesh re‐partitioning considering iterative convergence rate for multiphase flows in OpenFOAM",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Dynamic mesh re‐partitioning considering iterative convergence rate for multiphase flows in OpenFOAM",
+    "authors": [
+      "Liyang Xu",
+      "Miao Wang",
+      "Xinhai Xu",
+      "Chen Cui",
+      "Xuejun Yang"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1002/cpe.5412",
+    "registryPublicationDate": [
+      [
+        2019,
+        7,
+        22
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "deepflame2026",
+    "searchedDOI": null,
+    "searchedTitle": "DeepFlame official source repository",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "retfalvi2026",
+    "searchedDOI": "10.2139/ssrn.6678658",
+    "searchedTitle": "Physics Informed Load Balancing for Efficient Chemical Kinetics Evaluations on GPUs",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Physics Informed Load Balancing for Efficient Chemical Kinetics Evaluations on GPUs",
+    "authors": [
+      "Kolos Retfalvi",
+      "Russell Whitesides",
+      "Paul DesJardin"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.2139/ssrn.6678658",
+    "registryPublicationDate": [
+      [
+        2026
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "carreon2025",
+    "searchedDOI": "10.48550/arXiv.2510.23993",
+    "searchedTitle": "A GPU-based Compressible Combustion Solver for Applications Exhibiting Disparate Space and Time Scales",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "DataCite",
+    "title": "A GPU-based Compressible Combustion Solver for Applications Exhibiting Disparate Space and Time Scales",
+    "authors": [
+      "Carreon, Anthony",
+      "Singh, Jagmohan",
+      "Sharma, Shivank",
+      "Zhang, Shuzhi",
+      "Raman, Venkat"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.48550/arXiv.2510.23993",
+    "registryPublicationDate": 2025,
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "yang2023",
+    "searchedDOI": "10.48550/arXiv.2311.14941",
+    "searchedTitle": "Development of a Chemistry Dynamic Load Balancing Solver with Sparse Analytical Jacobian Approach for Rapid and Accurate Reactive Flow Simulations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "DataCite",
+    "title": "Development of a Chemistry Dynamic Load Balancing Solver with Sparse Analytical Jacobian Approach for Rapid and Accurate Reactive Flow Simulations",
+    "authors": [
+      "Yang, Yinan",
+      "Hori, Tsukasa",
+      "Sawada, Shinya",
+      "Akamatsu, Fumiteru"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.48550/arXiv.2311.14941",
+    "registryPublicationDate": 2023,
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "gartner2024",
+    "searchedDOI": "10.1016/j.cpc.2024.109322",
+    "searchedTitle": "A chemistry load balancing model for OpenFOAM",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "A chemistry load balancing model for OpenFOAM",
+    "authors": [
+      "Jan Wilhelm Gärtner",
+      "Ali Shamooni",
+      "Thorsten Zirwes",
+      "Andreas Kronenburg"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.cpc.2024.109322",
+    "registryPublicationDate": [
+      [
+        2024,
+        12
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "cuoci2025",
+    "searchedDOI": null,
+    "searchedTitle": "Adaptive and multi-objective load balancing for detailed chemistry simulations in OpenFOAM",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "quicklb",
+    "searchedDOI": "10.5281/zenodo.6598303",
+    "searchedTitle": "NLESC-JCER/QUICKLB: Version 0.02",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "DataCite",
+    "title": "NLESC-JCER/QUICKLB: Version 0.02",
+    "authors": [
+      "Azizi, Victor"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.5281/zenodo.6598303",
+    "registryPublicationDate": 2022,
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "samfass2020",
+    "searchedDOI": "10.1002/cpe.5916",
+    "searchedTitle": "Lightweight task offloading exploiting MPI wait times for parallel adaptive mesh refinement",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Lightweight task offloading exploiting MPI wait times for parallel adaptive mesh refinement",
+    "authors": [
+      "Philipp Samfass",
+      "Tobias Weinzierl",
+      "Dominic E. Charrier",
+      "Michael Bader"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1002/cpe.5916",
+    "registryPublicationDate": [
+      [
+        2020,
+        7,
+        9
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "chameleon2023",
+    "searchedDOI": "10.1002/cpe.7828",
+    "searchedTitle": "From reactive to proactive load balancing for task‐based parallel applications in distributed memory machines",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "From reactive to proactive load balancing for task‐based parallel applications in distributed memory machines",
+    "authors": [
+      "Minh Thanh Chung",
+      "Josef Weidendorfer",
+      "Karl Fürlinger",
+      "Dieter Kranzlmüller"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1002/cpe.7828",
+    "registryPublicationDate": [
+      [
+        2023,
+        6,
+        26
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "pele_odegrid",
+    "searchedDOI": null,
+    "searchedTitle": "PeleLMeX implementation: parallelism",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "balos2025",
+    "searchedDOI": "10.1177/10943420241280060",
+    "searchedTitle": "SUNDIALS time integrators for exascale applications with many independent systems of ordinary differential equations",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "SUNDIALS time integrators for exascale applications with many independent systems of ordinary differential equations",
+    "authors": [
+      "Cody J Balos",
+      "Marcus Day",
+      "Lucas Esclapez",
+      "Anne M Felden",
+      "David J Gardner",
+      "Malik Hassanaly",
+      "Daniel R Reynolds",
+      "Jon S Rood",
+      "Jean M Sexton",
+      "Nicholas T Wimer",
+      "Carol S Woodward"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1177/10943420241280060",
+    "registryPublicationDate": [
+      [
+        2024,
+        10,
+        4
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "nanda2025",
+    "searchedDOI": null,
+    "searchedTitle": "Exploring Dynamic Load Balancing Algorithms for Block-Structured Mesh-and-Particle Simulations in AMReX",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "rlchem2026",
+    "searchedDOI": "10.1016/j.combustflame.2026.115223",
+    "searchedTitle": "Autonomous adaptive solver selection for chemistry integration via reinforcement learning",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Autonomous adaptive solver selection for chemistry integration via reinforcement learning",
+    "authors": [
+      "Eloghosa Ikponmwoba",
+      "Opeoluwa Owoyele"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.combustflame.2026.115223",
+    "registryPublicationDate": [
+      [
+        2026,
+        10
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "lapointe2020",
+    "searchedDOI": "10.1016/j.combustflame.2020.06.033",
+    "searchedTitle": "Data-driven selection of stiff chemistry ODE solver in operator-splitting schemes",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Data-driven selection of stiff chemistry ODE solver in operator-splitting schemes",
+    "authors": [
+      "Simon Lapointe",
+      "Sudeepta Mondal",
+      "Russell A. Whitesides"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/j.combustflame.2020.06.033",
+    "registryPublicationDate": [
+      [
+        2020,
+        10
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "openfoam10",
+    "searchedDOI": null,
+    "searchedTitle": "OpenFOAM 10 release: parallelisation",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "legion_s3d",
+    "searchedDOI": null,
+    "searchedTitle": "Dynamic Task Scheduling to Mitigate System Performance Variability",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  },
+  {
+    "id": "drama2000",
+    "searchedDOI": "10.1016/S0307-904X(00)00043-3",
+    "searchedTitle": "Dynamic load-balancing of finite element applications with the DRAMA library",
+    "checked": "2026-10-05",
+    "status": "Primary DOI registry returned metadata",
+    "agency": "Crossref",
+    "title": "Dynamic load-balancing of finite element applications with the DRAMA library",
+    "authors": [
+      "A Basermann",
+      "J Clinckemaillie",
+      "T Coupez",
+      "J Fingberg",
+      "H Digonnet",
+      "R Ducloux",
+      "J.-M Gratien",
+      "U Hartmann",
+      "G Lonsdale",
+      "B Maerten",
+      "D Roose",
+      "C Walshaw"
+    ],
+    "titleSimilarity": 1.0,
+    "DOI": "10.1016/S0307-904X(00)00043-3",
+    "registryPublicationDate": [
+      [
+        2000,
+        12
+      ]
+    ],
+    "confidence": "High for DOI/title/author registration; does not verify full-text quantitative claims"
+  },
+  {
+    "id": "openfpm_docs",
+    "searchedDOI": null,
+    "searchedTitle": "OpenFPM vector examples: dynamic load balancing",
+    "checked": "2026-10-05",
+    "status": "No DOI supplied; official-page or primary-preprint metadata is checked separately"
+  }
+]

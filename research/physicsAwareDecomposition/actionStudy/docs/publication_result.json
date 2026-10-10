@@ -1,0 +1,26 @@
+{
+  "published": true,
+  "verified": true,
+  "date": "2026-10-06",
+  "repository": "joon1206/ForFun",
+  "branch": "codex/reactive-action-oracle",
+  "branchURL": "https://github.com/joon1206/ForFun/tree/codex/reactive-action-oracle/research/physicsAwareDecomposition/actionStudy",
+  "completeSnapshotCommit": "84a95d37733a2bc06b38109c70af5832556f6411",
+  "localSnapshotCommit": "364ad1a11a0349636f132da81164e33bdc49f28b",
+  "projectTreeSHA": "46733c3eaf0d969532bccfeb778acab2339dcd6b",
+  "remoteRootTreeSHA": "f14b475691fb52ad2f3faf9935f8d06f1abd3f02",
+  "remoteParentCommit": "346e9ae45ec1daa84eee90f9e8c0afc0c5aaabab",
+  "verification": {
+    "passed": true,
+    "projectTreeSHA": "46733c3eaf0d969532bccfeb778acab2339dcd6b",
+    "files": 978,
+    "remoteTreeSHA": "f14b475691fb52ad2f3faf9935f8d06f1abd3f02",
+    "unrelatedEntriesPreserved": 1994
+  },
+  "transport": "Authenticated GitHub connector Git-data API; new snapshot commit on the current remote main parent. Local development history is retained. The remote and local commit IDs differ; project subtree contents are identical.",
+  "archiveBytes": 84103932,
+  "archiveSHA256": "54174448c8b86fa30b6f9a56fade2c0809f77003952f9d556f8764cc5d0b3eba",
+  "volumes": 21,
+  "archiveReassemblyTest": "PASS: freshly reconstructed absent archive has exactly the original size and SHA256.",
+  "scope": "This record identifies the first verified complete snapshot. Subsequent documentation-only commits on the same branch retain that artifact and the original numerical/performance results."
+}

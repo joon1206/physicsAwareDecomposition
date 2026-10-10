@@ -1,0 +1,3 @@
+cvChemistry.C
+
+LIB = $(FOAM_USER_LIBBIN)/libcvChemistry

@@ -1,0 +1,1393 @@
+{
+  "summary": {
+    "projectionCases": 48,
+    "eligible": 40,
+    "gatePass": 38,
+    "temperatureWorsens": 25,
+    "ineligible": 8,
+    "worseningExceedsTwiceReferenceContrast": 22,
+    "maxEligibleEnergyResidual": 1.2326290097191163e-14,
+    "maxElementResidual": 1.5026070665502544e-12,
+    "referenceToleranceContrasts": [
+      {
+        "T": 1.7853380995802581e-09,
+        "Y": 5.016265181012614e-13
+      },
+      {
+        "T": 1.7853380995802581e-09,
+        "Y": 5.016265181012614e-13
+      },
+      {
+        "T": 1.7853380995802581e-09,
+        "Y": 5.016265181012614e-13
+      },
+      {
+        "T": 1.7853380995802581e-09,
+        "Y": 5.016265181012614e-13
+      },
+      {
+        "T": 2.960860001621768e-09,
+        "Y": 1.5815126985785355e-13
+      },
+      {
+        "T": 2.960860001621768e-09,
+        "Y": 1.5815126985785355e-13
+      },
+      {
+        "T": 2.960860001621768e-09,
+        "Y": 1.5815126985785355e-13
+      },
+      {
+        "T": 2.960860001621768e-09,
+        "Y": 1.5815126985785355e-13
+      },
+      {
+        "T": 2.298747858731076e-09,
+        "Y": 5.395683899678261e-14
+      },
+      {
+        "T": 2.298747858731076e-09,
+        "Y": 5.395683899678261e-14
+      },
+      {
+        "T": 2.298747858731076e-09,
+        "Y": 5.395683899678261e-14
+      },
+      {
+        "T": 2.298747858731076e-09,
+        "Y": 5.395683899678261e-14
+      },
+      {
+        "T": 2.573870006017387e-10,
+        "Y": 1.0339992750907356e-13
+      },
+      {
+        "T": 2.573870006017387e-10,
+        "Y": 1.0339992750907356e-13
+      },
+      {
+        "T": 2.573870006017387e-10,
+        "Y": 1.0339992750907356e-13
+      },
+      {
+        "T": 2.573870006017387e-10,
+        "Y": 1.0339992750907356e-13
+      },
+      {
+        "T": 1.1708834790624678e-08,
+        "Y": 6.634692795159935e-13
+      },
+      {
+        "T": 1.1708834790624678e-08,
+        "Y": 6.634692795159935e-13
+      },
+      {
+        "T": 1.1708834790624678e-08,
+        "Y": 6.634692795159935e-13
+      },
+      {
+        "T": 1.1708834790624678e-08,
+        "Y": 6.634692795159935e-13
+      },
+      {
+        "T": 9.01172825251706e-09,
+        "Y": 4.051203816857196e-13
+      },
+      {
+        "T": 9.01172825251706e-09,
+        "Y": 4.051203816857196e-13
+      },
+      {
+        "T": 9.01172825251706e-09,
+        "Y": 4.051203816857196e-13
+      },
+      {
+        "T": 9.01172825251706e-09,
+        "Y": 4.051203816857196e-13
+      },
+      {
+        "T": 1.4126726455288008e-09,
+        "Y": 4.708091555505334e-13
+      },
+      {
+        "T": 1.4126726455288008e-09,
+        "Y": 4.708091555505334e-13
+      },
+      {
+        "T": 1.4126726455288008e-09,
+        "Y": 4.708091555505334e-13
+      },
+      {
+        "T": 1.4126726455288008e-09,
+        "Y": 4.708091555505334e-13
+      },
+      {
+        "T": 2.0413608581293374e-09,
+        "Y": 3.883837695894954e-13
+      },
+      {
+        "T": 2.0413608581293374e-09,
+        "Y": 3.883837695894954e-13
+      },
+      {
+        "T": 2.0413608581293374e-09,
+        "Y": 3.883837695894954e-13
+      },
+      {
+        "T": 2.0413608581293374e-09,
+        "Y": 3.883837695894954e-13
+      },
+      {
+        "T": 2.2737367544323206e-12,
+        "Y": 5.217493104225923e-13
+      },
+      {
+        "T": 2.2737367544323206e-12,
+        "Y": 5.217493104225923e-13
+      },
+      {
+        "T": 2.2737367544323206e-12,
+        "Y": 5.217493104225923e-13
+      },
+      {
+        "T": 2.2737367544323206e-12,
+        "Y": 5.217493104225923e-13
+      },
+      {
+        "T": 1.109128788812086e-09,
+        "Y": 3.393093098158495e-13
+      },
+      {
+        "T": 1.109128788812086e-09,
+        "Y": 3.393093098158495e-13
+      },
+      {
+        "T": 1.109128788812086e-09,
+        "Y": 3.393093098158495e-13
+      },
+      {
+        "T": 1.109128788812086e-09,
+        "Y": 3.393093098158495e-13
+      },
+      {
+        "T": 3.7707650335505605e-09,
+        "Y": 5.615570942280046e-14
+      },
+      {
+        "T": 3.7707650335505605e-09,
+        "Y": 5.615570942280046e-14
+      },
+      {
+        "T": 3.7707650335505605e-09,
+        "Y": 5.615570942280046e-14
+      },
+      {
+        "T": 3.7707650335505605e-09,
+        "Y": 5.615570942280046e-14
+      },
+      {
+        "T": 4.218236426822841e-09,
+        "Y": 5.863087793045452e-13
+      },
+      {
+        "T": 4.218236426822841e-09,
+        "Y": 5.863087793045452e-13
+      },
+      {
+        "T": 4.218236426822841e-09,
+        "Y": 5.863087793045452e-13
+      },
+      {
+        "T": 4.218236426822841e-09,
+        "Y": 5.863087793045452e-13
+      }
+    ],
+    "costScope": "Concurrent endpoint wall values excluded. RHS/Jacobian evaluations retained. No runtime/memory dominance or publication cost pass asserted.",
+    "decisions": {
+      "1": "Reject generic scalar projection novelty and blanket trajectory-accuracy dominance; retain conditional invariant recovery as established baseline.",
+      "2": "Reject finite RR/formation transfer as a new method: native solve already returns the same finite increment. CV enthalpy transfer also requires pressure change.",
+      "3": "Reject generic transition-map interface novelty and sufficiency for later CFD density/pressure operators; existing independent codes already integrate invariant states.",
+      "4": "Reject mechanism-only certification and generic predictive novelty. Observed crossing-weighted identity explains the direct jump but is not an independent prospective forecast.",
+      "5": "Reject generic continuity repair novelty and physical-accuracy claim without original source data. Repair improves branch invariance but does not repair the CFD defect."
+    }
+  },
+  "risk": [
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07403188765565617,
+      "observedEventWeightedPrediction": 0.07411141371621771,
+      "normalizedPrediction": 1.1460451226403024e-07,
+      "observedRelativeError": 1.1448153464255572e-07,
+      "normalizedUnexplainedRemainder": 1.229776214745235e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07410988936720082,
+      "observedEventWeightedPrediction": 0.07411141371748368,
+      "normalizedPrediction": 1.1460451226598792e-07,
+      "observedRelativeError": 1.1460215503905178e-07,
+      "normalizedUnexplainedRemainder": 2.3572269361337916e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07411136085818693,
+      "observedEventWeightedPrediction": 0.07411141371755108,
+      "normalizedPrediction": 1.1460451226609213e-07,
+      "observedRelativeError": 1.146044305253542e-07,
+      "normalizedUnexplainedRemainder": 8.174073794026374e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -0.000126193157754803,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.652591791663105e-10,
+      "normalizedUnexplainedRemainder": 1.652591791663105e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -1.1511739411418645e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.5075465577967153e-11,
+      "normalizedUnexplainedRemainder": 1.5075465577967153e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -7.321366148395799e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 9.587864996696712e-13,
+      "normalizedUnexplainedRemainder": 9.587864996696712e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -1.8522159956660283e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.4857282607157648e-11,
+      "normalizedUnexplainedRemainder": 1.4857282607157648e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.0,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 0.0,
+      "normalizedUnexplainedRemainder": 0.0,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 1.0803351543506601e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.665752124046094e-14,
+      "normalizedUnexplainedRemainder": 8.665752124046094e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07412711244741746,
+      "observedEventWeightedPrediction": 0.07412928451728666,
+      "normalizedPrediction": 7.101229793665728e-08,
+      "observedRelativeError": 7.10102171979358e-08,
+      "normalizedUnexplainedRemainder": 2.0807387214841697e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07412879034295407,
+      "observedEventWeightedPrediction": 0.07412928451839944,
+      "normalizedPrediction": 7.101229793772328e-08,
+      "observedRelativeError": 7.101182454135654e-08,
+      "normalizedUnexplainedRemainder": 4.733963667412354e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": 0.07412927055658679,
+      "observedEventWeightedPrediction": 0.07412928451846966,
+      "normalizedPrediction": 7.101229793779055e-08,
+      "observedRelativeError": 7.101228456297662e-08,
+      "normalizedUnexplainedRemainder": 1.3374813917652644e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -4.9523122269479616e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.1235255533192686e-11,
+      "normalizedUnexplainedRemainder": 4.1235255533192686e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -1.3289985045330965e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.106585982997009e-12,
+      "normalizedUnexplainedRemainder": 1.106585982997009e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -1.334120783282173e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.1108510305838931e-13,
+      "normalizedUnexplainedRemainder": 1.1108510305838931e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -0.00021258690812183908,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.1534188146912484e-10,
+      "normalizedUnexplainedRemainder": 1.1534188146912484e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -8.319046350204545e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.5136102996122135e-13,
+      "normalizedUnexplainedRemainder": 4.5136102996122135e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "legacy",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.2547689635423644,
+      "observedInvariantChange": -5.70435587965327e-08,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 3.09497487658828e-14,
+      "normalizedUnexplainedRemainder": 3.09497487658828e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.71701336768357e-05,
+      "observedEventWeightedPrediction": -2.2820713380214397e-08,
+      "normalizedPrediction": 3.528952688004634e-14,
+      "observedRelativeError": 7.294301771334169e-11,
+      "normalizedUnexplainedRemainder": 7.290772818646165e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -5.119135532571291e-06,
+      "observedEventWeightedPrediction": -2.2820713377837864e-08,
+      "normalizedPrediction": 3.528952687637131e-14,
+      "observedRelativeError": 7.916136010712988e-12,
+      "normalizedUnexplainedRemainder": 7.880846483836616e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.0298108594165884e-06,
+      "observedEventWeightedPrediction": -2.282071337804374e-08,
+      "normalizedPrediction": 3.528952687668967e-14,
+      "observedRelativeError": 1.592480366378621e-12,
+      "normalizedUnexplainedRemainder": 1.557190839501931e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -0.0001435460411715605,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.879840686969033e-10,
+      "normalizedUnexplainedRemainder": 1.879840686969033e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.1542705914765335e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.511601994677155e-11,
+      "normalizedUnexplainedRemainder": 1.511601994677155e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -6.604247123525103e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.648745969080998e-13,
+      "normalizedUnexplainedRemainder": 8.648745969080998e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -0.0001039592083518802,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.338937971786323e-11,
+      "normalizedUnexplainedRemainder": 8.338937971786323e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 1.7834843280875121e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.4305962330181396e-12,
+      "normalizedUnexplainedRemainder": 1.4305962330181396e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 5.779793075776032e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.6361776616765405e-12,
+      "normalizedUnexplainedRemainder": 4.6361776616765405e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -2.859395696245788e-06,
+      "observedEventWeightedPrediction": -2.2763327772152884e-08,
+      "normalizedPrediction": 2.180617584955848e-14,
+      "observedRelativeError": 2.739163886753156e-12,
+      "normalizedUnexplainedRemainder": 2.717357710903598e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.1227103694566559e-06,
+      "observedEventWeightedPrediction": -2.2763327770399936e-08,
+      "normalizedPrediction": 2.1806175847879242e-14,
+      "observedRelativeError": 1.075502667691859e-12,
+      "normalizedUnexplainedRemainder": 1.0536964918439798e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.9565940667210714e-06,
+      "observedEventWeightedPrediction": -2.276332777049401e-08,
+      "normalizedPrediction": 2.1806175847969358e-14,
+      "observedRelativeError": 1.8743232409681743e-12,
+      "normalizedUnexplainedRemainder": 1.852517065120205e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.952358793118408e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.123564580664551e-11,
+      "normalizedUnexplainedRemainder": 4.123564580664551e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.3310939822031732e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.1083308435115436e-12,
+      "normalizedUnexplainedRemainder": 1.1083308435115436e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.3667171025944773e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.137992312648725e-13,
+      "normalizedUnexplainedRemainder": 1.137992312648725e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 6.1665251213313e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 3.3457311387319546e-11,
+      "normalizedUnexplainedRemainder": 3.3457311387319546e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.5990822931207616e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.676036043349468e-13,
+      "normalizedUnexplainedRemainder": 8.676036043349468e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "HS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.470352362830318e-08,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.4254497966265255e-14,
+      "normalizedUnexplainedRemainder": 2.4254497966265255e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -5.193536631401625e-05,
+      "observedEventWeightedPrediction": -2.272140062023551e-08,
+      "normalizedPrediction": 3.513595147447444e-14,
+      "observedRelativeError": 8.031188486651556e-11,
+      "normalizedUnexplainedRemainder": 8.027674891504108e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -8.275972642541856e-07,
+      "observedEventWeightedPrediction": -2.2721400618653033e-08,
+      "normalizedPrediction": 3.513595147202733e-14,
+      "observedRelativeError": 1.279781022449199e-12,
+      "normalizedUnexplainedRemainder": 1.2446450709771718e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.50527699066493e-08,
+      "observedEventWeightedPrediction": -2.2721400618551677e-08,
+      "normalizedPrediction": 3.513595147187059e-14,
+      "observedRelativeError": 6.966876574593334e-14,
+      "normalizedUnexplainedRemainder": 3.453281427406274e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -0.00012689432786629592,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.661774465536087e-10,
+      "normalizedUnexplainedRemainder": 1.661774465536087e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.7069179023314316e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.2353344176656398e-11,
+      "normalizedUnexplainedRemainder": 2.2353344176656398e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -7.007044497884292e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 9.176239648574566e-13,
+      "normalizedUnexplainedRemainder": 9.176239648574566e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 5.354923336625367e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.295375927323095e-11,
+      "normalizedUnexplainedRemainder": 4.295375927323095e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 2.0884927445097893e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.675254881391012e-12,
+      "normalizedUnexplainedRemainder": 1.675254881391012e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": 1.029112366859896e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.254879125694841e-14,
+      "normalizedUnexplainedRemainder": 8.254879125694841e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -9.732678869523518e-06,
+      "observedEventWeightedPrediction": -2.266401265996105e-08,
+      "normalizedPrediction": 2.1711036737094306e-14,
+      "observedRelativeError": 9.323439395172386e-12,
+      "normalizedUnexplainedRemainder": 9.301728358435291e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.963953769559498e-07,
+      "observedEventWeightedPrediction": -2.266401265839583e-08,
+      "normalizedPrediction": 2.17110367355949e-14,
+      "observedRelativeError": 4.755229546908012e-13,
+      "normalizedUnexplainedRemainder": 4.5381191795520626e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -3.376047357345813e-08,
+      "observedEventWeightedPrediction": -2.2664012658296663e-08,
+      "normalizedPrediction": 2.17110367354999e-14,
+      "observedRelativeError": 3.234091389782654e-14,
+      "normalizedUnexplainedRemainder": 1.0629877162326633e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -4.9520095468400614e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.123274060870926e-11,
+      "normalizedUnexplainedRemainder": 4.123274060870926e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.3315596439076347e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.1087186501347438e-12,
+      "normalizedUnexplainedRemainder": 1.1087186501347438e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.257286602046027e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.0468754521293263e-13,
+      "normalizedUnexplainedRemainder": 1.0468754521293263e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -0.00014278282163794812,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 7.746875725250149e-11,
+      "normalizedUnexplainedRemainder": 7.746875725250149e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -1.811191199502971e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 9.826863607440543e-13,
+      "normalizedUnexplainedRemainder": 9.826863607440543e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "CpHS",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 1.5384755336594616e-06,
+      "observedInvariantChange": -6.356282265899358e-08,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 3.4486871896532563e-14,
+      "normalizedUnexplainedRemainder": 3.4486871896532563e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.13994673814158887,
+      "observedEventWeightedPrediction": -0.13980610464330534,
+      "normalizedPrediction": 2.1613592553812542e-07,
+      "observedRelativeError": 2.1635334058871084e-07,
+      "normalizedUnexplainedRemainder": 2.1741505058541755e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.13981229241471738,
+      "observedEventWeightedPrediction": -0.13980610464332613,
+      "normalizedPrediction": 2.1613592553815756e-07,
+      "observedRelativeError": 2.1614549164187012e-07,
+      "normalizedUnexplainedRemainder": 9.566103712550607e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.13980716816149652,
+      "observedEventWeightedPrediction": -0.13980610464332327,
+      "normalizedPrediction": 2.1613592553815313e-07,
+      "observedRelativeError": 2.1613756970444538e-07,
+      "normalizedUnexplainedRemainder": 1.6441662922262864e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.000938949640840292,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.2294245628761776e-09,
+      "normalizedUnexplainedRemainder": 1.2294245628761776e-09,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -4.0141050703823566e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 5.2559148615013836e-11,
+      "normalizedUnexplainedRemainder": 5.2559148615013836e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -1.6564736142754555e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.168922869307448e-12,
+      "normalizedUnexplainedRemainder": 2.168922869307448e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": 0.00013676146045327187,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.0971329340911228e-10,
+      "normalizedUnexplainedRemainder": 1.0971329340911228e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": 2.3632077500224113e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.8958214134711224e-11,
+      "normalizedUnexplainedRemainder": 1.8958214134711224e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": 2.7939677238464355e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.2413873005303963e-13,
+      "normalizedUnexplainedRemainder": 2.2413873005303963e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.1398506232071668,
+      "observedEventWeightedPrediction": -0.1398070509049122,
+      "normalizedPrediction": 1.3390724120979967e-07,
+      "observedRelativeError": 1.3394897477581303e-07,
+      "normalizedUnexplainedRemainder": 4.1733566013359624e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.139809591579251,
+      "observedEventWeightedPrediction": -0.13980705090493553,
+      "normalizedPrediction": 1.3390724120982204e-07,
+      "observedRelativeError": 1.33909674668551e-07,
+      "normalizedUnexplainedRemainder": 2.4334587289679968e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.13980805804021657,
+      "observedEventWeightedPrediction": -0.13980705090493256,
+      "normalizedPrediction": 1.3390724120981918e-07,
+      "observedRelativeError": 1.3390820584433892e-07,
+      "normalizedUnexplainedRemainder": 9.64634519740256e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -7.906323298811913e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 6.582539081409203e-11,
+      "normalizedUnexplainedRemainder": 6.582539081409203e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -1.3456447049975395e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.1203385601077964e-11,
+      "normalizedUnexplainedRemainder": 1.1203385601077964e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -6.209593266248703e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 5.169898676023e-13,
+      "normalizedUnexplainedRemainder": 5.169898676023e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -0.00014948402531445026,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.111107035948572e-11,
+      "normalizedUnexplainedRemainder": 8.111107035948572e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": 1.4976831153035164e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.126532603471057e-12,
+      "normalizedUnexplainedRemainder": 8.126532603471057e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "GRI",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 3.6273593815606526,
+      "observedInvariantChange": -1.6437843441963196e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.919288018733876e-14,
+      "normalizedUnexplainedRemainder": 8.919288018733876e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 8.285744115710258e-06,
+      "observedEventWeightedPrediction": 4.223993670527353e-05,
+      "normalizedPrediction": 6.532106230638798e-11,
+      "observedRelativeError": 1.281331483551977e-11,
+      "normalizedUnexplainedRemainder": 5.250774747086821e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 4.102615639567375e-05,
+      "observedEventWeightedPrediction": 4.223993680283302e-05,
+      "normalizedPrediction": 6.53210624572568e-11,
+      "observedRelativeError": 6.344403725820093e-11,
+      "normalizedUnexplainedRemainder": 1.8770251990558733e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 4.262861330062151e-05,
+      "observedEventWeightedPrediction": 4.223993681809479e-05,
+      "normalizedPrediction": 6.532106248085805e-11,
+      "observedRelativeError": 6.592212305794423e-11,
+      "normalizedUnexplainedRemainder": 6.010605770861802e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -0.0007891253335401416,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.0338641239907884e-09,
+      "normalizedUnexplainedRemainder": 1.0338641239907884e-09,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -2.5240005925297737e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 3.306792407540019e-11,
+      "normalizedUnexplainedRemainder": 3.306792407540019e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -9.370269253849983e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.2276358142285694e-12,
+      "normalizedUnexplainedRemainder": 1.2276358142285694e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -0.0006815220694988966,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 5.471273985641248e-10,
+      "normalizedUnexplainedRemainder": 5.471273985641248e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -6.300164386630058e-05,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 5.0577856619048637e-11,
+      "normalizedUnexplainedRemainder": 5.0577856619048637e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CV",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 6.686896085739136e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 5.368254710444129e-12,
+      "normalizedUnexplainedRemainder": 5.368254710444129e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 7.592176552861929e-05,
+      "observedEventWeightedPrediction": 4.236390671697956e-05,
+      "normalizedPrediction": 4.0583640690371994e-11,
+      "observedRelativeError": 7.273129160104609e-11,
+      "normalizedUnexplainedRemainder": 3.21476509106741e-11,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 4.0827435441315174e-05,
+      "observedEventWeightedPrediction": 4.236390683425354e-05,
+      "normalizedPrediction": 4.0583640802717746e-11,
+      "observedRelativeError": 3.911173682184495e-11,
+      "normalizedUnexplainedRemainder": 1.471903980872793e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 999.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 4.211440682411194e-05,
+      "observedEventWeightedPrediction": 4.2363906842793255e-05,
+      "normalizedPrediction": 4.0583640810898594e-11,
+      "observedRelativeError": 4.034462557611277e-11,
+      "normalizedUnexplainedRemainder": 2.390152347858249e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -0.00014444743283092976,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 1.203074912503634e-10,
+      "normalizedUnexplainedRemainder": 1.203074912503634e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -9.650364518165588e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 8.037603175619906e-12,
+      "normalizedUnexplainedRemainder": 8.037603175619906e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1100.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -5.271285772323608e-07,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 4.390352632118188e-13,
+      "normalizedUnexplainedRemainder": 4.390352632118188e-13,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-08,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -0.0005225327331572771,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.8366812838790094e-10,
+      "normalizedUnexplainedRemainder": 2.8366812838790094e-10,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-10,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": -3.873137757182121e-06,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 2.1026161020187633e-12,
+      "normalizedUnexplainedRemainder": 2.1026161020187633e-12,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    },
+    {
+      "mechanism": "Alzueta",
+      "constraint": "CP",
+      "Tinitial": 1500.0,
+      "rtol": 1e-12,
+      "mechanismMaxSpecificHJump": 0.6076541862317494,
+      "observedInvariantChange": 6.891787052154541e-08,
+      "observedEventWeightedPrediction": 0.0,
+      "normalizedPrediction": 0.0,
+      "observedRelativeError": 3.7413547712507e-14,
+      "normalizedUnexplainedRemainder": 3.7413547712507e-14,
+      "units": "J/kg; mechanism maximum also J/kg. Concentrations/compositions are observed at interpolated crossings, not forecast."
+    }
+  ],
+  "inputSHA256": {
+    "invariant_projection_valid_data.json": "5dfe2b785d609f9040235bc3cb233c65ac230009fa107af750c497109557abab",
+    "clean_thermo_reference.json": "f94d39dc7aef1ee5869700c762663c07dc3ea876730ae4472501400ebb0270c8",
+    "mechanism_continuity_audit.json": "7f38ebd48b426fb5f973b5f690084f455c2ca9243e6be7d5e7331f4f1379734b",
+    "thermochemical_abstract_map.json": "464f764299b4b6a3a54d8528d799edc6ae03dc8bd36630753289b9f3016d7c94"
+  },
+  "driverSHA256": "27e2463a76233dca687ae52e8a8257c43d1293e3187ddbb4ba57be9ba5555c0f"
+}

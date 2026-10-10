@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Wave_none_nx32_dt2e-08",
+    "mode": "none",
+    "nx": 32,
+    "dt": 2e-08,
+    "wall": 1.130053704000602,
+    "errors": {
+      "rho": {
+        "L1": 0.0003708886717349851,
+        "L2": 0.0004128905017848665,
+        "Linf": 0.0005918237155092543
+      },
+      "T": {
+        "L1": 0.5903972844881231,
+        "L2": 0.6585563486620541,
+        "Linf": 1.025105466413038
+      },
+      "p": {
+        "L1": 14.374486710136807,
+        "L2": 15.970666179443228,
+        "Linf": 24.112051464093383
+      },
+      "Ux": {
+        "L1": 0.2287903903103783,
+        "L2": 0.2538995148478273,
+        "Linf": 0.3588734053779632
+      }
+    },
+    "E0": 0.01810770478307127,
+    "Ef": 0.018107710530286012,
+    "signedEnergyDrift": 3.173905699898907e-07,
+    "massDrift": 1.6910860717753833e-15,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx32_dt2e-08",
+    "mode": "conservativeState",
+    "nx": 32,
+    "dt": 2e-08,
+    "wall": 1.4379445699996722,
+    "errors": {
+      "rho": {
+        "L1": 0.00037045189183622027,
+        "L2": 0.0004124281563871235,
+        "Linf": 0.0005909993449213502
+      },
+      "T": {
+        "L1": 0.5909513749203512,
+        "L2": 0.6596146951829776,
+        "Linf": 1.0270746283952121
+      },
+      "p": {
+        "L1": 14.274711973218018,
+        "L2": 15.885413241041126,
+        "Linf": 23.947154723398853
+      },
+      "Ux": {
+        "L1": 0.22947096913483933,
+        "L2": 0.25447744007620116,
+        "Linf": 0.3587581809816811
+      }
+    },
+    "E0": 0.01810770478307127,
+    "Ef": 0.01810770478307125,
+    "signedEnergyDrift": -1.1496035505937237e-15,
+    "massDrift": 5.203341759308872e-16,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_none_nx64_dt2e-08",
+    "mode": "none",
+    "nx": 64,
+    "dt": 2e-08,
+    "wall": 1.2507003230002738,
+    "errors": {
+      "rho": {
+        "L1": 0.00018790704402773736,
+        "L2": 0.0002087433229490442,
+        "Linf": 0.0002993123346438642
+      },
+      "T": {
+        "L1": 0.29713342960262246,
+        "L2": 0.3315461917664922,
+        "Linf": 0.5166152450431127
+      },
+      "p": {
+        "L1": 7.3607875461316326,
+        "L2": 8.186768508630236,
+        "Linf": 12.38463110300654
+      },
+      "Ux": {
+        "L1": 0.11583910879523684,
+        "L2": 0.1286788397677778,
+        "Linf": 0.18222997490101278
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107709284844564,
+    "signedEnergyDrift": 2.486109280485844e-07,
+    "massDrift": 2.9919215116026013e-15,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx64_dt2e-08",
+    "mode": "conservativeState",
+    "nx": 64,
+    "dt": 2e-08,
+    "wall": 1.6085616140007915,
+    "errors": {
+      "rho": {
+        "L1": 0.00018778340303609795,
+        "L2": 0.00020868448754580006,
+        "Linf": 0.0002993125610430414
+      },
+      "T": {
+        "L1": 0.29784817148656906,
+        "L2": 0.33229882653237114,
+        "Linf": 0.5175922029364983
+      },
+      "p": {
+        "L1": 7.323817133606781,
+        "L2": 8.14585513356198,
+        "Linf": 12.349278180103283
+      },
+      "Ux": {
+        "L1": 0.11608996031501417,
+        "L2": 0.12896736941586573,
+        "Linf": 0.1823968722756817
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107704783071284,
+    "signedEnergyDrift": 5.748017752968617e-16,
+    "massDrift": 3.6423392315162105e-15,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_none_nx128_dt2e-08",
+    "mode": "none",
+    "nx": 128,
+    "dt": 2e-08,
+    "wall": 1.5052601480001613,
+    "errors": {
+      "rho": {
+        "L1": 9.457839411506535e-05,
+        "L2": 0.00010507523900876605,
+        "Linf": 0.00015073865094911154
+      },
+      "T": {
+        "L1": 0.14931218283461334,
+        "L2": 0.16663849207829803,
+        "Linf": 0.2600226702455757
+      },
+      "p": {
+        "L1": 3.700342662915318,
+        "L2": 4.114869608019462,
+        "Linf": 6.241772135501378
+      },
+      "Ux": {
+        "L1": 0.05831245956924619,
+        "L2": 0.06476543491755413,
+        "Linf": 0.09181359726301253
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107709060675346,
+    "signedEnergyDrift": 2.3623115818840047e-07,
+    "massDrift": -1.951253159740827e-15,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx128_dt2e-08",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 2e-08,
+    "wall": 1.9651524079999945,
+    "errors": {
+      "rho": {
+        "L1": 9.46070433211774e-05,
+        "L2": 0.00010510875664179616,
+        "Linf": 0.00015078327304757222
+      },
+      "T": {
+        "L1": 0.1496916262903767,
+        "L2": 0.1670814227276693,
+        "Linf": 0.26070451927148497
+      },
+      "p": {
+        "L1": 3.680223081782401,
+        "L2": 4.093063350405647,
+        "Linf": 6.218027953800629
+      },
+      "Ux": {
+        "L1": 0.05845351622045003,
+        "L2": 0.06490603210848515,
+        "Linf": 0.0918652745763211
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107704783071277,
+    "signedEnergyDrift": 1.9160059176562058e-16,
+    "massDrift": -2.471587335671714e-15,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx128_dt2e-07",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 2e-07,
+    "wall": 0.35844202500084066,
+    "errors": {
+      "rho": {
+        "L1": 9.646635975337197e-05,
+        "L2": 0.00010716083290804302,
+        "Linf": 0.00015315976599133974
+      },
+      "T": {
+        "L1": 0.15845026222979808,
+        "L2": 0.17682875983580068,
+        "Linf": 0.2754925925152065
+      },
+      "p": {
+        "L1": 3.027942976415943,
+        "L2": 3.3667159487798677,
+        "Linf": 5.0756918403931195
+      },
+      "Ux": {
+        "L1": 0.057994568550846504,
+        "L2": 0.0643943993261006,
+        "Linf": 0.0910600593416504
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107704783071273,
+    "signedEnergyDrift": 0.0,
+    "massDrift": -1.300835439827218e-16,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx128_dt1e-07",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 1e-07,
+    "wall": 0.5233775830001832,
+    "errors": {
+      "rho": {
+        "L1": 9.541074616621062e-05,
+        "L2": 0.00010599478554639817,
+        "Linf": 0.0001517896630815474
+      },
+      "T": {
+        "L1": 0.15360272202533842,
+        "L2": 0.17143375752488327,
+        "Linf": 0.2673010119596029
+      },
+      "p": {
+        "L1": 3.381665419315709,
+        "L2": 3.761163313562518,
+        "Linf": 5.694375511302496
+      },
+      "Ux": {
+        "L1": 0.058263999713861925,
+        "L2": 0.0646941866493139,
+        "Linf": 0.09152270521506267
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.018107704783071277,
+    "signedEnergyDrift": 1.9160059176562058e-16,
+    "massDrift": -1.300835439827218e-16,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  },
+  {
+    "name": "Wave_conservativeState_nx128_dt5e-08",
+    "mode": "conservativeState",
+    "nx": 128,
+    "dt": 5e-08,
+    "wall": 0.891862744001628,
+    "errors": {
+      "rho": {
+        "L1": 9.490378332222601e-05,
+        "L2": 0.00010543564939411998,
+        "Linf": 0.00015115018598127472
+      },
+      "T": {
+        "L1": 0.15116210451472867,
+        "L2": 0.16871774776015644,
+        "Linf": 0.26318321050882787
+      },
+      "p": {
+        "L1": 3.566761419348836,
+        "L2": 3.9668441022413843,
+        "Linf": 6.018583237106213
+      },
+      "Ux": {
+        "L1": 0.05838551638802575,
+        "L2": 0.06482983152972852,
+        "Linf": 0.09173950120720775
+      }
+    },
+    "E0": 0.018107704783071273,
+    "Ef": 0.01810770478307128,
+    "signedEnergyDrift": 3.8320118353124116e-16,
+    "massDrift": -1.300835439827218e-16,
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Unforced constant-Cp perfect-gas entropy wave, zero chemistry/transport; same analytic and model reference as preserved baseline"
+  }
+]

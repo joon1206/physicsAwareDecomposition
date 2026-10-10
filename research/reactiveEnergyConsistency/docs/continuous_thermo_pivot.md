@@ -1,0 +1,51 @@
+# Bounded thermochemical branch exhaustion and stronger pivot
+
+No candidate survives all publication gates. This continuation reaches the requested negative decision for the reasonable implementation-level interpretations of the five thermochemical families, combined with the previously tested cheap coupling corrections. It does not claim universal exhaustion of reacting-flow mathematics, every constrained integrator, every risk predictor or all future thermochemical fitting research. The broader numerical-method objective remains open.
+
+## Completed attribution
+
+The 18-record H2 matrix and four GRI full-flow controls are complete. Each uncorrected eight-term budget closes to roundoff; corrected-state cell ledgers include their explicit post-state terms. The H2 legacy native dt2-us energy drift is -17.3886598%; CpHS gives -17.3900272%. GRI likewise retains about +7.2508% at dt2 us. Direct breakpoint source floors are removed by continuity controls, while 27 continuous-data spatial source calls still exceed the unchanged 1e-10 criterion. This supports distinct data-event and CFD coupling mechanisms with measured trajectory interactions, not universal independence.
+
+Independent evidence includes 90 source trajectories over three original mechanisms plus two H2 controls, CV and physical CP, three initial temperatures and three tolerances; 18 new native direct-source observations; 48 valid-data projection controls; and 18 small abstract finite maps plus a two-cell post-map counterexample. Alzueta native compatibility failures are retained and excluded from physical-method judgments.
+
+## Five immediate candidate cycles
+
+| Family | Decisive rejecting gate | Executed evidence |
+|---|---|---|
+| Scalar endpoint projection | Generic novelty; unconditional accuracy | 40 eligible recoveries; 38 pass endpoint gates; 25 observed T errors increase; 22 exceed twice reference contrast. Species error unchanged. |
+| Finite species/formation transfer | Generic novelty / implementation equivalence | Native RR already finite; all 22 matched flow records retain roundoff Dchemistry. CV enthalpy additionally needs delta p. |
+| Chemistry/CFD transition interface | Generic novelty; sufficient CFD conservation | Known invariant reactor/source-forcing architecture; exact source maps leave later density/pressure defect. |
+| Mechanism risk certification | Generic novelty; prospective numerical validation | Observed event identity verified across mechanisms/constraints; no prospective source or CFD accuracy certificate. |
+| Continuous thermo reconstruction | Generic novelty; physical source accuracy | Established constrained fitting; no original source data for physical refit accuracy; CFD defect survives. |
+
+## Why more variants of these proposals do not answer the research question
+
+Changing scalar recovery weights cannot change a fixed species vector or repair its element/positivity error. A full constrained projection could address those errors, but its generic formulation and history-aware integration are established prior art; no distinct new approximation has been defined. Rewriting the same finite RR as an increment map is algebraically equivalent to the current source interface. An API change cannot remove density/pressure terms generated after the map without modifying those operators. A coefficient maximum alone lacks path, activity and smooth numerical-error information; replacing it by observed crossing concentrations verifies a known event identity. Changing polynomial order, derivative constraints or interpolation without original source data cannot establish greater physical accuracy. These are decisive boundaries for the specified claims, not excuses to promote incompletely tested variants.
+
+The earlier rejected local energy remaps, scalar density adjustment, species-only response, conservation-only stopping, common-weight mixture recovery, Taylor thermal compensation and element reduction supply further constraints. Conservative G and frozen block remain useful known baselines, but conservation alone and their coarse reacting trajectories do not pass resolved local accuracy or scientific novelty. Duplicate prototypes or new performance trials cannot repair an already decisive novelty/sufficiency failure; therefore no new accuracy/cost dominance is inferred.
+
+## Publication-gate accounting
+
+| Gate | Status | Reason |
+|---|---|---|
+| Novelty | FAIL for generic five-family formulations | Exact primary methods in thermo_prior_art_matrix.md. No more specific novel approximation is identified. |
+| Mathematical | Conditional properties derived; broad sufficiency fails | Invariant image/root conditions, CV versus CP transfer and post-map counterexample. |
+| Numerical | FAIL for promotion | Endpoint conservation does not ensure trajectory accuracy; original reacting reference remains unresolved. |
+| Chemical | Conditional / incomplete | Finite elemental transfer passes abstract model; scalar projection leaves provisional errors and strict tiny negativity unchanged. |
+| Thermodynamic | Conditional / incomplete | Continuous data controls and EOS checks pass; some spatial source steps still fail the unchanged 1e-10 gate. |
+| Generalization | Evidence collected, not universal | H2/GRI full-flow pairs; H2/GRI/Alzueta independent CV/physical-CP controls. Modern native PLOG unsupported. |
+| Simpler baselines | Compared within stated scopes | Matched original/HS/CpHS, dt1/dt2, tighter ODE, earlier extra pressure/outer and frozen block controls. |
+| Cost | NOT PASSED for a new method | No runtime/memory dominance asserted; concurrent new walls excluded. Earlier uncontended native timings remain valid in their scopes. |
+| Independent reference | Partial, not full publication pass | Native/Cantera source and independent thermo checks; projection trajectories share Cantera BDF, and resolved reacting-flow reference is still missing. |
+
+## Stronger research pivot: operator response with resolved accuracy
+
+Return to the pressure/species/energy coupling problem using continuous thermochemistry, and make resolved field error the research target. A useful next method would need an operator response or error estimator that includes transport truncation, chemistry sensitivity to transported states, and the pressure/density/species/energy response together. Its invariant component must transform consistently under elemental reference-energy shifts. The existing exact contact-wave counterexample proves that zero source/energy/momentum residuals cannot by themselves bound temperature error; the coarse quenching/burning contrast shows why total-energy restoration is also insufficient in the reacting case.
+
+A concrete next study would compare a pressure/species response predictor driven by the same finite transport increments against a converged coupled reference. Propagate the transport perturbation through a chemistry tangent map, then assess whether an approximation to that response reduces temperature/species error per unit work. Reuse of stiff factorizations, Schur elimination, invariant coordinates and external source forcing are all known ingredients; originality would have to reside in a specific justified approximation and an observed accuracy/cost frontier. This is a research specification, not a newly accepted method.
+
+Prerequisites and falsification controls are concrete: first obtain agreement of independently implemented reacting references under temporal and spatial refinement on the same continuous H2/GRI data; include declared nonzero physical transport instead of interpreting the original zero-transport F test as a flame benchmark. Then require the predictor to pass the exact unequal-Cp/contact and elemental-reference tests, include nonhomogeneous elements and unequal species diffusion, remain positive/EOS consistent, preserve restart/boundary/MPI behavior, and improve resolved T and species errors against smaller dt, tighter chemistry, extra pressure coupling and the existing frozen block. Use sequential rotated timing and report peak memory only after these gates survive.
+
+This pivot is stronger because it supplies the information mathematically absent from the rejected indicators and attacks the operator that survives the clean-data intervention. It avoids treating known thermo repair, a chemistry library port or an invariant-restoring endpoint as the contribution. If resolved references cannot be established, no accuracy/cost paper should be claimed.
+
+Machine-readable decisions and gate statuses are stored in thermochemical_pivot.json; detailed equations, failures, raw snapshots and prior art remain linked from the accompanying reports. Historical evidence checks and actionStudy files remain protected.

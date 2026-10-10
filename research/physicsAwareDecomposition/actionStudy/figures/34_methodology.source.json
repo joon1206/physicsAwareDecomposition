@@ -1,0 +1,6 @@
+[
+  "Identical physical checkpoints\nwhole-condition train / validation / test",
+  "Randomized four-action continuations\n5 repeats; physical endpoint assertions",
+  "Native field gates + inventories\nphase clocks + PMPI + scaling",
+  "Frozen deployment and live rollouts\nstatistics \u2192 figures \u2192 claim audit"
+]

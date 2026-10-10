@@ -1,0 +1,2189 @@
+[
+  {
+    "name": "ThermoWave_blockConservative_nx128_dt2e-08",
+    "mode": "blockConservative",
+    "kind": "ThermoWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executable": "reactingEnergyBlockCandidates",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 12.258872842998244,
+    "errors": {
+      "rho": {
+        "L1": 0.00047311896878042136,
+        "L2": 0.0005358667043963253,
+        "Linf": 0.001040286854775252
+      },
+      "T": {
+        "L1": 0.808683893146851,
+        "L2": 0.8822282267208411,
+        "Linf": 1.215702693877688
+      },
+      "p": {
+        "L1": 44.210062698510455,
+        "L2": 49.22021472099962,
+        "Linf": 75.25993088890391
+      },
+      "H2": {
+        "L1": 0.00023710306047597873,
+        "L2": 0.00025982346989096144,
+        "Linf": 0.00041181646657412196
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00023710306047733908,
+        "L2": 0.0002598234698920243,
+        "Linf": 0.0004118164665711799
+      },
+      "Ux": {
+        "L1": 0.2092941978093968,
+        "L2": 0.23576579163029834,
+        "Linf": 0.3780058063606333
+      }
+    },
+    "initial": {
+      "mass": 3.6569557314850786e-08,
+      "E_stored": 0.019406449275864376,
+      "E_NASA": 0.019406449275864376,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.03558426618848462,
+      "H_NASA": 0.03558426618848462,
+      "J": 2.925564585188065e-05,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335605e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485087e-08,
+      "E_stored": 0.01940644927586433,
+      "E_NASA": 0.019406449275864324,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.035584716496236415,
+      "H_NASA": 0.03558471649623641,
+      "J": 2.92568108186513e-05,
+      "P": 0.01621245147271856,
+      "max_h_inversion_error": 4.0046870708465576e-08,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335565e-08
+      }
+    },
+    "signedEnergyDrift": -2.6816705899944306e-15,
+    "massDrift": 2.352415233382649e-15,
+    "elementDrift": {
+      "H": 1.5711583122265893e-16,
+      "N": -1.1699465146977032e-15
+    },
+    "sumYError": 2.842170943040401e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.8199664825478976e-14,
+    "maxLocalEnergyResidual": 2.4789837665751296e-19
+  },
+  {
+    "name": "ThermoWave_blockConservative_nx32_dt2e-08",
+    "mode": "blockConservative",
+    "kind": "ThermoWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executable": "reactingEnergyBlockCandidates",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 7.858330074999685,
+    "errors": {
+      "rho": {
+        "L1": 0.0018580951078202611,
+        "L2": 0.002098105663598638,
+        "Linf": 0.004003591396905204
+      },
+      "T": {
+        "L1": 3.192912285514055,
+        "L2": 3.486458891655957,
+        "Linf": 4.772928202971229
+      },
+      "p": {
+        "L1": 172.61024390929606,
+        "L2": 192.3135078996668,
+        "Linf": 295.6036184865952
+      },
+      "H2": {
+        "L1": 0.0009289869272075744,
+        "L2": 0.00102528446783918,
+        "Linf": 0.0016465755058338166
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0009289869272054857,
+        "L2": 0.0010252844678371989,
+        "Linf": 0.0016465755058288067
+      },
+      "Ux": {
+        "L1": 0.8275790804197938,
+        "L2": 0.9306818299866177,
+        "Linf": 1.4935228401708613
+      }
+    },
+    "initial": {
+      "mass": 3.656955731485081e-08,
+      "E_stored": 0.019406449275864313,
+      "E_NASA": 0.019406449275864313,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.03558426618848461,
+      "H_NASA": 0.03558426618848461,
+      "J": 2.9255645851880637e-05,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533558e-08
+      }
+    },
+    "end": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.019406449275864348,
+      "E_NASA": 0.019406449275864383,
+      "C": 4.927441527826336e-06,
+      "H_stored": 0.03558600564412036,
+      "H_NASA": 0.03558600564412039,
+      "J": 2.9271024870040016e-05,
+      "P": 0.016213754834653874,
+      "max_h_inversion_error": 4.1443854570388794e-08,
+      "elements": {
+        "H": 2.6323910395152266e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533559e-08
+      }
+    },
+    "signedEnergyDrift": 3.575560786659252e-15,
+    "massDrift": -3.619100359050227e-16,
+    "elementDrift": {
+      "H": 3.142316624453178e-16,
+      "N": 3.899821715659014e-16
+    },
+    "sumYError": 2.5091040356528538e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.55351295663786e-14,
+    "maxLocalEnergyResidual": 9.65155578514082e-19
+  },
+  {
+    "name": "ThermoWave_blockConservative_nx64_dt2e-08",
+    "mode": "blockConservative",
+    "kind": "ThermoWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ac5570a23aef5b488629ed45b7b476e2f665f38f34bf7dce63f9abeaaba39263",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "60f10fe010bb699414b4e988e157aa76beeeda046cd6b37f08c3a1292d565e59",
+      "pEqn.H": "0d1b50c342c72f3f8cff7be1ecaf09867a070f5ddf9044ba8761379eb739cab8",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "85f7a8b048ece2626a34573a50a49e494a699574edf7d14b604add153ef81729",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+    "executable": "reactingEnergyBlockCandidates",
+    "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 8.828972767001687,
+    "errors": {
+      "rho": {
+        "L1": 0.0009385330253681677,
+        "L2": 0.001063003913001509,
+        "Linf": 0.002059706538291073
+      },
+      "T": {
+        "L1": 1.608780712355765,
+        "L2": 1.7552225935054848,
+        "Linf": 2.4138433025034374
+      },
+      "p": {
+        "L1": 87.67443927272097,
+        "L2": 97.61279631262038,
+        "Linf": 149.24152531000436
+      },
+      "H2": {
+        "L1": 0.00047046940385965774,
+        "L2": 0.000516708685158385,
+        "Linf": 0.0008229514181983533
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00047046940385929263,
+        "L2": 0.0005167086851576784,
+        "Linf": 0.0008229514181923303
+      },
+      "Ux": {
+        "L1": 0.41461484870314236,
+        "L2": 0.46675923225395627,
+        "Linf": 0.7503267385104522
+      }
+    },
+    "initial": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.01940644927586431,
+      "E_NASA": 0.01940644927586431,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035584266188484606,
+      "H_NASA": 0.035584266188484606,
+      "J": 2.925564585188063e-05,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485074e-08,
+      "E_stored": 0.019406449275864324,
+      "E_NASA": 0.0194064492758644,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035585155617688644,
+      "H_NASA": 0.03558515561768872,
+      "J": 2.925965873090634e-05,
+      "P": 0.01621289344208305,
+      "max_h_inversion_error": 4.493631422519684e-08,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "signedEnergyDrift": 4.648229022657029e-15,
+    "massDrift": -1.6285951615726027e-15,
+    "elementDrift": {
+      "H": -6.284633248906353e-16,
+      "N": 0.0
+    },
+    "sumYError": 2.6201263381153694e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.6645352591003757e-14,
+    "maxLocalEnergyResidual": 5.07286147560276e-19
+  },
+  {
+    "name": "ThermoWave_central_nx128_dt2e-08",
+    "mode": "central",
+    "kind": "ThermoWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 2.7423947860006592,
+    "errors": {
+      "rho": {
+        "L1": 0.006932838177949471,
+        "L2": 0.007703310896508108,
+        "Linf": 0.013054339031993434
+      },
+      "T": {
+        "L1": 15.36575489276132,
+        "L2": 17.296989396978134,
+        "Linf": 27.40855707604851
+      },
+      "p": {
+        "L1": 51.88731817863106,
+        "L2": 51.920677135169655,
+        "Linf": 54.58288626880676
+      },
+      "H2": {
+        "L1": 0.004060882368642059,
+        "L2": 0.004555734727558313,
+        "Linf": 0.007171515539880588
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.004060882368640883,
+        "L2": 0.0045557347275588115,
+        "Linf": 0.00717151553988804
+      },
+      "Ux": {
+        "L1": 0.038806303034574885,
+        "L2": 0.04312441502935583,
+        "Linf": 0.06391220668726305
+      }
+    },
+    "initial": {
+      "mass": 3.6569557314850786e-08,
+      "E_stored": 0.019406449275864376,
+      "E_NASA": 0.019406449275864376,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.03558426618848462,
+      "H_NASA": 0.03558426618848462,
+      "J": 2.925564585188065e-05,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335605e-08
+      }
+    },
+    "end": {
+      "mass": 3.65695573148502e-08,
+      "E_stored": 0.01940644927586367,
+      "E_NASA": 0.01940644927586358,
+      "C": 4.92744152782622e-06,
+      "H_stored": 0.03559256812563674,
+      "H_NASA": 0.03559256812563665,
+      "J": 2.925567960768121e-05,
+      "P": 0.016220301970908575,
+      "max_h_inversion_error": 3.585591912269592e-08,
+      "elements": {
+        "H": 2.632391039515164e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533488e-08
+      }
+    },
+    "signedEnergyDrift": -4.094017100724831e-14,
+    "massDrift": -1.610499659777352e-14,
+    "elementDrift": {
+      "H": -2.3253143020953522e-14,
+      "N": -2.1449019436124562e-14
+    },
+    "sumYError": 2.3314683517128287e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.398081733190338e-14,
+    "maxLocalEnergyResidual": 5.464628749507406e-20
+  },
+  {
+    "name": "ThermoWave_central_nx32_dt2e-08",
+    "mode": "central",
+    "kind": "ThermoWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 1.8414923140007886,
+    "errors": {
+      "rho": {
+        "L1": 0.023128728684807184,
+        "L2": 0.025759583813214276,
+        "Linf": 0.042163378979048094
+      },
+      "T": {
+        "L1": 50.81415640565196,
+        "L2": 57.15742978132977,
+        "Linf": 90.59109046368462
+      },
+      "p": {
+        "L1": 152.64256438387838,
+        "L2": 152.67362833333016,
+        "Linf": 156.66189157040208
+      },
+      "H2": {
+        "L1": 0.013229587822072751,
+        "L2": 0.014942477747826246,
+        "Linf": 0.02401421364409187
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.01322958782207194,
+        "L2": 0.01494247774782536,
+        "Linf": 0.02401421364409173
+      },
+      "Ux": {
+        "L1": 0.061168601665909206,
+        "L2": 0.06891914369780835,
+        "Linf": 0.11157386588448759
+      }
+    },
+    "initial": {
+      "mass": 3.656955731485081e-08,
+      "E_stored": 0.019406449275864313,
+      "E_NASA": 0.019406449275864313,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.03558426618848461,
+      "H_NASA": 0.03558426618848461,
+      "J": 2.9255645851880637e-05,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533558e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485035e-08,
+      "E_stored": 0.01940644927586398,
+      "E_NASA": 0.019406449275863654,
+      "C": 4.927441527826223e-06,
+      "H_stored": 0.03560868890911714,
+      "H_NASA": 0.035608688909116816,
+      "J": 2.9255735520435506e-05,
+      "P": 0.01623642281030142,
+      "max_h_inversion_error": 2.0023435354232788e-08,
+      "elements": {
+        "H": 2.632391039515167e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533483e-08
+      }
+    },
+    "signedEnergyDrift": -3.39678274732629e-14,
+    "massDrift": -1.2666851256675794e-14,
+    "elementDrift": {
+      "H": -2.2310448033617563e-14,
+      "N": -2.203399269347343e-14
+    },
+    "sumYError": 2.4868995751603507e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.5091040356528538e-14,
+    "maxLocalEnergyResidual": 2.1842971875685136e-19
+  },
+  {
+    "name": "ThermoWave_central_nx64_dt2e-08",
+    "mode": "central",
+    "kind": "ThermoWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyCentralReference.C": "d3f9305fd6b2d4eb73ff8dec8fb8ba4ae4b5682cbfda6a64d6d32be911b691e4"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/450d0bad20c365f7d7311b8c004c7cde48002f2025e26f650e05decefd012dbb",
+    "executable": "reactingEnergyCentralReference",
+    "executableSHA256": "2bbc6330600d54aa2d8c4f05e816065673a011798a695113c16025978d612ff6",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 2.2514677139988635,
+    "errors": {
+      "rho": {
+        "L1": 0.013027352445040571,
+        "L2": 0.014492173849514107,
+        "Linf": 0.02429314307388908
+      },
+      "T": {
+        "L1": 28.800863358489288,
+        "L2": 32.39221960220891,
+        "Linf": 51.27170564430139
+      },
+      "p": {
+        "L1": 93.51970751130852,
+        "L2": 93.5492655826409,
+        "Linf": 96.52145120409841
+      },
+      "H2": {
+        "L1": 0.007561573109106416,
+        "L2": 0.008517941555715735,
+        "Linf": 0.013509449162088044
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.007561573109106847,
+        "L2": 0.008517941555716833,
+        "Linf": 0.013509449162090403
+      },
+      "Ux": {
+        "L1": 0.05573465980982517,
+        "L2": 0.06195532640937425,
+        "Linf": 0.09224534987487232
+      }
+    },
+    "initial": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.01940644927586431,
+      "E_NASA": 0.01940644927586431,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035584266188484606,
+      "H_NASA": 0.035584266188484606,
+      "J": 2.925564585188063e-05,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314850144e-08,
+      "E_stored": 0.019406449275863897,
+      "E_NASA": 0.01940644927586398,
+      "C": 4.9274415278262646e-06,
+      "H_stored": 0.03559922927025856,
+      "H_NASA": 0.035599229270258645,
+      "J": 2.9255717279326382e-05,
+      "P": 0.016226963153201813,
+      "max_h_inversion_error": 1.8742866814136505e-08,
+      "elements": {
+        "H": 2.6323910395151898e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335095e-08
+      }
+    },
+    "signedEnergyDrift": -1.6983913736631453e-14,
+    "massDrift": -1.791454677729863e-14,
+    "elementDrift": {
+      "H": -1.4140424810039294e-14,
+      "N": -1.4039358176372453e-14
+    },
+    "sumYError": 2.7977620220553945e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.786659791809143e-14,
+    "maxLocalEnergyResidual": 1.0921485937842559e-19
+  },
+  {
+    "name": "ThermoWave_conservativeState_nx128_dt2e-08",
+    "mode": "conservativeState",
+    "kind": "ThermoWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 9.94432660000166,
+    "errors": {
+      "rho": {
+        "L1": 0.00047293217945782676,
+        "L2": 0.0005356751331209584,
+        "Linf": 0.001040916796890834
+      },
+      "T": {
+        "L1": 0.8109511933567788,
+        "L2": 0.8858647971505826,
+        "Linf": 1.2288801682775556
+      },
+      "p": {
+        "L1": 44.3768247611024,
+        "L2": 49.37785644145629,
+        "Linf": 74.7408542993071
+      },
+      "H2": {
+        "L1": 0.000237436400510612,
+        "L2": 0.0002600884304962905,
+        "Linf": 0.00041170513755821314
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00023743640050981774,
+        "L2": 0.0002600884304959268,
+        "Linf": 0.00041170513756927374
+      },
+      "Ux": {
+        "L1": 0.21386594430497374,
+        "L2": 0.24178572090762074,
+        "Linf": 0.37265557762545853
+      }
+    },
+    "initial": {
+      "mass": 3.6569557314850786e-08,
+      "E_stored": 0.019406449275864376,
+      "E_NASA": 0.019406449275864376,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.03558426618848462,
+      "H_NASA": 0.03558426618848462,
+      "J": 2.925564585188065e-05,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335605e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314850806e-08,
+      "E_stored": 0.019406449275864844,
+      "E_NASA": 0.019406449275864816,
+      "C": 4.927441527826331e-06,
+      "H_stored": 0.03558472024280913,
+      "H_NASA": 0.0355847202428091,
+      "J": 2.9256851708669008e-05,
+      "P": 0.016212455260180773,
+      "max_h_inversion_error": 1.7695128917694092e-08,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533556e-08
+      }
+    },
+    "signedEnergyDrift": 2.270481099528618e-14,
+    "massDrift": 5.428650538575344e-16,
+    "elementDrift": {
+      "H": 1.5711583122265893e-16,
+      "N": -1.3649376004806538e-15
+    },
+    "sumYError": 1.3655743202889425e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 1.3988810110276972e-14,
+    "maxLocalEnergyResidual": 2.566926697388876e-19
+  },
+  {
+    "name": "ThermoWave_conservativeState_nx32_dt2e-08",
+    "mode": "conservativeState",
+    "kind": "ThermoWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 4.995374818001437,
+    "errors": {
+      "rho": {
+        "L1": 0.0018533804546390538,
+        "L2": 0.0020941831220698467,
+        "Linf": 0.004012129759221994
+      },
+      "T": {
+        "L1": 3.2111853679307174,
+        "L2": 3.5138751790896334,
+        "Linf": 4.856656890140243
+      },
+      "p": {
+        "L1": 172.67687736704647,
+        "L2": 192.27902767251828,
+        "Linf": 291.65529603989853
+      },
+      "H2": {
+        "L1": 0.0009305376588152919,
+        "L2": 0.001026416480383535,
+        "Linf": 0.001644453619005018
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0009305376588140089,
+        "L2": 0.0010264164803839972,
+        "Linf": 0.0016444536190186598
+      },
+      "Ux": {
+        "L1": 0.8572901827983463,
+        "L2": 0.9677457277399102,
+        "Linf": 1.469430331213303
+      }
+    },
+    "initial": {
+      "mass": 3.656955731485081e-08,
+      "E_stored": 0.019406449275864313,
+      "E_NASA": 0.019406449275864313,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.03558426618848461,
+      "H_NASA": 0.03558426618848461,
+      "J": 2.9255645851880637e-05,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533558e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485082e-08,
+      "E_stored": 0.0194064492758724,
+      "E_NASA": 0.01940644927587236,
+      "C": 4.9274415278263315e-06,
+      "H_stored": 0.03558602878224524,
+      "H_NASA": 0.0355860287822452,
+      "J": 2.9272059161579285e-05,
+      "P": 0.016213779007062244,
+      "max_h_inversion_error": 2.468004822731018e-08,
+      "elements": {
+        "H": 2.6323910395152245e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "signedEnergyDrift": 4.145862732131403e-13,
+    "massDrift": 1.8095501795251134e-16,
+    "elementDrift": {
+      "H": -4.713474936679767e-16,
+      "N": -1.949910857829507e-16
+    },
+    "sumYError": 2.1649348980190553e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 2.1538326677728037e-14,
+    "maxLocalEnergyResidual": 9.42905611301175e-19
+  },
+  {
+    "name": "ThermoWave_conservativeState_nx64_dt2e-08",
+    "mode": "conservativeState",
+    "kind": "ThermoWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 6.61080805399979,
+    "errors": {
+      "rho": {
+        "L1": 0.0009373394301798771,
+        "L2": 0.0010617796562912992,
+        "Linf": 0.002061771864837858
+      },
+      "T": {
+        "L1": 1.6169028303001394,
+        "L2": 1.767336585159613,
+        "Linf": 2.4516452816804986
+      },
+      "p": {
+        "L1": 87.79339322449641,
+        "L2": 97.69797099884956,
+        "Linf": 148.04096221190412
+      },
+      "H2": {
+        "L1": 0.00047128919106293685,
+        "L2": 0.0005173096721094388,
+        "Linf": 0.0008219403943316578
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00047128919106175643,
+        "L2": 0.0005173096721081692,
+        "Linf": 0.0008219403943213743
+      },
+      "Ux": {
+        "L1": 0.4270133317207807,
+        "L2": 0.48296427610723236,
+        "Linf": 0.7382180803964573
+      }
+    },
+    "initial": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.01940644927586431,
+      "E_NASA": 0.01940644927586431,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035584266188484606,
+      "H_NASA": 0.035584266188484606,
+      "J": 2.925564585188063e-05,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485075e-08,
+      "E_stored": 0.01940644927586638,
+      "E_NASA": 0.019406449275866395,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.035585166748090626,
+      "H_NASA": 0.03558516674809064,
+      "J": 2.9259881373052743e-05,
+      "P": 0.016212904795125122,
+      "max_h_inversion_error": 1.4435499906539917e-08,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "signedEnergyDrift": 1.0744560163911056e-13,
+    "massDrift": -1.2666851256675798e-15,
+    "elementDrift": {
+      "H": 0.0,
+      "N": 0.0
+    },
+    "sumYError": 1.354472090042691e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 1.3100631690576847e-14,
+    "maxLocalEnergyResidual": 4.812114281341983e-19
+  },
+  {
+    "name": "ThermoWave_hllc_nx128_dt2e-08",
+    "mode": "hllc",
+    "kind": "ThermoWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 2.755341733001842,
+    "errors": {
+      "rho": {
+        "L1": 0.00039184059028319457,
+        "L2": 0.0004427677317926952,
+        "Linf": 0.0008538348653701067
+      },
+      "T": {
+        "L1": 0.831313038906786,
+        "L2": 0.9100463121140463,
+        "Linf": 1.2237071568982856
+      },
+      "p": {
+        "L1": 2.907190756942896,
+        "L2": 2.9123453801396817,
+        "Linf": 3.0956726386066293
+      },
+      "H2": {
+        "L1": 0.00022798177168605217,
+        "L2": 0.000250220377041326,
+        "Linf": 0.0003912742134010022
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00022798177168347443,
+        "L2": 0.0002502203770388759,
+        "Linf": 0.0003912742134031255
+      },
+      "Ux": {
+        "L1": 0.0022559373846213204,
+        "L2": 0.0025662531998366348,
+        "Linf": 0.004678845453028657
+      }
+    },
+    "initial": {
+      "mass": 3.6569557314850786e-08,
+      "E_stored": 0.019406449275864376,
+      "E_NASA": 0.019406449275864376,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.03558426618848462,
+      "H_NASA": 0.03558426618848462,
+      "J": 2.925564585188065e-05,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335605e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314849886e-08,
+      "E_stored": 0.019406449275863748,
+      "E_NASA": 0.019406449275864025,
+      "C": 4.927441527826226e-06,
+      "H_stored": 0.035584731338876394,
+      "H_NASA": 0.03558473133887667,
+      "J": 2.9255645980635035e-05,
+      "P": 0.016212465150521105,
+      "max_h_inversion_error": 1.5390105545520782e-07,
+      "elements": {
+        "H": 2.63239103951516e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533502e-08
+      }
+    },
+    "signedEnergyDrift": -1.8056581972629165e-14,
+    "massDrift": -2.460988244154156e-14,
+    "elementDrift": {
+      "H": -2.4824301333180112e-14,
+      "N": -1.715921554889965e-14
+    },
+    "sumYError": 9.614531393253856e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 9.57012247226885e-14,
+    "maxLocalEnergyResidual": 5.459521723594192e-20
+  },
+  {
+    "name": "ThermoWave_hllc_nx32_dt2e-08",
+    "mode": "hllc",
+    "kind": "ThermoWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 1.8371301320003113,
+    "errors": {
+      "rho": {
+        "L1": 0.0015523438270401077,
+        "L2": 0.0017483386546403917,
+        "Linf": 0.003319144985918121
+      },
+      "T": {
+        "L1": 3.2968025501482856,
+        "L2": 3.614218439101838,
+        "Linf": 4.875674950274288
+      },
+      "p": {
+        "L1": 11.414108746615966,
+        "L2": 11.42188213590469,
+        "Linf": 12.073252229805803
+      },
+      "H2": {
+        "L1": 0.0009027537703515673,
+        "L2": 0.0009950085249854433,
+        "Linf": 0.001570302995826292
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0009027537703473719,
+        "L2": 0.0009950085249821482,
+        "Linf": 0.0015703029958278325
+      },
+      "Ux": {
+        "L1": 0.0063197993302410715,
+        "L2": 0.007340888599361968,
+        "Linf": 0.013985554342738737
+      }
+    },
+    "initial": {
+      "mass": 3.656955731485081e-08,
+      "E_stored": 0.019406449275864313,
+      "E_NASA": 0.019406449275864313,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.03558426618848461,
+      "H_NASA": 0.03558426618848461,
+      "J": 2.9255645851880637e-05,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533558e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731484994e-08,
+      "E_stored": 0.019406449275864126,
+      "E_NASA": 0.019406449275864417,
+      "C": 4.927441527826237e-06,
+      "H_stored": 0.035586092444784695,
+      "H_NASA": 0.035586092444784986,
+      "J": 2.9255646951067147e-05,
+      "P": 0.01621382625739946,
+      "max_h_inversion_error": 8.777715265750885e-08,
+      "elements": {
+        "H": 2.632391039515157e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533532e-08
+      }
+    },
+    "signedEnergyDrift": 5.3633411799888785e-15,
+    "massDrift": -2.3886062369731497e-14,
+    "elementDrift": {
+      "H": -2.6081227982961378e-14,
+      "N": -7.604652345535078e-15
+    },
+    "sumYError": 9.237055564881302e-14,
+    "minY": 0.0,
+    "maxEOSRelative": 9.214851104388799e-14,
+    "maxLocalEnergyResidual": 2.182565239650105e-19
+  },
+  {
+    "name": "ThermoWave_hllc_nx64_dt2e-08",
+    "mode": "hllc",
+    "kind": "ThermoWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "createFieldRefs.H": "1513e8df3f43fdfa12a0ca3e104b5ca6bcd100b5924b7e8f3a5859b53a21b6e0",
+      "recoverAbsoluteEnergy.H": "057517ed2c3733eb4474f47599ee187ad457a86fe4cac337e8b14e8080fc49b1",
+      "centralCourantNo.H": "2752dc47dfd026c10c1e79bc12661bb68a521276e2fa62ab8394960a72762d4a",
+      "hllcFlux.H": "a4147d56ecd8aecb6ce5366dfc2fbc2397ee4745e57b0109f60b8f026e2dc7d3",
+      "setRDeltaT.H": "02329c70c7db50608056a3376e3b2f0e721c708ee586ad0bef1356ffafbe5d5b",
+      "readFluxScheme.H": "f9094df793839ca04941da5e0d3b8c47003520a40e4eb35e97d98dcc9f159633",
+      "directionInterpolate.H": "cd8329b76d920a2227ff82ce9fde4939e41451dc6ffddf1a8dbb935cf0bc44dd",
+      "createFields.H": "99333f8a814134c2b38bbdeea3802d35b160998efeb66dec041742d1094b7481",
+      "reactingEnergyHLLCReference.C": "2fae0825ec1649de41bf19d4c65606b5fa78247ea74f92fb36b7b2df4c287840"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/6d57596e29d40e58758f25bbbc2deb4049a3ca5a8cf050a93d292f511fc31ac2",
+    "executable": "reactingEnergyHLLCReference",
+    "executableSHA256": "7114e7e7ae1104bf5c619b9cdd0c3b3ba0ffd975edfc8e7ffba6ee6fc4ebb7da",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 2.2170892840003944,
+    "errors": {
+      "rho": {
+        "L1": 0.0007820314128211851,
+        "L2": 0.0008829354828777711,
+        "Linf": 0.001696542604292306
+      },
+      "T": {
+        "L1": 1.6604821773062728,
+        "L2": 1.8182712756274804,
+        "Linf": 2.441512905741888
+      },
+      "p": {
+        "L1": 5.787247585077921,
+        "L2": 5.793608944219933,
+        "Linf": 6.094727865594905
+      },
+      "H2": {
+        "L1": 0.0004552224101762468,
+        "L2": 0.000500172337058027,
+        "Linf": 0.0007864193367200512
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.00045522241017655757,
+        "L2": 0.0005001723370557286,
+        "Linf": 0.0007864193367226324
+      },
+      "Ux": {
+        "L1": 0.003873593090562233,
+        "L2": 0.0044380903213953014,
+        "Linf": 0.008264728079041106
+      }
+    },
+    "initial": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.01940644927586431,
+      "E_NASA": 0.01940644927586431,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035584266188484606,
+      "H_NASA": 0.035584266188484606,
+      "J": 2.925564585188063e-05,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314850025e-08,
+      "E_stored": 0.01940644927586392,
+      "E_NASA": 0.01940644927586413,
+      "C": 4.927441527826257e-06,
+      "H_stored": 0.03558519214770556,
+      "H_NASA": 0.035585192147705766,
+      "J": 2.925564624415742e-05,
+      "P": 0.016212925959613614,
+      "max_h_inversion_error": 9.103678166866302e-08,
+      "elements": {
+        "H": 2.632391039515179e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335155e-08
+      }
+    },
+    "signedEnergyDrift": -9.296458045314058e-15,
+    "massDrift": -2.1171737100443835e-14,
+    "elementDrift": {
+      "H": -1.8225436421828425e-14,
+      "N": -1.2284438404325897e-14
+    },
+    "sumYError": 1.021405182655144e-13,
+    "minY": 0.0,
+    "maxEOSRelative": 1.0191847366058937e-13,
+    "maxLocalEnergyResidual": 1.0914713577392388e-19
+  },
+  {
+    "name": "ThermoWave_none_nx128_dt2e-08",
+    "mode": "none",
+    "kind": "ThermoWave",
+    "nx": 128,
+    "nCells": 128,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 6.634163126000203,
+    "errors": {
+      "rho": {
+        "L1": 0.00047251673905116605,
+        "L2": 0.0005348931666112559,
+        "Linf": 0.0010362012772486273
+      },
+      "T": {
+        "L1": 0.8092043299293437,
+        "L2": 0.883638874227914,
+        "Linf": 1.2224525956373782
+      },
+      "p": {
+        "L1": 44.619451147608515,
+        "L2": 49.621055284679024,
+        "Linf": 74.32878887030529
+      },
+      "H2": {
+        "L1": 0.00023680087337482028,
+        "L2": 0.00025950806918815356,
+        "Linf": 0.0004110517242307127
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.000236800873374827,
+        "L2": 0.0002595080691881579,
+        "Linf": 0.0004110517242308376
+      },
+      "Ux": {
+        "L1": 0.2113164272248622,
+        "L2": 0.2388097656585563,
+        "Linf": 0.37342503002047067
+      }
+    },
+    "initial": {
+      "mass": 3.6569557314850786e-08,
+      "E_stored": 0.019406449275864376,
+      "E_NASA": 0.019406449275864376,
+      "C": 4.927441527826334e-06,
+      "H_stored": 0.03558426618848462,
+      "H_NASA": 0.03558426618848462,
+      "J": 2.925564585188065e-05,
+      "P": 0.016211999999999945,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152253e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937166275335605e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314850806e-08,
+      "E_stored": 0.019406674260979407,
+      "E_NASA": 0.019406674260979407,
+      "C": 4.927463534409474e-06,
+      "H_stored": 0.03558506041449756,
+      "H_NASA": 0.03558506041449756,
+      "J": 2.925682861651639e-05,
+      "P": 0.016212570445669077,
+      "max_h_inversion_error": 1.1641532182693481e-09,
+      "elements": {
+        "H": 2.632409957974804e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393714735687602e-08
+      }
+    },
+    "signedEnergyDrift": 1.1593316831589853e-05,
+    "massDrift": 5.428650538575344e-16,
+    "elementDrift": {
+      "H": 7.186796830216518e-06,
+      "N": -5.574554878418476e-07
+    },
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.0,
+    "maxEOSRelative": 8.881784197001252e-16,
+    "maxLocalEnergyResidual": 2.585952710478589e-19
+  },
+  {
+    "name": "ThermoWave_none_nx32_dt2e-08",
+    "mode": "none",
+    "kind": "ThermoWave",
+    "nx": 32,
+    "nCells": 32,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 3.2244124339995324,
+    "errors": {
+      "rho": {
+        "L1": 0.0018541624486914177,
+        "L2": 0.002093884305989428,
+        "Linf": 0.003998830332822612
+      },
+      "T": {
+        "L1": 3.2084157946440612,
+        "L2": 3.51014798878189,
+        "Linf": 4.846177957938039
+      },
+      "p": {
+        "L1": 173.36485826163744,
+        "L2": 193.10824092221029,
+        "Linf": 293.5528463606024
+      },
+      "H2": {
+        "L1": 0.0009292911725199347,
+        "L2": 0.0010252829520942329,
+        "Linf": 0.0016442218084049137
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0009292911725199172,
+        "L2": 0.0010252829520942092,
+        "Linf": 0.0016442218084048443
+      },
+      "Ux": {
+        "L1": 0.8448546046096894,
+        "L2": 0.95354248132536,
+        "Linf": 1.4681273489888298
+      }
+    },
+    "initial": {
+      "mass": 3.656955731485081e-08,
+      "E_stored": 0.019406449275864313,
+      "E_NASA": 0.019406449275864313,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.03558426618848461,
+      "H_NASA": 0.03558426618848461,
+      "J": 2.9255645851880637e-05,
+      "P": 0.016212,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.6323910395152258e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533558e-08
+      }
+    },
+    "end": {
+      "mass": 3.656955731485086e-08,
+      "E_stored": 0.01940664524651109,
+      "E_NASA": 0.01940664524651109,
+      "C": 4.927464873273112e-06,
+      "H_stored": 0.035586329304028275,
+      "H_NASA": 0.035586329304028275,
+      "J": 2.9271631332963486e-05,
+      "P": 0.01621388315372342,
+      "max_h_inversion_error": 9.313225746154785e-10,
+      "elements": {
+        "H": 2.63241110895937e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937146205891476e-08
+      }
+    },
+    "signedEnergyDrift": 1.0098222708877158e-05,
+    "massDrift": 1.2666851256675794e-15,
+    "elementDrift": {
+      "H": 7.624036035357984e-06,
+      "N": -5.913706506604695e-07
+    },
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.0,
+    "maxEOSRelative": 8.881784197001252e-16,
+    "maxLocalEnergyResidual": 9.655315330861969e-19
+  },
+  {
+    "name": "ThermoWave_none_nx64_dt2e-08",
+    "mode": "none",
+    "kind": "ThermoWave",
+    "nx": 64,
+    "nCells": 64,
+    "dt": 2e-08,
+    "TF": 2e-05,
+    "steps": 1000,
+    "ranks": 1,
+    "source": {
+      "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+      "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+      "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+      "cellEnergyAudit.H": "f5bc4d2d355377aa1fbac4b4109dfba661ba02c07031d24e7149b10b0cfef045",
+      "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+      "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+      "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+      "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+      "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+      "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+      "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+      "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+      "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+      "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+    },
+    "sourceSnapshot": "candidateStudy/sourceSnapshots/1c36d4860d10e980c74a32e02b6479cdca7541db71be50645e923dbf9ccd7efd",
+    "executable": "reactingEnergyCandidates",
+    "executableSHA256": "44386b967b97f5fdfcb9462e6393ac6c2b3314a65575cc2c012e6d6e0d8c5bf4",
+    "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+    "wall": 4.378194410001015,
+    "errors": {
+      "rho": {
+        "L1": 0.0009370618761116068,
+        "L2": 0.00106099424215929,
+        "Linf": 0.0020553589158651686
+      },
+      "T": {
+        "L1": 1.6148771660759156,
+        "L2": 1.7645719402734124,
+        "Linf": 2.4442666463830847
+      },
+      "p": {
+        "L1": 88.19948838394589,
+        "L2": 98.12702145806442,
+        "Linf": 148.10200096330664
+      },
+      "H2": {
+        "L1": 0.0004703880848041986,
+        "L2": 0.0005165317631054589,
+        "Linf": 0.00082165304083405
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0004703880848042005,
+        "L2": 0.0005165317631054586,
+        "Linf": 0.0008216530408340361
+      },
+      "Ux": {
+        "L1": 0.42133658175114486,
+        "L2": 0.476144242941131,
+        "Linf": 0.7386501483987473
+      }
+    },
+    "initial": {
+      "mass": 3.65695573148508e-08,
+      "E_stored": 0.01940644927586431,
+      "E_NASA": 0.01940644927586431,
+      "C": 4.927441527826333e-06,
+      "H_stored": 0.035584266188484606,
+      "H_NASA": 0.035584266188484606,
+      "J": 2.925564585188063e-05,
+      "P": 0.016211999999999997,
+      "max_h_inversion_error": 0,
+      "elements": {
+        "H": 2.632391039515227e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.393716627533557e-08
+      }
+    },
+    "end": {
+      "mass": 3.6569557314850726e-08,
+      "E_stored": 0.019406662113683214,
+      "E_NASA": 0.019406662113683214,
+      "C": 4.9274639852004156e-06,
+      "H_stored": 0.035585490197116904,
+      "H_NASA": 0.035585490197116904,
+      "J": 2.925977701910224e-05,
+      "P": 0.016213015324437995,
+      "max_h_inversion_error": 6.984919309616089e-10,
+      "elements": {
+        "H": 2.6324103455074867e-09,
+        "O": 0.0,
+        "AR": 0.0,
+        "N": 3.3937146969343256e-08
+      }
+    },
+    "signedEnergyDrift": 1.096737563262905e-05,
+    "massDrift": -1.9905051974776257e-15,
+    "elementDrift": {
+      "H": 7.3340138185659785e-06,
+      "N": -5.688746125498752e-07
+    },
+    "sumYError": 1.1102230246251565e-16,
+    "minY": 0.0,
+    "maxEOSRelative": 8.881784197001252e-16,
+    "maxLocalEnergyResidual": 5.271952916045467e-19
+  }
+]

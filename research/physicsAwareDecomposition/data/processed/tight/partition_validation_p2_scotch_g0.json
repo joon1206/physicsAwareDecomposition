@@ -1,0 +1,213 @@
+{
+  "reference": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/data/raw/reactiveTight/p2_scotch_gNone_r0/160",
+  "test": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/data/raw/reactiveTight/p2_scotch_g0_r0/160",
+  "nCells": 4000,
+  "atol": 1e-05,
+  "rtol": 0.0001,
+  "criterion": "Linf <= atol + rtol * reference Linf; pointwise criterion retained separately",
+  "fields": {
+    "T": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 2017.6431371369,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "p": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 100000.03689604,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "U": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.35576285451848,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "CH4": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.99999998435783,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "O2": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.22999999999982,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "CO2": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.14059150406745,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "H2O": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.11510102809481,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "N2": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 0.76999999999997,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "Qdot": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 377413628.11288,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "rDeltaT": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 15083.18205552,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "rho": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 1.1838216770146,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    },
+    "h": {
+      "L1": 0.0,
+      "L2": 0.0,
+      "Linf": 0.0,
+      "referenceLinf": 2302456.9465375,
+      "relativeLinf": 0.0,
+      "pointwisePass": true,
+      "relativeL2": 0.0,
+      "pass": true
+    }
+  },
+  "pass": true,
+  "referenceDiagnostics": {
+    "densitySource": "native thermo.rho",
+    "totalMassKg": 4.456045454678986e-06,
+    "sensiblePlusKineticEnergyJ": 1.455946919870231,
+    "QdotIntegralW": 44.00166551376126,
+    "densityMean": 0.5570056818348733,
+    "speciesMassPerVolume": {
+      "CH4": 0.19120382391876795,
+      "O2": 0.06824707247546337,
+      "CO2": 0.010191569651206604,
+      "H2O": 0.008343748454323214,
+      "N2": 0.279019467335112
+    },
+    "elementKmolPerVolume": {
+      "C": 0.012149788023255757,
+      "H": 0.04859914647055977,
+      "O": 0.005192022683299706,
+      "N": 0.019920001951532235
+    },
+    "sumYMaxError": 1.554312234475219e-14,
+    "speciesMin": 7.4144325790508e-17,
+    "speciesMax": 0.99999998435783,
+    "QdotMean": 5500208.189220157,
+    "probes": {
+      "T": {
+        "1000": 293.00172117624,
+        "2000": 293.00189076292,
+        "3000": 293.00168881404
+      },
+      "p": {
+        "1000": 100000.01762649,
+        "2000": 100000.02305276,
+        "3000": 100000.01643639
+      },
+      "CH4": {
+        "1000": 0.99999997685683,
+        "2000": 0.99999997367695,
+        "3000": 0.9999999774495
+      }
+    }
+  },
+  "testDiagnostics": {
+    "densitySource": "native thermo.rho",
+    "totalMassKg": 4.456045454678986e-06,
+    "sensiblePlusKineticEnergyJ": 1.455946919870231,
+    "QdotIntegralW": 44.00166551376126,
+    "densityMean": 0.5570056818348733,
+    "speciesMassPerVolume": {
+      "CH4": 0.19120382391876795,
+      "O2": 0.06824707247546337,
+      "CO2": 0.010191569651206604,
+      "H2O": 0.008343748454323214,
+      "N2": 0.279019467335112
+    },
+    "elementKmolPerVolume": {
+      "C": 0.012149788023255757,
+      "H": 0.04859914647055977,
+      "O": 0.005192022683299706,
+      "N": 0.019920001951532235
+    },
+    "sumYMaxError": 1.554312234475219e-14,
+    "speciesMin": 7.4144325790508e-17,
+    "speciesMax": 0.99999998435783,
+    "QdotMean": 5500208.189220157,
+    "probes": {
+      "T": {
+        "1000": 293.00172117624,
+        "2000": 293.00189076292,
+        "3000": 293.00168881404
+      },
+      "p": {
+        "1000": 100000.01762649,
+        "2000": 100000.02305276,
+        "3000": 100000.01643639
+      },
+      "CH4": {
+        "1000": 0.99999997685683,
+        "2000": 0.99999997367695,
+        "3000": 0.9999999774495
+      }
+    }
+  }
+}

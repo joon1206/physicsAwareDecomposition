@@ -1,0 +1,11 @@
+#!/bin/bash
+REAL=/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty/platforms/linux64/gcc-6.3.0/bin/g++
+WLIB=/home/joon1206/research/ForFun/scripts/wrappers/lib
+LDEV=/home/joon1206/local/usr/lib/x86_64-linux-gnu
+SYSRT=/home/joon1206/local/lib/x86_64-linux-gnu
+for a in "$@"; do
+  if [ "$a" = "-c" ]; then
+    exec $REAL --sysroot=/home/joon1206/local "$@"
+  fi
+done
+exec $REAL -B$LDEV/ -L$WLIB -L$LDEV -Wl,--rpath-link,$SYSRT:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu "$@"

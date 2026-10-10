@@ -1,0 +1,163 @@
+{
+  "status": "VERIFIED inventory; process-wall sum is not CPU allocation time",
+  "timestamp": "2026-10-05T00:27:38.124511+00:00",
+  "root": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition",
+  "fileCount": 150298,
+  "logicalBytes": 2211220297,
+  "logicalGiB": 2.059359380044043,
+  "campaigns": {
+    "overhead": {
+      "manifestCount": 42,
+      "ranks": [
+        1
+      ],
+      "sumSolverProcessWall": 92.93125033102842,
+      "firstUTC": "2026-10-04T22:40:30.400802+00:00",
+      "lastUTC": "2026-10-04T22:42:05.066769+00:00"
+    },
+    "communicationPilot": {
+      "manifestCount": 4,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 1.0071240270044655,
+      "firstUTC": "2026-10-05T00:06:22.291696+00:00",
+      "lastUTC": "2026-10-05T00:06:23.334883+00:00"
+    },
+    "syntheticPilot": {
+      "manifestCount": 1,
+      "ranks": [],
+      "sumSolverProcessWall": 0,
+      "firstUTC": "",
+      "lastUTC": ""
+    },
+    "tightPilot": {
+      "manifestCount": 2,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 3.732364765004604,
+      "firstUTC": "2026-10-04T22:57:20.845401+00:00",
+      "lastUTC": "2026-10-04T22:57:23.094608+00:00"
+    },
+    "reactive": {
+      "manifestCount": 75,
+      "ranks": [
+        1,
+        2,
+        4
+      ],
+      "sumSolverProcessWall": 125.59889711796859,
+      "firstUTC": "2026-10-04T22:14:35.598253+00:00",
+      "lastUTC": "2026-10-04T22:17:00.539694+00:00"
+    },
+    "synthetic": {
+      "manifestCount": 1,
+      "ranks": [],
+      "sumSolverProcessWall": 0,
+      "firstUTC": "",
+      "lastUTC": ""
+    },
+    "transient": {
+      "manifestCount": 10,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 7.402818065005704,
+      "firstUTC": "2026-10-04T23:14:49.439915+00:00",
+      "lastUTC": "2026-10-04T23:14:58.554057+00:00"
+    },
+    "training": {
+      "manifestCount": 1,
+      "ranks": [
+        1
+      ],
+      "sumSolverProcessWall": 2.32008304700139,
+      "firstUTC": "2026-10-04T21:59:52.984384+00:00",
+      "lastUTC": "2026-10-04T21:59:52.984384+00:00"
+    },
+    "reactiveNoChem": {
+      "manifestCount": 15,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 16.968943607993424,
+      "firstUTC": "2026-10-04T23:01:14.293507+00:00",
+      "lastUTC": "2026-10-04T23:01:34.281213+00:00"
+    },
+    "transient_failedWrite": {
+      "manifestCount": 2,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 1.4753627400059486,
+      "firstUTC": "2026-10-04T23:04:24.461015+00:00",
+      "lastUTC": "2026-10-04T23:04:25.368929+00:00"
+    },
+    "communicationDominated": {
+      "manifestCount": 20,
+      "ranks": [
+        4
+      ],
+      "sumSolverProcessWall": 5.135453728005814,
+      "firstUTC": "2026-10-05T00:06:46.796708+00:00",
+      "lastUTC": "2026-10-05T00:06:53.801434+00:00"
+    },
+    "validation": {
+      "manifestCount": 8,
+      "ranks": [
+        1,
+        2
+      ],
+      "sumSolverProcessWall": 6.079818917009106,
+      "firstUTC": "2026-10-04T21:57:47.801817+00:00",
+      "lastUTC": "2026-10-04T21:57:56.065874+00:00"
+    },
+    "reactivePilot": {
+      "manifestCount": 15,
+      "ranks": [
+        1,
+        2,
+        4
+      ],
+      "sumSolverProcessWall": 10.03647925300902,
+      "firstUTC": "2026-10-04T22:00:30.072977+00:00",
+      "lastUTC": "2026-10-04T22:00:45.702217+00:00"
+    },
+    "reactiveTight": {
+      "manifestCount": 75,
+      "ranks": [
+        1,
+        2,
+        4
+      ],
+      "sumSolverProcessWall": 158.9251963300121,
+      "firstUTC": "2026-10-04T22:57:48.857828+00:00",
+      "lastUTC": "2026-10-04T23:00:46.359700+00:00"
+    },
+    "syntheticRuntimePilot": {
+      "manifestCount": 2,
+      "ranks": [
+        2
+      ],
+      "sumSolverProcessWall": 0.3874708869989263,
+      "firstUTC": "2026-10-04T23:18:34.515128+00:00",
+      "lastUTC": "2026-10-04T23:18:34.761222+00:00"
+    },
+    "syntheticRuntime": {
+      "manifestCount": 320,
+      "ranks": [
+        2,
+        4
+      ],
+      "sumSolverProcessWall": 67.93279648998578,
+      "firstUTC": "2026-10-04T23:18:35.233410+00:00",
+      "lastUTC": "2026-10-04T23:20:16.626009+00:00"
+    }
+  },
+  "syntheticMatrixRecords": 2920,
+  "figureCount": 30,
+  "latestSmokeEvidence": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/reproductions/full_20261005T001557Z/data/processed/final_smoke.json",
+  "latestProbeEvidence": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/reproductions/full_20261005T001557Z/data/processed/probe_validation.json",
+  "resourcePolicy": "Sequential local single-guest runs, pilots before expansion, no cluster/GPU jobs; 8/12 ranks decomposition only."
+}

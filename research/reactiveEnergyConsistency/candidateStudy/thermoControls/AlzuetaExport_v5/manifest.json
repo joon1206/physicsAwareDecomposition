@@ -1,0 +1,11 @@
+{
+  "parentManifestSHA256": "7048ffc49e0f6d8e706489804065c91cca28fe46079df3704247d9c78a601886",
+  "driverSHA256": "94cf38c696bb347a2f5ae125606b02d499d13c8cf2dca77355cdbacae48a5b01",
+  "files": {
+    "CpHS.dat": "172b947382fbce26afc3e8f21157459f96eef21568b6240fec70eba1e6aab6d8",
+    "legacy.dat": "58e62dc6f4807d446c29a2cf62a13f5da2a69d6e578c7ca8d8f7def0c120b7a5",
+    "chem.inp": "caa0876a18e0d1eefada57f4735d81f58b800a3bf3ef72749b942c28ab633156",
+    "driver_snapshot.py": "94cf38c696bb347a2f5ae125606b02d499d13c8cf2dca77355cdbacae48a5b01"
+  },
+  "scope": "Comments stripped, LF serialization, and global thermo limits reformatted to CHEMKIN 3F10 width. No species, stoichiometry, rate, thermo coefficient or initial-state modification. Prior parser failures remain retained."
+}

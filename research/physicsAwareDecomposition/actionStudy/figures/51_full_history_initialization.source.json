@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "dt": 2e-06,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "nx": 32,
+      "ny": 8,
+      "initial": {
+        "time": 0.0,
+        "mass": 5.914511201018849e-08,
+        "totalEnergy": 0.017496612061541128
+      },
+      "end": {
+        "time": 0.00024,
+        "mass": 5.914511201018851e-08,
+        "totalEnergy": 0.01445418572091591
+      },
+      "Tmax": 2876.002794864836,
+      "relativeMassDrift": 3.356546978531861e-16,
+      "relativeEnergyDrift": -0.17388659758380884,
+      "path": "data/raw/initialStateLong/moving_dt2e-06_pressure1",
+      "scope": "Full 240 \u03bcs diagnostic using initialization-only correction. Frozen performance trials and their eligibility unchanged."
+    },
+    {
+      "dt": 3.125e-08,
+      "nCorrectors": 4,
+      "nOuterCorrectors": 1,
+      "nx": 32,
+      "ny": 8,
+      "initial": {
+        "time": 0.0,
+        "mass": 5.914511201018849e-08,
+        "totalEnergy": 0.017496612061541128
+      },
+      "end": {
+        "time": 0.00024,
+        "mass": 5.9145112010189125e-08,
+        "totalEnergy": 0.017257045436078793
+      },
+      "Tmax": 2927.652358994449,
+      "relativeMassDrift": 1.0740950331301954e-14,
+      "relativeEnergyDrift": -0.013692172211380298,
+      "path": "data/raw/initialStateLong/moving_dt3.125e-08_pressure4",
+      "scope": "Full 240 \u03bcs diagnostic using initialization-only correction. Frozen performance trials and their eligibility unchanged."
+    }
+  ],
+  "performanceDataChanged": false
+}

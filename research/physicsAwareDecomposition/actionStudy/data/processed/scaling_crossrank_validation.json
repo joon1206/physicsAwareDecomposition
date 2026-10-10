@@ -1,0 +1,374 @@
+[
+  {
+    "pass_": true,
+    "fields": {
+      "T": {
+        "Linf": 4.199591785436496e-10,
+        "referenceScale": 2959.583319510422,
+        "atol": 0.0002,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "p": {
+        "Linf": 1.1204974725842476e-08,
+        "referenceScale": 217782.904470489,
+        "atol": 0.02,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "U": {
+        "Linf": 2.468958371082408e-11,
+        "referenceScale": 34.83752724578997,
+        "atol": 1e-05,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "Qdot": {
+        "Linf": 0.080413818359375,
+        "referenceScale": 34727972748.72256,
+        "atol": 1.0,
+        "rtol": 1e-05,
+        "pass_": true
+      },
+      "H2": {
+        "Linf": 4.208439152719734e-15,
+        "referenceScale": 0.02829983225819627,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H": {
+        "Linf": 1.2776238400569184e-15,
+        "referenceScale": 0.0021047091314393,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O2": {
+        "Linf": 2.7783331191244542e-14,
+        "referenceScale": 0.2249985317182967,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O": {
+        "Linf": 5.169475958410885e-15,
+        "referenceScale": 0.008881063343387494,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "OH": {
+        "Linf": 1.0831613383999183e-14,
+        "referenceScale": 0.02602740034350873,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "HO2": {
+        "Linf": 2.2288486160870757e-16,
+        "referenceScale": 0.0003856049680657095,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O2": {
+        "Linf": 3.725081495434962e-17,
+        "referenceScale": 2.359912448969934e-05,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O": {
+        "Linf": 3.2709945863018675e-14,
+        "referenceScale": 0.2077772654718882,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "AR": {
+        "Linf": 0.0,
+        "referenceScale": 0.0,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "N2": {
+        "Linf": 7.882583474838611e-15,
+        "referenceScale": 0.7467000000000039,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "h": {
+        "Linf": 7.399357855319977e-07,
+        "referenceScale": 4226031.777984832,
+        "atol": 0.01,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "rho": {
+        "Linf": 1.5853984791647235e-13,
+        "referenceScale": 0.8867084580193432,
+        "atol": 1e-09,
+        "rtol": 1e-07,
+        "pass_": true
+      }
+    },
+    "sumYError": 2.220446049250313e-16,
+    "minY": 0.0,
+    "omittedOptionalFields": [],
+    "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values.",
+    "referenceRanks": 1,
+    "candidateRanks": 2,
+    "scope": "complete prefix and continuation at the same physical endpoint"
+  },
+  {
+    "pass_": true,
+    "fields": {
+      "T": {
+        "Linf": 6.209575076354668e-10,
+        "referenceScale": 2959.583319510422,
+        "atol": 0.0002,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "p": {
+        "Linf": 2.1595042198896408e-08,
+        "referenceScale": 217782.904470489,
+        "atol": 0.02,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "U": {
+        "Linf": 3.6200376030137704e-11,
+        "referenceScale": 34.83752724578997,
+        "atol": 1e-05,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "Qdot": {
+        "Linf": 0.12054443359375,
+        "referenceScale": 34727972748.72256,
+        "atol": 1.0,
+        "rtol": 1e-05,
+        "pass_": true
+      },
+      "H2": {
+        "Linf": 5.800915303666443e-15,
+        "referenceScale": 0.02829983225819627,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H": {
+        "Linf": 2.099882767669925e-15,
+        "referenceScale": 0.0021047091314393,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O2": {
+        "Linf": 4.440892098500626e-14,
+        "referenceScale": 0.2249985317182967,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O": {
+        "Linf": 7.138387103644561e-15,
+        "referenceScale": 0.008881063343387494,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "OH": {
+        "Linf": 1.0661610483353456e-14,
+        "referenceScale": 0.02602740034350873,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "HO2": {
+        "Linf": 4.1218656092467665e-16,
+        "referenceScale": 0.0003856049680657095,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O2": {
+        "Linf": 5.663939911700056e-17,
+        "referenceScale": 2.359912448969934e-05,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O": {
+        "Linf": 5.249967127696209e-14,
+        "referenceScale": 0.2077772654718882,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "AR": {
+        "Linf": 0.0,
+        "referenceScale": 0.0,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "N2": {
+        "Linf": 7.66053886991358e-15,
+        "referenceScale": 0.7467000000000039,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "h": {
+        "Linf": 1.06077641248703e-06,
+        "referenceScale": 4226031.777984832,
+        "atol": 0.01,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "rho": {
+        "Linf": 2.502442697505103e-13,
+        "referenceScale": 0.8867084580193432,
+        "atol": 1e-09,
+        "rtol": 1e-07,
+        "pass_": true
+      }
+    },
+    "sumYError": 2.220446049250313e-16,
+    "minY": 0.0,
+    "omittedOptionalFields": [],
+    "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values.",
+    "referenceRanks": 1,
+    "candidateRanks": 4,
+    "scope": "complete prefix and continuation at the same physical endpoint"
+  },
+  {
+    "pass_": true,
+    "fields": {
+      "T": {
+        "Linf": 7.44228145777015e-09,
+        "referenceScale": 2959.583319510422,
+        "atol": 0.0002,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "p": {
+        "Linf": 3.090826794505119e-08,
+        "referenceScale": 217782.904470489,
+        "atol": 0.02,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "U": {
+        "Linf": 3.0475098844806966e-10,
+        "referenceScale": 34.83752724578997,
+        "atol": 1e-05,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "Qdot": {
+        "Linf": 1.2580490112304688,
+        "referenceScale": 34727972748.72256,
+        "atol": 1.0,
+        "rtol": 1e-05,
+        "pass_": true
+      },
+      "H2": {
+        "Linf": 9.622858065938544e-14,
+        "referenceScale": 0.02829983225819627,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H": {
+        "Linf": 2.2877966882051126e-14,
+        "referenceScale": 0.0021047091314393,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O2": {
+        "Linf": 6.909195437998505e-13,
+        "referenceScale": 0.2249985317182967,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "O": {
+        "Linf": 5.4371437907541065e-14,
+        "referenceScale": 0.008881063343387494,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "OH": {
+        "Linf": 7.886052921790565e-14,
+        "referenceScale": 0.02602740034350873,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "HO2": {
+        "Linf": 5.685911268725474e-14,
+        "referenceScale": 0.0003856049680657095,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O2": {
+        "Linf": 1.3019421559725894e-14,
+        "referenceScale": 2.359912448969934e-05,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "H2O": {
+        "Linf": 7.342945695931746e-13,
+        "referenceScale": 0.2077772654718882,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "AR": {
+        "Linf": 0.0,
+        "referenceScale": 0.0,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "N2": {
+        "Linf": 6.439293542825908e-14,
+        "referenceScale": 0.7467000000000039,
+        "atol": 1e-08,
+        "rtol": 1e-06,
+        "pass_": true
+      },
+      "h": {
+        "Linf": 1.1076568625867367e-05,
+        "referenceScale": 4226031.777984832,
+        "atol": 0.01,
+        "rtol": 1e-07,
+        "pass_": true
+      },
+      "rho": {
+        "Linf": 4.50373072169441e-12,
+        "referenceScale": 0.8867084580193432,
+        "atol": 1e-09,
+        "rtol": 1e-07,
+        "pass_": true
+      }
+    },
+    "sumYError": 2.220446049250313e-16,
+    "minY": 0.0,
+    "omittedOptionalFields": [],
+    "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values.",
+    "referenceRanks": 1,
+    "candidateRanks": 6,
+    "scope": "complete prefix and continuation at the same physical endpoint"
+  }
+]

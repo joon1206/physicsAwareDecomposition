@@ -1,0 +1,168 @@
+--- initialStateSolver/YEqn.H
++++ reactingEnergyAudit/YEqn.H
+@@ -13,6 +13,7 @@
+     phaseTimer.start(phaseTimers::chemistry);
+     reaction->correct();
+     Qdot = reaction->Qdot();
++    ledger.snapshot("chemistry_sources",rho,thermo,K,Qdot,dpdt);
+     phaseTimer.stop(phaseTimers::chemistry);
+ 
+     volScalarField Yt(0.0*Y[0]);
+@@ -50,4 +51,5 @@
+     Y[inertIndex] = scalar(1) - Yt;
+     Y[inertIndex].max(0.0);
+     phaseTimer.stop(phaseTimers::species);
++    ledger.snapshot("species_solved",rho,thermo,K,Qdot,dpdt);
+ }
+--- initialStateSolver/reactingFoamPAD.C
++++ reactingEnergyAudit/reactingFoamPAD.C
+@@ -51,6 +51,7 @@
+ #include "localEulerDdtScheme.H"
+ #include "fvcSmooth.H"
+ #include "phaseTimers.H"
++#include "energyLedger.H"
+ #include "processorPolyPatch.H"
+ #include <set>
+ 
+@@ -77,6 +78,12 @@
+     #include "createFieldRefs.H"
+ 
+     turbulence->validate();
++    energyLedger ledger(mesh,runTime,Y);
++    if (ledger.enabled && (LTS || thermo.he().name() != "h" || mesh.dynamic()
++        || pimple.consistent() || pimple.transonic()
++        || word(mesh.ddtScheme("ddt(default)")[0].wordToken()) != "Euler"))
++        FatalErrorInFunction << "Ledger requires Euler, fixed mesh, h, nontransonic/nonconsistent pressure" << exit(FatalError);
++
+ 
+     if (!LTS)
+     {
+@@ -115,6 +122,7 @@
+ 
+     while (runTime.run())
+     {
++        ledger.start(rho,thermo,K,Qdot,dpdt);
+         phaseTimer.reset();
+         phaseTimer.start(phaseTimers::timestep);
+         #include "readTimeControls.H"
+@@ -137,16 +145,20 @@
+         phaseTimer.start(phaseTimers::rhoPhase);
+         #include "rhoEqn.H"
+         phaseTimer.stop(phaseTimers::rhoPhase);
++        ledger.snapshot("rho_predictor",rho,thermo,K,Qdot,dpdt);
+ 
+         while (pimple.loop())
+         {
++            ledger.outer();
+             #include "UEqn.H"
++            ledger.snapshot("momentum_predictor",rho,thermo,K,Qdot,dpdt);
+             #include "YEqn.H"
+             #include "EEqn.H"
+ 
+             // --- Pressure corrector loop
+             while (pimple.correct())
+             {
++                ledger.pressure();
+                 if (pimple.consistent())
+                 {
+                     #include "pcEqn.H"
+@@ -166,6 +178,7 @@
+         }
+ 
+         rho = thermo.rho();
++        ledger.finish(rho,thermo,K,Qdot,dpdt,phi);
+ 
+ 
+         phaseTimer.start(phaseTimers::io);
+--- initialStateSolver/pEqn.H
++++ reactingEnergyAudit/pEqn.H
+@@ -1,6 +1,7 @@
+ phaseTimer.start(phaseTimers::pressure);
+ 
+ rho = thermo.rho();
++ledger.snapshot("rho_thermo",rho,thermo,K,Qdot,dpdt);
+ 
+ volScalarField rAU(1.0/UEqn.A());
+ surfaceScalarField rhorAUf("rhorAUf", fvc::interpolate(rho*rAU));
+@@ -40,6 +41,7 @@
+         );
+ 
+         pEqn.solve(mesh.solver(p.select(pimple.finalInnerIter())));
++        ledger.snapshot("pressure_solved",rho,thermo,K,Qdot,dpdt);
+ 
+         if (pimple.finalNonOrthogonalIter())
+         {
+@@ -75,15 +77,18 @@
+         );
+ 
+         pEqn.solve(mesh.solver(p.select(pimple.finalInnerIter())));
++        ledger.snapshot("pressure_solved",rho,thermo,K,Qdot,dpdt);
+ 
+         if (pimple.finalNonOrthogonalIter())
+         {
+             phi = phiHbyA + pEqn.flux();
++            ledger.snapshot("phi_corrected",rho,thermo,K,Qdot,dpdt);
+         }
+     }
+ }
+ 
+ #include "rhoEqn.H"
++ledger.snapshot("rho_continuity",rho,thermo,K,Qdot,dpdt);
+ #include "compressibleContinuityErrs.H"
+ 
+ // Explicitly relax pressure for momentum corrector
+@@ -93,6 +98,7 @@
+ U.correctBoundaryConditions();
+ fvOptions.correct(U);
+ K = 0.5*magSqr(U);
++ledger.snapshot("velocity_corrected",rho,thermo,K,Qdot,dpdt);
+ 
+ if (pressureControl.limit(p))
+ {
+@@ -100,10 +106,12 @@
+ }
+ 
+ rho = thermo.rho();
++ledger.snapshot("rho_thermo",rho,thermo,K,Qdot,dpdt);
+ 
+ if (thermo.dpdt())
+ {
+     dpdt = fvc::ddt(p);
+ }
+ 
++ledger.snapshot("pressure_end",rho,thermo,K,Qdot,dpdt);
+ phaseTimer.stop(phaseTimers::pressure);
+--- initialStateSolver/EEqn.H
++++ reactingEnergyAudit/EEqn.H
+@@ -23,6 +23,14 @@
+       + fvOptions(rho, he)
+     );
+ 
++    autoPtr<fvScalarMatrix> original, auditConvection, auditDiffusion;
++    if (ledger.enabled)
++    {
++        ledger.assemble(rho,thermo,K,Qdot,dpdt,phi);
++        original.reset(new fvScalarMatrix(EEqn));
++        auditConvection.reset(mvConvection->fvmDiv(phi,he).ptr());
++        auditDiffusion.reset(fvm::laplacian(turbulence->alphaEff(),he).ptr());
++    }
+     EEqn.relax();
+ 
+     fvOptions.constrain(EEqn);
+@@ -30,6 +38,8 @@
+     EEqn.solve();
+ 
+     fvOptions.correct(he);
++    if (ledger.enabled) ledger.solved(original(),auditConvection(),auditDiffusion(),thermo);
++    ledger.snapshot("energy_solved",rho,thermo,K,Qdot,dpdt);
+ 
+     thermo.correct();
+ 
+@@ -44,6 +54,7 @@
+     for (label correction=0; correction<padThermoCorrections; ++correction)
+         thermo.correct();
+ 
++    ledger.snapshot("thermo_corrected",rho,thermo,K,Qdot,dpdt);
+     Info<< "min/max(T) = "
+         << min(T).value() << ", " << max(T).value() << endl;
+ 

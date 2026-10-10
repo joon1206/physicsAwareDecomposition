@@ -1,0 +1,1299 @@
+{
+  "model": {
+    "mu": [
+      1.0520833333333333,
+      0.2194147843692801,
+      0.33491677421265953,
+      12.866666666666667
+    ],
+    "scale": [
+      0.04218428485690955,
+      0.19867331147350661,
+      0.23961194375137265,
+      10.726084508751965
+    ],
+    "beta": [
+      0.0011310531991406243,
+      -0.0003333366334556404,
+      -0.000948962321138213,
+      4.5480953694730045e-05,
+      0.008967035133483717
+    ],
+    "penalty": 2.0
+  },
+  "points": [
+    {
+      "regime": "heldoutIgnition",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0625,
+        0.3125,
+        0.37921508324947706,
+        10
+      ],
+      "transportDeltaPerStep": -0.015869732581249997,
+      "solverSavedPerStep": 0.010029741149992333,
+      "setup": 0.524439811008051,
+      "estimatedBreakEvenSteps": 52.28846918032894,
+      "lifetimeSteps": 6.937588783279417,
+      "Pi": 0.1326791335074953,
+      "predictedTransportDeltaPerStep": -0.0017840122410891846
+    },
+    {
+      "regime": "heldoutIgnition",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.31926224754519766,
+        10
+      ],
+      "transportDeltaPerStep": 0.000175535040625,
+      "solverSavedPerStep": -0.0002861955499611213,
+      "setup": 0.5328218519862276,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 7.405740377191477,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.00019113281477236554
+    },
+    {
+      "regime": "heldoutIgnition",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.31926224754519766,
+        10
+      ],
+      "transportDeltaPerStep": -0.00023537999062499997,
+      "solverSavedPerStep": 0.00010637441264407243,
+      "setup": 0.5084328780212672,
+      "estimatedBreakEvenSteps": 4779.653916609419,
+      "lifetimeSteps": 7.405740377191477,
+      "Pi": 0.0015494302529847068,
+      "predictedTransportDeltaPerStep": 0.00019113281477236554
+    },
+    {
+      "regime": "heldoutIgnition",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0625,
+        0.3125,
+        0.37921508324947706,
+        10
+      ],
+      "transportDeltaPerStep": 0.005153688681250004,
+      "solverSavedPerStep": -0.004319518000011157,
+      "setup": 0.5464676050032722,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 6.937588783279417,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.0017840122410891846
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": -0.006231056856249999,
+      "solverSavedPerStep": 0.004134876728130621,
+      "setup": 0.5300558269809699,
+      "estimatedBreakEvenSteps": 128.19144604115158,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": 0.03939868434646626,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": -0.025823052599999997,
+      "solverSavedPerStep": 0.019579277050070232,
+      "setup": 0.5181464270135621,
+      "estimatedBreakEvenSteps": 26.464022429863082,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": 0.19084681219107189,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.03125,
+        0.2348952559120767,
+        0.6698489714176077,
+        10
+      ],
+      "transportDeltaPerStep": -0.0028634402562499996,
+      "solverSavedPerStep": -0.0011030918625692721,
+      "setup": 0.5319310039922129,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.0011112331566464687
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": -0.006669750149999997,
+      "solverSavedPerStep": 0.0057482679505483246,
+      "setup": 0.5310080649796873,
+      "estimatedBreakEvenSteps": 92.37705506213132,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": 0.05467347183881818,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": 0.025273521821875,
+      "solverSavedPerStep": -0.0250451765001344,
+      "setup": 0.5198860590026015,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": -0.02008441725625,
+      "solverSavedPerStep": 0.011856043424813834,
+      "setup": 0.5390130940068047,
+      "estimatedBreakEvenSteps": 45.463151128367976,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": 0.11109160260871027,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        0.47531068174651514,
+        10
+      ],
+      "transportDeltaPerStep": 0.010161829104687502,
+      "solverSavedPerStep": -0.009721083156227906,
+      "setup": 0.5251011449872749,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 5.0505743184923935,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.002523354175478704
+    },
+    {
+      "regime": "persistent",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.03125,
+        0.2348952559120767,
+        0.6698489714176077,
+        10
+      ],
+      "transportDeltaPerStep": 0.004483923665625,
+      "solverSavedPerStep": -0.005005298399919411,
+      "setup": 0.520796604003408,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.0011112331566464687
+    },
+    {
+      "regime": "chemistryDominated",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.338381372307933,
+        0.5454717698786195,
+        53
+      ],
+      "transportDeltaPerStep": -0.332455323125,
+      "solverSavedPerStep": 0.22320204740026384,
+      "setup": 0.5218351750081638,
+      "estimatedBreakEvenSteps": 2.3379497683207493,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": 0.6191956271372863,
+      "predictedTransportDeltaPerStep": 0.033825102156605905
+    },
+    {
+      "regime": "chemistryDominated",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.338381372307933,
+        0.5454717698786195,
+        53
+      ],
+      "transportDeltaPerStep": 0.4045790705374999,
+      "solverSavedPerStep": -0.3871300662001886,
+      "setup": 0.5194738420104841,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.033825102156605905
+    },
+    {
+      "regime": "heldoutPersistent",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.7888318276959004,
+        10
+      ],
+      "transportDeltaPerStep": -0.0011017731468750003,
+      "solverSavedPerStep": -0.0003996009250840871,
+      "setup": 0.515816827013623,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 14.28582904070423,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0002802622295958935
+    },
+    {
+      "regime": "heldoutPersistent",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0625,
+        0.5466517401417469,
+        0.45538714195281316,
+        10
+      ],
+      "transportDeltaPerStep": 0.03750013975937501,
+      "solverSavedPerStep": -0.03604036189990438,
+      "setup": 0.5168692420120351,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 73.57981374208453,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.0028879788572015804
+    },
+    {
+      "regime": "heldoutPersistent",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0625,
+        0.5466517401417469,
+        0.45538714195281316,
+        10
+      ],
+      "transportDeltaPerStep": -0.016623418043749998,
+      "solverSavedPerStep": 0.010579675112421683,
+      "setup": 0.5357132699864451,
+      "estimatedBreakEvenSteps": 50.636079491463754,
+      "lifetimeSteps": 73.57981374208453,
+      "Pi": 1.4531104003517616,
+      "predictedTransportDeltaPerStep": -0.0028879788572015804
+    },
+    {
+      "regime": "heldoutPersistent",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.7888318276959004,
+        10
+      ],
+      "transportDeltaPerStep": 0.0001348069999999998,
+      "solverSavedPerStep": -0.0004069100999913644,
+      "setup": 0.517570362004335,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 14.28582904070423,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0002802622295958935
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": -0.0006577482968749999,
+      "solverSavedPerStep": 0.00011476332811071188,
+      "setup": 0.548485432023881,
+      "estimatedBreakEvenSteps": 4779.2743644969805,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": 0.006350265870399057,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": -0.007245357225,
+      "solverSavedPerStep": 0.006406721400708193,
+      "setup": 0.5336490949994186,
+      "estimatedBreakEvenSteps": 83.29519291106205,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": 0.36436271796073505,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.3226370066877596,
+        10
+      ],
+      "transportDeltaPerStep": -5.791840625000034e-05,
+      "solverSavedPerStep": -4.587851253745612e-05,
+      "setup": 0.5140765010000905,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0001917733807720846
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": -0.0035642255875000008,
+      "solverSavedPerStep": 0.0036206372002197894,
+      "setup": 0.5309140329918591,
+      "estimatedBreakEvenSteps": 146.63552397893667,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": 0.20697346767416241,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": -0.0005054014906250006,
+      "solverSavedPerStep": 0.0006285961499088444,
+      "setup": 0.5408221299876459,
+      "estimatedBreakEvenSteps": 860.3650055223421,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": 0.035275333942380104,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": -0.0038007814250000005,
+      "solverSavedPerStep": 0.0034088398124367814,
+      "setup": 0.5329209780175006,
+      "estimatedBreakEvenSteps": 156.33500174258594,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": 0.19413223234621946,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.44974493639450797,
+        0.28574538991126897,
+        10
+      ],
+      "transportDeltaPerStep": 0.0006034707320312499,
+      "solverSavedPerStep": -0.0006092630468629068,
+      "setup": 0.5249923230148852,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 30.34966288213832,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.002704238569450747
+    },
+    {
+      "regime": "translating",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.3226370066877596,
+        10
+      ],
+      "transportDeltaPerStep": 3.616802499999995e-05,
+      "solverSavedPerStep": 3.143168742099078e-05,
+      "setup": 0.5151765150076244,
+      "estimatedBreakEvenSteps": 16390.35499772685,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": 0.00017664635979045134,
+      "predictedTransportDeltaPerStep": 0.0001917733807720846
+    },
+    {
+      "regime": "decay",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.09375,
+        0.5191639914323797,
+        0.12435078812998923,
+        10
+      ],
+      "transportDeltaPerStep": -0.00036800714687499963,
+      "solverSavedPerStep": 0.0003493247249934939,
+      "setup": 0.5208871769718826,
+      "estimatedBreakEvenSteps": 1491.1259916731747,
+      "lifetimeSteps": 150.56854122351706,
+      "Pi": 0.10097640445162243,
+      "predictedTransportDeltaPerStep": -0.0030664528746415054
+    },
+    {
+      "regime": "decay",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0625,
+        0.5635840249022323,
+        0.1335934177707519,
+        10
+      ],
+      "transportDeltaPerStep": -7.039359687500014e-05,
+      "solverSavedPerStep": 3.678841258079046e-05,
+      "setup": 0.5330713130097138,
+      "estimatedBreakEvenSteps": 14490.196113763923,
+      "lifetimeSteps": 21.36167150999418,
+      "Pi": 0.0014742154862695885,
+      "predictedTransportDeltaPerStep": -0.003029935801032104
+    },
+    {
+      "regime": "decay",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0625,
+        0.5635840249022323,
+        0.1335934177707519,
+        10
+      ],
+      "transportDeltaPerStep": -0.00035049269375000015,
+      "solverSavedPerStep": 0.0002527996000935673,
+      "setup": 0.522000161014148,
+      "estimatedBreakEvenSteps": 2064.8773210912636,
+      "lifetimeSteps": 21.36167150999418,
+      "Pi": 0.010345249711350786,
+      "predictedTransportDeltaPerStep": -0.003029935801032104
+    },
+    {
+      "regime": "decay",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.09375,
+        0.5191639914323797,
+        0.12435078812998923,
+        10
+      ],
+      "transportDeltaPerStep": -3.11576781249997e-05,
+      "solverSavedPerStep": -4.1133000013360285e-05,
+      "setup": 0.5262672079988988,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 150.56854122351706,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.0030664528746415054
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": 2.4506810937500404e-05,
+      "solverSavedPerStep": -7.339879371102143e-05,
+      "setup": 0.5434256300068228,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": -5.1119549999999615e-05,
+      "solverSavedPerStep": -0.00014557604954461566,
+      "setup": 0.5559232279774733,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0625,
+        0.09943689110435824,
+        0.01786481645792129,
+        10
+      ],
+      "transportDeltaPerStep": 0.00011639031562499973,
+      "solverSavedPerStep": -0.00017283573743043235,
+      "setup": 0.521367644003476,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.00083490531878241
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 20,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": -9.990914999999942e-05,
+      "solverSavedPerStep": 0.00012463270031730643,
+      "setup": 0.5203309039934538,
+      "estimatedBreakEvenSteps": 4174.914790971603,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": 0.0025612557679740343,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": 1.3673650000000075e-05,
+      "solverSavedPerStep": -4.9294762538920624e-05,
+      "setup": 0.5138566319947131,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": 3.159628749999999e-05,
+      "solverSavedPerStep": 2.377501004957594e-07,
+      "setup": 0.5301927980181063,
+      "estimatedBreakEvenSteps": 2230042.371854068,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": 4.794987182367256e-06,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "4e-05",
+      "H": 320,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.013401784566149324,
+        10
+      ],
+      "transportDeltaPerStep": 7.034516406250043e-05,
+      "solverSavedPerStep": -6.425757496799633e-05,
+      "setup": 0.5227394210087368,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 10.693024589176128,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0001330771714016285
+    },
+    {
+      "regime": "transportDominated",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0625,
+        0.09943689110435824,
+        0.01786481645792129,
+        10
+      ],
+      "transportDeltaPerStep": 0.00012108106249999985,
+      "solverSavedPerStep": -7.634992489329307e-05,
+      "setup": 0.5215917449968401,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.00083490531878241
+    },
+    {
+      "regime": "ignition",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.8119041049023213,
+        10
+      ],
+      "transportDeltaPerStep": -0.0010183255000000002,
+      "solverSavedPerStep": 0.00014715497491124552,
+      "setup": 0.538473159991554,
+      "estimatedBreakEvenSteps": 3659.224979082947,
+      "lifetimeSteps": 13.712433959401347,
+      "Pi": 0.0037473601753882525,
+      "predictedTransportDeltaPerStep": 0.0002846415988160941
+    },
+    {
+      "regime": "ignition",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.03125,
+        0.011048543456039806,
+        0.33265137517386295,
+        10
+      ],
+      "transportDeltaPerStep": 0.013837612921874999,
+      "solverSavedPerStep": -0.014366169849927246,
+      "setup": 0.5205785390135134,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.00010603395307239593
+    },
+    {
+      "regime": "ignition",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.03125,
+        0.011048543456039806,
+        0.33265137517386295,
+        10
+      ],
+      "transportDeltaPerStep": -0.014495525921875002,
+      "solverSavedPerStep": 0.007934962737635942,
+      "setup": 0.5285694840131328,
+      "estimatedBreakEvenSteps": 66.61272415383883,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": 0.021732308525133526,
+      "predictedTransportDeltaPerStep": -0.00010603395307239593
+    },
+    {
+      "regime": "ignition",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.8119041049023213,
+        10
+      ],
+      "transportDeltaPerStep": 0.00020175867187499988,
+      "solverSavedPerStep": 0.0007724061500994139,
+      "setup": 0.5313501110067591,
+      "estimatedBreakEvenSteps": 687.9154327530546,
+      "lifetimeSteps": 13.712433959401347,
+      "Pi": 0.01993331346634258,
+      "predictedTransportDeltaPerStep": 0.0002846415988160941
+    },
+    {
+      "regime": "uniform",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.7144658238098207,
+        10
+      ],
+      "transportDeltaPerStep": -5.4660281250000064e-05,
+      "solverSavedPerStep": -2.1167349950701463e-05,
+      "setup": 0.514623651994043,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0002661467530205088
+    },
+    {
+      "regime": "uniform",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.6134383085215861,
+        10
+      ],
+      "transportDeltaPerStep": -0.00011411610937500042,
+      "solverSavedPerStep": 0.0007570930250949459,
+      "setup": 0.5350416650035186,
+      "estimatedBreakEvenSteps": 706.7053152899141,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": 0.0020484468443780785,
+      "predictedTransportDeltaPerStep": 0.0002469706315268092
+    },
+    {
+      "regime": "uniform",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.6134383085215861,
+        10
+      ],
+      "transportDeltaPerStep": -0.0008479097218750007,
+      "solverSavedPerStep": -0.001516257849834801,
+      "setup": 0.5111053980072029,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 1.4476482730108395,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0002469706315268092
+    },
+    {
+      "regime": "uniform",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.7144658238098207,
+        10
+      ],
+      "transportDeltaPerStep": 7.382348437499952e-05,
+      "solverSavedPerStep": 5.8329537569079545e-05,
+      "setup": 0.514456203993177,
+      "estimatedBreakEvenSteps": 8819.823119357112,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": 0.00032827149783392945,
+      "predictedTransportDeltaPerStep": 0.0002661467530205088
+    },
+    {
+      "regime": "heldoutMoving",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0,
+        0.0,
+        0.7894494810075618,
+        10
+      ],
+      "transportDeltaPerStep": -0.002652627459375,
+      "solverSavedPerStep": 0.00037000120009906824,
+      "setup": 0.512975222998648,
+      "estimatedBreakEvenSteps": 1386.4150247655907,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": 0.0020883332150206635,
+      "predictedTransportDeltaPerStep": 0.0002803794669139807
+    },
+    {
+      "regime": "heldoutMoving",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        0.3934959606900592,
+        10
+      ],
+      "transportDeltaPerStep": 0.008109665431250003,
+      "solverSavedPerStep": -0.008937560550111811,
+      "setup": 0.5445948980050161,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 13.464634236480395,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": -0.002119051872212084
+    },
+    {
+      "regime": "heldoutMoving",
+      "checkpoint": "4e-05",
+      "H": 80,
+      "action": "AH",
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        0.3934959606900592,
+        10
+      ],
+      "transportDeltaPerStep": -0.03198051071875,
+      "solverSavedPerStep": 0.024546522274795278,
+      "setup": 0.518657594002434,
+      "estimatedBreakEvenSteps": 21.129575432158028,
+      "lifetimeSteps": 13.464634236480395,
+      "Pi": 0.6372411163542822,
+      "predictedTransportDeltaPerStep": -0.002119051872212084
+    },
+    {
+      "regime": "heldoutMoving",
+      "checkpoint": "0.0002",
+      "H": 80,
+      "action": "AM",
+      "x": [
+        1.0,
+        0.0,
+        0.7894494810075618,
+        10
+      ],
+      "transportDeltaPerStep": 0.00017248533750000017,
+      "solverSavedPerStep": -0.0004048603999763145,
+      "setup": 0.5297766399889952,
+      "estimatedBreakEvenSteps": null,
+      "lifetimeSteps": 2.895296546021679,
+      "Pi": null,
+      "predictedTransportDeltaPerStep": 0.0002803794669139807
+    }
+  ],
+  "metrics": {
+    "train": {
+      "n": 30,
+      "MAE": 0.02934901000161374,
+      "RMSE": 0.09555413242912966
+    },
+    "test": {
+      "n": 12,
+      "MAE": 0.010020638121411624,
+      "RMSE": 0.016003808179573177
+    }
+  },
+  "MPIModel": {
+    "model": {
+      "mu": [
+        1.046875,
+        0.2097041489292117,
+        2,
+        0.5,
+        0.24435623315633223
+      ],
+      "scale": [
+        0.046875,
+        0.2097041489292117,
+        1e-12,
+        0.5,
+        0.2309544485901829
+      ],
+      "beta": [
+        0.002695229227898229,
+        0.0008493505915566852,
+        0.0008493505915566861,
+        0.0,
+        -0.008403279733014253,
+        0.0008493505915566861
+      ],
+      "penalty": 2.0
+    },
+    "points": [
+      {
+        "regime": "persistent",
+        "action": "AH",
+        "repeat": 1,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          1.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": -0.013998186586195517,
+        "predictedMPICallDeltaPerStep": -0.0031599987304459665
+      },
+      {
+        "regime": "persistent",
+        "action": "AH",
+        "repeat": 0,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          1.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": -0.015085020058495501,
+        "predictedMPICallDeltaPerStep": -0.0031599987304459665
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AH",
+        "repeat": 0,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          1.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": 0.00018353403447690642,
+        "predictedMPICallDeltaPerStep": -0.008256102279786081
+      },
+      {
+        "regime": "persistent",
+        "action": "AM",
+        "repeat": 2,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          0.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": 0.02609974722727202,
+        "predictedMPICallDeltaPerStep": 0.01364656073558254
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AM",
+        "repeat": 2,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          0.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": -7.976202591635233e-05,
+        "predictedMPICallDeltaPerStep": 0.008550457186242425
+      },
+      {
+        "regime": "persistent",
+        "action": "AH",
+        "repeat": 2,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          1.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": -0.013662610591245537,
+        "predictedMPICallDeltaPerStep": -0.0031599987304459665
+      },
+      {
+        "regime": "persistent",
+        "action": "AM",
+        "repeat": 1,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          0.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": 0.024826144195321833,
+        "predictedMPICallDeltaPerStep": 0.01364656073558254
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AM",
+        "repeat": 1,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          0.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": -3.9517253753729165e-06,
+        "predictedMPICallDeltaPerStep": 0.008550457186242425
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AM",
+        "repeat": 0,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          0.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": 2.319340687790823e-05,
+        "predictedMPICallDeltaPerStep": 0.008550457186242425
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AH",
+        "repeat": 2,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          1.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": -0.0001081139497728145,
+        "predictedMPICallDeltaPerStep": -0.008256102279786081
+      },
+      {
+        "regime": "transportDominated",
+        "action": "AH",
+        "repeat": 1,
+        "x": [
+          1.0,
+          0.0,
+          2,
+          1.0,
+          0.013401784566149324
+        ],
+        "MPICallDeltaPerStep": 1.881438752207034e-05,
+        "predictedMPICallDeltaPerStep": -0.008256102279786081
+      },
+      {
+        "regime": "persistent",
+        "action": "AM",
+        "repeat": 0,
+        "x": [
+          1.09375,
+          0.4194082978584234,
+          2,
+          0.0,
+          0.47531068174651514
+        ],
+        "MPICallDeltaPerStep": 0.024128962420309107,
+        "predictedMPICallDeltaPerStep": 0.01364656073558254
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AH",
+        "repeat": 2,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          1.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": -0.023181656394399397,
+        "predictedMPICallDeltaPerStep": -0.004173719548250316
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AM",
+        "repeat": 0,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          0.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": 0.006577591368386489,
+        "predictedMPICallDeltaPerStep": 0.01263283991777819
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AM",
+        "repeat": 1,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          0.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": 0.0065740207321596245,
+        "predictedMPICallDeltaPerStep": 0.01263283991777819
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AH",
+        "repeat": 1,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          1.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": -0.023324701981755423,
+        "predictedMPICallDeltaPerStep": -0.004173719548250316
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AM",
+        "repeat": 2,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          0.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": 0.006948432158833381,
+        "predictedMPICallDeltaPerStep": 0.01263283991777819
+      },
+      {
+        "regime": "heldoutMoving",
+        "action": "AH",
+        "repeat": 0,
+        "x": [
+          1.0625,
+          0.38321088963846006,
+          2,
+          1.0,
+          0.3934959606900592
+        ],
+        "MPICallDeltaPerStep": -0.022951927071062528,
+        "predictedMPICallDeltaPerStep": -0.004173719548250316
+      }
+    ],
+    "metrics": {
+      "train": {
+        "n": 12,
+        "conditions": [
+          "persistent",
+          "transportDominated"
+        ],
+        "MAE": 0.009829618824623292,
+        "RMSE": 0.00994311836822118
+      },
+      "test": {
+        "n": 6,
+        "conditions": [
+          "heldoutMoving"
+        ],
+        "MAE": 0.012455933716070245,
+        "RMSE": 0.014061594774267818
+      }
+    },
+    "features": [
+      "postpartitionFaceRatio",
+      "postpartitionCellCV",
+      "maximumNeighbours",
+      "hybridChemistryTasks",
+      "originalChemistryFraction"
+    ],
+    "limitation": "Two training conditions and one held-out moving condition; repeated clocks do not increase the independent physical sample count. Post-partition inputs are paid observations, not free online features. MPI calls include waits, collectives and scheduling; pure network-transfer cost is not identified."
+  },
+  "scope": "Explanatory rank-mean cumulative transport/pressure phase duration, including synchronization effects; not additive pure network time.",
+  "onlineLimitation": "Post-action processor faces and cell imbalance require a candidate partition; their availability and computation are not free. This model is not deployed by the frozen controller.",
+  "breakEvenLimitation": "C/setup divided by observed average solver savings per step assumes the observed average persists; None means no positive savings, not infinite-horizon empirical proof."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "MEASURED or DERIVED as caption specifies",
+  "caption": "Derived smoothing sensitivity from the same measured serial trace; it is predictor accuracy, not a measured solver-runtime optimization.",
+  "data": [
+    {
+      "alpha": 0.0,
+      "medianCorrelation": 0.6148303084508875,
+      "meanRelativeMAE": 0.7681897022068856
+    },
+    {
+      "alpha": 0.1,
+      "medianCorrelation": 0.9598251242106819,
+      "meanRelativeMAE": 0.19226118813806128
+    },
+    {
+      "alpha": 0.25,
+      "medianCorrelation": 0.9697508240044692,
+      "meanRelativeMAE": 0.12161768416672904
+    },
+    {
+      "alpha": 0.5,
+      "medianCorrelation": 0.9704711840921593,
+      "meanRelativeMAE": 0.09642006541058536
+    },
+    {
+      "alpha": 1.0,
+      "medianCorrelation": 0.9629408118217496,
+      "meanRelativeMAE": 0.08530945074306936
+    }
+  ]
+}

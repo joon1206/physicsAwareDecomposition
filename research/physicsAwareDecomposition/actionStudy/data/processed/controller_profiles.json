@@ -1,0 +1,3440 @@
+[
+  {
+    "regime": "persistent",
+    "profile": false,
+    "repeat": 1,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.03446613599953707,
+    "inferenceWall": 4.502899537328631e-05,
+    "decisionWall": 0.0003234360192436725,
+    "migrationWall": 0.0,
+    "solverWall": 6.522491522002383,
+    "totalWall": 6.557326123016537,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p0_r1",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.240606073,
+        "rhoWall": 0.007393791,
+        "momentumWall": 0.013512431,
+        "chemistryWall": 3.645835967,
+        "speciesWall": 2.463997668,
+        "energyWall": 0.033924946,
+        "pressureWall": 0.047779045,
+        "turbulenceWall": 6.0959e-05,
+        "ioWall": 0.008182858
+      },
+      {
+        "stepWall": 6.242388165,
+        "rhoWall": 0.011332058,
+        "momentumWall": 0.015688037,
+        "chemistryWall": 4.290974963,
+        "speciesWall": 1.8183801,
+        "energyWall": 0.032738464,
+        "pressureWall": 0.049613309,
+        "turbulenceWall": 7.9658e-05,
+        "ioWall": 0.008030776
+      },
+      {
+        "stepWall": 6.242483137,
+        "rhoWall": 0.011377035,
+        "momentumWall": 0.015657515,
+        "chemistryWall": 3.734473795,
+        "speciesWall": 2.375043346,
+        "energyWall": 0.032402437,
+        "pressureWall": 0.049664221,
+        "turbulenceWall": 6.699e-05,
+        "ioWall": 0.007988522999999999
+      },
+      {
+        "stepWall": 6.242453305,
+        "rhoWall": 0.009491768,
+        "momentumWall": 0.017531466,
+        "chemistryWall": 4.405182689,
+        "speciesWall": 1.702039104,
+        "energyWall": 0.034713758,
+        "pressureWall": 0.049609599,
+        "turbulenceWall": 7.8979e-05,
+        "ioWall": 0.007805141
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": false,
+    "repeat": 0,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.032447208010125905,
+    "inferenceWall": 2.4280001525767148e-05,
+    "decisionWall": 0.00024194701109081507,
+    "migrationWall": 0.0,
+    "solverWall": 0.4740265530126635,
+    "totalWall": 0.506739988035406,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p0_r0",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.197657685,
+        "rhoWall": 0.00676215,
+        "momentumWall": 0.010433605,
+        "chemistryWall": 0.001540457,
+        "speciesWall": 0.084206632,
+        "energyWall": 0.032660693,
+        "pressureWall": 0.038802657,
+        "turbulenceWall": 4.8793e-05,
+        "ioWall": 0.006424434
+      },
+      {
+        "stepWall": 0.199945394,
+        "rhoWall": 0.01059646,
+        "momentumWall": 0.01286254,
+        "chemistryWall": 0.001584524,
+        "speciesWall": 0.083462079,
+        "energyWall": 0.031435519,
+        "pressureWall": 0.040631561,
+        "turbulenceWall": 3.146e-05,
+        "ioWall": 0.006798103
+      },
+      {
+        "stepWall": 0.199977167,
+        "rhoWall": 0.010569081,
+        "momentumWall": 0.01300066,
+        "chemistryWall": 0.001579035,
+        "speciesWall": 0.083381744,
+        "energyWall": 0.031421941,
+        "pressureWall": 0.0408736,
+        "turbulenceWall": 2.999e-05,
+        "ioWall": 0.006948869
+      },
+      {
+        "stepWall": 0.199875437,
+        "rhoWall": 0.008609767,
+        "momentumWall": 0.015009134,
+        "chemistryWall": 0.001530763,
+        "speciesWall": 0.081588814,
+        "energyWall": 0.033526028,
+        "pressureWall": 0.040654197,
+        "turbulenceWall": 2.9049e-05,
+        "ioWall": 0.006730664
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": false,
+    "repeat": 1,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.028210823991685174,
+    "inferenceWall": 2.2339998395182192e-05,
+    "decisionWall": 0.00023484700068365782,
+    "migrationWall": 0.0,
+    "solverWall": 0.48262896300002467,
+    "totalWall": 0.5110969739907887,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p0_r1",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.198097112,
+        "rhoWall": 0.00631617,
+        "momentumWall": 0.010206521,
+        "chemistryWall": 0.001498169,
+        "speciesWall": 0.086114093,
+        "energyWall": 0.032693978,
+        "pressureWall": 0.038916996,
+        "turbulenceWall": 2.9559e-05,
+        "ioWall": 0.005412119
+      },
+      {
+        "stepWall": 0.199191639,
+        "rhoWall": 0.009674531,
+        "momentumWall": 0.012285828,
+        "chemistryWall": 0.001600833,
+        "speciesWall": 0.085281748,
+        "energyWall": 0.031493118,
+        "pressureWall": 0.040880658,
+        "turbulenceWall": 3.294e-05,
+        "ioWall": 0.005953744
+      },
+      {
+        "stepWall": 0.19913225,
+        "rhoWall": 0.009872219,
+        "momentumWall": 0.011718324,
+        "chemistryWall": 0.001629939,
+        "speciesWall": 0.08522824700000001,
+        "energyWall": 0.031303719,
+        "pressureWall": 0.041174111,
+        "turbulenceWall": 3.318e-05,
+        "ioWall": 0.005723308000000001
+      },
+      {
+        "stepWall": 0.200627346,
+        "rhoWall": 0.008114642,
+        "momentumWall": 0.01361395,
+        "chemistryWall": 0.001552917,
+        "speciesWall": 0.083380787,
+        "energyWall": 0.033327286,
+        "pressureWall": 0.040952522,
+        "turbulenceWall": 4.879e-05,
+        "ioWall": 0.005945384000000001
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "profile": false,
+    "repeat": 0,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.03023030199983623,
+    "inferenceWall": 2.3768996470607817e-05,
+    "decisionWall": 0.00022435799473896623,
+    "migrationWall": 0.0,
+    "solverWall": 6.44286353699863,
+    "totalWall": 6.473341965989675,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p0_r0",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.160549703,
+        "rhoWall": 0.006873958,
+        "momentumWall": 0.012149888,
+        "chemistryWall": 3.625501645,
+        "speciesWall": 2.409750315,
+        "energyWall": 0.03331246,
+        "pressureWall": 0.047038117,
+        "turbulenceWall": 5.9629999999999997e-05,
+        "ioWall": 0.006237219
+      },
+      {
+        "stepWall": 6.162582434,
+        "rhoWall": 0.011017841,
+        "momentumWall": 0.014536785,
+        "chemistryWall": 4.34629061,
+        "speciesWall": 1.688587043,
+        "energyWall": 0.032055743,
+        "pressureWall": 0.048815648,
+        "turbulenceWall": 6.4748e-05,
+        "ioWall": 0.006380235
+      },
+      {
+        "stepWall": 6.162617101,
+        "rhoWall": 0.011045299,
+        "momentumWall": 0.014713068,
+        "chemistryWall": 3.631003013,
+        "speciesWall": 2.403575881,
+        "energyWall": 0.032013508,
+        "pressureWall": 0.048937793,
+        "turbulenceWall": 6.9348e-05,
+        "ioWall": 0.006212183
+      },
+      {
+        "stepWall": 6.162670919,
+        "rhoWall": 0.009173203,
+        "momentumWall": 0.016174936,
+        "chemistryWall": 4.320158733,
+        "speciesWall": 1.712639093,
+        "energyWall": 0.033979559,
+        "pressureWall": 0.048843996,
+        "turbulenceWall": 6.6769e-05,
+        "ioWall": 0.0062288379999999996
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": true,
+    "repeat": 1,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.02813519501069095,
+    "inferenceWall": 2.2109990823082626e-05,
+    "decisionWall": 0.00022333698871079832,
+    "migrationWall": 0.0,
+    "solverWall": 0.5482032589934533,
+    "totalWall": 0.5765839009836782,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p1_r1",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.232086392,
+        "rhoWall": 0.008157513,
+        "momentumWall": 0.011751843,
+        "chemistryWall": 0.00171818,
+        "speciesWall": 0.101029698,
+        "energyWall": 0.03697478,
+        "pressureWall": 0.047195115,
+        "turbulenceWall": 3.656e-05,
+        "ioWall": 0.005877754
+      },
+      {
+        "stepWall": 0.234425081,
+        "rhoWall": 0.012118776,
+        "momentumWall": 0.014644119,
+        "chemistryWall": 0.001794649,
+        "speciesWall": 0.10032609,
+        "energyWall": 0.035518455,
+        "pressureWall": 0.049306256,
+        "turbulenceWall": 3.668e-05,
+        "ioWall": 0.006245133999999999
+      },
+      {
+        "stepWall": 0.234946341,
+        "rhoWall": 0.012433096,
+        "momentumWall": 0.014095513,
+        "chemistryWall": 0.001765258,
+        "speciesWall": 0.100427401,
+        "energyWall": 0.035296936,
+        "pressureWall": 0.049460159,
+        "turbulenceWall": 3.41e-05,
+        "ioWall": 0.00616068
+      },
+      {
+        "stepWall": 0.234604716,
+        "rhoWall": 0.01050173,
+        "momentumWall": 0.015740897,
+        "chemistryWall": 0.001821069,
+        "speciesWall": 0.097973342,
+        "energyWall": 0.037580436,
+        "pressureWall": 0.049501875,
+        "turbulenceWall": 3.966e-05,
+        "ioWall": 0.005754619
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "11286",
+        "receives": "11286",
+        "sendPayloadBytes": "863265",
+        "receiveBufferBytes": "863261",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.089720709671382792",
+        "waitSeconds": "0.05241383243992459"
+      },
+      {
+        "rank": "3",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.096543337611365132",
+        "waitSeconds": "0.069049981277203187"
+      },
+      {
+        "rank": "1",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.10136971273459494",
+        "waitSeconds": "0.070964216371066868"
+      },
+      {
+        "rank": "0",
+        "sends": "11343",
+        "receives": "11233",
+        "sendPayloadBytes": "870518",
+        "receiveBufferBytes": "856336",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.042595121951308101",
+        "waitSeconds": "0.016638209301163442"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "profile": true,
+    "repeat": 2,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.03130542000872083,
+    "inferenceWall": 2.443999983370304e-05,
+    "decisionWall": 0.00031046700314618647,
+    "migrationWall": 0.0,
+    "solverWall": 6.511270611998043,
+    "totalWall": 6.542910939009744,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p1_r2",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.227298016,
+        "rhoWall": 0.007335473,
+        "momentumWall": 0.012943508,
+        "chemistryWall": 3.58648848,
+        "speciesWall": 2.511453228,
+        "energyWall": 0.033299808,
+        "pressureWall": 0.049269469,
+        "turbulenceWall": 6.7609e-05,
+        "ioWall": 0.006143012
+      },
+      {
+        "stepWall": 6.229466902,
+        "rhoWall": 0.01183812,
+        "momentumWall": 0.015228736,
+        "chemistryWall": 4.3665389789999995,
+        "speciesWall": 1.731026896,
+        "energyWall": 0.032135934,
+        "pressureWall": 0.050996572,
+        "turbulenceWall": 7.1279e-05,
+        "ioWall": 0.006601206
+      },
+      {
+        "stepWall": 6.229649391,
+        "rhoWall": 0.011859637,
+        "momentumWall": 0.015240771,
+        "chemistryWall": 3.674039744,
+        "speciesWall": 2.423299365,
+        "energyWall": 0.031990441,
+        "pressureWall": 0.051091961,
+        "turbulenceWall": 5.743e-05,
+        "ioWall": 0.006629561
+      },
+      {
+        "stepWall": 6.229683408,
+        "rhoWall": 0.009523669,
+        "momentumWall": 0.017268966,
+        "chemistryWall": 4.40220913,
+        "speciesWall": 1.693362847,
+        "energyWall": 0.034038995,
+        "pressureWall": 0.051172329,
+        "turbulenceWall": 7.085e-05,
+        "ioWall": 0.006616513
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "15606",
+        "receives": "15606",
+        "sendPayloadBytes": "1139745",
+        "receiveBufferBytes": "1139741",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.678985384904081",
+        "waitSeconds": "1.5931341996329138"
+      },
+      {
+        "rank": "3",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.410334839951247",
+        "waitSeconds": "2.2581778055464383"
+      },
+      {
+        "rank": "1",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.724542906275019",
+        "waitSeconds": "1.6133294212486362"
+      },
+      {
+        "rank": "0",
+        "sends": "15663",
+        "receives": "15553",
+        "sendPayloadBytes": "1146998",
+        "receiveBufferBytes": "1132816",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.4437132217426552",
+        "waitSeconds": "2.2639401443448151"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": false,
+    "repeat": 2,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.02931892199558206,
+    "inferenceWall": 2.3410000721924007e-05,
+    "decisionWall": 0.00024367701553273946,
+    "migrationWall": 0.0,
+    "solverWall": 0.4781525560101727,
+    "totalWall": 0.5077385650220094,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p0_r2",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.194544497,
+        "rhoWall": 0.006912983,
+        "momentumWall": 0.010006592,
+        "chemistryWall": 0.001527318,
+        "speciesWall": 0.083705289,
+        "energyWall": 0.031759649,
+        "pressureWall": 0.037781531,
+        "turbulenceWall": 2.995e-05,
+        "ioWall": 0.005963185
+      },
+      {
+        "stepWall": 0.196758666,
+        "rhoWall": 0.010721385,
+        "momentumWall": 0.013246919,
+        "chemistryWall": 0.001413199,
+        "speciesWall": 0.083318098,
+        "energyWall": 0.03063584,
+        "pressureWall": 0.039700807,
+        "turbulenceWall": 2.737e-05,
+        "ioWall": 0.006444999
+      },
+      {
+        "stepWall": 0.197306139,
+        "rhoWall": 0.010946619,
+        "momentumWall": 0.012570578,
+        "chemistryWall": 0.001600267,
+        "speciesWall": 0.082968652,
+        "energyWall": 0.030375803,
+        "pressureWall": 0.039782395,
+        "turbulenceWall": 2.9919999999999998e-05,
+        "ioWall": 0.006689298
+      },
+      {
+        "stepWall": 0.19708437,
+        "rhoWall": 0.008911889,
+        "momentumWall": 0.013916398,
+        "chemistryWall": 0.001680455,
+        "speciesWall": 0.081111824,
+        "energyWall": 0.032173187,
+        "pressureWall": 0.039841352000000003,
+        "turbulenceWall": 3.154e-05,
+        "ioWall": 0.006145576
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": true,
+    "repeat": 2,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.028559071986819617,
+    "inferenceWall": 2.2078995243646204e-05,
+    "decisionWall": 0.00023050798336043954,
+    "migrationWall": 0.0,
+    "solverWall": 0.529148649002309,
+    "totalWall": 0.5579603079677327,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p1_r2",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.25454183,
+        "rhoWall": 0.007674773,
+        "momentumWall": 0.012106941,
+        "chemistryWall": 0.001748234,
+        "speciesWall": 0.112261504,
+        "energyWall": 0.038960025,
+        "pressureWall": 0.054718235,
+        "turbulenceWall": 4.1019e-05,
+        "ioWall": 0.0064096710000000005
+      },
+      {
+        "stepWall": 0.25757421,
+        "rhoWall": 0.011942361,
+        "momentumWall": 0.014581283,
+        "chemistryWall": 0.001895354,
+        "speciesWall": 0.111452464,
+        "energyWall": 0.037386876,
+        "pressureWall": 0.056880672,
+        "turbulenceWall": 4.0149e-05,
+        "ioWall": 0.007455991
+      },
+      {
+        "stepWall": 0.257160147,
+        "rhoWall": 0.012035637,
+        "momentumWall": 0.014641816,
+        "chemistryWall": 0.001878195,
+        "speciesWall": 0.111524905,
+        "energyWall": 0.037324067,
+        "pressureWall": 0.057140063,
+        "turbulenceWall": 4.3368e-05,
+        "ioWall": 0.007184842
+      },
+      {
+        "stepWall": 0.256917464,
+        "rhoWall": 0.010175529,
+        "momentumWall": 0.016326057,
+        "chemistryWall": 0.001990021,
+        "speciesWall": 0.109013531,
+        "energyWall": 0.039626327,
+        "pressureWall": 0.057181825,
+        "turbulenceWall": 3.738e-05,
+        "ioWall": 0.006377298
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "11286",
+        "receives": "11286",
+        "sendPayloadBytes": "863265",
+        "receiveBufferBytes": "863261",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.10241722452337854",
+        "waitSeconds": "0.058932017622282729"
+      },
+      {
+        "rank": "3",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.10913041848107241",
+        "waitSeconds": "0.074899435858242214"
+      },
+      {
+        "rank": "1",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.10991159291006625",
+        "waitSeconds": "0.073880611278582364"
+      },
+      {
+        "rank": "0",
+        "sends": "11343",
+        "receives": "11233",
+        "sendPayloadBytes": "870518",
+        "receiveBufferBytes": "856336",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.0514764816762181",
+        "waitSeconds": "0.017869109942694195"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "profile": true,
+    "repeat": 0,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.031312509992858395,
+    "inferenceWall": 2.422000397928059e-05,
+    "decisionWall": 0.0002576469996711239,
+    "migrationWall": 0.0,
+    "solverWall": 6.554934307001531,
+    "totalWall": 6.58652868399804,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p1_r0",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.273892433,
+        "rhoWall": 0.006921377,
+        "momentumWall": 0.013449091,
+        "chemistryWall": 3.634260397,
+        "speciesWall": 2.510136481,
+        "energyWall": 0.033795543,
+        "pressureWall": 0.048459229,
+        "turbulenceWall": 6.3879e-05,
+        "ioWall": 0.006769786999999999
+      },
+      {
+        "stepWall": 6.275970264,
+        "rhoWall": 0.010903635,
+        "momentumWall": 0.015250112,
+        "chemistryWall": 4.389753938,
+        "speciesWall": 1.754202829,
+        "energyWall": 0.032428873,
+        "pressureWall": 0.05037015,
+        "turbulenceWall": 7.302e-05,
+        "ioWall": 0.007044023999999999
+      },
+      {
+        "stepWall": 6.275725783,
+        "rhoWall": 0.010867957,
+        "momentumWall": 0.015559685,
+        "chemistryWall": 3.637721978,
+        "speciesWall": 2.50577875,
+        "energyWall": 0.032453509,
+        "pressureWall": 0.050427730000000004,
+        "turbulenceWall": 7.1378e-05,
+        "ioWall": 0.00732122
+      },
+      {
+        "stepWall": 6.27624541,
+        "rhoWall": 0.008927181,
+        "momentumWall": 0.01712924,
+        "chemistryWall": 4.401475074,
+        "speciesWall": 1.740439141,
+        "energyWall": 0.034441924,
+        "pressureWall": 0.050352934,
+        "turbulenceWall": 7.6658e-05,
+        "ioWall": 0.007609936
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "15606",
+        "receives": "15606",
+        "sendPayloadBytes": "1139745",
+        "receiveBufferBytes": "1139741",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.7229959099640837",
+        "waitSeconds": "1.5950866076891543"
+      },
+      {
+        "rank": "3",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.4824973233044147",
+        "waitSeconds": "2.3263148613768863"
+      },
+      {
+        "rank": "1",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.7366007621458266",
+        "waitSeconds": "1.6468008335650666"
+      },
+      {
+        "rank": "0",
+        "sends": "15663",
+        "receives": "15553",
+        "sendPayloadBytes": "1146998",
+        "receiveBufferBytes": "1132816",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.4368096760881599",
+        "waitSeconds": "2.2569195104588289"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "profile": true,
+    "repeat": 1,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.030164502997649834,
+    "inferenceWall": 2.448901068419218e-05,
+    "decisionWall": 0.0002242780028609559,
+    "migrationWall": 0.0,
+    "solverWall": 6.506453894005972,
+    "totalWall": 6.536867164017167,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p1_r1",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.223322126,
+        "rhoWall": 0.007092442,
+        "momentumWall": 0.012588768,
+        "chemistryWall": 3.7223294940000002,
+        "speciesWall": 2.367432395,
+        "energyWall": 0.034348444,
+        "pressureWall": 0.049994453,
+        "turbulenceWall": 5.5689e-05,
+        "ioWall": 0.009417026
+      },
+      {
+        "stepWall": 6.225448526,
+        "rhoWall": 0.01130037,
+        "momentumWall": 0.015270626,
+        "chemistryWall": 4.365695699,
+        "speciesWall": 1.723647797,
+        "energyWall": 0.033009467,
+        "pressureWall": 0.05201731,
+        "turbulenceWall": 6.7e-05,
+        "ioWall": 0.009162393
+      },
+      {
+        "stepWall": 6.225373792,
+        "rhoWall": 0.011340122,
+        "momentumWall": 0.015120577999999999,
+        "chemistryWall": 3.674229086,
+        "speciesWall": 2.414939402,
+        "energyWall": 0.032985467,
+        "pressureWall": 0.051930773,
+        "turbulenceWall": 6.262e-05,
+        "ioWall": 0.009033324
+      },
+      {
+        "stepWall": 6.225123458,
+        "rhoWall": 0.009350521,
+        "momentumWall": 0.016661125,
+        "chemistryWall": 4.415226484,
+        "speciesWall": 1.672141851,
+        "energyWall": 0.035158875,
+        "pressureWall": 0.051784049,
+        "turbulenceWall": 7.258e-05,
+        "ioWall": 0.009008633
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "15606",
+        "receives": "15606",
+        "sendPayloadBytes": "1139745",
+        "receiveBufferBytes": "1139741",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.6612713477370562",
+        "waitSeconds": "1.5127880976651795"
+      },
+      {
+        "rank": "3",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.3966971721238224",
+        "waitSeconds": "2.2722808528487803"
+      },
+      {
+        "rank": "1",
+        "sends": "15298",
+        "receives": "15353",
+        "sendPayloadBytes": "1130618",
+        "receiveBufferBytes": "1137711",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "1.7123107016523136",
+        "waitSeconds": "1.6470763186516706"
+      },
+      {
+        "rank": "0",
+        "sends": "15663",
+        "receives": "15553",
+        "sendPayloadBytes": "1146998",
+        "receiveBufferBytes": "1132816",
+        "collectives": "17197",
+        "waits": "7522",
+        "callSeconds": "2.2934580448345514",
+        "waitSeconds": "2.1441118055954576"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "profile": false,
+    "repeat": 2,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.9005302835885802,
+      "chemistryFraction": 0.47531068174651514,
+      "chemistrySeconds": 0.02518222355,
+      "timestepSeconds": 0.05298055465,
+      "totalCellCost": 0.086981006,
+      "cellCostCV": 1.4263107670240442,
+      "correlation": 0.13807298669397705,
+      "topOverlap": 0.0196078431372549,
+      "lifetimeSteps": 5.0505743184923935,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.00498777380799659,
+      "observedCostVelocity": -2.1648697604501925,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.6506862208584439,
+      "twoSnapshotEMAImbalance": 1.8573338574100657,
+      "pressureSeconds": 0.00057443675,
+      "transportSeconds": 0.0263533944,
+      "velocity": 0,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 1.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": -0.549534599789219,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.1059611093,
+        "score": 0.37976425043719586
+      },
+      "AM": {
+        "solverDelta": 0.8393519946329424,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.1059611093,
+        "score": 2.698946959327315
+      },
+      "AH": {
+        "solverDelta": -0.46640942814336944,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.1059611093,
+        "score": 0.9717749677795361
+      }
+    },
+    "featureWall": 0.02945633999479469,
+    "inferenceWall": 2.2689011530019343e-05,
+    "decisionWall": 0.00022718800755683333,
+    "migrationWall": 0.0,
+    "solverWall": 6.451580780005315,
+    "totalWall": 6.481286997019197,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/persistent_p0_r2",
+    "phaseRankSums": [
+      {
+        "stepWall": 6.167355786,
+        "rhoWall": 0.007108626,
+        "momentumWall": 0.012530055,
+        "chemistryWall": 3.669001706,
+        "speciesWall": 2.370096891,
+        "energyWall": 0.034503281,
+        "pressureWall": 0.048002968,
+        "turbulenceWall": 6.7238e-05,
+        "ioWall": 0.005755388
+      },
+      {
+        "stepWall": 6.169177979,
+        "rhoWall": 0.011229685,
+        "momentumWall": 0.014993176,
+        "chemistryWall": 4.2549538479999995,
+        "speciesWall": 1.783409721,
+        "energyWall": 0.03341002,
+        "pressureWall": 0.049718694,
+        "turbulenceWall": 0.00010051,
+        "ioWall": 0.005760748
+      },
+      {
+        "stepWall": 6.169633599,
+        "rhoWall": 0.011289992,
+        "momentumWall": 0.01489922,
+        "chemistryWall": 3.753302441,
+        "speciesWall": 2.285108332,
+        "energyWall": 0.033282918,
+        "pressureWall": 0.049842635,
+        "turbulenceWall": 6.55e-05,
+        "ioWall": 0.005707426000000001
+      },
+      {
+        "stepWall": 6.169104127,
+        "rhoWall": 0.009277285,
+        "momentumWall": 0.016392618,
+        "chemistryWall": 4.360160863,
+        "speciesWall": 1.676319244,
+        "energyWall": 0.035429553,
+        "pressureWall": 0.049683317,
+        "turbulenceWall": 8.3499e-05,
+        "ioWall": 0.005737339
+      }
+    ],
+    "MPI": [],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "transportDominated",
+    "profile": true,
+    "repeat": 0,
+    "action": "A0",
+    "features": {
+      "chemistryImbalance": 1.1185410334346504,
+      "chemistryFraction": 0.013401784566149324,
+      "chemistrySeconds": 3.72326e-05,
+      "timestepSeconds": 0.00277818225,
+      "totalCellCost": 6.58e-06,
+      "cellCostCV": 0.3462244908782528,
+      "correlation": 0.39251163609855166,
+      "topOverlap": 0.3333333333333333,
+      "lifetimeSteps": 10.693024589176128,
+      "processorFaces": 32.0,
+      "maxNeighbours": 2,
+      "cellImbalance": 1.0,
+      "centerX": 0.019396640582747784,
+      "observedCostVelocity": 123.35443944851266,
+      "persistenceLagSteps": 10,
+      "persistenceAvailable": true,
+      "previousImbalance": 1.0194902548725637,
+      "twoSnapshotEMAImbalance": 1.062641509433962,
+      "pressureSeconds": 0.00047191895,
+      "transportSeconds": 0.00142948255,
+      "velocity": 60,
+      "nCells": 256,
+      "ranks": 4,
+      "nSpecies": 10,
+      "substepsMean": 0.0
+    },
+    "predicted": {
+      "AC": {
+        "solverDelta": 0.0740721778375843,
+        "setup": 0.0002296080201631412,
+        "uncertainty": 0.8231081329062517,
+        "margin": 0.02,
+        "score": 0.9174099187639992
+      },
+      "AM": {
+        "solverDelta": -0.17910169848795404,
+        "setup": 0.5215917449968401,
+        "uncertainty": 1.2320421103975328,
+        "margin": 0.02,
+        "score": 1.5945321569064188
+      },
+      "AH": {
+        "solverDelta": 0.09426006239361866,
+        "setup": 0.5319310039922129,
+        "uncertainty": 0.8002922826306926,
+        "margin": 0.02,
+        "score": 1.4464833490165243
+      }
+    },
+    "featureWall": 0.03098914799920749,
+    "inferenceWall": 2.3989006876945496e-05,
+    "decisionWall": 0.000480855000205338,
+    "migrationWall": 0.0,
+    "solverWall": 0.5150274199986598,
+    "totalWall": 0.5465214120049495,
+    "modelSHA256": "cab4e5c7b32663c6e2dfd036035352b1c1e5ed8f5a8f3d5e0e53c4d297133105",
+    "path": "data/raw/controllerProfiles/transportDominated_p1_r0",
+    "phaseRankSums": [
+      {
+        "stepWall": 0.21065716,
+        "rhoWall": 0.007531001,
+        "momentumWall": 0.010703462,
+        "chemistryWall": 0.001606575,
+        "speciesWall": 0.091754837,
+        "energyWall": 0.032710353,
+        "pressureWall": 0.042516013,
+        "turbulenceWall": 3.57e-05,
+        "ioWall": 0.0062772290000000005
+      },
+      {
+        "stepWall": 0.212443056,
+        "rhoWall": 0.01131205,
+        "momentumWall": 0.013867793,
+        "chemistryWall": 0.00146926,
+        "speciesWall": 0.091323157,
+        "energyWall": 0.031711247,
+        "pressureWall": 0.04446634,
+        "turbulenceWall": 3.382e-05,
+        "ioWall": 0.005901939
+      },
+      {
+        "stepWall": 0.212798267,
+        "rhoWall": 0.011378876,
+        "momentumWall": 0.013651582,
+        "chemistryWall": 0.00158148,
+        "speciesWall": 0.091148454,
+        "energyWall": 0.031517962,
+        "pressureWall": 0.044464965,
+        "turbulenceWall": 3.2029999999999997e-05,
+        "ioWall": 0.006183742
+      },
+      {
+        "stepWall": 0.212565341,
+        "rhoWall": 0.009064414,
+        "momentumWall": 0.015383999,
+        "chemistryWall": 0.00167306,
+        "speciesWall": 0.089014944,
+        "energyWall": 0.03352995,
+        "pressureWall": 0.044580066,
+        "turbulenceWall": 3.5759e-05,
+        "ioWall": 0.005950177
+      }
+    ],
+    "MPI": [
+      {
+        "rank": "2",
+        "sends": "11286",
+        "receives": "11286",
+        "sendPayloadBytes": "863265",
+        "receiveBufferBytes": "863261",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.083429025515215471",
+        "waitSeconds": "0.045235453129862435"
+      },
+      {
+        "rank": "3",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.094492040239856578",
+        "waitSeconds": "0.07109710892837029"
+      },
+      {
+        "rank": "1",
+        "sends": "10978",
+        "receives": "11033",
+        "sendPayloadBytes": "854138",
+        "receiveBufferBytes": "861231",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.10234769267844968",
+        "waitSeconds": "0.07599484889942687"
+      },
+      {
+        "rank": "0",
+        "sends": "11343",
+        "receives": "11233",
+        "sendPayloadBytes": "870518",
+        "receiveBufferBytes": "856336",
+        "collectives": "10717",
+        "waits": "5362",
+        "callSeconds": "0.031608355915523134",
+        "waitSeconds": "0.011149493759148754"
+      }
+    ],
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 0.0,
+          "referenceScale": 300.0000000000001,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 0.0,
+          "referenceScale": 101325.0,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 0.0,
+          "referenceScale": 60.00000000000048,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 0.0,
+          "referenceScale": 0.02830000000000002,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.2250000000000003,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 0.0,
+          "referenceScale": 0.746700000000001,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 0.0,
+          "referenceScale": 2564.987992325403,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 0.0,
+          "referenceScale": 0.8511719386588388,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "finite": true,
+          "admissible": true,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  }
+]

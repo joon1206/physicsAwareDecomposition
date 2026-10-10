@@ -1,0 +1,308 @@
+[
+  {
+    "number": 1,
+    "name": "01_T_initial",
+    "caption": "Reactive kernel at 40 \u03bcs. Same 32\u00d78 grid and camera; ownership is assembled using migrated canonical cell IDs. Cell clocks are measured wall times, not reaction rates.",
+    "source": "01_T_initial.source.json"
+  },
+  {
+    "number": 2,
+    "name": "02_chemCost_initial",
+    "caption": "Measured chemistry cost at 40 \u03bcs. Same 32\u00d78 grid and camera; ownership is assembled using migrated canonical cell IDs. Cell clocks are measured wall times, not reaction rates.",
+    "source": "02_chemCost_initial.source.json"
+  },
+  {
+    "number": 3,
+    "name": "03_owner_initial",
+    "caption": "Initial Scotch ownership. Same 32\u00d78 grid and camera; ownership is assembled using migrated canonical cell IDs. Cell clocks are measured wall times, not reaction rates.",
+    "source": "03_owner_initial.source.json"
+  },
+  {
+    "number": 4,
+    "name": "04_owner_weighted",
+    "caption": "Cost-weighted Scotch ownership. Same 32\u00d78 grid and camera; ownership is assembled using migrated canonical cell IDs. Cell clocks are measured wall times, not reaction rates.",
+    "source": "04_owner_weighted.source.json"
+  },
+  {
+    "number": 5,
+    "name": "05_processor_interfaces",
+    "caption": "Cyan lines mark internal ownership changes. Cyclic boundary interfaces also count in quantitative face totals but lie at box boundaries.",
+    "source": "05_processor_interfaces.source.json"
+  },
+  {
+    "number": 6,
+    "name": "06_moving_sequence",
+    "caption": "Moving-condition temperature sequence with an identical camera and shared data-range color scale. These coarse controlled kernels are not validated flame fronts.",
+    "source": "06_moving_sequence.source.json"
+  },
+  {
+    "number": 7,
+    "name": "07_workload_by_rank",
+    "caption": "Checkpoint cell-clock sums assigned to old and new owners. This diagnostic does not assume that future cell costs stay fixed.",
+    "source": "07_workload_by_rank.source.json"
+  },
+  {
+    "number": 8,
+    "name": "08_chemistry_by_rank",
+    "caption": "Rank-local integrated phase durations from repeat zero, persistent checkpoint 40 \u03bcs. Phases overlap across ranks and their maxima must not be added to infer a critical path.",
+    "source": "08_chemistry_by_rank.source.json"
+  },
+  {
+    "number": 9,
+    "name": "09_timestep_by_rank",
+    "caption": "Rank-local integrated phase durations from repeat zero, persistent checkpoint 40 \u03bcs. Phases overlap across ranks and their maxima must not be added to infer a critical path.",
+    "source": "09_timestep_by_rank.source.json"
+  },
+  {
+    "number": 10,
+    "name": "10_all_action_costs",
+    "caption": "Complete oracle state set, five randomized trials per action. Total cost includes action configuration, native mesh redistribution and solver process startup plus endpoint I/O.",
+    "source": "10_all_action_costs.source.json"
+  },
+  {
+    "number": 11,
+    "name": "11_strong_scaling",
+    "caption": "Five trials per configuration on one six-core WSL2 host. Per-case decomposition is recorded separately. This is a small-domain, single-node experiment, not network scaling.",
+    "source": "11_strong_scaling.source.json"
+  },
+  {
+    "number": 12,
+    "name": "12_parallel_efficiency",
+    "caption": "Five trials per configuration on one six-core WSL2 host. Per-case decomposition is recorded separately. This is a small-domain, single-node experiment, not network scaling.",
+    "source": "12_parallel_efficiency.source.json"
+  },
+  {
+    "number": 13,
+    "name": "13_speedup_intervals",
+    "caption": "Pointwise 95% bootstrap intervals for independent median ratios (4000 resamples), five trials each. Multiple state selection is exploratory; intervals are not simultaneous or confirmatory.",
+    "source": "13_speedup_intervals.source.json"
+  },
+  {
+    "number": 14,
+    "name": "14_faces_vs_weight",
+    "caption": "Native redistributed mesh face counts, including cyclic processor interfaces. Weight clipping is fixed at [0.1,10]; stronger weighting need not change an integer partition monotonically.",
+    "source": "14_faces_vs_weight.source.json"
+  },
+  {
+    "number": 15,
+    "name": "15_mpi_call_time",
+    "caption": "PMPI calls on the persistent condition. These durations include imbalance-induced waits; they are not pure network transfer times. No extra barriers or collectives are added by the profiler.",
+    "source": "15_mpi_call_time.source.json"
+  },
+  {
+    "number": 16,
+    "name": "16_persistence_correlation",
+    "caption": "Actual future costs are used only for this diagnostic. Controller inputs use previous and current costs. Timing noise and reaction evolution both affect correlations.",
+    "source": "16_persistence_correlation.source.json"
+  },
+  {
+    "number": 17,
+    "name": "17_prediction_accuracy",
+    "caption": "Coefficients fit on five entire training conditions; two whole validation conditions set conservative residual margins; three held-out conditions are untouched by fitting. Setup costs are excluded from this solver-delta plot.",
+    "source": "17_prediction_accuracy.source.json"
+  },
+  {
+    "number": 18,
+    "name": "18_confusion_matrix",
+    "caption": "Median oracle labels can change within runtime noise. This matrix covers six held-out checkpoint states, not independent flow trajectories.",
+    "source": "18_confusion_matrix.source.json"
+  },
+  {
+    "number": 19,
+    "name": "19_controller_regret",
+    "caption": "Retrospective regret includes measured feature extraction for feature-driven policies. This is distinct from independent deployment and live end-to-end timings.",
+    "source": "19_controller_regret.source.json"
+  },
+  {
+    "number": 20,
+    "name": "20_cumulative_runtime",
+    "caption": "Repeat-zero measured rollout. All policies reach 280 \u03bcs. Dashed AM fails the predefined endpoint field gate and is descriptive timing evidence only. Uninterrupted arms provide an endpoint only; no interpolated cumulative clock is invented. No trial is removed.",
+    "source": "20_cumulative_runtime.source.json"
+  },
+  {
+    "number": 21,
+    "name": "21_rebalancing_events",
+    "caption": "Three actual rollouts per condition; features come only from the completed prefix of that same rollout. The frozen model has a forty-step cooldown.",
+    "source": "21_rebalancing_events.source.json"
+  },
+  {
+    "number": 22,
+    "name": "22_predicted_benefit",
+    "caption": "Benefits are solver deltas before action setup and residual safety margins. Prediction error is reported even when the controller declines to act.",
+    "source": "22_predicted_benefit.source.json"
+  },
+  {
+    "number": 23,
+    "name": "23_oracle_controller_comparison",
+    "caption": "Aggregate ratios sum checkpoint median costs. Conditional 95% intervals resample runs within the same fixed test states, retaining frozen choices and observed oracle labels. They exclude model-fitting and case-population uncertainty. The hindsight oracle remains optimistic and is not executable online.",
+    "source": "23_oracle_controller_comparison.source.json"
+  },
+  {
+    "number": 24,
+    "name": "24_ablations",
+    "caption": "Features are omitted according to documented variants. The initial communication feature is constant across same-grid states, so noCommunication cannot establish communication-model usefulness. EMA denotes a two-snapshot blend.",
+    "source": "24_ablations.source.json"
+  },
+  {
+    "number": 25,
+    "name": "25_regime_map",
+    "caption": "Marker size reflects the bounded past-cost lifetime estimate. Black outlines flag A0 or winner intervals crossing unity. No fitted boundary or unobserved winning region is imposed.",
+    "source": "25_regime_map.source.json"
+  },
+  {
+    "number": 26,
+    "name": "26_mass_conservation",
+    "caption": "Native thermodynamic inventory uses stored h and rho when available. Total energy is \u2211\u03c1V(h+hc+|U|\u00b2/2)\u2212\u2211pV. Agreement between actions does not establish physical conservation or mesh/timestep convergence.",
+    "source": "26_mass_conservation.source.json"
+  },
+  {
+    "number": 27,
+    "name": "27_energy_conservation",
+    "caption": "Native thermodynamic inventory uses stored h and rho when available. Total energy is \u2211\u03c1V(h+hc+|U|\u00b2/2)\u2212\u2211pV. Agreement between actions does not establish physical conservation or mesh/timestep convergence.",
+    "source": "27_energy_conservation.source.json"
+  },
+  {
+    "number": 28,
+    "name": "28_timestep_refinement",
+    "caption": "Each grid uses its own 0.5 \u03bcs reference, which is not an exact solution. Spatial refinement and heat-release changes remain limitations for physical flame interpretation.",
+    "source": "28_timestep_refinement.source.json"
+  },
+  {
+    "number": 29,
+    "name": "29_fine_timestep_actions",
+    "caption": "Five trials per action. Eight times more physical steps over the same continuation duration; still the original coarse grid and hence not a validated resolved-flame benchmark.",
+    "source": "29_fine_timestep_actions.source.json"
+  },
+  {
+    "number": 30,
+    "name": "30_migration_horizon",
+    "caption": "Net measured benefit includes the native redistribution process. No extrapolated crossing is called observed. Future work may change the compute and communication penalties.",
+    "source": "30_migration_horizon.source.json"
+  },
+  {
+    "number": 31,
+    "name": "31_chemistry_fraction",
+    "caption": "Rank means over the last five physical steps. Synchronized nonchemistry phases can contain chemistry imbalance waits; this ratio is explanatory, not an Amdahl bound.",
+    "source": "31_chemistry_fraction.source.json"
+  },
+  {
+    "number": 32,
+    "name": "32_linear_iterations",
+    "caption": "Iteration counts parsed from native solver logs. Counts alone do not identify cache misses or pure halo-communication cost.",
+    "source": "32_linear_iterations.source.json"
+  },
+  {
+    "number": 33,
+    "name": "33_architecture",
+    "caption": "Architecture: chemistry tasks are offloaded inside the compatible Stuttgart library; mesh migration is native redistributePar between solver processes.",
+    "source": "33_architecture.source.json"
+  },
+  {
+    "number": 34,
+    "name": "34_methodology",
+    "caption": "Methodology preserves held-out conditions and distinguishes retrospective oracle labels from executed controller decisions.",
+    "source": "34_methodology.source.json"
+  },
+  {
+    "number": 35,
+    "name": "35_quicklb_reproduction",
+    "caption": "Public version 0.02 on a 30\u00d730 Gray\u2013Scott kernel with SciPy BDF, four ranks, ten steps, three repeats. This reproduces library execution, not the INCA Spray-A performance paper.",
+    "source": "35_quicklb_reproduction.source.json"
+  },
+  {
+    "number": 36,
+    "name": "36_model_acquisition_cost",
+    "caption": "Acquisition lower bound sums actual train/validation trial costs; it additionally excludes shared history generation, experiment duplication and postprocessing. Offline training is not free merely because ridge fitting is fast.",
+    "source": "36_model_acquisition_cost.source.json"
+  },
+  {
+    "number": 37,
+    "name": "37_profiling_overhead",
+    "caption": "Three randomized on/off trials per action. Main performance claims use profiling off; this small calibration cannot resolve sub-percent overhead.",
+    "source": "37_profiling_overhead.source.json"
+  },
+  {
+    "number": 38,
+    "name": "38_oracle_margin_noise",
+    "caption": "A median winner does not establish a statistically separated action. CV and margin are different statistics; this plot flags weak separation without fabricating an oracle confidence bound.",
+    "source": "38_oracle_margin_noise.source.json"
+  },
+  {
+    "number": 39,
+    "name": "39_species_normalization",
+    "caption": "Every major action is checked against the same-repeat A0 endpoint. Exact zeros are displayed at 1e-17 to permit the logarithmic axis; raw values are retained. Species positivity and per-field scales are checked separately; normalization alone is insufficient.",
+    "source": "39_species_normalization.source.json"
+  },
+  {
+    "number": 40,
+    "name": "40_deployment",
+    "caption": "Five independent trials per policy. Controller feature extraction, inference and action setup are actually timed and charged. Training/validation data only fit the frozen model before this campaign.",
+    "source": "40_deployment.source.json"
+  },
+  {
+    "number": 41,
+    "name": "41_controller_phase_profile",
+    "caption": "Three profiled controller executions in each representative condition, with paired profiling-off trials and field gates. Feature extraction and inference are separately charged; rank phase sums include synchronization and are not additive critical-path estimates.",
+    "source": "41_controller_phase_profile.source.json"
+  },
+  {
+    "number": 42,
+    "name": "42_independent_confirmation",
+    "caption": "Preselected moving positive and uniform negative conditions, twenty new randomized trials per action. No model refit or test-margin tuning. Same checkpoint 40 \u03bcs and 160 \u03bcs continuation, four ranks, 256 cells; complete action and process costs.",
+    "source": "42_independent_confirmation.source.json"
+  },
+  {
+    "number": 43,
+    "name": "43_transport_consequence_model",
+    "caption": "Training uses whole training conditions only. Geometry is observed after actual partitioning and is not a free deployed-controller input. Transport duration includes synchronization effects; this is not an identifiable network-time predictor.",
+    "source": "43_transport_consequence_model.source.json"
+  },
+  {
+    "number": 44,
+    "name": "44_conservation_diagnosis",
+    "caption": "Seven independent physical-accuracy pilots plus two matched fine-time/four-pressure-corrector controls, following a nonconvergent moving-condition energy budget. Point/line distinctions identify grid, pressure-correction and PIMPLE outer-coupling changes; these are diagnostics, not controller tuning or an exact conservation reference.",
+    "source": "44_conservation_diagnosis.source.json"
+  },
+  {
+    "number": 45,
+    "name": "45_mpi_consequence_model",
+    "caption": "Two training conditions, one entirely held-out moving condition, three profiled repeats per action. Post-partition inputs are measured and not free online features. MPI-call durations do not identify pure network-transfer cost; independent physical sample size remains small.",
+    "source": "45_mpi_consequence_model.source.json"
+  },
+  {
+    "number": 46,
+    "name": "46_live_mesh_numerical_controls",
+    "caption": "Each control uses the same observed post-migration physical checkpoint and fixed mesh ownership. Original timestep, finer global timestep and tighter ODE tolerance are compared with matching A0 controls. The original rejected trial remains in the dataset; thresholds are unchanged and these controls do not replace its timing. Exact-zero normalized errors are displayed at 1e-12 for the logarithmic axis.",
+    "source": "46_live_mesh_numerical_controls.source.json"
+  },
+  {
+    "number": 47,
+    "name": "47_mapped_flux_audit",
+    "caption": "Stored mass-flux divergence is compared with A0 on canonical cells, along with flux divergence reconstructed from equivalent cell rho/U. Cell-centre differences are retained in the source data. A symmetric-log axis is linear within 1e-8 of zero; no values are replaced. These observations localize discrepancies and do not by themselves prove a corrected migration algorithm.",
+    "source": "47_mapped_flux_audit.source.json"
+  },
+  {
+    "number": 48,
+    "name": "48_initial_coefficient_mass",
+    "caption": "A separate diagnostic executable preallocates initial psi.oldTime before the first thermodynamic update; two steps at each of two global timesteps locate the mass offset. The original oracle/controller executable and dataset are unchanged. This initialization check does not establish long-time energy or flame convergence.",
+    "source": "48_initial_coefficient_mass.source.json"
+  },
+  {
+    "number": 49,
+    "name": "49_flux_preservation_controls",
+    "caption": "Separate controls preserve source flux on exact observed ownership maps or restore the exactly zero coupled copy from its existing nonzero periodic partner. Every delivered control passes the original full-field gate; original failed timings remain rejected. All values are positive and displayed without clipping; utility launch costs are retained. Axis-aligned stationary geometry only; the snapshot utility uses global face storage and is not a scalable general-purpose mapper.",
+    "source": "49_flux_preservation_controls.source.json"
+  },
+  {
+    "number": 50,
+    "name": "50_live_heldout_costs",
+    "caption": "Three original trials in each of three held-out conditions. Ratio of summed condition medians includes preprocessing, decomposition, prefix, controller decisions, migration and every continuation. Conditional 95% intervals resample runs within those fixed conditions and do not estimate a population of flows. The hatched mesh ratio is descriptive only: its original numerical gate failed. No failed trial is removed or replaced by a repair control.",
+    "source": "50_live_heldout_costs.source.json"
+  },
+  {
+    "number": 51,
+    "name": "51_full_history_initialization",
+    "caption": "Two full moving-condition histories use the separate initialization-only executable: original 2 \u03bcs / one pressure corrector and 0.03125 \u03bcs / four pressure correctors. The mass offset is removed throughout; residual energy drift quantifies a distinct limitation. These differ in timestep and pressure coupling and are not a single-variable convergence sweep. Original frozen performance data are unchanged.",
+    "source": "51_full_history_initialization.source.json"
+  }
+]

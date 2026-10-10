@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this software and the upstream chemistry-balancing work listed in the report."
+title: "Reactive OpenFOAM checkpoint action oracle and runtime selection study"
+type: software
+version: 0.3.0
+date-released: 2026-10-05
+license: GPL-3.0-or-later
+authors:
+  - name: "Physics-Aware Decomposition project contributors"

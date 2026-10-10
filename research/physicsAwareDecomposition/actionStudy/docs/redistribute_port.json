@@ -1,0 +1,7 @@
+{
+  "OpenFOAM": "v2012",
+  "nativeSource": "/opt/OpenFOAM/OpenFOAM-v2012/applications/utilities/parallelProcessing/redistributePar",
+  "originalSHA256": "b8fcf3e7de5a7bba6c7b9add6dfa963193d31ad0ad9ee7e95982da8b0bac13a6",
+  "patchedSHA256": "0da6cd4bc7f4b4bb327c5c24216bcd53b7698816ce29657709f39a15719dae93",
+  "change": "Treat processorCyclic as a processor patch in the load-time physical-patch synchronization check. Redistribution algorithm is unchanged. Private executable only; installed utility is preserved."
+}

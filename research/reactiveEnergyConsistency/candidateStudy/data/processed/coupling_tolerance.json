@@ -1,0 +1,1281 @@
+{
+  "records": [
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001",
+      "kind": "F",
+      "dt": 1e-06,
+      "pressureTolerance": 0.0001,
+      "Tmean": 2844.846790296641,
+      "Tmin": 2779.546039853793,
+      "Tmax": 2913.570408215843,
+      "momentumMismatch": 0.06707503068098336,
+      "energyDrift": -1.7449740023842324e-14,
+      "massDrift": -1.2307338921283494e-15,
+      "maxElementDrift": 3.4463006341785014e-15,
+      "wallSingleTrial": 15.398679341000388,
+      "linearSolvers": {
+        "rho": {
+          "solves": 480,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "OH": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "HO2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "AR": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "p": {
+          "solves": 770,
+          "iterations": 14711
+        },
+        "deltaY": {
+          "solves": 5300,
+          "iterations": 9561
+        },
+        "deltaConservativeH": {
+          "solves": 1105,
+          "iterations": 2482
+        }
+      },
+      "fullBlockSameDtReference": "F_blockConservative_dt1e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.02251652193839604,
+          "L2": 0.024987170416594963,
+          "Linf": 0.036647617712787905
+        },
+        "p": {
+          "L1": 19.094105830458602,
+          "L2": 21.174391251089556,
+          "Linf": 30.157005038461648
+        },
+        "rho": {
+          "L1": 1.638010329715932e-05,
+          "L2": 1.8172138337574145e-05,
+          "Linf": 2.625285056612192e-05
+        },
+        "h": {
+          "L1": 39.50065414957862,
+          "L2": 43.83294280896413,
+          "Linf": 64.17906182911247
+        },
+        "U": {
+          "L1": 0.036135448533445524,
+          "L2": 0.0402141812976179,
+          "Linf": 0.0571351057350995
+        },
+        "H2": {
+          "L1": 3.655642475726027e-08,
+          "L2": 4.3470771734991236e-08,
+          "Linf": 8.457458696179906e-08
+        },
+        "H": {
+          "L1": 1.2259971966702853e-08,
+          "L2": 1.4520697136894306e-08,
+          "Linf": 2.7451639111951247e-08
+        },
+        "O2": {
+          "L1": 2.5759194595607974e-07,
+          "L2": 2.988568374211256e-07,
+          "Linf": 5.34167534919916e-07
+        },
+        "O": {
+          "L1": 7.078969194105297e-08,
+          "L2": 8.460055063383747e-08,
+          "Linf": 1.6526632089491206e-07
+        },
+        "OH": {
+          "L1": 2.7360481665000537e-07,
+          "L2": 3.118509224777974e-07,
+          "Linf": 5.009618004401389e-07
+        },
+        "HO2": {
+          "L1": 1.3266650444961015e-09,
+          "L2": 1.483960160148926e-09,
+          "Linf": 2.4210988673315133e-09
+        },
+        "H2O2": {
+          "L1": 1.640461888994195e-10,
+          "L2": 1.826642739337318e-10,
+          "Linf": 2.835946259399978e-10
+        },
+        "H2O": {
+          "L1": 5.289658840369965e-07,
+          "L2": 6.28379216573282e-07,
+          "Linf": 1.215120362912936e-06
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 3.4980698893072315e-15,
+          "L2": 4.351654716447749e-15,
+          "Linf": 1.27675647831893e-14
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001_mpi",
+      "kind": "F",
+      "dt": 1e-06,
+      "pressureTolerance": 0.0001,
+      "Tmean": 2844.846790296641,
+      "Tmin": 2779.546039853793,
+      "Tmax": 2913.570408215843,
+      "momentumMismatch": 0.06707503068098336,
+      "energyDrift": -1.7449740023842324e-14,
+      "massDrift": -1.2307338921283494e-15,
+      "maxElementDrift": 3.4463006341785014e-15,
+      "wallSingleTrial": 14.168665200999385,
+      "linearSolvers": {
+        "rho": {
+          "solves": 480,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "OH": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "HO2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "AR": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "p": {
+          "solves": 770,
+          "iterations": 14711
+        },
+        "deltaY": {
+          "solves": 5300,
+          "iterations": 9561
+        },
+        "deltaConservativeH": {
+          "solves": 1105,
+          "iterations": 2482
+        }
+      },
+      "fullBlockSameDtReference": "F_blockConservative_dt1e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.02251652193839604,
+          "L2": 0.024987170416594963,
+          "Linf": 0.036647617712787905
+        },
+        "p": {
+          "L1": 19.094105830458602,
+          "L2": 21.174391251089556,
+          "Linf": 30.157005038461648
+        },
+        "rho": {
+          "L1": 1.638010329715932e-05,
+          "L2": 1.8172138337574145e-05,
+          "Linf": 2.625285056612192e-05
+        },
+        "h": {
+          "L1": 39.50065414957862,
+          "L2": 43.83294280896413,
+          "Linf": 64.17906182911247
+        },
+        "U": {
+          "L1": 0.036135448533445524,
+          "L2": 0.0402141812976179,
+          "Linf": 0.0571351057350995
+        },
+        "H2": {
+          "L1": 3.655642475726027e-08,
+          "L2": 4.3470771734991236e-08,
+          "Linf": 8.457458696179906e-08
+        },
+        "H": {
+          "L1": 1.2259971966702853e-08,
+          "L2": 1.4520697136894306e-08,
+          "Linf": 2.7451639111951247e-08
+        },
+        "O2": {
+          "L1": 2.5759194595607974e-07,
+          "L2": 2.988568374211256e-07,
+          "Linf": 5.34167534919916e-07
+        },
+        "O": {
+          "L1": 7.078969194105297e-08,
+          "L2": 8.460055063383747e-08,
+          "Linf": 1.6526632089491206e-07
+        },
+        "OH": {
+          "L1": 2.7360481665000537e-07,
+          "L2": 3.118509224777974e-07,
+          "Linf": 5.009618004401389e-07
+        },
+        "HO2": {
+          "L1": 1.3266650444961015e-09,
+          "L2": 1.483960160148926e-09,
+          "Linf": 2.4210988673315133e-09
+        },
+        "H2O2": {
+          "L1": 1.640461888994195e-10,
+          "L2": 1.826642739337318e-10,
+          "Linf": 2.835946259399978e-10
+        },
+        "H2O": {
+          "L1": 5.289658840369965e-07,
+          "L2": 6.28379216573282e-07,
+          "Linf": 1.215120362912936e-06
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 3.4980698893072315e-15,
+          "L2": 4.351654716447749e-15,
+          "Linf": 1.27675647831893e-14
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543",
+      "MPI": {
+        "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.0001_mpi",
+        "rankCounters": [
+          {
+            "rank": 2.0,
+            "sends": 169967.0,
+            "receives": 169967.0,
+            "sendPayloadBytes": 11457673.0,
+            "receiveBufferBytes": 11457677.0,
+            "collectives": 171027.0,
+            "waits": 82062.0,
+            "callSeconds": 5.779813881115842,
+            "waitSeconds": 5.091496793858823
+          },
+          {
+            "rank": 3.0,
+            "sends": 167023.0,
+            "receives": 167069.0,
+            "sendPayloadBytes": 11427618.0,
+            "receiveBufferBytes": 11434487.0,
+            "collectives": 171027.0,
+            "waits": 82062.0,
+            "callSeconds": 6.212958914926276,
+            "waitSeconds": 3.678560109121463
+          },
+          {
+            "rank": 1.0,
+            "sends": 167023.0,
+            "receives": 167069.0,
+            "sendPayloadBytes": 11427618.0,
+            "receiveBufferBytes": 11434487.0,
+            "collectives": 171027.0,
+            "waits": 82062.0,
+            "callSeconds": 2.2708762132424454,
+            "waitSeconds": 1.5544761139062757
+          },
+          {
+            "rank": 0.0,
+            "sends": 170015.0,
+            "receives": 169923.0,
+            "sendPayloadBytes": 11464718.0,
+            "receiveBufferBytes": 11450976.0,
+            "collectives": 171027.0,
+            "waits": 82062.0,
+            "callSeconds": 5.386234928249905,
+            "waitSeconds": 4.752593504195829
+          }
+        ],
+        "sumRankCounters": {
+          "sends": 674028.0,
+          "receives": 674028.0,
+          "sendPayloadBytes": 45777627.0,
+          "receiveBufferBytes": 45777627.0,
+          "collectives": 684108.0,
+          "waits": 328248.0,
+          "callSeconds": 19.64988393753447,
+          "waitSeconds": 15.077126521082391
+        },
+        "timingContext": "Sequential loose-block instrumentation after the logical campaigns; operation counts only, timing excluded from the paired three-trial comparison."
+      }
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.001",
+      "kind": "F",
+      "dt": 1e-06,
+      "pressureTolerance": 0.001,
+      "Tmean": 2844.8435329660015,
+      "Tmin": 2779.503500448178,
+      "Tmax": 2913.625179732919,
+      "momentumMismatch": 0.7452261900933308,
+      "energyDrift": -1.5863400021674841e-15,
+      "massDrift": 8.950791942751631e-16,
+      "maxElementDrift": 3.953530010049301e-15,
+      "wallSingleTrial": 14.291510154998832,
+      "linearSolvers": {
+        "rho": {
+          "solves": 480,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "OH": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "HO2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "AR": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "p": {
+          "solves": 586,
+          "iterations": 11578
+        },
+        "deltaY": {
+          "solves": 3460,
+          "iterations": 6242
+        },
+        "deltaConservativeH": {
+          "solves": 736,
+          "iterations": 1671
+        }
+      },
+      "fullBlockSameDtReference": "F_blockConservative_dt1e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.0793464794726102,
+          "L2": 0.0880587982422613,
+          "Linf": 0.12630294812697684
+        },
+        "p": {
+          "L1": 34.116659175383575,
+          "L2": 37.834877761945485,
+          "Linf": 54.066877125937026
+        },
+        "rho": {
+          "L1": 2.4861354228844544e-05,
+          "L2": 2.7605706216470598e-05,
+          "Linf": 4.052351462302539e-05
+        },
+        "h": {
+          "L1": 142.7161064501379,
+          "L2": 158.33818082735962,
+          "Linf": 226.26921658823267
+        },
+        "U": {
+          "L1": 0.0744225255345336,
+          "L2": 0.08266759468886768,
+          "Linf": 0.11998107496440014
+        },
+        "H2": {
+          "L1": 2.6739564287789485e-07,
+          "L2": 2.987333874939913e-07,
+          "Linf": 4.4472929986967905e-07
+        },
+        "H": {
+          "L1": 6.808168329440173e-08,
+          "L2": 7.649418702597826e-08,
+          "Linf": 1.1541966975881857e-07
+        },
+        "O2": {
+          "L1": 1.2575808111830417e-06,
+          "L2": 1.4027206758795824e-06,
+          "Linf": 2.164284438169878e-06
+        },
+        "O": {
+          "L1": 4.864193037748746e-07,
+          "L2": 5.493904794252572e-07,
+          "Linf": 8.14630492336748e-07
+        },
+        "OH": {
+          "L1": 2.0053240962766565e-06,
+          "L2": 2.2398028872445453e-06,
+          "Linf": 3.2646150047825617e-06
+        },
+        "HO2": {
+          "L1": 3.890570709709895e-09,
+          "L2": 4.351533414215686e-09,
+          "Linf": 6.928353480240289e-09
+        },
+        "H2O2": {
+          "L1": 3.905623452377734e-10,
+          "L2": 4.350099779440316e-10,
+          "Linf": 6.664380764909544e-10
+        },
+        "H2O": {
+          "L1": 4.048537387504165e-06,
+          "L2": 4.5203004405914954e-06,
+          "Linf": 6.634308870212546e-06
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 4.1065241485060966e-15,
+          "L2": 5.160256238680226e-15,
+          "Linf": 1.5654144647214707e-14
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt1e-06_s1_g0_o1_p1_tol0.01",
+      "kind": "F",
+      "dt": 1e-06,
+      "pressureTolerance": 0.01,
+      "Tmean": 2844.8066930544414,
+      "Tmin": 2779.117867087414,
+      "Tmax": 2913.778847937808,
+      "momentumMismatch": 5.455403565741791,
+      "energyDrift": 5.1159465069901364e-14,
+      "massDrift": 1.118848992843954e-15,
+      "maxElementDrift": 2.3474084434667722e-15,
+      "wallSingleTrial": 14.433977946002415,
+      "linearSolvers": {
+        "rho": {
+          "solves": 480,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "OH": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "HO2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O2": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "H2O": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "AR": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 240,
+          "iterations": 480
+        },
+        "p": {
+          "solves": 489,
+          "iterations": 9728
+        },
+        "deltaY": {
+          "solves": 2490,
+          "iterations": 4489
+        },
+        "deltaConservativeH": {
+          "solves": 541,
+          "iterations": 1232
+        }
+      },
+      "fullBlockSameDtReference": "F_blockConservative_dt1e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.6281911262548245,
+          "L2": 0.7001095036035436,
+          "Linf": 1.0474125260857363
+        },
+        "p": {
+          "L1": 35.62498512982529,
+          "L2": 39.78761906462721,
+          "Linf": 62.07919793610927
+        },
+        "rho": {
+          "L1": 0.00010653743021223658,
+          "L2": 0.00011967432896266019,
+          "Linf": 0.00017678428790990353
+        },
+        "h": {
+          "L1": 1156.4635298017856,
+          "L2": 1289.5512243373814,
+          "Linf": 1936.9436094220728
+        },
+        "U": {
+          "L1": 0.5458860601240869,
+          "L2": 0.55036836185954,
+          "Linf": 0.6439099296344892
+        },
+        "H2": {
+          "L1": 4.189196148484179e-06,
+          "L2": 4.713769751465421e-06,
+          "Linf": 7.298418973995021e-06
+        },
+        "H": {
+          "L1": 1.1494884706930947e-06,
+          "L2": 1.312279940128564e-06,
+          "Linf": 2.1631081397065666e-06
+        },
+        "O2": {
+          "L1": 2.1481791475832586e-05,
+          "L2": 2.4153824351853934e-05,
+          "Linf": 3.721761124374917e-05
+        },
+        "O": {
+          "L1": 7.86365044770552e-06,
+          "L2": 8.994198272164267e-06,
+          "Linf": 1.495077626911508e-05
+        },
+        "OH": {
+          "L1": 2.764514343753943e-05,
+          "L2": 3.117014235673919e-05,
+          "Linf": 4.883274424822073e-05
+        },
+        "HO2": {
+          "L1": 2.851648715328287e-08,
+          "L2": 3.210047957834195e-08,
+          "Linf": 5.1670084893043114e-08
+        },
+        "H2O2": {
+          "L1": 1.8499973523659061e-09,
+          "L2": 2.055500399988432e-09,
+          "Linf": 3.1839312815328655e-09
+        },
+        "H2O": {
+          "L1": 6.235932022002118e-05,
+          "L2": 7.03300505523795e-05,
+          "Linf": 0.0001101182821806046
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 3.4291146311371534e-15,
+          "L2": 4.414058339401114e-15,
+          "Linf": 1.4099832412739488e-14
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "F_blockConservative_dt2e-06_s1_g0_o1_p1_tol0.0001_negative",
+      "kind": "F",
+      "dt": 2e-06,
+      "pressureTolerance": 0.0001,
+      "Tmean": 723.3304302435326,
+      "Tmin": 653.6012022134282,
+      "Tmax": 804.0629140753115,
+      "momentumMismatch": 0.07597085821202919,
+      "energyDrift": -3.1726800043349683e-15,
+      "massDrift": -1.118848992843954e-16,
+      "maxElementDrift": 2.247587370116414e-15,
+      "wallSingleTrial": 3.7556985640003404,
+      "linearSolvers": {
+        "rho": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 120,
+          "iterations": 343
+        },
+        "H": {
+          "solves": 120,
+          "iterations": 337
+        },
+        "O2": {
+          "solves": 120,
+          "iterations": 345
+        },
+        "O": {
+          "solves": 120,
+          "iterations": 341
+        },
+        "OH": {
+          "solves": 120,
+          "iterations": 337
+        },
+        "HO2": {
+          "solves": 120,
+          "iterations": 351
+        },
+        "H2O2": {
+          "solves": 120,
+          "iterations": 348
+        },
+        "H2O": {
+          "solves": 120,
+          "iterations": 346
+        },
+        "AR": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 120,
+          "iterations": 351
+        },
+        "p": {
+          "solves": 369,
+          "iterations": 8798
+        },
+        "deltaY": {
+          "solves": 2490,
+          "iterations": 6655
+        },
+        "deltaConservativeH": {
+          "solves": 500,
+          "iterations": 1500
+        }
+      },
+      "fullBlockSameDtReference": "F_blockConservative_dt2e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.007499312175079709,
+          "L2": 0.009257816046691198,
+          "Linf": 0.01545316005353925
+        },
+        "p": {
+          "L1": 2.316047966474457,
+          "L2": 2.759852760779699,
+          "Linf": 5.175200569399749
+        },
+        "rho": {
+          "L1": 6.995027450946122e-06,
+          "L2": 8.265722503320956e-06,
+          "Linf": 1.4246229030567825e-05
+        },
+        "h": {
+          "L1": 10.949692893696238,
+          "L2": 13.503488191240926,
+          "Linf": 22.691133689600974
+        },
+        "U": {
+          "L1": 0.0025079745036767354,
+          "L2": 0.0031749259536564835,
+          "Linf": 0.006102756722810909
+        },
+        "H2": {
+          "L1": 6.306429123091096e-08,
+          "L2": 7.976777814642208e-08,
+          "Linf": 1.454622259693117e-07
+        },
+        "H": {
+          "L1": 1.3211920862466227e-11,
+          "L2": 2.322215801130675e-11,
+          "Linf": 5.793639385822283e-11
+        },
+        "O2": {
+          "L1": 5.058010910285104e-07,
+          "L2": 6.381880093248724e-07,
+          "Linf": 1.160070738109864e-06
+        },
+        "O": {
+          "L1": 2.947936054117214e-11,
+          "L2": 4.957762742163581e-11,
+          "Linf": 1.2030141441154152e-10
+        },
+        "OH": {
+          "L1": 2.053541380849908e-11,
+          "L2": 3.594454063500686e-11,
+          "Linf": 8.924884716599229e-11
+        },
+        "HO2": {
+          "L1": 7.168657070360727e-09,
+          "L2": 7.741248820274952e-09,
+          "Linf": 1.1157545275298033e-08
+        },
+        "H2O2": {
+          "L1": 3.3884426047377886e-10,
+          "L2": 3.8672260448598284e-10,
+          "Linf": 6.358829458452453e-10
+        },
+        "H2O": {
+          "L1": 5.613185754664189e-07,
+          "L2": 7.106120370655234e-07,
+          "Linf": 1.2971792053536116e-06
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.080367128565186e-15,
+          "L2": 2.5675126410394245e-15,
+          "Linf": 6.217248937900877e-15
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1_tol0.0001",
+      "kind": "Mix",
+      "dt": 2e-06,
+      "pressureTolerance": 0.0001,
+      "Tmean": 799.4836310004156,
+      "Tmin": 771.0820077541458,
+      "Tmax": 828.4045297102035,
+      "momentumMismatch": 0.04174139400650539,
+      "energyDrift": 1.0432570585711734e-15,
+      "massDrift": 4.3502917947183143e-16,
+      "maxElementDrift": 2.5284095105133387e-15,
+      "wallSingleTrial": 1.4220604299989645,
+      "linearSolvers": {
+        "rho": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "H": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "OH": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "HO2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "AR": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "p": {
+          "solves": 243,
+          "iterations": 7607
+        },
+        "deltaY": {
+          "solves": 1230,
+          "iterations": 492
+        },
+        "deltaConservativeH": {
+          "solves": 246,
+          "iterations": 492
+        }
+      },
+      "fullBlockSameDtReference": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.004642473974079575,
+          "L2": 0.005153674601576525,
+          "Linf": 0.007814585871869895
+        },
+        "p": {
+          "L1": 0.5041761986242363,
+          "L2": 0.5617040192817815,
+          "Linf": 0.8216480165137909
+        },
+        "rho": {
+          "L1": 1.4190187163583322e-06,
+          "L2": 1.5762952268989216e-06,
+          "Linf": 2.519009390494764e-06
+        },
+        "h": {
+          "L1": 11.445334182566512,
+          "L2": 12.812257318999036,
+          "Linf": 21.140429001068696
+        },
+        "U": {
+          "L1": 4.277287346493575e-05,
+          "L2": 4.794263436339227e-05,
+          "Linf": 7.983394934996113e-05
+        },
+        "H2": {
+          "L1": 2.2269459408420702e-08,
+          "L2": 2.9609047521844216e-08,
+          "Linf": 6.870872189257415e-08
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.226945929701893e-08,
+          "L2": 2.9609047256356734e-08,
+          "Linf": 6.870873092701402e-08
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1_tol0.001",
+      "kind": "Mix",
+      "dt": 2e-06,
+      "pressureTolerance": 0.001,
+      "Tmean": 799.4836290560792,
+      "Tmin": 771.0819438433406,
+      "Tmax": 828.4043808860781,
+      "momentumMismatch": 0.15372134346635005,
+      "energyDrift": -4.6946567635702806e-15,
+      "massDrift": -8.700583589436629e-16,
+      "maxElementDrift": 1.4058071209020346e-15,
+      "wallSingleTrial": 1.3948552750007366,
+      "linearSolvers": {
+        "rho": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "H": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "OH": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "HO2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "AR": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "p": {
+          "solves": 240,
+          "iterations": 7519
+        },
+        "deltaY": {
+          "solves": 1200,
+          "iterations": 480
+        },
+        "deltaConservativeH": {
+          "solves": 240,
+          "iterations": 480
+        }
+      },
+      "fullBlockSameDtReference": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.004867547886791002,
+          "L2": 0.00540453535987338,
+          "Linf": 0.008198019181918426
+        },
+        "p": {
+          "L1": 0.5041814799453164,
+          "L2": 0.5617060013851046,
+          "Linf": 0.8215951127058361
+        },
+        "rho": {
+          "L1": 1.4596064894827543e-06,
+          "L2": 1.6199643919883065e-06,
+          "Linf": 2.57658004151895e-06
+        },
+        "h": {
+          "L1": 12.008261803965524,
+          "L2": 13.454632016485558,
+          "Linf": 22.291235097916797
+        },
+        "U": {
+          "L1": 4.5456963350370985e-05,
+          "L2": 5.458943436498439e-05,
+          "Linf": 9.832470075110677e-05
+        },
+        "H2": {
+          "L1": 3.4121372808444076e-08,
+          "L2": 4.5523099046548357e-08,
+          "Linf": 9.806868619954834e-08
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 3.412137324423914e-08,
+          "L2": 4.5523099890784064e-08,
+          "Linf": 9.80686970519784e-08
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    },
+    {
+      "name": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1_tol0.01",
+      "kind": "Mix",
+      "dt": 2e-06,
+      "pressureTolerance": 0.01,
+      "Tmean": 799.4836290560792,
+      "Tmin": 771.0819438433406,
+      "Tmax": 828.4043808860781,
+      "momentumMismatch": 0.15372134346635005,
+      "energyDrift": -4.6946567635702806e-15,
+      "massDrift": -8.700583589436629e-16,
+      "maxElementDrift": 1.4058071209020346e-15,
+      "wallSingleTrial": 1.564553022999462,
+      "linearSolvers": {
+        "rho": {
+          "solves": 240,
+          "iterations": 0
+        },
+        "H2": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "H": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "OH": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "HO2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O2": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "H2O": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "AR": {
+          "solves": 120,
+          "iterations": 0
+        },
+        "h": {
+          "solves": 120,
+          "iterations": 240
+        },
+        "p": {
+          "solves": 240,
+          "iterations": 7519
+        },
+        "deltaY": {
+          "solves": 1200,
+          "iterations": 480
+        },
+        "deltaConservativeH": {
+          "solves": 240,
+          "iterations": 480
+        }
+      },
+      "fullBlockSameDtReference": "Mix_blockConservative_dt2e-06_s1_g0_o1_p1",
+      "fieldDifferences": {
+        "T": {
+          "L1": 0.004867547886791002,
+          "L2": 0.00540453535987338,
+          "Linf": 0.008198019181918426
+        },
+        "p": {
+          "L1": 0.5041814799453164,
+          "L2": 0.5617060013851046,
+          "Linf": 0.8215951127058361
+        },
+        "rho": {
+          "L1": 1.4596064894827543e-06,
+          "L2": 1.6199643919883065e-06,
+          "Linf": 2.57658004151895e-06
+        },
+        "h": {
+          "L1": 12.008261803965524,
+          "L2": 13.454632016485558,
+          "Linf": 22.291235097916797
+        },
+        "U": {
+          "L1": 4.5456963350370985e-05,
+          "L2": 5.458943436498439e-05,
+          "Linf": 9.832470075110677e-05
+        },
+        "H2": {
+          "L1": 3.4121372808444076e-08,
+          "L2": 4.5523099046548357e-08,
+          "Linf": 9.806868619954834e-08
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 3.412137324423914e-08,
+          "L2": 4.5523099890784064e-08,
+          "Linf": 9.80686970519784e-08
+        }
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/a7b60dbabdbcc6c97040514b3f75a9f414875e8809bd1b7e8964451f3e6a97c8",
+      "executableSHA256": "ca5f72d00732f321e92fed35272873e6697bd3861f98ece5daeafb33716f6543"
+    }
+  ],
+  "scope": "Difference from tight block at the same dt/mesh; no independent exact error or guaranteed PDE accuracy controller. Single-trial wall measurements and separate instrumentation are not paired performance estimates."
+}

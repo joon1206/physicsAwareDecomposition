@@ -1,0 +1,227 @@
+{
+  "timestamp": "2026-10-04T20:39:02.249969+00:00",
+  "client_date": "2026-10-04",
+  "platform": "single WSL2 guest; no cluster allocation detected",
+  "environment": {
+    "WM_COMPILER": "Gcc63",
+    "FOAM_MPI": "openmpi-4.0.3",
+    "WM_PRECISION_OPTION": "DP",
+    "WM_PROJECT_USER_DIR": "/home/joon1206/OpenFOAM/joon1206-v2012",
+    "WM_MPLIB": "OPENMPI",
+    "FOAM_RUN": "/home/joon1206/OpenFOAM/joon1206-v2012/run",
+    "FOAM_EXT_LIBBIN": "/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty/platforms/linux64Gcc63DPInt32/lib",
+    "WM_OPTIONS": "linux64Gcc63DPInt32Opt",
+    "WM_ARCH": "linux64",
+    "FOAM_TUTORIALS": "/opt/OpenFOAM/OpenFOAM-v2012/tutorials",
+    "WM_LABEL_SIZE": "32",
+    "WM_PROJECT": "OpenFOAM",
+    "FOAM_APPBIN": "/opt/OpenFOAM/OpenFOAM-v2012/platforms/linux64Gcc63DPInt32Opt/bin",
+    "WM_THIRD_PARTY_DIR": "/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty",
+    "WM_LABEL_OPTION": "Int32",
+    "FOAM_LIBBIN": "/opt/OpenFOAM/OpenFOAM-v2012/platforms/linux64Gcc63DPInt32Opt/lib",
+    "FOAM_ETC": "/opt/OpenFOAM/OpenFOAM-v2012/etc",
+    "FOAM_UTILITIES": "/opt/OpenFOAM/OpenFOAM-v2012/applications/utilities",
+    "FOAM_SITE_LIBBIN": "/opt/OpenFOAM/OpenFOAM-v2012/site/2012/platforms/linux64Gcc63DPInt32Opt/lib",
+    "WM_PROJECT_VERSION": "v2012",
+    "WM_DIR": "/opt/OpenFOAM/OpenFOAM-v2012/wmake",
+    "FOAM_SITE_APPBIN": "/opt/OpenFOAM/OpenFOAM-v2012/site/2012/platforms/linux64Gcc63DPInt32Opt/bin",
+    "MPI_ARCH_PATH": "/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty/platforms/linux64Gcc63/openmpi-4.0.3",
+    "FOAM_SRC": "/opt/OpenFOAM/OpenFOAM-v2012/src",
+    "FOAM_USER_LIBBIN": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/build/lib",
+    "FOAM_APP": "/opt/OpenFOAM/OpenFOAM-v2012/applications",
+    "FOAM_API": "2012",
+    "WM_COMPILE_OPTION": "Opt",
+    "OPAL_PREFIX": "/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty/platforms/linux64Gcc63/openmpi-4.0.3",
+    "OMP_NUM_THREADS": "1",
+    "FOAM_SOLVERS": "/opt/OpenFOAM/OpenFOAM-v2012/applications/solvers",
+    "WM_PROJECT_DIR": "/opt/OpenFOAM/OpenFOAM-v2012",
+    "WM_COMPILER_TYPE": "ThirdParty",
+    "FOAM_USER_APPBIN": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/build/bin",
+    "WM_COMPILER_LIB_ARCH": "64",
+    "OPAL_LIBDIR": "/opt/OpenFOAM/OpenFOAM-v2012/ThirdParty/platforms/linux64Gcc63/openmpi-4.0.3/lib64"
+  },
+  "commands": [
+    {
+      "command": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "returncode": 0,
+      "stdout": "?? cases/\n?? research/\n?? scripts/\n?? solvers/\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "returncode": 0,
+      "stdout": "main\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "ba7aeb51b1b6acc443c295950c8ed0aa4c426ec3\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uname",
+        "-a"
+      ],
+      "returncode": 0,
+      "stdout": "Linux DESKTOP-MQL9TPV 6.18.40.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026 x86_64 GNU/Linux\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "hostname"
+      ],
+      "returncode": 0,
+      "stdout": "DESKTOP-MQL9TPV\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lscpu"
+      ],
+      "returncode": 0,
+      "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 5 5600X 6-Core Processor\nCPU family:                              25\nModel:                                   33\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                2\nBogoMIPS:                                7400.08\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               192 KiB (6 instances)\nL2 cache:                                3 MiB (6 instances)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-11\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lscpu",
+        "-e"
+      ],
+      "returncode": 0,
+      "stdout": "CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE\n  0    0      0    0 0:0:0:0          yes\n  1    0      0    0 0:0:0:0          yes\n  2    0      0    1 1:1:1:0          yes\n  3    0      0    1 1:1:1:0          yes\n  4    0      0    2 2:2:2:0          yes\n  5    0      0    2 2:2:2:0          yes\n  6    0      0    3 3:3:3:0          yes\n  7    0      0    3 3:3:3:0          yes\n  8    0      0    4 4:4:4:0          yes\n  9    0      0    4 4:4:4:0          yes\n 10    0      0    5 5:5:5:0          yes\n 11    0      0    5 5:5:5:0          yes\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "free",
+        "-b"
+      ],
+      "returncode": 0,
+      "stdout": "               total        used        free      shared  buff/cache   available\nMem:     16730521600   662798336 15271006208    17166336  1026510848 16067723264\nSwap:     4294967296           0  4294967296\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "numactl",
+        "--hardware"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'numactl'"
+    },
+    {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "g++ (OpenFOAM) 6.3.0\nCopyright (C) 2016 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "mpirun",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "mpirun (Open MPI) 4.0.3\n\nReport bugs to http://www.open-mpi.org/community/help/\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "cmake",
+        "--version"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'cmake'"
+    },
+    {
+      "command": [
+        "python3",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Python 3.14.4\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "make",
+        "--version"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'make'"
+    },
+    {
+      "command": [
+        "sinfo"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'sinfo'"
+    },
+    {
+      "command": [
+        "scontrol",
+        "show",
+        "nodes"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'scontrol'"
+    },
+    {
+      "command": [
+        "nvidia-smi"
+      ],
+      "returncode": 0,
+      "stdout": "Sun Oct  4 16:39:02 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 590.57                 Driver Version: 591.86         CUDA Version: 13.1     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:0A:00.0  On |                  N/A |\n|  0%   45C    P0             59W /  300W |    1341MiB /  11264MiB |      3%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A              26      G   /Xwayland                             N/A      |\n+-----------------------------------------------------------------------------------------+\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "perf",
+        "--version"
+      ],
+      "unavailable": "[Errno 2] No such file or directory: 'perf'"
+    }
+  ],
+  "source": {
+    "/opt/OpenFOAM/OpenFOAM-v2012/applications/solvers/combustion/reactingFoam/reactingFoam.C": {
+      "sha256": "df41329cb9a49cfd89fd1ff5abe235890d490641d6314149e2f6a89d08bf495f"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/applications/solvers/combustion/reactingFoam/YEqn.H": {
+      "sha256": "aa0c4976b3b91c379de32883db90911288852d570937965080d4b1187268e12d"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDistribute.C": {
+      "sha256": "038f1fe06f069458a7b368e14f64c7bff854bbdce2b2911375726f927b92f07a"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/src/combustionModels/laminar/laminar.C": {
+      "sha256": "08c8da76612045dd3ff609e102f614acf3e752d7c3118a02f39f2f32404790ed"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/src/thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.C": {
+      "sha256": "2c11f728b8239a5a68d2b1a21312ca01456c978e4b5bdc3de64333b0a273ca2e"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C": {
+      "sha256": "d96cfff8e1d79805ac582fce3b7fea7f59cee35b623d4fa4d21dcabdb0c92a47"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/src/parallel/decompose/scotchDecomp/scotchDecomp.C": {
+      "sha256": "f33efc4cd630a53d1e5958d985a692a88c41d12b03c728cb99205c8728e3644b"
+    },
+    "/opt/OpenFOAM/OpenFOAM-v2012/wmake/rules/General/Gcc/c++": {
+      "sha256": "8ebc3359d07899ac9cf761acd463f39d7df69baeae572cb350247ad986369bcc"
+    }
+  },
+  "decomposition_libraries": [
+    "/opt/OpenFOAM/OpenFOAM-v2012/platforms/linux64Gcc63DPInt32Opt/lib/libkahipDecomp.so",
+    "/opt/OpenFOAM/OpenFOAM-v2012/platforms/linux64Gcc63DPInt32Opt/lib/libscotchDecomp.so"
+  ],
+  "os_release": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+  "cpu_governor": {}
+}

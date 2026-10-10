@@ -1,0 +1,19 @@
+--- native/loadOrCreateMesh.C
++++ private/loadOrCreateMesh.C
+@@ -285,7 +285,7 @@
+             const word type(e.dict().get<word>("type"));
+             const word& name = e.keyword();
+ 
+-            if (type == processorPolyPatch::typeName)
++            if (type == processorPolyPatch::typeName || type == processorCyclicPolyPatch::typeName)
+             {
+                 break;
+             }
+--- native/Make/files
++++ private/Make/files
+@@ -4,4 +4,4 @@
+ loadOrCreateMesh.C
+ redistributePar.C
+ 
+-EXE = $(FOAM_APPBIN)/redistributePar
++EXE = $(FOAM_USER_APPBIN)/redistributeParPAD

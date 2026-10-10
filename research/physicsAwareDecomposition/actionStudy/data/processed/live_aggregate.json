@@ -1,0 +1,137 @@
+{
+  "nativeContinuous": {
+    "speedup": 1.0,
+    "CI": [
+      1.0,
+      1.0
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "continuous": {
+    "speedup": 0.9960246092349637,
+    "CI": [
+      0.962107107384039,
+      1.0154879032743278
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "ACContinuous": {
+    "speedup": 1.2092367045119155,
+    "CI": [
+      1.1783532815748659,
+      1.2428827051601863
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "A0": {
+    "speedup": 0.8871190922416263,
+    "CI": [
+      0.8606541440937647,
+      0.9238786952626915
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "AC": {
+    "speedup": 1.0442728042195226,
+    "CI": [
+      1.0038325412043123,
+      1.0668135069886717
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "AM": {
+    "speedup": 0.6971160493777636,
+    "CI": [
+      0.68195332579907,
+      0.7173753407199631
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": false,
+    "ratioInterpretation": "descriptive timing ratio only; a predefined numerical gate failed; every original timing retained",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "imbalanceThreshold": {
+    "speedup": 1.0539526545728028,
+    "CI": [
+      1.019413713071192,
+      1.078730281532448
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "persistenceBreakEven": {
+    "speedup": 1.0367012940362474,
+    "CI": [
+      0.9918843171645645,
+      1.0658412671763569
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  },
+  "controller": {
+    "speedup": 0.9216155616653584,
+    "CI": [
+      0.8948358710846686,
+      0.9424717147983314
+    ],
+    "conditions": [
+      "heldoutMoving",
+      "heldoutIgnition",
+      "heldoutPersistent"
+    ],
+    "valid": true,
+    "ratioInterpretation": "claim-eligible within the disclosed physical limits",
+    "timingScope": "sum of condition median end-to-end wall; uncertainty resamples runs within each fixed condition, not a population of flows"
+  }
+}

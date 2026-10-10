@@ -1,0 +1,11 @@
+Source attribution and scope
+
+reactingFoamPAD derives from OpenCFD OpenFOAM-v2012 reactingFoam and the pre-existing local timed solver. Original OpenFOAM copyright/license headers are retained. The numerical equations are unchanged; project timing code is added.
+
+costEulerImplicit copies the per-cell StandardChemistryModel integration loop from OpenFOAM v2012, retaining its numerical order, and derives from the existing EulerImplicit solver. This derivative is distributed under GPL-3.0-or-later. OpenFOAM Foundation/OpenCFD copyright remains applicable.
+
+The public counterFlowFlame2DLTS case is copied from the installed OpenCFD v2012 tutorial into retained benchmark directories. It is not original geometry or an independently validated chemistry mechanism.
+
+Scotch is used through the existing OpenFOAM decomposition plugin; no graph-partitioner source is newly authored. Python plotting dependencies are build-time packages in ignored build/pydeps and retain their own licenses. Literature sources are cited, not redistributed as full papers.
+
+All new source/documentation/analysis in this project is GPL-3.0-or-later. See LICENSE.

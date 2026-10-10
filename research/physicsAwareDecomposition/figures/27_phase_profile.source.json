@@ -1,0 +1,24 @@
+{
+  "status": "MEASURED or DERIVED as caption specifies",
+  "caption": "Lightweight measured phase profile. Pressure/species/energy times include solver communication and idle time; no MPI-only attribution is made.",
+  "data": [
+    {
+      "method": "Scotch",
+      "chemistryWall": 1.172686946,
+      "speciesWall": 3.499131011,
+      "energyWall": 0.514945895,
+      "pressureWall": 0.768221834,
+      "momentumWall": 0.12617646,
+      "ioWall": 0.000101119
+    },
+    {
+      "method": "Weighted",
+      "chemistryWall": 1.190209513,
+      "speciesWall": 2.12814522,
+      "energyWall": 0.607533974,
+      "pressureWall": 0.9484144320000001,
+      "momentumWall": 0.146056083,
+      "ioWall": 9.027999999999998e-05
+    }
+  ]
+}

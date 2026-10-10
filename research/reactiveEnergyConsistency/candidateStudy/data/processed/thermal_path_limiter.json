@@ -1,0 +1,109 @@
+{
+  "configuration": {
+    "Cp": 1000.0,
+    "Cv": 700.0,
+    "Q": 2000000.0,
+    "Tinitial": 1000.0,
+    "Yinitial": 0.5,
+    "rho": 1.0,
+    "k0": 1000000.0,
+    "a": 50.0,
+    "dt": 4e-06,
+    "TF": 4e-06,
+    "interiorMargin": 1e-12,
+    "scriptSHA256": "9b04e9ec13d2b4735a39b3d68fe2e05b461d213db7d4c731c3076c245474784b",
+    "sourceMapSHA256": "38012e8e219d81d858f3f7677b20be167d10b5608b6f11499673eb2b1b9818c9",
+    "scope": "Exact synthetic source maps. One predeclared weak-feedback/stiff-step counterexample, not detailed chemistry or a universal result for other limiters."
+  },
+  "baseline": {
+    "k0": 1000000.0,
+    "a": 50.0,
+    "dt": 4e-06,
+    "TF": 4e-06,
+    "compensated": false,
+    "admissible": true,
+    "endpoint": {
+      "time": 4e-06,
+      "Y_A": 0.007866779485945231,
+      "Y_B": 0.9921332205140547,
+      "T": 2406.094915754442,
+      "p": 721828.4747263326,
+      "cpEndpoint": 0.007866779485945231,
+      "taylorCorrection": 0.0,
+      "energyResidual": -2.3283064365386963e-10
+    },
+    "reference": {
+      "Y_A": 0.007366215248726057,
+      "T": 2407.5250992893543
+    },
+    "temperatureError": 1.4301835349124303,
+    "speciesError": 0.0005005642372191742,
+    "minY": 0.007866779485945231,
+    "maxEnergyResidual": 2.3283064365386963e-10,
+    "trajectory": [
+      {
+        "time": 4e-06,
+        "Y_A": 0.007866779485945231,
+        "Y_B": 0.9921332205140547,
+        "T": 2406.094915754442,
+        "p": 721828.4747263326,
+        "cpEndpoint": 0.007866779485945231,
+        "taylorCorrection": 0.0,
+        "energyResidual": -2.3283064365386963e-10
+      }
+    ]
+  },
+  "bare": {
+    "k0": 1000000.0,
+    "a": 50.0,
+    "dt": 4e-06,
+    "TF": 4e-06,
+    "compensated": true,
+    "admissible": false,
+    "endpoint": {
+      "time": 4e-06,
+      "Y_A": -0.07784750622834048,
+      "Y_B": 1.0778475062283406,
+      "T": 2650.9928749381156,
+      "p": 795297.8624814347,
+      "cpEndpoint": 0.007866779485945231,
+      "taylorCorrection": -0.08571428571428572,
+      "energyResidual": 0.0
+    },
+    "reference": {
+      "Y_A": 0.007366215248726057,
+      "T": 2407.5250992893543
+    },
+    "temperatureError": 243.4677756487613,
+    "speciesError": 0.08521372147706655,
+    "minY": -0.07784750622834048,
+    "maxEnergyResidual": 0.0,
+    "trajectory": [
+      {
+        "time": 4e-06,
+        "Y_A": -0.07784750622834048,
+        "Y_B": 1.0778475062283406,
+        "T": 2650.9928749381156,
+        "p": 795297.8624814347,
+        "cpEndpoint": 0.007866779485945231,
+        "taylorCorrection": -0.08571428571428572,
+        "energyResidual": 0.0
+      }
+    ]
+  },
+  "limited": {
+    "theta": 0.09177909400260258,
+    "Y_A": 7.86697096355482e-15,
+    "Y_B": 0.9999999999999921,
+    "T": 2428.571428571406,
+    "p": 728571.4285714219,
+    "admissible": true,
+    "temperatureError": 21.04632928205183,
+    "speciesError": 0.00736621524871819,
+    "massResidual": 0.0,
+    "energyResidual": 2.3283064365386963e-10,
+    "eosResidual": 0.0
+  },
+  "limitedToBaselineTemperatureErrorRatio": 14.715824066133225,
+  "decision": "REJECT guaranteed accuracy-improvement claim for common positivity scaling of this macro Taylor correction. Positivity and conservative closure do not ensure a more accurate source trajectory."
+}

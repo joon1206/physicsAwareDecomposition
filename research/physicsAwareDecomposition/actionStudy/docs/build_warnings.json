@@ -1,0 +1,468 @@
+{
+  "projectWarnings": [],
+  "upstreamQuicklbWarnings": [
+    {
+      "line": 241,
+      "text": "/home/joon1206/research/ForFun/research/physicsAwareDecomposition/build/quicklbEnv/lib/python3.11/site-packages/numpy/f2py/f2py2e.py:719: VisibleDeprecationWarning: distutils has been deprecated since NumPy 1.26.xUse the Meson backend instead, or generate wrapperswithout -c and use a custom build script",
+      "explanation": "Legacy upstream F2Py/distutils backend deprecation; pinned Python/NumPy toolchain builds successfully."
+    },
+    {
+      "line": 261,
+      "text": "Warning: redefinition of {'integer':{'c_intptr_t':'long'->'long_long'}}",
+      "explanation": "Upstream F2Py kind-map redefinition; fixed-width integers and pointers map to 64-bit host ABI. Executed four-mode field checks pass."
+    },
+    {
+      "line": 263,
+      "text": "Warning: redefinition of {'integer':{'c_int32_t':'int'->'int'}}",
+      "explanation": "Upstream F2Py kind-map redefinition; fixed-width integers and pointers map to 64-bit host ABI. Executed four-mode field checks pass."
+    },
+    {
+      "line": 265,
+      "text": "Warning: redefinition of {'integer':{'c_int64_t':'long_long'->'long_long'}}",
+      "explanation": "Upstream F2Py kind-map redefinition; fixed-width integers and pointers map to 64-bit host ABI. Executed four-mode field checks pass."
+    },
+    {
+      "line": 493,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:727:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 497,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:907:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 501,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:1087:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 505,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:1267:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 509,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:1447:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 513,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:1643:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 517,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:1839:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 521,
+      "text": "/tmp/tmp2hqfnnqd/src.linux-x86_64-3.11/quicklb_libmodule.c:2035:9: warning: variable 'capi_j' set but not used [-Wunused-but-set-variable]",
+      "explanation": "Unused variable in generated F2Py C wrapper; no project CFD source warning."
+    },
+    {
+      "line": 535,
+      "text": "[DESKTOP-MQL9TPV:1513005] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 536,
+      "text": "[DESKTOP-MQL9TPV:1513006] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 537,
+      "text": "[DESKTOP-MQL9TPV:1513007] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 538,
+      "text": "[DESKTOP-MQL9TPV:1513008] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 540,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 552,
+      "text": "[DESKTOP-MQL9TPV:1513037] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 553,
+      "text": "[DESKTOP-MQL9TPV:1513035] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 555,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 564,
+      "text": "[DESKTOP-MQL9TPV:1513036] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 565,
+      "text": "[DESKTOP-MQL9TPV:1513034] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 569,
+      "text": "[DESKTOP-MQL9TPV:1513066] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 570,
+      "text": "[DESKTOP-MQL9TPV:1513065] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 572,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 581,
+      "text": "[DESKTOP-MQL9TPV:1513064] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 582,
+      "text": "[DESKTOP-MQL9TPV:1513063] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 586,
+      "text": "[DESKTOP-MQL9TPV:1513093] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 587,
+      "text": "[DESKTOP-MQL9TPV:1513094] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 588,
+      "text": "[DESKTOP-MQL9TPV:1513092] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 590,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 599,
+      "text": "[DESKTOP-MQL9TPV:1513095] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 603,
+      "text": "[DESKTOP-MQL9TPV:1513125] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 604,
+      "text": "[DESKTOP-MQL9TPV:1513126] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 605,
+      "text": "[DESKTOP-MQL9TPV:1513127] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 607,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 616,
+      "text": "[DESKTOP-MQL9TPV:1513128] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 620,
+      "text": "[DESKTOP-MQL9TPV:1513154] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 621,
+      "text": "[DESKTOP-MQL9TPV:1513155] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 622,
+      "text": "[DESKTOP-MQL9TPV:1513157] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 623,
+      "text": "[DESKTOP-MQL9TPV:1513156] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 625,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 637,
+      "text": "[DESKTOP-MQL9TPV:1513184] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 638,
+      "text": "[DESKTOP-MQL9TPV:1513185] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 639,
+      "text": "[DESKTOP-MQL9TPV:1513186] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 641,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 650,
+      "text": "[DESKTOP-MQL9TPV:1513183] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 654,
+      "text": "[DESKTOP-MQL9TPV:1513215] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 655,
+      "text": "[DESKTOP-MQL9TPV:1513214] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 657,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 666,
+      "text": "[DESKTOP-MQL9TPV:1513213] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 667,
+      "text": "[DESKTOP-MQL9TPV:1513212] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 671,
+      "text": "[DESKTOP-MQL9TPV:1513244] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 672,
+      "text": "[DESKTOP-MQL9TPV:1513242] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 673,
+      "text": "[DESKTOP-MQL9TPV:1513243] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 675,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 684,
+      "text": "[DESKTOP-MQL9TPV:1513241] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 688,
+      "text": "[DESKTOP-MQL9TPV:1513271] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 690,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 699,
+      "text": "[DESKTOP-MQL9TPV:1513270] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 700,
+      "text": "[DESKTOP-MQL9TPV:1513272] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 701,
+      "text": "[DESKTOP-MQL9TPV:1513273] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 705,
+      "text": "[DESKTOP-MQL9TPV:1513300] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 706,
+      "text": "[DESKTOP-MQL9TPV:1513301] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 707,
+      "text": "[DESKTOP-MQL9TPV:1513299] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 709,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 718,
+      "text": "[DESKTOP-MQL9TPV:1513302] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 722,
+      "text": "[DESKTOP-MQL9TPV:1513328] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 723,
+      "text": "[DESKTOP-MQL9TPV:1513330] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 724,
+      "text": "[DESKTOP-MQL9TPV:1513331] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 725,
+      "text": "[DESKTOP-MQL9TPV:1513329] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 727,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 739,
+      "text": "[DESKTOP-MQL9TPV:1513357] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 740,
+      "text": "[DESKTOP-MQL9TPV:1513359] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 741,
+      "text": "[DESKTOP-MQL9TPV:1513358] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 743,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 752,
+      "text": "[DESKTOP-MQL9TPV:1513360] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 756,
+      "text": "[DESKTOP-MQL9TPV:1513386] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 757,
+      "text": "[DESKTOP-MQL9TPV:1513389] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 758,
+      "text": "[DESKTOP-MQL9TPV:1513387] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 760,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 769,
+      "text": "[DESKTOP-MQL9TPV:1513388] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 773,
+      "text": "[DESKTOP-MQL9TPV:1513417] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 774,
+      "text": "[DESKTOP-MQL9TPV:1513415] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 775,
+      "text": "[DESKTOP-MQL9TPV:1513416] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 777,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 786,
+      "text": "[DESKTOP-MQL9TPV:1513418] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 790,
+      "text": "[DESKTOP-MQL9TPV:1513444] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 792,
+      "text": "WARNING: Linux kernel CMA support was requested via the",
+      "explanation": "WSL ptrace policy disables CMA; OpenMPI explicitly falls back to another shared-memory mechanism. Same fallback across all modes; toy timings are specific to this host."
+    },
+    {
+      "line": 801,
+      "text": "[DESKTOP-MQL9TPV:1513446] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 802,
+      "text": "[DESKTOP-MQL9TPV:1513447] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    },
+    {
+      "line": 803,
+      "text": "[DESKTOP-MQL9TPV:1513445] mca_base_component_repository_open: unable to open mca_btl_openib: librdmacm.so.1: cannot open shared object file: No such file or directory (ignored)",
+      "explanation": "Optional OpenMPI InfiniBand plugin cannot load absent RDMA library and is ignored. This single-host run uses shared-memory communication; no network scalability claim."
+    }
+  ],
+  "projectWarningsPassed": true,
+  "interpretation": "Project C++ clean final builds contain no compiler warnings. Public QUICKLB uses legacy numpy.distutils/F2Py packaging; its final successful build warnings are retained below. The unused generated capi_jset warning concerns F2Py wrapper code, not a changed CFD kernel. Successful four-mode field checks establish the executed toy scope, not absence of all upstream packaging risk.",
+  "rejectedBuilds": "OPAL_LIBDIR contamination and upstream --inplace packaging failures are retained separately; they are not counted as successful build evidence."
+}

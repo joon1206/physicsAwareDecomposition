@@ -1,0 +1,108 @@
+{
+  "records": [
+    {
+      "dt": 2e-06,
+      "variant": "nativeInitialization",
+      "inventories": [
+        {
+          "time": 0.0,
+          "mass": 5.914511201018849e-08,
+          "totalEnergy": 0.017496612061541128,
+          "relativeMassDrift": 0.0
+        },
+        {
+          "time": 2e-06,
+          "mass": 5.9008213908355777e-08,
+          "totalEnergy": 0.01754561010822878,
+          "relativeMassDrift": -0.002314613958447335
+        },
+        {
+          "time": 4e-06,
+          "mass": 5.900821390835578e-08,
+          "totalEnergy": 0.017602578626852782,
+          "relativeMassDrift": -0.002314613958447223
+        }
+      ],
+      "path": "data/raw/initialState/nativeInitialization_dt2e-06"
+    },
+    {
+      "dt": 2e-06,
+      "variant": "initialPsiPreserved",
+      "inventories": [
+        {
+          "time": 0.0,
+          "mass": 5.914511201018849e-08,
+          "totalEnergy": 0.017496612061541128,
+          "relativeMassDrift": 0.0
+        },
+        {
+          "time": 2e-06,
+          "mass": 5.9145112010188497e-08,
+          "totalEnergy": 0.01756385904403854,
+          "relativeMassDrift": 1.1188489928439537e-16
+        },
+        {
+          "time": 4e-06,
+          "mass": 5.914511201018849e-08,
+          "totalEnergy": 0.017645087030597688,
+          "relativeMassDrift": 0.0
+        }
+      ],
+      "path": "data/raw/initialState/initialPsiPreserved_dt2e-06"
+    },
+    {
+      "dt": 2.5e-07,
+      "variant": "nativeInitialization",
+      "inventories": [
+        {
+          "time": 0.0,
+          "mass": 5.914511201018849e-08,
+          "totalEnergy": 0.017496612061541128,
+          "relativeMassDrift": 0.0
+        },
+        {
+          "time": 2.5e-07,
+          "mass": 5.9132393834477007e-08,
+          "totalEnergy": 0.01750072725039668,
+          "relativeMassDrift": -0.00021503341999407465
+        },
+        {
+          "time": 5e-07,
+          "mass": 5.9132393834476993e-08,
+          "totalEnergy": 0.017501063441397118,
+          "relativeMassDrift": -0.00021503341999429843
+        }
+      ],
+      "path": "data/raw/initialState/nativeInitialization_dt2.5e-07"
+    },
+    {
+      "dt": 2.5e-07,
+      "variant": "initialPsiPreserved",
+      "inventories": [
+        {
+          "time": 0.0,
+          "mass": 5.914511201018849e-08,
+          "totalEnergy": 0.017496612061541128,
+          "relativeMassDrift": 0.0
+        },
+        {
+          "time": 2.5e-07,
+          "mass": 5.914511201018848e-08,
+          "totalEnergy": 0.01749712374618675,
+          "relativeMassDrift": -2.2376979856879073e-16
+        },
+        {
+          "time": 5e-07,
+          "mass": 5.9145112010188497e-08,
+          "totalEnergy": 0.017498348781688593,
+          "relativeMassDrift": 1.1188489928439537e-16
+        }
+      ],
+      "path": "data/raw/initialState/initialPsiPreserved_dt2.5e-07"
+    }
+  ],
+  "initialMassConservationPassed": true,
+  "originalInitializationShowsOffset": true,
+  "performanceDataChanged": false,
+  "scope": "Two-step initialization diagnosis only. The separate executable preallocates psi.oldTime before the first initial thermodynamic update. It is not used for the frozen oracle/controller performance data, and does not by itself prove long-time energy or flame convergence."
+}

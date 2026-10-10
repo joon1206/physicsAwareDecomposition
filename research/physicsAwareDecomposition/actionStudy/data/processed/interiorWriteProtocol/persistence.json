@@ -1,0 +1,1424 @@
+[
+  {
+    "regime": "chemistryDominated",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.9051409306377395,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 2.879634402,
+    "futureCost": 3.30224224
+  },
+  {
+    "regime": "chemistryDominated",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.7571900084426197,
+    "topOverlap": 0.4444444444444444,
+    "currentCost": 2.879634402,
+    "futureCost": 3.234039013
+  },
+  {
+    "regime": "chemistryDominated",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.1702380550658647,
+    "topOverlap": 0.0,
+    "currentCost": 2.879634402,
+    "futureCost": 4.264073362
+  },
+  {
+    "regime": "chemistryDominated",
+    "index": 20,
+    "lag": 10,
+    "rho": -0.03997381094180453,
+    "topOverlap": 0.0,
+    "currentCost": 2.879634402,
+    "futureCost": 3.950702764
+  },
+  {
+    "regime": "chemistryDominated",
+    "index": 20,
+    "lag": 20,
+    "rho": -0.26113032039734213,
+    "topOverlap": 0.0,
+    "currentCost": 2.879634402,
+    "futureCost": 3.911577066
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.9742090787254118,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.001568582,
+    "futureCost": 0.001579534
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.9808958400095128,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 0.001568582,
+    "futureCost": 0.00265225
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.9913948814363039,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 0.001568582,
+    "futureCost": 0.002545492
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.8865965680207164,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 0.001568582,
+    "futureCost": 0.001766712
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.9869955873344582,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.001568582,
+    "futureCost": 0.001540213
+  },
+  {
+    "regime": "decay",
+    "index": 20,
+    "lag": 40,
+    "rho": 0.9645035190282767,
+    "topOverlap": 0.3,
+    "currentCost": 0.001568582,
+    "futureCost": 0.001576151
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.9688950732270382,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.001576151,
+    "futureCost": 0.001511194
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.9428377995469295,
+    "topOverlap": 0.4444444444444444,
+    "currentCost": 0.001576151,
+    "futureCost": 0.0015782840000000001
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.9695025540725687,
+    "topOverlap": 0.4444444444444444,
+    "currentCost": 0.001576151,
+    "futureCost": 0.001519614
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.9645683520755746,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 0.001576151,
+    "futureCost": 0.001528184
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.9477711998034568,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 0.001576151,
+    "futureCost": 0.001957609
+  },
+  {
+    "regime": "decay",
+    "index": 60,
+    "lag": 40,
+    "rho": 0.964518729887452,
+    "topOverlap": 0.4857142857142857,
+    "currentCost": 0.001576151,
+    "futureCost": 0.001520153
+  },
+  {
+    "regime": "decay",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.9943048472655232,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.001520153,
+    "futureCost": 0.001517494
+  },
+  {
+    "regime": "decay",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.9836796813268979,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.001520153,
+    "futureCost": 0.001545363
+  },
+  {
+    "regime": "decay",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.9612281647488807,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 0.001520153,
+    "futureCost": 0.001577932
+  },
+  {
+    "regime": "decay",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.9944053321512646,
+    "topOverlap": 0.5757575757575758,
+    "currentCost": 0.001520153,
+    "futureCost": 0.001521724
+  },
+  {
+    "regime": "decay",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.9736541845573775,
+    "topOverlap": 0.4857142857142857,
+    "currentCost": 0.001520153,
+    "futureCost": 0.001566597
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.08082379352965034,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.004962425,
+    "futureCost": 0.004993676
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.12529822267671853,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.004962425,
+    "futureCost": 0.005258869
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.13165611994475568,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.004962425,
+    "futureCost": 0.005011256
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.0628201139716142,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.004962425,
+    "futureCost": 0.005025666
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.08640273228973697,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 0.004962425,
+    "futureCost": 0.005136835
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 20,
+    "lag": 40,
+    "rho": 0.0740112029200429,
+    "topOverlap": 0.3,
+    "currentCost": 0.004962425,
+    "futureCost": 0.005069207
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.06905147091708273,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.005069207,
+    "futureCost": 0.005112074
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.004616617293376791,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.005069207,
+    "futureCost": 0.005164323
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.09234573016442589,
+    "topOverlap": 0.3,
+    "currentCost": 0.005069207,
+    "futureCost": 0.004984225
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.033692878237601566,
+    "topOverlap": 0.3,
+    "currentCost": 0.005069207,
+    "futureCost": 0.005141445
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.0693303135883435,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 0.005069207,
+    "futureCost": 0.005045996
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.03752952530563216,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.005069207,
+    "futureCost": 0.01191876
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.9685220902514198,
+    "topOverlap": 0.625,
+    "currentCost": 0.01191876,
+    "futureCost": 0.008540624
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.9701092785345831,
+    "topOverlap": 0.625,
+    "currentCost": 0.01191876,
+    "futureCost": 0.008424399
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.8100952413199848,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 0.01191876,
+    "futureCost": 0.012238192
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.5712867829841302,
+    "topOverlap": 0.04,
+    "currentCost": 0.01191876,
+    "futureCost": 0.010479884
+  },
+  {
+    "regime": "heldoutIgnition",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.88322630301294,
+    "topOverlap": 0.625,
+    "currentCost": 0.01191876,
+    "futureCost": 0.025161167
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.9601182232688278,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.030941348,
+    "futureCost": 0.04579861
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.8889070073138469,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.030941348,
+    "futureCost": 0.041099744
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.8245866752159497,
+    "topOverlap": 0.20930232558139536,
+    "currentCost": 0.030941348,
+    "futureCost": 0.030223412
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.615990821389649,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.030941348,
+    "futureCost": 0.042039369
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.060036081642383145,
+    "topOverlap": 0.0,
+    "currentCost": 0.030941348,
+    "futureCost": 0.124337783
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 20,
+    "lag": 40,
+    "rho": 0.5041015495502098,
+    "topOverlap": 0.08333333333333333,
+    "currentCost": 0.030941348,
+    "futureCost": 0.352371084
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.7323208539247242,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 0.352371084,
+    "futureCost": 0.247112957
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 2,
+    "rho": -0.04049551065516156,
+    "topOverlap": 0.0,
+    "currentCost": 0.352371084,
+    "futureCost": 0.234697778
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 5,
+    "rho": -0.18991507038877734,
+    "topOverlap": 0.0,
+    "currentCost": 0.352371084,
+    "futureCost": 0.200259933
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.3804408917340775,
+    "topOverlap": 0.20930232558139536,
+    "currentCost": 0.352371084,
+    "futureCost": 0.16234095
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.16814358096384452,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.352371084,
+    "futureCost": 0.148825786
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.11947997325161662,
+    "topOverlap": 0.0,
+    "currentCost": 0.352371084,
+    "futureCost": 0.105718617
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 100,
+    "lag": 1,
+    "rho": -0.0005624356295574536,
+    "topOverlap": 0.0,
+    "currentCost": 0.105718617,
+    "futureCost": 0.092709291
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 100,
+    "lag": 2,
+    "rho": -0.14617867837134904,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.105718617,
+    "futureCost": 0.091292399
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.13071715230459455,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.105718617,
+    "futureCost": 0.089551826
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.4080273788103459,
+    "topOverlap": 0.13043478260869565,
+    "currentCost": 0.105718617,
+    "futureCost": 0.096199529
+  },
+  {
+    "regime": "heldoutMoving",
+    "index": 100,
+    "lag": 20,
+    "rho": -0.1332556523122597,
+    "topOverlap": 0.0,
+    "currentCost": 0.105718617,
+    "futureCost": 0.085985546
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.8990801268928064,
+    "topOverlap": 0.625,
+    "currentCost": 0.154390179,
+    "futureCost": 0.200792236
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.5141967798849786,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.154390179,
+    "futureCost": 0.157314229
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.04350418384815819,
+    "topOverlap": 0.0,
+    "currentCost": 0.154390179,
+    "futureCost": 0.188380731
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 10,
+    "rho": -0.12579618077496738,
+    "topOverlap": 0.0,
+    "currentCost": 0.154390179,
+    "futureCost": 0.234200332
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 20,
+    "rho": -0.0446371254399968,
+    "topOverlap": 0.0,
+    "currentCost": 0.154390179,
+    "futureCost": 0.166884486
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 20,
+    "lag": 40,
+    "rho": -0.12789772632692392,
+    "topOverlap": 0.0,
+    "currentCost": 0.154390179,
+    "futureCost": 0.296664019
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.9256706933953016,
+    "topOverlap": 0.7931034482758621,
+    "currentCost": 0.296664019,
+    "futureCost": 0.304977731
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.9261126024831063,
+    "topOverlap": 0.7333333333333333,
+    "currentCost": 0.296664019,
+    "futureCost": 0.178776011
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.9228252640180193,
+    "topOverlap": 0.7931034482758621,
+    "currentCost": 0.296664019,
+    "futureCost": 0.190044781
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.07738855700616275,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.296664019,
+    "futureCost": 0.185214963
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 20,
+    "rho": -0.013690928478724508,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.296664019,
+    "futureCost": 0.179169107
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 60,
+    "lag": 40,
+    "rho": 0.1885641692447873,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.296664019,
+    "futureCost": 0.094870069
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.4898004976844695,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.094870069,
+    "futureCost": 0.102917975
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.4731782608895774,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.094870069,
+    "futureCost": 0.099908756
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.6149086354328173,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 0.094870069,
+    "futureCost": 0.088422118
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.2533669066613552,
+    "topOverlap": 0.13043478260869565,
+    "currentCost": 0.094870069,
+    "futureCost": 0.097150537
+  },
+  {
+    "regime": "heldoutPersistent",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.32558401638556195,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.094870069,
+    "futureCost": 0.07514992
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.7079611195716011,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.005684209
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.706704798405556,
+    "topOverlap": 0.4857142857142857,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.005761658
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.703493424767917,
+    "topOverlap": 0.3,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.00580017
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.36059744784029524,
+    "topOverlap": 0.04,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.008441329000000001
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.557136275232859,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.014155345
+  },
+  {
+    "regime": "ignition",
+    "index": 20,
+    "lag": 40,
+    "rho": -0.027512027020514845,
+    "topOverlap": 0.0,
+    "currentCost": 0.0076463979999999996,
+    "futureCost": 0.191719451
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.8838410387454817,
+    "topOverlap": 0.7931034482758621,
+    "currentCost": 0.191719451,
+    "futureCost": 0.162946762
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.3075913661828099,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 0.191719451,
+    "futureCost": 0.20983807200000001
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 5,
+    "rho": -0.008118600487959203,
+    "topOverlap": 0.0,
+    "currentCost": 0.191719451,
+    "futureCost": 0.23102296
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 10,
+    "rho": -0.14248229481439662,
+    "topOverlap": 0.0,
+    "currentCost": 0.191719451,
+    "futureCost": 0.32062966
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 20,
+    "rho": -0.196334780800982,
+    "topOverlap": 0.0,
+    "currentCost": 0.191719451,
+    "futureCost": 0.249009656
+  },
+  {
+    "regime": "ignition",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.4053850546333578,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.191719451,
+    "futureCost": 0.091794022
+  },
+  {
+    "regime": "ignition",
+    "index": 100,
+    "lag": 1,
+    "rho": -0.038104591212655206,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.091794022,
+    "futureCost": 0.097536313
+  },
+  {
+    "regime": "ignition",
+    "index": 100,
+    "lag": 2,
+    "rho": -0.6454676554446057,
+    "topOverlap": 0.0,
+    "currentCost": 0.091794022,
+    "futureCost": 0.11477530700000001
+  },
+  {
+    "regime": "ignition",
+    "index": 100,
+    "lag": 5,
+    "rho": -0.5242608578552258,
+    "topOverlap": 0.0,
+    "currentCost": 0.091794022,
+    "futureCost": 0.084168302
+  },
+  {
+    "regime": "ignition",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.12201157188579037,
+    "topOverlap": 0.04,
+    "currentCost": 0.091794022,
+    "futureCost": 0.091868565
+  },
+  {
+    "regime": "ignition",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.14053317089871153,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.091794022,
+    "futureCost": 0.065394864
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.938521811868724,
+    "topOverlap": 0.5294117647058824,
+    "currentCost": 0.088215415,
+    "futureCost": 0.118742766
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.9252625692613058,
+    "topOverlap": 0.4857142857142857,
+    "currentCost": 0.088215415,
+    "futureCost": 0.132868485
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.4512899078486165,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.088215415,
+    "futureCost": 0.12123092
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.32296713047394654,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.088215415,
+    "futureCost": 0.108524721
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.11230995337563623,
+    "topOverlap": 0.0,
+    "currentCost": 0.088215415,
+    "futureCost": 0.168721286
+  },
+  {
+    "regime": "persistent",
+    "index": 20,
+    "lag": 40,
+    "rho": -0.13857002533065463,
+    "topOverlap": 0.0,
+    "currentCost": 0.088215415,
+    "futureCost": 0.152990752
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.8991022690665935,
+    "topOverlap": 0.6774193548387096,
+    "currentCost": 0.152990752,
+    "futureCost": 0.135921902
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.8671185203551335,
+    "topOverlap": 0.7333333333333333,
+    "currentCost": 0.152990752,
+    "futureCost": 0.158574538
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.7225109064715903,
+    "topOverlap": 0.7931034482758621,
+    "currentCost": 0.152990752,
+    "futureCost": 0.258680886
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.6760156384345382,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 0.152990752,
+    "futureCost": 0.199095382
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 20,
+    "rho": -0.015381235030684734,
+    "topOverlap": 0.0,
+    "currentCost": 0.152990752,
+    "futureCost": 0.316533102
+  },
+  {
+    "regime": "persistent",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.3549187074684713,
+    "topOverlap": 0.0,
+    "currentCost": 0.152990752,
+    "futureCost": 0.25646806
+  },
+  {
+    "regime": "persistent",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.8914467522974027,
+    "topOverlap": 0.5757575757575758,
+    "currentCost": 0.25646806,
+    "futureCost": 0.218467824
+  },
+  {
+    "regime": "persistent",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.6588439217224151,
+    "topOverlap": 0.4444444444444444,
+    "currentCost": 0.25646806,
+    "futureCost": 0.157547689
+  },
+  {
+    "regime": "persistent",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.6793376846266896,
+    "topOverlap": 0.4444444444444444,
+    "currentCost": 0.25646806,
+    "futureCost": 0.159467068
+  },
+  {
+    "regime": "persistent",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.24036693393091618,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.25646806,
+    "futureCost": 0.212859756
+  },
+  {
+    "regime": "persistent",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.08515211285839565,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.25646806,
+    "futureCost": 0.125122631
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.9775846372525027,
+    "topOverlap": 0.7333333333333333,
+    "currentCost": 0.026226867,
+    "futureCost": 0.01786316
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.9432621540623082,
+    "topOverlap": 0.7333333333333333,
+    "currentCost": 0.026226867,
+    "futureCost": 0.021381835
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.9081300971354639,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 0.026226867,
+    "futureCost": 0.028915526
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.6880047699132189,
+    "topOverlap": 0.08333333333333333,
+    "currentCost": 0.026226867,
+    "futureCost": 0.03068269
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.5344839881879637,
+    "topOverlap": 0.08333333333333333,
+    "currentCost": 0.026226867,
+    "futureCost": 0.025438354
+  },
+  {
+    "regime": "translating",
+    "index": 20,
+    "lag": 40,
+    "rho": -0.19384142873810192,
+    "topOverlap": 0.0,
+    "currentCost": 0.026226867,
+    "futureCost": 0.01839361
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.9726343005858268,
+    "topOverlap": 0.5757575757575758,
+    "currentCost": 0.01839361,
+    "futureCost": 0.012655802
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.8723675076928862,
+    "topOverlap": 0.4857142857142857,
+    "currentCost": 0.01839361,
+    "futureCost": 0.013980529
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.9009645112870535,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 0.01839361,
+    "futureCost": 0.010767543
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.7091009816040268,
+    "topOverlap": 0.04,
+    "currentCost": 0.01839361,
+    "futureCost": 0.007693247
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.48453157591765356,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.01839361,
+    "futureCost": 0.006272014
+  },
+  {
+    "regime": "translating",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.03203600627483869,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.01839361,
+    "futureCost": 0.004850744
+  },
+  {
+    "regime": "translating",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.05245706299608237,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.004850744,
+    "futureCost": 0.004931896
+  },
+  {
+    "regime": "translating",
+    "index": 100,
+    "lag": 2,
+    "rho": -0.04110340218650838,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.004850744,
+    "futureCost": 0.005387701
+  },
+  {
+    "regime": "translating",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.011324730786469242,
+    "topOverlap": 0.18181818181818182,
+    "currentCost": 0.004850744,
+    "futureCost": 0.006572596
+  },
+  {
+    "regime": "translating",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.016331722203471635,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.004850744,
+    "futureCost": 0.006449435
+  },
+  {
+    "regime": "translating",
+    "index": 100,
+    "lag": 20,
+    "rho": -0.029324611497798213,
+    "topOverlap": 0.0,
+    "currentCost": 0.004850744,
+    "futureCost": 0.005380968
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.5070113712527373,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 8.01e-06,
+    "futureCost": 6.699999999999999e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.5183472514812718,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 8.01e-06,
+    "futureCost": 6.73e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.5871223784371544,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 8.01e-06,
+    "futureCost": 8.14e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.4494527952838268,
+    "topOverlap": 0.3684210526315789,
+    "currentCost": 8.01e-06,
+    "futureCost": 8.18e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.5322549136781214,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 8.01e-06,
+    "futureCost": 6.38e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 20,
+    "lag": 40,
+    "rho": 0.2206624923199643,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 8.01e-06,
+    "futureCost": 8.18e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.6192585366685628,
+    "topOverlap": 0.3333333333333333,
+    "currentCost": 8.18e-06,
+    "futureCost": 8.08e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 2,
+    "rho": 0.6938798851679325,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 8.18e-06,
+    "futureCost": 8.14e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 5,
+    "rho": 0.6383737560324833,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 8.18e-06,
+    "futureCost": 6.9499999999999995e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 10,
+    "rho": 0.410996332590338,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 8.18e-06,
+    "futureCost": 8e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.4580336191289301,
+    "topOverlap": 0.40540540540540543,
+    "currentCost": 8.18e-06,
+    "futureCost": 6.81e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 60,
+    "lag": 40,
+    "rho": 0.5283723593648021,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 8.18e-06,
+    "futureCost": 7.83e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.5719474436216766,
+    "topOverlap": 0.3,
+    "currentCost": 7.83e-06,
+    "futureCost": 8.49e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.7148464860599815,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 7.83e-06,
+    "futureCost": 8.21e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.6591989425900823,
+    "topOverlap": 0.23809523809523808,
+    "currentCost": 7.83e-06,
+    "futureCost": 7.91e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 100,
+    "lag": 10,
+    "rho": 0.5987539618541757,
+    "topOverlap": 0.3,
+    "currentCost": 7.83e-06,
+    "futureCost": 6.46e-06
+  },
+  {
+    "regime": "transportDominated",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.45002705679239097,
+    "topOverlap": 0.2682926829268293,
+    "currentCost": 7.83e-06,
+    "futureCost": 8.4e-06
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 1,
+    "rho": 0.029655283076820606,
+    "topOverlap": 0.08333333333333333,
+    "currentCost": 0.019810821,
+    "futureCost": 0.025071106
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 2,
+    "rho": 0.07669525548760055,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.019810821,
+    "futureCost": 0.034310167
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 5,
+    "rho": 0.31989604214041356,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.019810821,
+    "futureCost": 0.054130757
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 10,
+    "rho": 0.0011448739586974925,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.019810821,
+    "futureCost": 0.052719743
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 20,
+    "rho": 0.008954737960514452,
+    "topOverlap": 0.04,
+    "currentCost": 0.019810821,
+    "futureCost": 0.253818529
+  },
+  {
+    "regime": "uniform",
+    "index": 20,
+    "lag": 40,
+    "rho": -0.09820834253947291,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.019810821,
+    "futureCost": 0.127227766
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 1,
+    "rho": 0.12945163230211695,
+    "topOverlap": 0.061224489795918366,
+    "currentCost": 0.127227766,
+    "futureCost": 0.13312034
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 2,
+    "rho": -0.24952721278723397,
+    "topOverlap": 0.0,
+    "currentCost": 0.127227766,
+    "futureCost": 0.125085723
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 5,
+    "rho": -0.3077237915107623,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.127227766,
+    "futureCost": 0.139966348
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 10,
+    "rho": -0.0630991744949087,
+    "topOverlap": 0.10638297872340426,
+    "currentCost": 0.127227766,
+    "futureCost": 0.11479395
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 20,
+    "rho": 0.08895415657006545,
+    "topOverlap": 0.13043478260869565,
+    "currentCost": 0.127227766,
+    "futureCost": 0.106896764
+  },
+  {
+    "regime": "uniform",
+    "index": 60,
+    "lag": 40,
+    "rho": -0.1870488386617744,
+    "topOverlap": 0.0196078431372549,
+    "currentCost": 0.127227766,
+    "futureCost": 0.013601408
+  },
+  {
+    "regime": "uniform",
+    "index": 100,
+    "lag": 1,
+    "rho": 0.3860012973578478,
+    "topOverlap": 0.08333333333333333,
+    "currentCost": 0.013601408,
+    "futureCost": 0.013836832
+  },
+  {
+    "regime": "uniform",
+    "index": 100,
+    "lag": 2,
+    "rho": 0.8727111272934385,
+    "topOverlap": 0.13043478260869565,
+    "currentCost": 0.013601408,
+    "futureCost": 0.013863009
+  },
+  {
+    "regime": "uniform",
+    "index": 100,
+    "lag": 5,
+    "rho": 0.0315554872593777,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.013601408,
+    "futureCost": 0.004956286
+  },
+  {
+    "regime": "uniform",
+    "index": 100,
+    "lag": 10,
+    "rho": -0.024386572736291728,
+    "topOverlap": 0.04,
+    "currentCost": 0.013601408,
+    "futureCost": 0.005045777
+  },
+  {
+    "regime": "uniform",
+    "index": 100,
+    "lag": 20,
+    "rho": 0.016639928089099774,
+    "topOverlap": 0.15555555555555556,
+    "currentCost": 0.013601408,
+    "futureCost": 0.005150822
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "algorithm": "GREEDY",
+    "ranks": 4,
+    "repeat": 0,
+    "steps": 10,
+    "wall": 2.719181752996519,
+    "partitionWall": 0.0005009340238757432,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "GREEDY",
+    "ranks": 4,
+    "repeat": 1,
+    "steps": 10,
+    "wall": 2.6523323919973336,
+    "partitionWall": 0.0005523829895537347,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "GREEDY",
+    "ranks": 4,
+    "repeat": 2,
+    "steps": 10,
+    "wall": 2.8383107819972793,
+    "partitionWall": 0.00045622502511832863,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "GREEDY",
+    "ranks": 4,
+    "repeat": 99,
+    "steps": 2,
+    "wall": 0.628989635995822,
+    "partitionWall": 0.00010268899495713413,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "NONE",
+    "ranks": 4,
+    "repeat": 0,
+    "steps": 10,
+    "wall": 2.964018494996708,
+    "partitionWall": 0.0,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "NONE",
+    "ranks": 4,
+    "repeat": 1,
+    "steps": 10,
+    "wall": 2.9352253840042977,
+    "partitionWall": 0.0,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "NONE",
+    "ranks": 4,
+    "repeat": 2,
+    "steps": 10,
+    "wall": 2.936144199993578,
+    "partitionWall": 0.0,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "NONE",
+    "ranks": 4,
+    "repeat": 99,
+    "steps": 2,
+    "wall": 0.6275328609917779,
+    "partitionWall": 0.0,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT2",
+    "ranks": 4,
+    "repeat": 0,
+    "steps": 10,
+    "wall": 2.67927663300361,
+    "partitionWall": 0.0004635340010281652,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT2",
+    "ranks": 4,
+    "repeat": 1,
+    "steps": 10,
+    "wall": 2.7984862650046125,
+    "partitionWall": 0.00048386499111074954,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT2",
+    "ranks": 4,
+    "repeat": 2,
+    "steps": 10,
+    "wall": 2.8460021130013047,
+    "partitionWall": 0.0004724629980046302,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT2",
+    "ranks": 4,
+    "repeat": 99,
+    "steps": 2,
+    "wall": 0.6551467569952365,
+    "partitionWall": 0.00020614798995666206,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT",
+    "ranks": 4,
+    "repeat": 0,
+    "steps": 10,
+    "wall": 2.7607118690066272,
+    "partitionWall": 0.0004599270032485947,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT",
+    "ranks": 4,
+    "repeat": 1,
+    "steps": 10,
+    "wall": 2.6920653840061277,
+    "partitionWall": 0.00042148698412347585,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT",
+    "ranks": 4,
+    "repeat": 2,
+    "steps": 10,
+    "wall": 2.779211422006483,
+    "partitionWall": 0.0005028320010751486,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  },
+  {
+    "algorithm": "SORT",
+    "ranks": 4,
+    "repeat": 99,
+    "steps": 2,
+    "wall": 0.6258926689915825,
+    "partitionWall": 0.00011582901061046869,
+    "benchmark": "QUICKLB public Gray-Scott reaction diffusion, 30x30, headless",
+    "MPI": "Open MPI v4.1.6, package: Open MPI conda@a8b5c2e64a2a Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\u0000"
+  }
+]

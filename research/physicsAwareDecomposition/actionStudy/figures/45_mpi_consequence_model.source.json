@@ -1,0 +1,308 @@
+{
+  "model": {
+    "mu": [
+      1.046875,
+      0.2097041489292117,
+      2,
+      0.5,
+      0.24435623315633223
+    ],
+    "scale": [
+      0.046875,
+      0.2097041489292117,
+      1e-12,
+      0.5,
+      0.2309544485901829
+    ],
+    "beta": [
+      0.002695229227898229,
+      0.0008493505915566852,
+      0.0008493505915566861,
+      0.0,
+      -0.008403279733014253,
+      0.0008493505915566861
+    ],
+    "penalty": 2.0
+  },
+  "points": [
+    {
+      "regime": "persistent",
+      "action": "AH",
+      "repeat": 1,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        1.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": -0.013998186586195517,
+      "predictedMPICallDeltaPerStep": -0.0031599987304459665
+    },
+    {
+      "regime": "persistent",
+      "action": "AH",
+      "repeat": 0,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        1.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": -0.015085020058495501,
+      "predictedMPICallDeltaPerStep": -0.0031599987304459665
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AH",
+      "repeat": 0,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        1.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": 0.00018353403447690642,
+      "predictedMPICallDeltaPerStep": -0.008256102279786081
+    },
+    {
+      "regime": "persistent",
+      "action": "AM",
+      "repeat": 2,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        0.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": 0.02609974722727202,
+      "predictedMPICallDeltaPerStep": 0.01364656073558254
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AM",
+      "repeat": 2,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        0.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": -7.976202591635233e-05,
+      "predictedMPICallDeltaPerStep": 0.008550457186242425
+    },
+    {
+      "regime": "persistent",
+      "action": "AH",
+      "repeat": 2,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        1.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": -0.013662610591245537,
+      "predictedMPICallDeltaPerStep": -0.0031599987304459665
+    },
+    {
+      "regime": "persistent",
+      "action": "AM",
+      "repeat": 1,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        0.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": 0.024826144195321833,
+      "predictedMPICallDeltaPerStep": 0.01364656073558254
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AM",
+      "repeat": 1,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        0.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": -3.9517253753729165e-06,
+      "predictedMPICallDeltaPerStep": 0.008550457186242425
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AM",
+      "repeat": 0,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        0.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": 2.319340687790823e-05,
+      "predictedMPICallDeltaPerStep": 0.008550457186242425
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AH",
+      "repeat": 2,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        1.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": -0.0001081139497728145,
+      "predictedMPICallDeltaPerStep": -0.008256102279786081
+    },
+    {
+      "regime": "transportDominated",
+      "action": "AH",
+      "repeat": 1,
+      "x": [
+        1.0,
+        0.0,
+        2,
+        1.0,
+        0.013401784566149324
+      ],
+      "MPICallDeltaPerStep": 1.881438752207034e-05,
+      "predictedMPICallDeltaPerStep": -0.008256102279786081
+    },
+    {
+      "regime": "persistent",
+      "action": "AM",
+      "repeat": 0,
+      "x": [
+        1.09375,
+        0.4194082978584234,
+        2,
+        0.0,
+        0.47531068174651514
+      ],
+      "MPICallDeltaPerStep": 0.024128962420309107,
+      "predictedMPICallDeltaPerStep": 0.01364656073558254
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AH",
+      "repeat": 2,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        1.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": -0.023181656394399397,
+      "predictedMPICallDeltaPerStep": -0.004173719548250316
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AM",
+      "repeat": 0,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        0.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": 0.006577591368386489,
+      "predictedMPICallDeltaPerStep": 0.01263283991777819
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AM",
+      "repeat": 1,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        0.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": 0.0065740207321596245,
+      "predictedMPICallDeltaPerStep": 0.01263283991777819
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AH",
+      "repeat": 1,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        1.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": -0.023324701981755423,
+      "predictedMPICallDeltaPerStep": -0.004173719548250316
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AM",
+      "repeat": 2,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        0.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": 0.006948432158833381,
+      "predictedMPICallDeltaPerStep": 0.01263283991777819
+    },
+    {
+      "regime": "heldoutMoving",
+      "action": "AH",
+      "repeat": 0,
+      "x": [
+        1.0625,
+        0.38321088963846006,
+        2,
+        1.0,
+        0.3934959606900592
+      ],
+      "MPICallDeltaPerStep": -0.022951927071062528,
+      "predictedMPICallDeltaPerStep": -0.004173719548250316
+    }
+  ],
+  "metrics": {
+    "train": {
+      "n": 12,
+      "conditions": [
+        "persistent",
+        "transportDominated"
+      ],
+      "MAE": 0.009829618824623292,
+      "RMSE": 0.00994311836822118
+    },
+    "test": {
+      "n": 6,
+      "conditions": [
+        "heldoutMoving"
+      ],
+      "MAE": 0.012455933716070245,
+      "RMSE": 0.014061594774267818
+    }
+  },
+  "features": [
+    "postpartitionFaceRatio",
+    "postpartitionCellCV",
+    "maximumNeighbours",
+    "hybridChemistryTasks",
+    "originalChemistryFraction"
+  ],
+  "limitation": "Two training conditions and one held-out moving condition; repeated clocks do not increase the independent physical sample count. Post-partition inputs are paid observations, not free online features. MPI calls include waits, collectives and scheduling; pure network-transfer cost is not identified."
+}

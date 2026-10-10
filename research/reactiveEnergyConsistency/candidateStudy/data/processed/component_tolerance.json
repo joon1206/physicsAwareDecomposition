@@ -1,0 +1,1709 @@
+{
+  "records": [
+    {
+      "name": "RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "kind": "CvRegime",
+      "regime": "coldHighPressure",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 950.0,
+      "pInitial": 1013250.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": false,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "error": "mpirun failed: /home/joon1206/research/ForFun/research/reactiveEnergyConsistency/candidateStudy/data/raw/RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_stagnation_componentOff/solver.log"
+    },
+    {
+      "name": "RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "kind": "CvRegime",
+      "regime": "coldHighPressure",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 950.0,
+      "pInitial": 1013250.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": true,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "error": "mpirun failed: /home/joon1206/research/ForFun/research/reactiveEnergyConsistency/candidateStudy/data/raw/RoundoffCvRegime_coldHighPressure_conservativeState_dt1e-06_dfdt0_stagnation_componentOn/solver.log"
+    },
+    {
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "kind": "CvRegime",
+      "regime": "standard",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 1100.0,
+      "pInitial": 101325.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": false,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "solverWall": 16.020175591002044,
+      "initial": {
+        "mass": 3.714204823238566e-08,
+        "E_stored": 0.02752339126397844,
+        "E_NASA": 0.02752339126397844,
+        "C": 2.469563299531251e-06,
+        "H_stored": 0.04373292170067891,
+        "H_NASA": 0.04373292170067891,
+        "J": 0.0,
+        "P": 0.016212,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 1.0511199649765138e-09,
+          "O": 8.356960852286774e-09,
+          "AR": 0.0,
+          "N": 2.773396741512237e-08
+        }
+      },
+      "end": {
+        "mass": 3.714204823238555e-08,
+        "E_stored": 0.027523391263978667,
+        "E_NASA": 0.027523391263978833,
+        "C": -0.0884277881028341,
+        "H_stored": 0.15458852426607372,
+        "H_NASA": 0.1545885242660739,
+        "J": 1.0264555480264067e-31,
+        "P": 0.03863734489926096,
+        "max_h_inversion_error": 2.1886080503463745e-08,
+        "elements": {
+          "H": 1.0511199649765142e-09,
+          "O": 8.356960852286718e-09,
+          "AR": 0.0,
+          "N": 2.773396741512237e-08
+        }
+      },
+      "signedEnergyDrift": 8.193541621163853e-15,
+      "absoluteEnergyDrift": 8.193541621163853e-15,
+      "massDrift": -2.850653731973436e-15,
+      "elementDrift": {
+        "H": 3.934758353541074e-16,
+        "O": -6.7307102004928346e-15,
+        "N": 0.0
+      },
+      "independentNativeEnergyDifference": -6.245004513516506e-17,
+      "thermoInventoryDifference": 1.6653345369377348e-16,
+      "cumulativeTerms": {
+        "Dpressure": -2.5257854159109217e-08,
+        "Dkinetic": 1.0264555480263989e-31,
+        "DrhoH": -3.2899712949433074e-16,
+        "DrhoC": 1.4251731616188893e-16,
+        "DspeciesChemistry": -1.0583525674483553e-14,
+        "Dequation": -2.1326826787030788e-16,
+        "Dtransport": -7.046405245756069e-18,
+        "Dhistory": -2.0536966081323593e-29
+      },
+      "maxStepClosure": 6.28436811511422e-17,
+      "cumulativeClosure": 3.448033790812988e-16,
+      "ledgerInventoryDifference": 7.979727989493313e-17,
+      "minT": 1099.999968657655,
+      "minP": 101324.99692842654,
+      "minY": 0.0,
+      "sumYError": 6.439293542825908e-15,
+      "maxContinuityL1": 9.879215217080669e-18,
+      "errors": {
+        "T": {
+          "L1": 1.065438937075669e-08,
+          "L2": 1.065438967099562e-08,
+          "Linf": 1.0657458915375173e-08
+        },
+        "p": {
+          "L1": 7.901799108367413e-07,
+          "L2": 7.901799176620446e-07,
+          "Linf": 7.903436198830605e-07
+        },
+        "rho": {
+          "L1": 8.083811398051921e-16,
+          "L2": 9.655290723642874e-16,
+          "Linf": 1.8318679906315083e-15
+        },
+        "H2": {
+          "L1": 1.8483587056750128e-14,
+          "L2": 1.8484045732727944e-14,
+          "Linf": 1.866735932498642e-14
+        },
+        "H": {
+          "L1": 1.1733534066235562e-14,
+          "L2": 1.1733550078732189e-14,
+          "Linf": 1.1761208326688255e-14
+        },
+        "O2": {
+          "L1": 1.7156718754018918e-13,
+          "L2": 1.7157001781490352e-13,
+          "Linf": 1.7322254741714005e-13
+        },
+        "O": {
+          "L1": 6.331111850055304e-14,
+          "L2": 6.331120226529107e-14,
+          "Linf": 6.345098058080367e-14
+        },
+        "OH": {
+          "L1": 1.5001454939378434e-14,
+          "L2": 1.5003675240928067e-14,
+          "Linf": 1.5404344466674047e-14
+        },
+        "HO2": {
+          "L1": 6.193991954268115e-16,
+          "L2": 6.193994525420582e-16,
+          "Linf": 6.20258510351801e-16
+        },
+        "H2O2": {
+          "L1": 6.560254294616795e-17,
+          "L2": 6.560254902822943e-17,
+          "Linf": 6.564738275281323e-17
+        },
+        "H2O": {
+          "L1": 2.780310703887068e-13,
+          "L2": 2.780328777968434e-13,
+          "Linf": 2.799427356592332e-13
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.3037127760972e-15,
+          "L2": 2.615512026824473e-15,
+          "Linf": 4.107825191113079e-15
+        }
+      },
+      "referenceTemperatureToleranceContrast": 2.494880391168408e-08,
+      "maxCellClosure": 7.42963584216495e-17,
+      "maxEOSRelative": 1.1956508350631444e-16,
+      "maxSourceRelativeMassChange": 1.1956508350631154e-15,
+      "maxSourceRelativeEnergyChange": 2.6900807379369272e-14,
+      "minAcceptedConcentration": 0.0,
+      "maxAcceptedEnergyResidual": 4.939892596772488e-18,
+      "maxAcceptedScaledResidual": 0.02255264373374557,
+      "maxComponentAllowance": 1.0056342590642425e-15,
+      "acceptedAboveOldCutoff": 0
+    },
+    {
+      "name": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "kind": "CvRegime",
+      "regime": "standard",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 1100.0,
+      "pInitial": 101325.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": true,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "solverWall": 16.136497942999995,
+      "initial": {
+        "mass": 3.714204823238566e-08,
+        "E_stored": 0.02752339126397844,
+        "E_NASA": 0.02752339126397844,
+        "C": 2.469563299531251e-06,
+        "H_stored": 0.04373292170067891,
+        "H_NASA": 0.04373292170067891,
+        "J": 0.0,
+        "P": 0.016212,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 1.0511199649765138e-09,
+          "O": 8.356960852286774e-09,
+          "AR": 0.0,
+          "N": 2.773396741512237e-08
+        }
+      },
+      "end": {
+        "mass": 3.714204823238555e-08,
+        "E_stored": 0.027523391263978667,
+        "E_NASA": 0.027523391263978833,
+        "C": -0.0884277881028341,
+        "H_stored": 0.15458852426607372,
+        "H_NASA": 0.1545885242660739,
+        "J": 1.0264555480264067e-31,
+        "P": 0.03863734489926096,
+        "max_h_inversion_error": 2.1886080503463745e-08,
+        "elements": {
+          "H": 1.0511199649765142e-09,
+          "O": 8.356960852286718e-09,
+          "AR": 0.0,
+          "N": 2.773396741512237e-08
+        }
+      },
+      "signedEnergyDrift": 8.193541621163853e-15,
+      "absoluteEnergyDrift": 8.193541621163853e-15,
+      "massDrift": -2.850653731973436e-15,
+      "elementDrift": {
+        "H": 3.934758353541074e-16,
+        "O": -6.7307102004928346e-15,
+        "N": 0.0
+      },
+      "independentNativeEnergyDifference": -6.245004513516506e-17,
+      "thermoInventoryDifference": 1.6653345369377348e-16,
+      "cumulativeTerms": {
+        "Dpressure": -2.5257854159109217e-08,
+        "Dkinetic": 1.0264555480263989e-31,
+        "DrhoH": -3.2899712949433074e-16,
+        "DrhoC": 1.4251731616188893e-16,
+        "DspeciesChemistry": -1.0583525674483553e-14,
+        "Dequation": -2.1326826787030788e-16,
+        "Dtransport": -7.046405245756069e-18,
+        "Dhistory": -2.0536966081323593e-29
+      },
+      "maxStepClosure": 6.28436811511422e-17,
+      "cumulativeClosure": 3.448033790812988e-16,
+      "ledgerInventoryDifference": 7.979727989493313e-17,
+      "minT": 1099.999968657655,
+      "minP": 101324.99692842654,
+      "minY": 0.0,
+      "sumYError": 6.439293542825908e-15,
+      "maxContinuityL1": 9.879215217080669e-18,
+      "errors": {
+        "T": {
+          "L1": 1.065438937075669e-08,
+          "L2": 1.065438967099562e-08,
+          "Linf": 1.0657458915375173e-08
+        },
+        "p": {
+          "L1": 7.901799108367413e-07,
+          "L2": 7.901799176620446e-07,
+          "Linf": 7.903436198830605e-07
+        },
+        "rho": {
+          "L1": 8.083811398051921e-16,
+          "L2": 9.655290723642874e-16,
+          "Linf": 1.8318679906315083e-15
+        },
+        "H2": {
+          "L1": 1.8483587056750128e-14,
+          "L2": 1.8484045732727944e-14,
+          "Linf": 1.866735932498642e-14
+        },
+        "H": {
+          "L1": 1.1733534066235562e-14,
+          "L2": 1.1733550078732189e-14,
+          "Linf": 1.1761208326688255e-14
+        },
+        "O2": {
+          "L1": 1.7156718754018918e-13,
+          "L2": 1.7157001781490352e-13,
+          "Linf": 1.7322254741714005e-13
+        },
+        "O": {
+          "L1": 6.331111850055304e-14,
+          "L2": 6.331120226529107e-14,
+          "Linf": 6.345098058080367e-14
+        },
+        "OH": {
+          "L1": 1.5001454939378434e-14,
+          "L2": 1.5003675240928067e-14,
+          "Linf": 1.5404344466674047e-14
+        },
+        "HO2": {
+          "L1": 6.193991954268115e-16,
+          "L2": 6.193994525420582e-16,
+          "Linf": 6.20258510351801e-16
+        },
+        "H2O2": {
+          "L1": 6.560254294616795e-17,
+          "L2": 6.560254902822943e-17,
+          "Linf": 6.564738275281323e-17
+        },
+        "H2O": {
+          "L1": 2.780310703887068e-13,
+          "L2": 2.780328777968434e-13,
+          "Linf": 2.799427356592332e-13
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.3037127760972e-15,
+          "L2": 2.615512026824473e-15,
+          "Linf": 4.107825191113079e-15
+        }
+      },
+      "referenceTemperatureToleranceContrast": 2.494880391168408e-08,
+      "maxCellClosure": 7.42963584216495e-17,
+      "maxEOSRelative": 1.1956508350631444e-16,
+      "maxSourceRelativeMassChange": 1.1956508350631154e-15,
+      "maxSourceRelativeEnergyChange": 2.6900807379369272e-14,
+      "minAcceptedConcentration": 0.0,
+      "maxAcceptedEnergyResidual": 4.939892596772488e-18,
+      "maxAcceptedScaledResidual": 0.02255264373374557,
+      "maxComponentAllowance": 1.0056342590642425e-15,
+      "acceptedAboveOldCutoff": 0
+    },
+    {
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "kind": "CvRegime",
+      "regime": "hot",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 1500.0,
+      "pInitial": 101325.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": false,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "solverWall": 13.912216789001832,
+      "initial": {
+        "mass": 2.723750203708282e-08,
+        "E_stored": 0.033328292812132676,
+        "E_NASA": 0.033328292812132676,
+        "C": 1.8110130863229175e-06,
+        "H_stored": 0.04953848179904636,
+        "H_NASA": 0.04953848179904636,
+        "J": 0.0,
+        "P": 0.016212,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 7.708213076494436e-10,
+          "O": 6.1284379583436345e-09,
+          "AR": 0.0,
+          "N": 2.0338242771089738e-08
+        }
+      },
+      "end": {
+        "mass": 2.7237502037082866e-08,
+        "E_stored": 0.03332829281213305,
+        "E_NASA": 0.033328292812132995,
+        "C": -0.05448927905594249,
+        "H_stored": 0.11740453284051981,
+        "H_NASA": 0.11740453284051976,
+        "J": 5.566600724699627e-32,
+        "P": 0.029586960972444273,
+        "max_h_inversion_error": 2.2351741790771484e-08,
+        "elements": {
+          "H": 7.708213076494434e-10,
+          "O": 6.128437958343638e-09,
+          "AR": 0.0,
+          "N": 2.0338242771089774e-08
+        }
+      },
+      "signedEnergyDrift": 1.1242708197600394e-14,
+      "absoluteEnergyDrift": 1.1242708197600394e-14,
+      "massDrift": 1.7006741014614247e-15,
+      "elementDrift": {
+        "H": -2.682789786505277e-16,
+        "O": 5.398965401464841e-16,
+        "N": 1.78953252559602e-15
+      },
+      "independentNativeEnergyDifference": 5.551115123125783e-17,
+      "thermoInventoryDifference": -5.551115123125783e-17,
+      "cumulativeTerms": {
+        "Dpressure": -1.7031685433610846e-09,
+        "Dkinetic": 5.56660072469976e-32,
+        "DrhoH": -3.4355534439593435e-16,
+        "DrhoC": 1.672247487244597e-16,
+        "DspeciesChemistry": 7.403260351286897e-15,
+        "Dequation": -7.474748864281582e-17,
+        "Dtransport": 2.1446616020344731e-16,
+        "Dhistory": -8.389912062106357e-30
+      },
+      "maxStepClosure": 4.6735949561298764e-17,
+      "cumulativeClosure": 1.9025082511331184e-16,
+      "ledgerInventoryDifference": -3.469446951953614e-17,
+      "minT": 1499.989626529536,
+      "minP": 101324.29358535146,
+      "minY": 0.0,
+      "sumYError": 6.439293542825908e-15,
+      "maxContinuityL1": 8.519776338986516e-18,
+      "errors": {
+        "T": {
+          "L1": 4.8813717512530275e-09,
+          "L2": 4.881372523074779e-09,
+          "Linf": 4.8858055379241705e-09
+        },
+        "p": {
+          "L1": 2.6777343009598553e-07,
+          "L2": 2.677734375839793e-07,
+          "Linf": 2.67871655523777e-07
+        },
+        "rho": {
+          "L1": 8.36136715420821e-16,
+          "L2": 8.862790349649111e-16,
+          "Linf": 1.304512053934559e-15
+        },
+        "H2": {
+          "L1": 6.895851077659554e-15,
+          "L2": 6.899597008089363e-15,
+          "Linf": 7.153132253190364e-15
+        },
+        "H": {
+          "L1": 6.735172315697202e-15,
+          "L2": 6.7352770516296365e-15,
+          "Linf": 6.778431982379374e-15
+        },
+        "O2": {
+          "L1": 7.638204305160379e-14,
+          "L2": 7.639485827487203e-14,
+          "Linf": 7.927339340518813e-14
+        },
+        "O": {
+          "L1": 3.610133025855333e-14,
+          "L2": 3.6101654262200115e-14,
+          "Linf": 3.6448274953748694e-14
+        },
+        "OH": {
+          "L1": 8.236033383068886e-15,
+          "L2": 8.239458352445494e-15,
+          "Linf": 8.552186736565659e-15
+        },
+        "HO2": {
+          "L1": 3.2266237817994876e-16,
+          "L2": 3.226630055725787e-16,
+          "Linf": 3.2362757222334504e-16
+        },
+        "H2O2": {
+          "L1": 2.831509381684958e-17,
+          "L2": 2.831510288722533e-17,
+          "Linf": 2.8351039777548687e-17
+        },
+        "H2O": {
+          "L1": 1.1621953399654217e-13,
+          "L2": 1.1624405451067842e-13,
+          "Linf": 1.1921019726912618e-13
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.1788126858268697e-15,
+          "L2": 2.6316618475815808e-15,
+          "Linf": 4.440892098500626e-15
+        }
+      },
+      "referenceTemperatureToleranceContrast": 3.62765604222659e-08,
+      "maxCellClosure": 4.5308433783482623e-17,
+      "maxEOSRelative": 1.6304329569042603e-16,
+      "maxSourceRelativeMassChange": 2.6086927310467952e-15,
+      "maxSourceRelativeEnergyChange": 2.3752317374473397e-14,
+      "minAcceptedConcentration": 0.0,
+      "maxAcceptedEnergyResidual": 4.6491583705554945e-18,
+      "maxAcceptedScaledResidual": 0.014037065948232114,
+      "maxComponentAllowance": 7.20803461628352e-16,
+      "acceptedAboveOldCutoff": 0
+    },
+    {
+      "name": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "kind": "CvRegime",
+      "regime": "hot",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "nCells": 8,
+      "ranks": 1,
+      "Tinitial": 1500.0,
+      "pInitial": 101325.0,
+      "odeThermalPath": "constantVolume",
+      "odeRelativeTolerance": 1e-10,
+      "odeAbsoluteTolerance": 1e-16,
+      "matchedMechanismSHA256": "50d0f50b9bdc2d80d19d2c90057116fd32416e00b63ab1d239a76b0ad96bdc80",
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "chemistrySource": {
+        "cvOde.H": "98b78234c3c5705e69663ac4a006627d84c419440a3512706d582b0c0cbfde2a",
+        "cvChemistry.C": "8c6d1e65ab598824e1da61ca723c6623b5a0f28800a6a0a936693a03a265c64f",
+        "Make/files": "60c329e8457744c544a9b47dd6ca0823a2cff594bf9a68e8820684aeb23aa4dc",
+        "Make/options": "df75e159c0629f02fcecb88946a2ff84feafd677cbe175651c05abb8eea77848"
+      },
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrary": "libcvChemistry.so",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9",
+      "componentEnergyTolerance": true,
+      "scope": "Declared additional homogeneous source regime; independent matched Cantera reference, no spatial/convergence/new-method claim.",
+      "solverWall": 13.486090107995551,
+      "initial": {
+        "mass": 2.723750203708282e-08,
+        "E_stored": 0.033328292812132676,
+        "E_NASA": 0.033328292812132676,
+        "C": 1.8110130863229175e-06,
+        "H_stored": 0.04953848179904636,
+        "H_NASA": 0.04953848179904636,
+        "J": 0.0,
+        "P": 0.016212,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 7.708213076494436e-10,
+          "O": 6.1284379583436345e-09,
+          "AR": 0.0,
+          "N": 2.0338242771089738e-08
+        }
+      },
+      "end": {
+        "mass": 2.7237502037082866e-08,
+        "E_stored": 0.03332829281213305,
+        "E_NASA": 0.033328292812132995,
+        "C": -0.05448927905594249,
+        "H_stored": 0.11740453284051981,
+        "H_NASA": 0.11740453284051976,
+        "J": 5.566600724699627e-32,
+        "P": 0.029586960972444273,
+        "max_h_inversion_error": 2.2351741790771484e-08,
+        "elements": {
+          "H": 7.708213076494434e-10,
+          "O": 6.128437958343638e-09,
+          "AR": 0.0,
+          "N": 2.0338242771089774e-08
+        }
+      },
+      "signedEnergyDrift": 1.1242708197600394e-14,
+      "absoluteEnergyDrift": 1.1242708197600394e-14,
+      "massDrift": 1.7006741014614247e-15,
+      "elementDrift": {
+        "H": -2.682789786505277e-16,
+        "O": 5.398965401464841e-16,
+        "N": 1.78953252559602e-15
+      },
+      "independentNativeEnergyDifference": 5.551115123125783e-17,
+      "thermoInventoryDifference": -5.551115123125783e-17,
+      "cumulativeTerms": {
+        "Dpressure": -1.7031685433610846e-09,
+        "Dkinetic": 5.56660072469976e-32,
+        "DrhoH": -3.4355534439593435e-16,
+        "DrhoC": 1.672247487244597e-16,
+        "DspeciesChemistry": 7.403260351286897e-15,
+        "Dequation": -7.474748864281582e-17,
+        "Dtransport": 2.1446616020344731e-16,
+        "Dhistory": -8.389912062106357e-30
+      },
+      "maxStepClosure": 4.6735949561298764e-17,
+      "cumulativeClosure": 1.9025082511331184e-16,
+      "ledgerInventoryDifference": -3.469446951953614e-17,
+      "minT": 1499.989626529536,
+      "minP": 101324.29358535146,
+      "minY": 0.0,
+      "sumYError": 6.439293542825908e-15,
+      "maxContinuityL1": 8.519776338986516e-18,
+      "errors": {
+        "T": {
+          "L1": 4.8813717512530275e-09,
+          "L2": 4.881372523074779e-09,
+          "Linf": 4.8858055379241705e-09
+        },
+        "p": {
+          "L1": 2.6777343009598553e-07,
+          "L2": 2.677734375839793e-07,
+          "Linf": 2.67871655523777e-07
+        },
+        "rho": {
+          "L1": 8.36136715420821e-16,
+          "L2": 8.862790349649111e-16,
+          "Linf": 1.304512053934559e-15
+        },
+        "H2": {
+          "L1": 6.895851077659554e-15,
+          "L2": 6.899597008089363e-15,
+          "Linf": 7.153132253190364e-15
+        },
+        "H": {
+          "L1": 6.735172315697202e-15,
+          "L2": 6.7352770516296365e-15,
+          "Linf": 6.778431982379374e-15
+        },
+        "O2": {
+          "L1": 7.638204305160379e-14,
+          "L2": 7.639485827487203e-14,
+          "Linf": 7.927339340518813e-14
+        },
+        "O": {
+          "L1": 3.610133025855333e-14,
+          "L2": 3.6101654262200115e-14,
+          "Linf": 3.6448274953748694e-14
+        },
+        "OH": {
+          "L1": 8.236033383068886e-15,
+          "L2": 8.239458352445494e-15,
+          "Linf": 8.552186736565659e-15
+        },
+        "HO2": {
+          "L1": 3.2266237817994876e-16,
+          "L2": 3.226630055725787e-16,
+          "Linf": 3.2362757222334504e-16
+        },
+        "H2O2": {
+          "L1": 2.831509381684958e-17,
+          "L2": 2.831510288722533e-17,
+          "Linf": 2.8351039777548687e-17
+        },
+        "H2O": {
+          "L1": 1.1621953399654217e-13,
+          "L2": 1.1624405451067842e-13,
+          "Linf": 1.1921019726912618e-13
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 2.1788126858268697e-15,
+          "L2": 2.6316618475815808e-15,
+          "Linf": 4.440892098500626e-15
+        }
+      },
+      "referenceTemperatureToleranceContrast": 3.62765604222659e-08,
+      "maxCellClosure": 4.5308433783482623e-17,
+      "maxEOSRelative": 1.6304329569042603e-16,
+      "maxSourceRelativeMassChange": 2.6086927310467952e-15,
+      "maxSourceRelativeEnergyChange": 2.3752317374473397e-14,
+      "minAcceptedConcentration": 0.0,
+      "maxAcceptedEnergyResidual": 4.6491583705554945e-18,
+      "maxAcceptedScaledResidual": 0.014037065948232114,
+      "maxComponentAllowance": 7.20803461628352e-16,
+      "acceptedAboveOldCutoff": 0
+    },
+    {
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOff",
+      "mode": "conservativeState",
+      "kind": "ThermoWave",
+      "nx": 64,
+      "nCells": 64,
+      "dt": 2e-08,
+      "TF": 2e-05,
+      "steps": 1000,
+      "ranks": 1,
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "componentEnergyTolerance": false,
+      "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+      "wall": 7.461478815996088,
+      "errors": {
+        "rho": {
+          "L1": 0.0009373394301798771,
+          "L2": 0.0010617796562912992,
+          "Linf": 0.002061771864837858
+        },
+        "T": {
+          "L1": 1.6169028303001394,
+          "L2": 1.767336585159613,
+          "Linf": 2.4516452816804986
+        },
+        "p": {
+          "L1": 87.79339322449641,
+          "L2": 97.69797099884956,
+          "Linf": 148.04096221190412
+        },
+        "H2": {
+          "L1": 0.00047128919106293685,
+          "L2": 0.0005173096721094388,
+          "Linf": 0.0008219403943316578
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.00047128919106175643,
+          "L2": 0.0005173096721081692,
+          "Linf": 0.0008219403943213743
+        },
+        "Ux": {
+          "L1": 0.4270133317207807,
+          "L2": 0.48296427610723236,
+          "Linf": 0.7382180803964573
+        }
+      },
+      "initial": {
+        "mass": 3.65695573148508e-08,
+        "E_stored": 0.01940644927586431,
+        "E_NASA": 0.01940644927586431,
+        "C": 4.927441527826333e-06,
+        "H_stored": 0.035584266188484606,
+        "H_NASA": 0.035584266188484606,
+        "J": 2.925564585188063e-05,
+        "P": 0.016211999999999997,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 2.632391039515227e-09,
+          "O": 0.0,
+          "AR": 0.0,
+          "N": 3.393716627533557e-08
+        }
+      },
+      "end": {
+        "mass": 3.656955731485075e-08,
+        "E_stored": 0.01940644927586638,
+        "E_NASA": 0.019406449275866395,
+        "C": 4.927441527826334e-06,
+        "H_stored": 0.035585166748090626,
+        "H_NASA": 0.03558516674809064,
+        "J": 2.9259881373052743e-05,
+        "P": 0.016212904795125122,
+        "max_h_inversion_error": 1.4435499906539917e-08,
+        "elements": {
+          "H": 2.632391039515227e-09,
+          "O": 0.0,
+          "AR": 0.0,
+          "N": 3.393716627533557e-08
+        }
+      },
+      "signedEnergyDrift": 1.0744560163911056e-13,
+      "massDrift": -1.2666851256675798e-15,
+      "elementDrift": {
+        "H": 0.0,
+        "N": 0.0
+      },
+      "sumYError": 1.354472090042691e-14,
+      "minY": 0.0,
+      "maxEOSRelative": 1.3100631690576847e-14,
+      "maxLocalEnergyResidual": 4.812114281341983e-19,
+      "maxAcceptedEnergyResidual": 4.1640696099576325e-19,
+      "maxAcceptedScaledResidual": 0.013832446274306659,
+      "maxComponentAllowance": 3.047075080935665e-17,
+      "acceptedAboveOldCutoffRankSteps": 0
+    },
+    {
+      "name": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOn",
+      "mode": "conservativeState",
+      "kind": "ThermoWave",
+      "nx": 64,
+      "nCells": 64,
+      "dt": 2e-08,
+      "TF": 2e-05,
+      "steps": 1000,
+      "ranks": 1,
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "componentEnergyTolerance": true,
+      "scope": "Exact inviscid nonreacting unequal-NASA H2/N2 contact wave; chemistry and all transport coefficients zero",
+      "wall": 7.3802716999998665,
+      "errors": {
+        "rho": {
+          "L1": 0.0009373394301798771,
+          "L2": 0.0010617796562912992,
+          "Linf": 0.002061771864837858
+        },
+        "T": {
+          "L1": 1.6169028303001394,
+          "L2": 1.767336585159613,
+          "Linf": 2.4516452816804986
+        },
+        "p": {
+          "L1": 87.79339322449641,
+          "L2": 97.69797099884956,
+          "Linf": 148.04096221190412
+        },
+        "H2": {
+          "L1": 0.00047128919106293685,
+          "L2": 0.0005173096721094388,
+          "Linf": 0.0008219403943316578
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.00047128919106175643,
+          "L2": 0.0005173096721081692,
+          "Linf": 0.0008219403943213743
+        },
+        "Ux": {
+          "L1": 0.4270133317207807,
+          "L2": 0.48296427610723236,
+          "Linf": 0.7382180803964573
+        }
+      },
+      "initial": {
+        "mass": 3.65695573148508e-08,
+        "E_stored": 0.01940644927586431,
+        "E_NASA": 0.01940644927586431,
+        "C": 4.927441527826333e-06,
+        "H_stored": 0.035584266188484606,
+        "H_NASA": 0.035584266188484606,
+        "J": 2.925564585188063e-05,
+        "P": 0.016211999999999997,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 2.632391039515227e-09,
+          "O": 0.0,
+          "AR": 0.0,
+          "N": 3.393716627533557e-08
+        }
+      },
+      "end": {
+        "mass": 3.656955731485075e-08,
+        "E_stored": 0.01940644927586638,
+        "E_NASA": 0.019406449275866395,
+        "C": 4.927441527826334e-06,
+        "H_stored": 0.035585166748090626,
+        "H_NASA": 0.03558516674809064,
+        "J": 2.9259881373052743e-05,
+        "P": 0.016212904795125122,
+        "max_h_inversion_error": 1.4435499906539917e-08,
+        "elements": {
+          "H": 2.632391039515227e-09,
+          "O": 0.0,
+          "AR": 0.0,
+          "N": 3.393716627533557e-08
+        }
+      },
+      "signedEnergyDrift": 1.0744560163911056e-13,
+      "massDrift": -1.2666851256675798e-15,
+      "elementDrift": {
+        "H": 0.0,
+        "N": 0.0
+      },
+      "sumYError": 1.354472090042691e-14,
+      "minY": 0.0,
+      "maxEOSRelative": 1.3100631690576847e-14,
+      "maxLocalEnergyResidual": 4.812114281341983e-19,
+      "maxAcceptedEnergyResidual": 4.1640696099576325e-19,
+      "maxAcceptedScaledResidual": 0.013832446274306659,
+      "maxComponentAllowance": 3.047075080935665e-17,
+      "acceptedAboveOldCutoffRankSteps": 0
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOff",
+      "kind": "F",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "ranks": 4,
+      "nCells": 256,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "formationAblation": {
+        "scale": 1.0,
+        "elementGauge": 0.0,
+        "maxSensibleEnthalpyRepresentationChange": 0.0
+      },
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "action": "A0",
+      "odeRelativeTolerance": null,
+      "odeAbsoluteTolerance": null,
+      "MPIProfile": false,
+      "blockPressureTolerance": null,
+      "compatibleSpeciesHeatFlux": null,
+      "transportSutherlandOverride": null,
+      "padThermoCorrections": null,
+      "componentEnergyTolerance": false,
+      "chemistrySolverOverride": null,
+      "odeThermalPath": null,
+      "solverWall": 15.637816414004192,
+      "initial": {
+        "mass": 5.914511201018847e-08,
+        "E_stored": 0.01749661206154121,
+        "E_NASA": 0.01749661206154121,
+        "C": 3.93254020492248e-06,
+        "H_stored": 0.03327883471486287,
+        "H_NASA": 0.03327883471486287,
+        "J": 0.00042584480647335705,
+        "P": 0.016211999999999935,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 1.6738066698883365e-09,
+          "O": 1.3307650202292407e-08,
+          "AR": 0.0,
+          "N": 4.416365513800785e-08
+        }
+      },
+      "end": {
+        "mass": 5.9145112010188536e-08,
+        "E_stored": 0.017496612061542183,
+        "E_NASA": 0.017496612061542238,
+        "C": -0.16069611178902934,
+        "H_stored": 0.23654704039093302,
+        "H_NASA": 0.23654704039093308,
+        "J": 0.0004486624328699436,
+        "P": 0.05880297897323143,
+        "max_h_inversion_error": 6.007030606269836e-08,
+        "elements": {
+          "H": 1.6738066698883384e-09,
+          "O": 1.3307650202292429e-08,
+          "AR": 0.0,
+          "N": 4.4163655138007757e-08
+        }
+      },
+      "signedEnergyDrift": 5.5521900075861943e-14,
+      "absoluteEnergyDrift": 5.5521900075861943e-14,
+      "massDrift": 1.118848992843954e-15,
+      "elementDrift": {
+        "H": 1.1119303153263658e-15,
+        "O": 1.616115211885711e-15,
+        "N": -2.0977482121086533e-15
+      },
+      "independentNativeEnergyDifference": -1.3530843112619095e-16,
+      "thermoInventoryDifference": 5.551115123125783e-17,
+      "cumulativeTerms": {
+        "Dpressure": -6.830541481166745e-07,
+        "Dkinetic": -1.795955075969181e-05,
+        "DrhoH": 0.00604093559110145,
+        "DrhoC": -0.006050256927604001,
+        "DspeciesChemistry": -1.325731992541134e-13,
+        "Dequation": 1.3547206689779044e-15,
+        "Dtransport": -8.223738763981482e-10,
+        "Dhistory": 3.408418228103942e-17
+      },
+      "maxStepClosure": 1.4214991624116394e-16,
+      "cumulativeClosure": -6.798970711985923e-16,
+      "ledgerInventoryDifference": 2.0209528495129803e-16,
+      "minT": 599.7213386387434,
+      "minP": 99980.74934715616,
+      "minY": 0.0,
+      "sumYError": 5.5289106626332796e-14,
+      "maxContinuityL1": 1.517322090194284e-16,
+      "maxCellClosure": 1.2727499694650253e-17,
+      "maxEOSRelative": 2.130095065521339e-16,
+      "maxAcceptedEnergyResidual": 4.991951296773322e-18,
+      "maxAcceptedScaledResidual": 0.23103047240684302,
+      "maxComponentAllowance": 6.927654867097727e-17,
+      "acceptedAboveOldCutoffRankSteps": 0
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOn",
+      "kind": "F",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "steps": 240,
+      "ranks": 4,
+      "nCells": 256,
+      "nCorrectors": 1,
+      "nOuterCorrectors": 1,
+      "formationAblation": {
+        "scale": 1.0,
+        "elementGauge": 0.0,
+        "maxSensibleEnthalpyRepresentationChange": 0.0
+      },
+      "source": {
+        "YEqn.H": "170a42e4654855036f8602203d7c3c94e7d6550c04ea85eb74ce0631f86b44c6",
+        "reactingFoamPAD.C": "ceab7014de2b1dae063c991cd3d79dffa3c22e6bdc558009f0487cffc4d482f2",
+        "createFieldRefs.H": "92775c6f5bd1fabdf6a4c540a20599bb7bdd41ebad7d2bf99e5803ce692a1db3",
+        "cellEnergyAudit.H": "71093942d0d977b2b936cbbd6f6e18450dcc0c46c72f7bbfcd745b9be5b2f8a5",
+        "pEqn.H": "147f689a374251e95e186c5213075c4dae72e88d0d55ae6ab7ab388454c8fdb5",
+        "setRDeltaT.H": "5db76e61087a71320246ad0fecb029db08240f3a3fc3c17b3a0091f4ef7e441e",
+        "UEqn.H": "2f5ac15d7cfef0262ca3b4ab666ea7026adb51e62e3da93c2ed98d1f8ea8b607",
+        "thermoDensityCorrector.H": "4ebc7cdadc18bb1e7df755b08c0af2d624e6d7e401d31b46a28baa9c131eea14",
+        "energyLedger.H": "4535258de211e7bf7089f1193092926b444393605366f5db2e3515290890c705",
+        "EEqn.H": "b7df4879852734da9c824c0c41a3b945c3930bdb79c96dac23f03616f750856c",
+        "pcEqn.H": "d85551909a28e7920c504314ba6dc4eca0fb4688708b55e5eabb6adf732483b3",
+        "createFields.H": "d9602089b57579cc1fa1cff24baf33db572690aa36b79d13a5875c8f571fbee4",
+        "padCreateDpdt.H": "7b5d0841c65c5eb0457557a325f832f5266f814591783a71c408b44346136d15",
+        "phaseTimers.H": "ccb25a077f616be3ed80546375b3d5b5714ddfcd5fdd099918004c4085dd5006"
+      },
+      "sourceSnapshot": "candidateStudy/sourceSnapshots/d1193bcd3832c787449d8f60ed84e0c8d5f678acd9bd44bb61223b209658ea8b",
+      "executable": "reactingEnergyRoundoffCandidates",
+      "executableSHA256": "1347276d86dbb71a6d22a8c5f51d668cb2817996a76ebf921064d027c6434392",
+      "action": "A0",
+      "odeRelativeTolerance": null,
+      "odeAbsoluteTolerance": null,
+      "MPIProfile": false,
+      "blockPressureTolerance": null,
+      "compatibleSpeciesHeatFlux": null,
+      "transportSutherlandOverride": null,
+      "padThermoCorrections": null,
+      "componentEnergyTolerance": true,
+      "chemistrySolverOverride": null,
+      "odeThermalPath": null,
+      "solverWall": 15.760720024001785,
+      "initial": {
+        "mass": 5.914511201018847e-08,
+        "E_stored": 0.01749661206154121,
+        "E_NASA": 0.01749661206154121,
+        "C": 3.93254020492248e-06,
+        "H_stored": 0.03327883471486287,
+        "H_NASA": 0.03327883471486287,
+        "J": 0.00042584480647335705,
+        "P": 0.016211999999999935,
+        "max_h_inversion_error": 0,
+        "elements": {
+          "H": 1.6738066698883365e-09,
+          "O": 1.3307650202292407e-08,
+          "AR": 0.0,
+          "N": 4.416365513800785e-08
+        }
+      },
+      "end": {
+        "mass": 5.9145112010188536e-08,
+        "E_stored": 0.017496612061542183,
+        "E_NASA": 0.017496612061542238,
+        "C": -0.16069611178902934,
+        "H_stored": 0.23654704039093302,
+        "H_NASA": 0.23654704039093308,
+        "J": 0.0004486624328699436,
+        "P": 0.05880297897323143,
+        "max_h_inversion_error": 6.007030606269836e-08,
+        "elements": {
+          "H": 1.6738066698883384e-09,
+          "O": 1.3307650202292429e-08,
+          "AR": 0.0,
+          "N": 4.4163655138007757e-08
+        }
+      },
+      "signedEnergyDrift": 5.5521900075861943e-14,
+      "absoluteEnergyDrift": 5.5521900075861943e-14,
+      "massDrift": 1.118848992843954e-15,
+      "elementDrift": {
+        "H": 1.1119303153263658e-15,
+        "O": 1.616115211885711e-15,
+        "N": -2.0977482121086533e-15
+      },
+      "independentNativeEnergyDifference": -1.3530843112619095e-16,
+      "thermoInventoryDifference": 5.551115123125783e-17,
+      "cumulativeTerms": {
+        "Dpressure": -6.830541481166745e-07,
+        "Dkinetic": -1.795955075969181e-05,
+        "DrhoH": 0.00604093559110145,
+        "DrhoC": -0.006050256927604001,
+        "DspeciesChemistry": -1.325731992541134e-13,
+        "Dequation": 1.3547206689779044e-15,
+        "Dtransport": -8.223738763981482e-10,
+        "Dhistory": 3.408418228103942e-17
+      },
+      "maxStepClosure": 1.4214991624116394e-16,
+      "cumulativeClosure": -6.798970711985923e-16,
+      "ledgerInventoryDifference": 2.0209528495129803e-16,
+      "minT": 599.7213386387434,
+      "minP": 99980.74934715616,
+      "minY": 0.0,
+      "sumYError": 5.5289106626332796e-14,
+      "maxContinuityL1": 1.517322090194284e-16,
+      "maxCellClosure": 1.2727499694650253e-17,
+      "maxEOSRelative": 2.130095065521339e-16,
+      "maxAcceptedEnergyResidual": 4.991951296773322e-18,
+      "maxAcceptedScaledResidual": 0.23103047240684302,
+      "maxComponentAllowance": 6.927654867097727e-17,
+      "acceptedAboveOldCutoffRankSteps": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "kind": "standard",
+      "a": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "b": "RoundoffCvRegime_standard_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "fields": {
+        "T": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "p": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "rho": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "h": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "U": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        }
+      }
+    },
+    {
+      "kind": "hot",
+      "a": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOff",
+      "b": "RoundoffCvRegime_hot_conservativeState_dt1e-06_dfdt0_stagnation_componentOn",
+      "fields": {
+        "T": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "p": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "rho": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "h": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "U": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        }
+      }
+    },
+    {
+      "kind": "unequalMixture",
+      "a": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOff",
+      "b": "RoundoffThermoWave_conservativeState_nx64_dt2e-08_stagnation_componentOn",
+      "fields": {
+        "T": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "p": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "rho": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "h": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "U": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        }
+      }
+    },
+    {
+      "kind": "F",
+      "a": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOff",
+      "b": "F_conservativeState_dt1e-06_s1_g0_o1_p1_stagnation_componentOn",
+      "fields": {
+        "T": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "p": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "rho": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "h": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "U": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "OH": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "HO2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "H2O": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "AR": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        },
+        "N2": {
+          "L1": 0.0,
+          "L2": 0.0,
+          "Linf": 0.0
+        }
+      }
+    }
+  ],
+  "scope": "Known component-scaled roundoff stopping control. Logical replays may overlap other logical chemistry screens; all wall times excluded from performance ranking. Original failures remain retained."
+}

@@ -1,0 +1,843 @@
+{
+  "train": {
+    "ablation_full": {
+      "n": 15,
+      "meanRegret": 0.23516912453245217,
+      "medianRegret": 0.06007941199641209,
+      "worstRegret": 1.1600251109921373,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.104438441377145
+    },
+    "ablation_noCommunication": {
+      "n": 15,
+      "meanRegret": 0.2351686279308827,
+      "medianRegret": 0.06007906199374702,
+      "worstRegret": 1.1600247820024379,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044385861308768
+    },
+    "ablation_noMigration": {
+      "n": 15,
+      "meanRegret": 0.23517087992804592,
+      "medianRegret": 0.06007918198883999,
+      "worstRegret": 1.1600246419984614,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044379296995201
+    },
+    "ablation_noPersistence": {
+      "n": 15,
+      "meanRegret": 0.23520683753013144,
+      "medianRegret": 0.060079231989220716,
+      "worstRegret": 1.1600249219918624,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044274485764178
+    },
+    "ablation_noTransport": {
+      "n": 15,
+      "meanRegret": 0.23517632332902091,
+      "medianRegret": 0.06008421198930591,
+      "worstRegret": 1.1600298520061187,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044363430137603
+    },
+    "ablation_noUncertainty": {
+      "n": 15,
+      "meanRegret": 0.08059137900030085,
+      "medianRegret": 0.030507093004416674,
+      "worstRegret": 0.802808096021181,
+      "oracleOptimalFraction": 0.8666666666666667,
+      "harmfulFraction": 0.4666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.13333333333333333,
+      "aggregateSpeedup": 1.1514124924114628
+    },
+    "ablation_onlyEMA": {
+      "n": 15,
+      "meanRegret": 0.235167714531417,
+      "medianRegret": 0.06007833198236767,
+      "worstRegret": 1.160024111988605,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044388523765725
+    },
+    "ablation_onlyImbalance": {
+      "n": 15,
+      "meanRegret": 0.6599213555979077,
+      "medianRegret": 0.15770806300861295,
+      "worstRegret": 4.98171248199651,
+      "oracleOptimalFraction": 0.26666666666666666,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.7333333333333333,
+      "aggregateSpeedup": 0.9931083855266317
+    },
+    "ablation_onlyPreviousCost": {
+      "n": 15,
+      "meanRegret": 0.23516786052981237,
+      "medianRegret": 0.06007838099321816,
+      "worstRegret": 1.1600242520071333,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044388098196698
+    },
+    "imbalanceThreshold": {
+      "n": 15,
+      "meanRegret": 0.03327717446760895,
+      "medianRegret": 0.03050088400777895,
+      "worstRegret": 0.09301111100648995,
+      "oracleOptimalFraction": 0.8,
+      "harmfulFraction": 0.4666666666666667,
+      "unnecessaryFraction": 0.06666666666666667,
+      "missedFraction": 0.13333333333333333,
+      "aggregateSpeedup": 1.166599877371554
+    },
+    "never": {
+      "n": 15,
+      "meanRegret": 0.6308820831977452,
+      "medianRegret": 0.12734037800692022,
+      "worstRegret": 4.969384723997791,
+      "oracleOptimalFraction": 0.26666666666666666,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.7333333333333333,
+      "aggregateSpeedup": 1.0
+    },
+    "oracle": {
+      "n": 15,
+      "meanRegret": 0.0,
+      "medianRegret": 0.0,
+      "worstRegret": 0.0,
+      "oracleOptimalFraction": 1,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1775237503213793
+    },
+    "periodicChemistry": {
+      "n": 15,
+      "meanRegret": 0.0009066123321341972,
+      "medianRegret": 0.0,
+      "worstRegret": 0.009629356994992122,
+      "oracleOptimalFraction": 0.7333333333333333,
+      "harmfulFraction": 0.26666666666666666,
+      "unnecessaryFraction": 0.26666666666666666,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1772234271864543
+    },
+    "periodicMesh": {
+      "n": 15,
+      "meanRegret": 2.120944863127079,
+      "medianRegret": 0.8119173110026168,
+      "worstRegret": 13.231270532021881,
+      "oracleOptimalFraction": 0,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0.26666666666666666,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.7374215918267127
+    },
+    "persistenceBreakEven": {
+      "n": 15,
+      "meanRegret": 0.08058512573285649,
+      "medianRegret": 0.030501393994200043,
+      "worstRegret": 0.8028024860250298,
+      "oracleOptimalFraction": 0.8666666666666667,
+      "harmfulFraction": 0.4666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.13333333333333333,
+      "aggregateSpeedup": 1.1514144735197722
+    },
+    "stuttgartEveryStep": {
+      "n": 15,
+      "meanRegret": 0.0009066123321341972,
+      "medianRegret": 0.0,
+      "worstRegret": 0.009629356994992122,
+      "oracleOptimalFraction": 0.7333333333333333,
+      "harmfulFraction": 0.26666666666666666,
+      "unnecessaryFraction": 0.26666666666666666,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1772234271864543
+    },
+    "wholeSolver": {
+      "n": 15,
+      "meanRegret": 0.23516989792891158,
+      "medianRegret": 0.06008172198198736,
+      "worstRegret": 1.1600250219926238,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.8666666666666667,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.1044382159409143
+    }
+  },
+  "validation": {
+    "ablation_full": {
+      "n": 4,
+      "meanRegret": 0.042540286009170813,
+      "medianRegret": 0.0404008835030254,
+      "worstRegret": 0.0593485840363428,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794700334852575
+    },
+    "ablation_noCommunication": {
+      "n": 4,
+      "meanRegret": 0.0425394609956129,
+      "medianRegret": 0.040400398487690836,
+      "worstRegret": 0.05934635402809363,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794705888372833
+    },
+    "ablation_noMigration": {
+      "n": 4,
+      "meanRegret": 0.04253946599783376,
+      "medianRegret": 0.0404004534939304,
+      "worstRegret": 0.05934632402204443,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794705854700719
+    },
+    "ablation_noPersistence": {
+      "n": 4,
+      "meanRegret": 0.04253967599652242,
+      "medianRegret": 0.04040064848959446,
+      "worstRegret": 0.0593466440186603,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794704441108851
+    },
+    "ablation_noTransport": {
+      "n": 4,
+      "meanRegret": 0.04254523074996541,
+      "medianRegret": 0.04040684349456569,
+      "worstRegret": 0.05935139402572531,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794667049812558
+    },
+    "ablation_noUncertainty": {
+      "n": 4,
+      "meanRegret": 0.03728552450411371,
+      "medianRegret": 0.030100982992735226,
+      "worstRegret": 0.059346343026845716,
+      "oracleOptimalFraction": 0.75,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.25,
+      "aggregateSpeedup": 0.9830200572804269
+    },
+    "ablation_onlyEMA": {
+      "n": 4,
+      "meanRegret": 0.04253884350328008,
+      "medianRegret": 0.04039980849483982,
+      "worstRegret": 0.059345824032789096,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794710044982803
+    },
+    "ablation_onlyImbalance": {
+      "n": 4,
+      "meanRegret": 0.04253851824978483,
+      "medianRegret": 0.04039947799174115,
+      "worstRegret": 0.0593453940236941,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.979471223440723
+    },
+    "ablation_onlyPreviousCost": {
+      "n": 4,
+      "meanRegret": 0.04253894574867445,
+      "medianRegret": 0.040400032987236045,
+      "worstRegret": 0.05934573402919341,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794709356724256
+    },
+    "imbalanceThreshold": {
+      "n": 4,
+      "meanRegret": 0.04050207974432851,
+      "medianRegret": 0.029886315991461743,
+      "worstRegret": 0.07307453399698716,
+      "oracleOptimalFraction": 0.75,
+      "harmfulFraction": 0.75,
+      "unnecessaryFraction": 0.25,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.9808439613449373
+    },
+    "never": {
+      "n": 4,
+      "meanRegret": 0.012667731254623504,
+      "medianRegret": 0.01036740149720572,
+      "worstRegret": 0.02993612202408258,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0
+    },
+    "oracle": {
+      "n": 4,
+      "meanRegret": 0.0,
+      "medianRegret": 0.0,
+      "worstRegret": 0.0,
+      "oracleOptimalFraction": 1,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.0089681115906952
+    },
+    "periodicChemistry": {
+      "n": 4,
+      "meanRegret": 0.014244472000427777,
+      "medianRegret": 0.006871914505609311,
+      "worstRegret": 0.043234058990492485,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.5,
+      "unnecessaryFraction": 0.5,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.9988948917917938
+    },
+    "periodicMesh": {
+      "n": 4,
+      "meanRegret": 0.5381846292548289,
+      "medianRegret": 0.5366681414889172,
+      "worstRegret": 0.5596904360281769,
+      "oracleOptimalFraction": 0,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0.5,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.7306029532687807
+    },
+    "persistenceBreakEven": {
+      "n": 4,
+      "meanRegret": 0.037279872252838686,
+      "medianRegret": 0.030095127993263304,
+      "worstRegret": 0.05934076404082589,
+      "oracleOptimalFraction": 0.75,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.25,
+      "aggregateSpeedup": 0.9830238896963299
+    },
+    "stuttgartEveryStep": {
+      "n": 4,
+      "meanRegret": 0.014244472000427777,
+      "medianRegret": 0.006871914505609311,
+      "worstRegret": 0.043234058990492485,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.5,
+      "unnecessaryFraction": 0.5,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.9988948917917938
+    },
+    "wholeSolver": {
+      "n": 4,
+      "meanRegret": 0.04254022350141895,
+      "medianRegret": 0.04040151349181542,
+      "worstRegret": 0.05934689403511584,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 0.9794700755618853
+    }
+  },
+  "test": {
+    "ablation_full": {
+      "n": 6,
+      "meanRegret": 0.5410072791783023,
+      "medianRegret": 0.031719453509140294,
+      "worstRegret": 2.204793842014624,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266775712262972,
+      "aggregateSpeedupCI": [
+        1.0165309676793568,
+        1.0357265559925737
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noCommunication": {
+      "n": 6,
+      "meanRegret": 0.5410069725063901,
+      "medianRegret": 0.031719038503069896,
+      "worstRegret": 2.204793602009886,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266776530714588,
+      "aggregateSpeedupCI": [
+        1.0165137124785133,
+        1.0357574332740274
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noMigration": {
+      "n": 6,
+      "meanRegret": 0.5410110575054811,
+      "medianRegret": 0.03171927850780776,
+      "worstRegret": 2.2047935420123395,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.026676562860493,
+      "aggregateSpeedupCI": [
+        1.0165482040783966,
+        1.035775255539262
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noPersistence": {
+      "n": 6,
+      "meanRegret": 0.674102346674772,
+      "medianRegret": 0.4307431535125943,
+      "worstRegret": 2.204793872006121,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923447542635084,
+      "aggregateSpeedupCI": [
+        0.9922783483176942,
+        0.9924462817595312
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noTransport": {
+      "n": 6,
+      "meanRegret": 0.541012539009292,
+      "medianRegret": 0.031725418513815384,
+      "worstRegret": 2.2047988520062063,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.0266761674750042,
+      "aggregateSpeedupCI": [
+        1.016555706021815,
+        1.0357863458054728
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_noUncertainty": {
+      "n": 6,
+      "meanRegret": 0.18893817466596374,
+      "medianRegret": 0.03074347149959067,
+      "worstRegret": 0.9172747430129675,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.6666666666666666,
+      "unnecessaryFraction": 0.16666666666666666,
+      "missedFraction": 0.16666666666666666,
+      "aggregateSpeedup": 1.1301039207627908,
+      "aggregateSpeedupCI": [
+        1.1172219073783882,
+        1.147930420824283
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyEMA": {
+      "n": 6,
+      "meanRegret": 0.6741010466721491,
+      "medianRegret": 0.43074115851777606,
+      "worstRegret": 2.2047929120017216,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.992345078394346,
+      "aggregateSpeedupCI": [
+        0.9922757898263392,
+        0.9924453586578461
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyImbalance": {
+      "n": 6,
+      "meanRegret": 0.674100769671592,
+      "medianRegret": 0.4307408235108596,
+      "worstRegret": 2.2047927520034136,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923451474591745,
+      "aggregateSpeedupCI": [
+        0.9922756680884001,
+        0.9924492865416393
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "ablation_onlyPreviousCost": {
+      "n": 6,
+      "meanRegret": 0.6741011250051088,
+      "medianRegret": 0.4307410285109654,
+      "worstRegret": 2.204793172000791,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 0.9923450588635119,
+      "aggregateSpeedupCI": [
+        0.9922782902682551,
+        0.9924474324198417
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "imbalanceThreshold": {
+      "n": 6,
+      "meanRegret": 0.03086297417030437,
+      "medianRegret": 0.030630670007667504,
+      "worstRegret": 0.03247204702347517,
+      "oracleOptimalFraction": 0.8333333333333334,
+      "harmfulFraction": 0.5,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.16666666666666666,
+      "aggregateSpeedup": 1.1836407770976753,
+      "aggregateSpeedupCI": [
+        1.1681942571320907,
+        1.2000949776197545
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "never": {
+      "n": 6,
+      "meanRegret": 0.6436342213395013,
+      "medianRegret": 0.3999399250096758,
+      "worstRegret": 2.1751163640001323,
+      "oracleOptimalFraction": 0.3333333333333333,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6666666666666666,
+      "aggregateSpeedup": 1.0,
+      "aggregateSpeedupCI": [
+        1.0,
+        1.0
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "oracle": {
+      "n": 6,
+      "meanRegret": 0.0,
+      "medianRegret": 0.0,
+      "worstRegret": 0.0,
+      "oracleOptimalFraction": 1,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1946908220741526,
+      "aggregateSpeedupCI": [
+        1.1790963664390763,
+        1.211994148997458
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "periodicChemistry": {
+      "n": 6,
+      "meanRegret": 0.014217357333109248,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.3333333333333333,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1895749809067966,
+      "aggregateSpeedupCI": [
+        1.1734844368924893,
+        1.210572771093465
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "periodicMesh": {
+      "n": 6,
+      "meanRegret": 1.845414991825237,
+      "medianRegret": 1.181886473983468,
+      "worstRegret": 4.1982927640056005,
+      "oracleOptimalFraction": 0,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.7667054367208745,
+      "aggregateSpeedupCI": [
+        0.7545547845439157,
+        0.7793310573746672
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "persistenceBreakEven": {
+      "n": 6,
+      "meanRegret": 0.17860308050876483,
+      "medianRegret": 0.030692827502207365,
+      "worstRegret": 0.9172690430132207,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.6666666666666666,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.3333333333333333,
+      "aggregateSpeedup": 1.1334557989908798,
+      "aggregateSpeedupCI": [
+        1.1215479092279772,
+        1.14903785960999
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "stuttgartEveryStep": {
+      "n": 6,
+      "meanRegret": 0.014217357333109248,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.6666666666666666,
+      "harmfulFraction": 0.3333333333333333,
+      "unnecessaryFraction": 0.3333333333333333,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1895749809067966,
+      "aggregateSpeedupCI": [
+        1.173858180217177,
+        1.2093491284040732
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    },
+    "wholeSolver": {
+      "n": 6,
+      "meanRegret": 0.5410073955111633,
+      "medianRegret": 0.03171960850886535,
+      "worstRegret": 2.2047939210169716,
+      "oracleOptimalFraction": 0.5,
+      "harmfulFraction": 0.8333333333333334,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.5,
+      "aggregateSpeedup": 1.026677540179174,
+      "aggregateSpeedupCI": [
+        1.016620473132261,
+        1.0356630974383925
+      ],
+      "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+    }
+  },
+  "all": {
+    "ablation_full": {
+      "n": 25,
+      "meanRegret": 0.2777496674837312,
+      "medianRegret": 0.03247858701797668,
+      "worstRegret": 2.204793842014624,
+      "oracleOptimalFraction": 0.44,
+      "harmfulFraction": 0.88,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.56,
+      "aggregateSpeedup": 1.0750203425016809
+    },
+    "ablation_noCommunication": {
+      "n": 25,
+      "meanRegret": 0.27774916391936133,
+      "medianRegret": 0.032478027016622946,
+      "worstRegret": 2.204793602009886,
+      "oracleOptimalFraction": 0.44,
+      "harmfulFraction": 0.88,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.56,
+      "aggregateSpeedup": 1.0750205003525812
+    },
+    "ablation_noMigration": {
+      "n": 25,
+      "meanRegret": 0.2777514963177964,
+      "medianRegret": 0.03247817701776512,
+      "worstRegret": 2.2047935420123395,
+      "oracleOptimalFraction": 0.44,
+      "harmfulFraction": 0.88,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.56,
+      "aggregateSpeedup": 1.0750197692226227
+    },
+    "ablation_noPersistence": {
+      "n": 25,
+      "meanRegret": 0.30971501387946776,
+      "medianRegret": 0.050609883983270265,
+      "worstRegret": 2.204793872006121,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.92,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.0650927902004146
+    },
+    "ablation_noTransport": {
+      "n": 25,
+      "meanRegret": 0.2777560402796371,
+      "medianRegret": 0.032485447023645975,
+      "worstRegret": 2.2047988520062063,
+      "oracleOptimalFraction": 0.44,
+      "harmfulFraction": 0.88,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.56,
+      "aggregateSpeedup": 1.0750183448433568
+    },
+    "ablation_noUncertainty": {
+      "n": 25,
+      "meanRegret": 0.09966567324067001,
+      "medianRegret": 0.03043761500157416,
+      "worstRegret": 0.9172747430129675,
+      "oracleOptimalFraction": 0.8,
+      "harmfulFraction": 0.6,
+      "unnecessaryFraction": 0.04,
+      "missedFraction": 0.16,
+      "aggregateSpeedup": 1.1339013859691593
+    },
+    "ablation_onlyEMA": {
+      "n": 25,
+      "meanRegret": 0.3096910948806908,
+      "medianRegret": 0.050609163983608596,
+      "worstRegret": 2.2047929120017216,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.92,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.065100150229469
+    },
+    "ablation_onlyImbalance": {
+      "n": 25,
+      "meanRegret": 0.5645431609998923,
+      "medianRegret": 0.060077961985371076,
+      "worstRegret": 4.98171248199651,
+      "oracleOptimalFraction": 0.32,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.68,
+      "aggregateSpeedup": 0.9920578809176056
+    },
+    "ablation_onlyPreviousCost": {
+      "n": 25,
+      "meanRegret": 0.30969121763890145,
+      "medianRegret": 0.050609062978764996,
+      "worstRegret": 2.204793172000791,
+      "oracleOptimalFraction": 0.4,
+      "harmfulFraction": 0.92,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.6,
+      "aggregateSpeedup": 1.065100112455722
+    },
+    "imbalanceThreshold": {
+      "n": 25,
+      "meanRegret": 0.033853751240530985,
+      "medianRegret": 0.03043096500914544,
+      "worstRegret": 0.09301111100648995,
+      "oracleOptimalFraction": 0.8,
+      "harmfulFraction": 0.52,
+      "unnecessaryFraction": 0.08,
+      "missedFraction": 0.12,
+      "aggregateSpeedup": 1.15732719838964
+    },
+    "never": {
+      "n": 25,
+      "meanRegret": 0.5350283000408672,
+      "medianRegret": 0.02993612202408258,
+      "worstRegret": 4.969384723997791,
+      "oracleOptimalFraction": 0.32,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.68,
+      "aggregateSpeedup": 1.0
+    },
+    "oracle": {
+      "n": 25,
+      "meanRegret": 0.0,
+      "medianRegret": 0.0,
+      "worstRegret": 0.0,
+      "oracleOptimalFraction": 1,
+      "harmfulFraction": 0,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1697585348846633
+    },
+    "periodicChemistry": {
+      "n": 25,
+      "meanRegret": 0.006235248679295182,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.68,
+      "harmfulFraction": 0.32,
+      "unnecessaryFraction": 0.32,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1674488830537022
+    },
+    "periodicMesh": {
+      "n": 25,
+      "meanRegret": 1.801576056595077,
+      "medianRegret": 0.5596904360281769,
+      "worstRegret": 13.231270532021881,
+      "oracleOptimalFraction": 0,
+      "harmfulFraction": 1,
+      "unnecessaryFraction": 0.32,
+      "missedFraction": 0,
+      "aggregateSpeedup": 0.7443010945523522
+    },
+    "persistenceBreakEven": {
+      "n": 25,
+      "meanRegret": 0.09718059432227165,
+      "medianRegret": 0.030431345003307797,
+      "worstRegret": 0.9172690430132207,
+      "oracleOptimalFraction": 0.8,
+      "harmfulFraction": 0.6,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.2,
+      "aggregateSpeedup": 1.1347687101702906
+    },
+    "stuttgartEveryStep": {
+      "n": 25,
+      "meanRegret": 0.006235248679295182,
+      "medianRegret": 0.0,
+      "worstRegret": 0.06375096600095276,
+      "oracleOptimalFraction": 0.68,
+      "harmfulFraction": 0.32,
+      "unnecessaryFraction": 0.32,
+      "missedFraction": 0,
+      "aggregateSpeedup": 1.1674488830537022
+    },
+    "wholeSolver": {
+      "n": 25,
+      "meanRegret": 0.27775014944025317,
+      "medianRegret": 0.032478637018357404,
+      "worstRegret": 2.2047939210169716,
+      "oracleOptimalFraction": 0.44,
+      "harmfulFraction": 0.88,
+      "unnecessaryFraction": 0,
+      "missedFraction": 0.56,
+      "aggregateSpeedup": 1.0750201914241748
+    }
+  }
+}

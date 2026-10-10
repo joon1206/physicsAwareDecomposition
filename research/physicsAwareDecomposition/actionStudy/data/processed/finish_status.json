@@ -1,0 +1,154 @@
+[
+  {
+    "phase": "live",
+    "exitCode": 0,
+    "wall": 886.4331122089934
+  },
+  {
+    "phase": "cleanBuild",
+    "exitCode": 0,
+    "wall": 112.75337090699759
+  },
+  {
+    "phase": "confirmation",
+    "exitCode": 0,
+    "wall": 433.3001813659939
+  },
+  {
+    "phase": "continuousOracle",
+    "exitCode": 0,
+    "wall": 22.37143040500814
+  },
+  {
+    "phase": "controllerProfiles",
+    "exitCode": 0,
+    "wall": 44.09595073699893
+  },
+  {
+    "phase": "mpiConsequences",
+    "exitCode": 0,
+    "wall": 173.2090954999876
+  },
+  {
+    "phase": "conservationDiagnosis",
+    "exitCode": 0,
+    "wall": 725.7722679059952
+  },
+  {
+    "phase": "replayAccounting",
+    "exitCode": 0,
+    "wall": 1.296964556997409
+  },
+  {
+    "phase": "consequences",
+    "exitCode": 0,
+    "wall": 3.687120781003614
+  },
+  {
+    "phase": "actionInventories",
+    "exitCode": 0,
+    "wall": 21.142886086003273
+  },
+  {
+    "phase": "physicalFields",
+    "exitCode": 0,
+    "wall": 32.20754653699987
+  },
+  {
+    "phase": "quicklb",
+    "exitCode": 0,
+    "wall": 45.8617716049921
+  },
+  {
+    "phase": "quicklbProcess",
+    "exitCode": 0,
+    "wall": 0.1335494670056505
+  },
+  {
+    "phase": "initialState",
+    "exitCode": 0,
+    "wall": 38.69267183600459
+  },
+  {
+    "phase": "fluxRepair",
+    "exitCode": 0,
+    "wall": 1.9249713769968366
+  },
+  {
+    "phase": "physicalFieldsFinal",
+    "exitCode": 0,
+    "wall": 34.256976403994486
+  },
+  {
+    "phase": "reproduction",
+    "exitCode": 0,
+    "wall": 37.83683991699945
+  },
+  {
+    "phase": "literature",
+    "exitCode": 0,
+    "wall": 0.05086029099766165
+  },
+  {
+    "phase": "primaryDocuments",
+    "exitCode": 0,
+    "wall": 3.2875728469953174
+  },
+  {
+    "phase": "bibliography",
+    "exitCode": 0,
+    "wall": 5.816247052003746
+  },
+  {
+    "phase": "literatureVerified",
+    "exitCode": 0,
+    "wall": 0.04924224299611524
+  },
+  {
+    "phase": "initialStateLong",
+    "exitCode": 0,
+    "wall": 0.6068587379995733
+  },
+  {
+    "phase": "warnings",
+    "exitCode": 0,
+    "wall": 0.05743247899226844
+  },
+  {
+    "phase": "provenance",
+    "exitCode": 0,
+    "wall": 0.31197104800958186
+  },
+  {
+    "phase": "figures",
+    "exitCode": 0,
+    "wall": 19.690259883005638
+  },
+  {
+    "phase": "report",
+    "exitCode": 0,
+    "wall": 0.4396240770001896
+  },
+  {
+    "phase": "answers",
+    "exitCode": 0,
+    "wall": 0.04633943899534643
+  },
+  {
+    "phase": "evidence",
+    "exitCode": 0,
+    "wall": 84.67960686099832
+  },
+  {
+    "phase": "quality",
+    "exitCode": 0,
+    "wall": 1.0463070169935236
+  },
+  {
+    "phase": "figureReproduction",
+    "exitCode": 0,
+    "wall": null,
+    "executionMode": "Direct verifyFigureReproduction.py invocation; duration not logged as a performance measurement",
+    "evidence": "docs/figure_reproduction.json"
+  }
+]

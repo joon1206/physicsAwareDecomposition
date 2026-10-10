@@ -1,0 +1,88 @@
+{
+  "outcome": "bounded_negative_decision_with_stronger_pivot",
+  "publicationSurvivor": false,
+  "universalExhaustion": false,
+  "completeH2Records": 18,
+  "completeGRIRecords": 4,
+  "continuousSourceFailedCalls": 27,
+  "decisiveFamilyGates": [
+    [
+      "Scalar endpoint projection",
+      "Generic novelty; unconditional accuracy",
+      "40 eligible recoveries; 38 pass endpoint gates; 25 observed T errors increase; 22 exceed twice reference contrast. Species error unchanged."
+    ],
+    [
+      "Finite species/formation transfer",
+      "Generic novelty / implementation equivalence",
+      "Native RR already finite; all 22 matched flow records retain roundoff Dchemistry. CV enthalpy additionally needs delta p."
+    ],
+    [
+      "Chemistry/CFD transition interface",
+      "Generic novelty; sufficient CFD conservation",
+      "Known invariant reactor/source-forcing architecture; exact source maps leave later density/pressure defect."
+    ],
+    [
+      "Mechanism risk certification",
+      "Generic novelty; prospective numerical validation",
+      "Observed event identity verified across mechanisms/constraints; no prospective source or CFD accuracy certificate."
+    ],
+    [
+      "Continuous thermo reconstruction",
+      "Generic novelty; physical source accuracy",
+      "Established constrained fitting; no original source data for physical refit accuracy; CFD defect survives."
+    ]
+  ],
+  "publicationGates": [
+    [
+      "Novelty",
+      "FAIL for generic five-family formulations",
+      "Exact primary methods in thermo_prior_art_matrix.md. No more specific novel approximation is identified."
+    ],
+    [
+      "Mathematical",
+      "Conditional properties derived; broad sufficiency fails",
+      "Invariant image/root conditions, CV versus CP transfer and post-map counterexample."
+    ],
+    [
+      "Numerical",
+      "FAIL for promotion",
+      "Endpoint conservation does not ensure trajectory accuracy; original reacting reference remains unresolved."
+    ],
+    [
+      "Chemical",
+      "Conditional / incomplete",
+      "Finite elemental transfer passes abstract model; scalar projection leaves provisional errors and strict tiny negativity unchanged."
+    ],
+    [
+      "Thermodynamic",
+      "Conditional / incomplete",
+      "Continuous data controls and EOS checks pass; some spatial source steps still fail the unchanged 1e-10 gate."
+    ],
+    [
+      "Generalization",
+      "Evidence collected, not universal",
+      "H2/GRI full-flow pairs; H2/GRI/Alzueta independent CV/physical-CP controls. Modern native PLOG unsupported."
+    ],
+    [
+      "Simpler baselines",
+      "Compared within stated scopes",
+      "Matched original/HS/CpHS, dt1/dt2, tighter ODE, earlier extra pressure/outer and frozen block controls."
+    ],
+    [
+      "Cost",
+      "NOT PASSED for a new method",
+      "No runtime/memory dominance asserted; concurrent new walls excluded. Earlier uncontended native timings remain valid in their scopes."
+    ],
+    [
+      "Independent reference",
+      "Partial, not full publication pass",
+      "Native/Cantera source and independent thermo checks; projection trajectories share Cantera BDF, and resolved reacting-flow reference is still missing."
+    ]
+  ],
+  "inputSHA256": {
+    "clean_thermo_campaign.json": "8ba36ddcfe513a953f065d6744639fdefe82fa5c06cce8a3379f415b6fb9ca46",
+    "clean_gri_campaign.json": "f5244eb828d2706434012133f1f8009b0a04c969d54f05ff07b5a22558b8f6d3",
+    "thermochemical_candidate_decision.json": "0b2c4ec168ee15c76c39d6a170cba36aebbd5b818faa6831c9e7a13936ce4d9a"
+  },
+  "driverSHA256": "4205c7487389377835239cfb97d63c6bdb4ddb3d935249c05df032047d0cef67"
+}

@@ -1,0 +1,100 @@
+{
+  "configuration": {
+    "scriptSHA256": "6b55401cb85bdec118cf98d236f46c7c5e7fe7b7c310be4d0f35724f39cdc18f",
+    "thermoSHA256": "8ddfb28c0bcc190e94b6c290e7a89e39a76aebd56aad3f6230e3d483fec042f7",
+    "thermoSource": "candidateStudy/data/raw/B_none_dt2e-06_s1_g0_o1_p1/chemkin/therm.dat",
+    "scope": "Exact branch existence argument with actual legacy data and rational derivative bounds; no actual reaction trajectory, repaired mechanism or new numerical method."
+  },
+  "gap": {
+    "initialTemperature": 999.0,
+    "rho": 1.0,
+    "initialComposition": {
+      "H2": 0.0283,
+      "O2": 0.225,
+      "H": 0.0001,
+      "OH": 0.0001,
+      "N2": 0.7465
+    },
+    "targetComposition": {
+      "H2": 0.028290515676407592,
+      "O2": 0.22492472817301887,
+      "H": 0.0001,
+      "OH": 0.0001,
+      "N2": 0.7465,
+      "H2O": 8.475615057354021e-05
+    },
+    "reactionExtent": 4.704665611281287e-06,
+    "targetEnergy": 646670.9927221453,
+    "energyLowLimit": 646670.9556863212,
+    "energyHighLimit": 646671.0297579692,
+    "gapWidth": 0.07407164794858545,
+    "massDifference": 0.0,
+    "elementDifference": {
+      "H": -5.21772295508649e-19,
+      "O": -4.2825985813177425e-18,
+      "N": 0.0
+    },
+    "branchCvBounds": [
+      {
+        "low": 200,
+        "high": 1000,
+        "intervalWidth": 10,
+        "positiveCvLowerBound": 968.1593379297657,
+        "exactMinimumNumerator": "15360990302347328844854459606611026864686906407312327853787766422388212535188590981675811660569595824142519826002543742508153",
+        "exactMinimumDenominator": "15866179977351702196212867604381447564465012681698525716312783867250632309298290931011657258546394919042970228461777453056",
+        "scope": "Exact rational natural interval bound for polynomial evaluated with declared stored binary coefficients/weights. Not a bound on floating-point evaluation error."
+      },
+      {
+        "low": 1000,
+        "high": 5000,
+        "intervalWidth": 10,
+        "positiveCvLowerBound": 1143.8367374595505,
+        "exactMinimumNumerator": "74335516840919097666092099667477921198861953968045127404085216673991186048478587461441287724976007899630077657308468118309172981",
+        "exactMinimumDenominator": "64987873187232572195687905707546409224048691944237161334017162720258589938885799653423748131006033588400006055779440447717376",
+        "scope": "Exact rational natural interval bound for polynomial evaluated with declared stored binary coefficients/weights. Not a bound on floating-point evaluation error."
+      }
+    ],
+    "decision": "No valid temperature root in 200\u20135000 K for this conservative target and unchanged thermochemistry."
+  },
+  "overlap": {
+    "composition": {
+      "N2": 1.0
+    },
+    "rho": 1.0,
+    "targetEnergy": 469611.3283867298,
+    "energyLowLimit": 469611.3363311654,
+    "energyHighLimit": 469611.3204422943,
+    "overlapWidth": 0.015888871101196855,
+    "lowBranchRoot": {
+      "T": 999.9999908967907,
+      "p": 296803.31522832246,
+      "energyResidual": 5.820766091346741e-11
+    },
+    "highBranchRoot": {
+      "T": 1000.0000091032,
+      "p": 296803.32063204516,
+      "energyResidual": 0.0
+    },
+    "branchCvBounds": [
+      {
+        "low": 200,
+        "high": 1000,
+        "intervalWidth": 10,
+        "positiveCvLowerBound": 725.9584332058274,
+        "exactMinimumNumerator": "1730043530923155347474620308290515823394655",
+        "exactMinimumDenominator": "2383116514375754451443937504763842658304",
+        "scope": "Exact rational natural interval bound for polynomial evaluated with declared stored binary coefficients/weights. Not a bound on floating-point evaluation error."
+      },
+      {
+        "low": 1000,
+        "high": 5000,
+        "intervalWidth": 10,
+        "positiveCvLowerBound": 869.2352233861892,
+        "exactMinimumNumerator": "1060602273653107432658671622787303421288176699",
+        "exactMinimumDenominator": "1220155655360386279139296002439087441051648",
+        "scope": "Exact rational natural interval bound for polynomial evaluated with declared stored binary coefficients/weights. Not a bound on floating-point evaluation error."
+      }
+    ],
+    "decision": "Two valid branch temperatures/pressures for the same rho,Y,E; global uniqueness does not follow from positive branch Cv."
+  }
+}

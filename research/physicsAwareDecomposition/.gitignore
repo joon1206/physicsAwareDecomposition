@@ -1,0 +1,14 @@
+build/
+**/__pycache__/
+applications/*/Make/linux*/
+src/*/Make/linux*/
+**/lnInclude/
+reproductions/
+# Raw scientific campaigns, processed data and figures remain available for review.
+
+vendor/
+data/raw/
+actionStudy/data/raw/
+actionStudy/cases/
+actionStudy/data/evidence/timing_evidence.tar.gz
+**/Make/linux*/

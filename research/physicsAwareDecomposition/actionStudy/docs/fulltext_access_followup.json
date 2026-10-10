@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://chriswalshaw.co.uk/papers/fulltext/BasermannApMM00.pdf",
+    "path": "data/raw/literatureFollowup/drama2000.pdf",
+    "checkedUTC": "2026-10-05T14:00:39.873836+00:00",
+    "contentType": "application/pdf",
+    "status": "Downloaded primary source",
+    "bytes": 224200,
+    "SHA256": "5f0f11cbaa9ed67c00e8d2526529dabb9418c08efa62b5ded829975e611393db"
+  },
+  {
+    "url": "https://chriswalshaw.co.uk/papers/fulltext/BasermannTR99.pdf",
+    "path": "data/raw/literatureFollowup/drama1999_cost_model.pdf",
+    "checkedUTC": "2026-10-05T14:00:40.826485+00:00",
+    "contentType": "application/pdf",
+    "status": "Downloaded primary source",
+    "bytes": 511637,
+    "SHA256": "ccf181443e95d48e9eaabf6c470eec48cad55e76bf64790b5cf53ce3a083e271"
+  },
+  {
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v252/en/flu_ug/flu_ug_GridPartition.html",
+    "path": "data/raw/literatureFollowup/fluent2025_partitioning.html",
+    "checkedUTC": "2026-10-05T14:00:41.774509+00:00",
+    "contentType": "text/html",
+    "status": "Downloaded primary source",
+    "bytes": 126819,
+    "SHA256": "880c41247bab38c4268aa1d26546d5b11af978333aed173be6cce6805a7e10a1"
+  },
+  {
+    "url": "https://ppmcore.mpi-cbg.de/vector-example/",
+    "path": "data/raw/literatureFollowup/openfpm_examples.html",
+    "checkedUTC": "2026-10-05T14:00:42.181168+00:00",
+    "contentType": "text/html",
+    "status": "Downloaded primary source",
+    "bytes": 67537,
+    "SHA256": "e5d5789895559cf4889a16b4396e9ae7f07f62a4f2a3c13bc5b491f436470a4e"
+  }
+]

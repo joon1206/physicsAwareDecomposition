@@ -1,0 +1,627 @@
+{
+  "A_static": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "B_dt1e-06": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "B_dt5e-07": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "B_reaction": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "C_advection": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "D_diffusion": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_balanced": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true,
+    "fieldNorms": {
+      "T": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "p": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "rho": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "h": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "U": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      }
+    },
+    "equivalence": true
+  },
+  "F_dt1.25e-07_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt1e-06_p1": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt1e-06_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt2.5e-07_p1": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt2.5e-07_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt2e-06_p1": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt2e-06_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt3.125e-08_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt5e-07_p1": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt5e-07_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_dt6.25e-08_p4": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_ledger_off": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "fieldNorms": {
+      "T": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "p": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "rho": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "h": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "U": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      }
+    },
+    "equivalence": true
+  },
+  "F_original": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "fieldNorms": {
+      "T": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "p": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "rho": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "h": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "U": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "OH": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "HO2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "H2O": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      }
+    },
+    "equivalence": true
+  },
+  "F_outer2_dt2.5e-7": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_restart": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true,
+    "fieldNorms": {
+      "T": {
+        "L1": 1.1244338793403585e-12,
+        "L2": 1.5127720169142849e-12,
+        "Linf": 4.092726157978177e-12
+      },
+      "p": {
+        "L1": 2.2873791749589145e-10,
+        "L2": 2.761031786359712e-10,
+        "Linf": 6.984919309616089e-10
+      },
+      "rho": {
+        "L1": 2.5804011705155006e-16,
+        "L2": 3.236828524569469e-16,
+        "Linf": 9.992007221626409e-16
+      },
+      "h": {
+        "L1": 2.637534635141492e-09,
+        "L2": 3.291950717609776e-09,
+        "Linf": 7.916241884231567e-09
+      },
+      "U": {
+        "L1": 8.23422807628922e-13,
+        "L2": 9.132804235295893e-13,
+        "Linf": 2.1102566229674218e-12
+      },
+      "H2": {
+        "L1": 6.266349743787314e-18,
+        "L2": 7.73691448600262e-18,
+        "Linf": 2.0816681711721685e-17
+      },
+      "H": {
+        "L1": 1.3448765620030154e-18,
+        "L2": 1.6375125206031516e-18,
+        "Linf": 5.800481622797449e-18
+      },
+      "O2": {
+        "L1": 3.861792613121806e-17,
+        "L2": 4.687453771093121e-17,
+        "Linf": 1.4051260155412137e-16
+      },
+      "O": {
+        "L1": 9.627376478492378e-18,
+        "L2": 1.1658214396721934e-17,
+        "Linf": 3.903127820947816e-17
+      },
+      "OH": {
+        "L1": 4.09896183835301e-17,
+        "L2": 5.011301603528994e-17,
+        "Linf": 1.3877787807814457e-16
+      },
+      "HO2": {
+        "L1": 6.410318875040943e-20,
+        "L2": 7.903257413801881e-20,
+        "Linf": 1.9989977555201488e-19
+      },
+      "H2O2": {
+        "L1": 6.860636000514812e-21,
+        "L2": 8.524193779780632e-21,
+        "Linf": 2.0964065444543933e-20
+      },
+      "H2O": {
+        "L1": 2.1488887058662698e-16,
+        "L2": 2.7098357452222005e-16,
+        "Linf": 7.216449660063518e-16
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 2.641116492174689e-16,
+        "L2": 3.3400522754686134e-16,
+        "Linf": 8.881784197001252e-16
+      }
+    },
+    "equivalence": true
+  },
+  "F_restart_prefix": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "F_serial": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true,
+    "fieldNorms": {
+      "T": {
+        "L1": 2.6680993414629484e-08,
+        "L2": 3.0293461013638974e-08,
+        "Linf": 4.580306267598644e-08
+      },
+      "p": {
+        "L1": 4.279900622350397e-06,
+        "L2": 4.3843529991613456e-06,
+        "Linf": 5.631358362734318e-06
+      },
+      "rho": {
+        "L1": 3.0156615052345792e-12,
+        "L2": 3.3489656085098854e-12,
+        "Linf": 5.002331882053568e-12
+      },
+      "h": {
+        "L1": 4.901684405922424e-05,
+        "L2": 5.577307057153583e-05,
+        "Linf": 8.455384522676468e-05
+      },
+      "U": {
+        "L1": 1.621970337276266e-08,
+        "L2": 1.633861172216988e-08,
+        "Linf": 1.8983200794719226e-08
+      },
+      "H2": {
+        "L1": 1.715492863458819e-13,
+        "L2": 2.0326012895973538e-13,
+        "Linf": 3.191210316833004e-13
+      },
+      "H": {
+        "L1": 4.626619636416537e-14,
+        "L2": 5.594893522583657e-14,
+        "Linf": 9.072771830695436e-14
+      },
+      "O2": {
+        "L1": 8.801049149989755e-13,
+        "L2": 1.0438214324621895e-12,
+        "Linf": 1.6363993493584417e-12
+      },
+      "O": {
+        "L1": 3.1614045233795346e-13,
+        "L2": 3.825537515129565e-13,
+        "Linf": 6.223303122832036e-13
+      },
+      "OH": {
+        "L1": 1.1321968617630448e-12,
+        "L2": 1.3410424010384948e-12,
+        "Linf": 2.113649533175277e-12
+      },
+      "HO2": {
+        "L1": 1.1777816909013348e-15,
+        "L2": 1.3733334141808178e-15,
+        "Linf": 2.1527715048964835e-15
+      },
+      "H2O2": {
+        "L1": 7.813737573254235e-17,
+        "L2": 8.865169092409763e-17,
+        "Linf": 1.3605699649332694e-16
+      },
+      "H2O": {
+        "L1": 2.5478362909031604e-12,
+        "L2": 3.0276558773742827e-12,
+        "Linf": 4.784506124622112e-12
+      },
+      "AR": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "Linf": 0.0
+      },
+      "N2": {
+        "L1": 3.7383290907300193e-16,
+        "L2": 4.770205686648657e-16,
+        "Linf": 1.2212453270876722e-15
+      }
+    },
+    "equivalence": true
+  },
+  "F_tol1e-8": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "pilot_A": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  },
+  "pilot_F": {
+    "independentInventory": true,
+    "mass": true,
+    "elements": true,
+    "closure": true,
+    "ledgerInventory": true,
+    "positivity": true,
+    "normalization": true
+  }
+}

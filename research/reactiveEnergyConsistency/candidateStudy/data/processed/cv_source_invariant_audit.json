@@ -1,0 +1,834 @@
+{
+  "thermo": [
+    {
+      "species": "H2",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 2.529538944363594,
+      "molecularWeight": 2.01594,
+      "enthalpyJumpSpecific": 1.2547689635423644
+    },
+    {
+      "species": "H",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 0.0,
+      "molecularWeight": 1.00797,
+      "enthalpyJumpSpecific": 0.0
+    },
+    {
+      "species": "O2",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 7.168458942323923,
+      "molecularWeight": 31.9988,
+      "enthalpyJumpSpecific": 0.22402274280047763
+    },
+    {
+      "species": "O",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 8.242771595716476,
+      "molecularWeight": 15.9994,
+      "enthalpyJumpSpecific": 0.5151925444526968
+    },
+    {
+      "species": "OH",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": -3.8199446946382523,
+      "molecularWeight": 17.007369999999998,
+      "enthalpyJumpSpecific": -0.2246052561118064
+    },
+    {
+      "species": "HO2",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": -1.5007618442177773,
+      "molecularWeight": 33.006769999999996,
+      "enthalpyJumpSpecific": -0.04546830375155695
+    },
+    {
+      "species": "H2O2",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 26.81693747639656,
+      "molecularWeight": 34.014739999999996,
+      "enthalpyJumpSpecific": 0.7883916642137074
+    },
+    {
+      "species": "H2O",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 14.631250113248825,
+      "molecularWeight": 18.01534,
+      "enthalpyJumpSpecific": 0.8121550918966185
+    },
+    {
+      "species": "AR",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": 0.0,
+      "molecularWeight": 39.948,
+      "enthalpyJumpSpecific": 0.0
+    },
+    {
+      "species": "N2",
+      "mid": 1000.0,
+      "enthalpyJumpMolar": -0.4451013021171093,
+      "molecularWeight": 28.0134,
+      "enthalpyJumpSpecific": -0.015888871115862742
+    }
+  ],
+  "records": [
+    {
+      "name": "F_none_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "dt": 2e-06,
+      "sourceCalls": 30720,
+      "failingSourceCalls": 151,
+      "categories": [
+        {
+          "endpointStraddlesMidpoint": false,
+          "sourceCalls": 30576,
+          "invariantFailures": 7,
+          "maxRelativeEnergyChange": 1.3505105685668759e-09
+        },
+        {
+          "endpointStraddlesMidpoint": true,
+          "sourceCalls": 144,
+          "invariantFailures": 144,
+          "maxRelativeEnergyChange": 2.760948310946373e-07
+        }
+      ],
+      "worstCalls": [
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2973.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782519137,
+          "Tfinal": 1123.6950192608733,
+          "rhoInitial": 0.5054790431016994,
+          "rhoFinal": 0.5054790431017,
+          "energyInitial": 161817.50722760975,
+          "energyFinal": 161817.55190458708,
+          "pInitial": 194241.73089653766,
+          "pIntegrated": 221178.92282564956,
+          "pEOS": 221178.9228256488,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467697732616216,
+          "relativeEnergyChange": 2.760948310946373e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2981.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782510166,
+          "Tfinal": 1123.6950192592972,
+          "rhoInitial": 0.5054790431021207,
+          "rhoFinal": 0.5054790431021206,
+          "energyInitial": 161817.50722786863,
+          "energyFinal": 161817.55190482934,
+          "pInitial": 194241.73089653192,
+          "pIntegrated": 221178.92282554088,
+          "pEOS": 221178.92282554094,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467696070787497,
+          "relativeEnergyChange": 2.7609472839648705e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2949.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782512385,
+          "Tfinal": 1123.6950192594954,
+          "rhoInitial": 0.5054790431019899,
+          "rhoFinal": 0.5054790431019898,
+          "energyInitial": 161817.5072277955,
+          "energyFinal": 161817.55190474697,
+          "pInitial": 194241.73089652305,
+          "pIntegrated": 221178.9228255198,
+          "pEOS": 221178.92282551955,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.044676951481960714,
+          "relativeEnergyChange": 2.760946713822973e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 3005.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782514956,
+          "Tfinal": 1123.6950192596798,
+          "rhoInitial": 0.5054790431018901,
+          "rhoFinal": 0.5054790431018897,
+          "energyInitial": 161817.50722772756,
+          "energyFinal": 161817.5519046565,
+          "pInitial": 194241.73089653274,
+          "pIntegrated": 221178.92282550962,
+          "pEOS": 221178.9228255089,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467692892649211,
+          "relativeEnergyChange": 2.7609453199410476e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2965.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782515751,
+          "Tfinal": 1123.6950192599347,
+          "rhoInitial": 0.5054790431018484,
+          "rhoFinal": 0.5054790431018481,
+          "energyInitial": 161817.50722770678,
+          "energyFinal": 161817.55190463236,
+          "pInitial": 194241.7308965317,
+          "pIntegrated": 221178.92282553925,
+          "pEOS": 221178.9228255381,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467692557955161,
+          "relativeEnergyChange": 2.7609451131071385e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2989.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.986478250774,
+          "Tfinal": 1123.6950192578759,
+          "rhoInitial": 0.5054790431022326,
+          "rhoFinal": 0.5054790431022322,
+          "energyInitial": 161817.5072279405,
+          "energyFinal": 161817.55190475614,
+          "pInitial": 194241.73089652954,
+          "pIntegrated": 221178.9228253229,
+          "pEOS": 221178.92282532234,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467681562528014,
+          "relativeEnergyChange": 2.760938318147935e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2957.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782511323,
+          "Tfinal": 1123.6950192584936,
+          "rhoInitial": 0.5054790431020458,
+          "rhoFinal": 0.5054790431020456,
+          "energyInitial": 161817.50722782852,
+          "energyFinal": 161817.55190464362,
+          "pInitial": 194241.73089652474,
+          "pIntegrated": 221178.92282535534,
+          "pEOS": 221178.9228253549,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.044676815101411194,
+          "relativeEnergyChange": 2.7609382857757874e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2997.0,
+          "deltaT": 2e-06,
+          "Tinitial": 979.9864782514953,
+          "Tfinal": 1123.6950192590466,
+          "rhoInitial": 0.5054790431018938,
+          "rhoFinal": 0.5054790431018934,
+          "energyInitial": 161817.50722772878,
+          "energyFinal": 161817.55190454097,
+          "pInitial": 194241.73089653402,
+          "pIntegrated": 221178.92282539108,
+          "pEOS": 221178.92282539027,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 0.04467681219102815,
+          "relativeEnergyChange": 2.760938105921607e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        }
+      ],
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9"
+    },
+    {
+      "name": "F_conservativeState_dt2e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "dt": 2e-06,
+      "sourceCalls": 30720,
+      "failingSourceCalls": 0,
+      "categories": [
+        {
+          "endpointStraddlesMidpoint": false,
+          "sourceCalls": 30720,
+          "invariantFailures": 0,
+          "maxRelativeEnergyChange": 9.778612158436914e-15
+        },
+        {
+          "endpointStraddlesMidpoint": true,
+          "sourceCalls": 0,
+          "invariantFailures": 0,
+          "maxRelativeEnergyChange": 0.0
+        }
+      ],
+      "worstCalls": [
+        {
+          "time": 2.8000000000000006e-05,
+          "call": 884.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1049.7223593095346,
+          "Tfinal": 1049.885957823191,
+          "rhoInitial": 0.24427895563199659,
+          "rhoFinal": 0.24427895563199656,
+          "energyInitial": 166671.35163663235,
+          "energyFinal": 166671.35163663072,
+          "pInitial": 101749.24485637585,
+          "pIntegrated": 101764.04934639494,
+          "pEOS": 101764.04934639405,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": -1.6298145055770874e-09,
+          "relativeEnergyChange": 9.778612158436914e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 3.0000000000000008e-05,
+          "call": 934.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1075.8969339840194,
+          "Tfinal": 1076.153150833883,
+          "rhoInitial": 0.23868316447221644,
+          "rhoFinal": 0.23868316447221644,
+          "energyInitial": 170059.6110925069,
+          "energyFinal": 170059.61109250548,
+          "pInitial": 101896.57301594142,
+          "pIntegrated": 101919.39077634862,
+          "pEOS": 101919.3907763486,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": -1.4260876923799515e-09,
+          "relativeEnergyChange": 8.38581061792624e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 0.00011799999999999986,
+          "call": 3721.0,
+          "deltaT": 2e-06,
+          "Tinitial": 845.2218244393512,
+          "Tfinal": 846.4416353304205,
+          "rhoInitial": 0.3119708839046717,
+          "rhoFinal": 0.31197088390467154,
+          "energyInitial": 125267.54696093418,
+          "energyFinal": 125267.54696093511,
+          "pInitial": 104404.47135583873,
+          "pIntegrated": 104549.01833568938,
+          "pEOS": 104549.01833568925,
+          "minConcentration": 0.0,
+          "rankFile": "processor3/postProcessing/cvChemistry/rank0003.csv",
+          "energyChange": 9.313225746154785e-10,
+          "relativeEnergyChange": 7.434667615115987e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 3.0000000000000008e-05,
+          "call": 959.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1032.324654924477,
+          "Tfinal": 1032.4490993370132,
+          "rhoInitial": 0.24873754729985065,
+          "rhoFinal": 0.24873754729985062,
+          "energyInitial": 164720.57053930598,
+          "energyFinal": 164720.57053930475,
+          "pInitial": 101889.24525502029,
+          "pIntegrated": 101900.69022091528,
+          "pEOS": 101900.6902209145,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": -1.2223608791828156e-09,
+          "relativeEnergyChange": 7.42081499099187e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 2.8000000000000006e-05,
+          "call": 868.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1049.7223593095373,
+          "Tfinal": 1049.885957823195,
+          "rhoInitial": 0.24427895563199722,
+          "rhoFinal": 0.24427895563199725,
+          "energyInitial": 166671.35163663357,
+          "energyFinal": 166671.35163663235,
+          "pInitial": 101749.24485637604,
+          "pIntegrated": 101764.04934639501,
+          "pEOS": 101764.04934639476,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": -1.2223608791828156e-09,
+          "relativeEnergyChange": 7.333959118827632e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 9.399999999999993e-05,
+          "call": 2968.0,
+          "deltaT": 2e-06,
+          "Tinitial": 901.009229455541,
+          "Tfinal": 904.7204891549999,
+          "rhoInitial": 0.28992733855696423,
+          "rhoFinal": 0.2899273385569641,
+          "energyInitial": 131159.7657313595,
+          "energyFinal": 131159.76573135855,
+          "pInitial": 103384.949971941,
+          "pIntegrated": 103792.27077246708,
+          "pEOS": 103792.27077246648,
+          "minConcentration": 0.0,
+          "rankFile": "processor1/postProcessing/cvChemistry/rank0001.csv",
+          "energyChange": -9.604264050722122e-10,
+          "relativeEnergyChange": 7.322568774934767e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 3.2000000000000005e-05,
+          "call": 966.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1067.121740681394,
+          "Tfinal": 1067.531257407888,
+          "rhoInitial": 0.24077620823907922,
+          "rhoFinal": 0.24077620823907928,
+          "energyInitial": 169023.8858919121,
+          "energyFinal": 169023.88589191093,
+          "pInitial": 101950.27042784545,
+          "pIntegrated": 101987.23915627997,
+          "pEOS": 101987.2391562795,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": -1.1641532182693481e-09,
+          "relativeEnergyChange": 6.887507124370601e-15,
+          "crossedMidpoints": []
+        },
+        {
+          "time": 3.2000000000000005e-05,
+          "call": 967.0,
+          "deltaT": 2e-06,
+          "Tinitial": 1041.948124555608,
+          "Tfinal": 1042.1838148264198,
+          "rhoInitial": 0.2465916868290312,
+          "rhoFinal": 0.24659168682903115,
+          "energyInitial": 165979.96253606337,
+          "energyFinal": 165979.9625360645,
+          "pInitial": 101950.63961813664,
+          "pIntegrated": 101972.3069324242,
+          "pEOS": 101972.30693242404,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 1.1350493878126144e-09,
+          "relativeEnergyChange": 6.8384723702175564e-15,
+          "crossedMidpoints": []
+        }
+      ],
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9"
+    },
+    {
+      "name": "F_none_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "none",
+      "dt": 1e-06,
+      "sourceCalls": 61440,
+      "failingSourceCalls": 192,
+      "categories": [
+        {
+          "endpointStraddlesMidpoint": false,
+          "sourceCalls": 61256,
+          "invariantFailures": 8,
+          "maxRelativeEnergyChange": 5.718596839924112e-10
+        },
+        {
+          "endpointStraddlesMidpoint": true,
+          "sourceCalls": 184,
+          "invariantFailures": 184,
+          "maxRelativeEnergyChange": 2.9525556358665476e-07
+        }
+      ],
+      "worstCalls": [
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6299.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.639993557248,
+          "Tfinal": 1057.49303128229,
+          "rhoInitial": 0.5914882124142592,
+          "rhoFinal": 0.5914882124142591,
+          "energyInitial": 176172.00899135173,
+          "energyFinal": 176172.06100711753,
+          "pInitial": 230058.31198377296,
+          "pIntegrated": 244075.75739336168,
+          "pEOS": 244075.75739336165,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.052015765802934766,
+          "relativeEnergyChange": 2.9525556358665476e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6291.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935566542,
+          "Tfinal": 1057.493031281446,
+          "rhoInitial": 0.5914882124145961,
+          "rhoFinal": 0.5914882124145961,
+          "energyInitial": 176172.00899157432,
+          "energyFinal": 176172.06100733805,
+          "pInitial": 230058.31198377488,
+          "pIntegrated": 244075.7573933183,
+          "pEOS": 244075.7573933178,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.0520157637365628,
+          "relativeEnergyChange": 2.9525555185699524e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6307.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935564319,
+          "Tfinal": 1057.4930312810823,
+          "rhoInitial": 0.5914882124146725,
+          "rhoFinal": 0.5914882124146726,
+          "energyInitial": 176172.00899163302,
+          "energyFinal": 176172.06100739512,
+          "pInitial": 230058.31198375637,
+          "pIntegrated": 244075.75739326974,
+          "pEOS": 244075.75739327061,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.0520157621067483,
+          "relativeEnergyChange": 2.9525554260562865e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6331.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935567227,
+          "Tfinal": 1057.4930312814931,
+          "rhoInitial": 0.5914882124144838,
+          "rhoFinal": 0.5914882124144835,
+          "energyInitial": 176172.0089915053,
+          "energyFinal": 176172.06100726407,
+          "pInitial": 230058.31198374575,
+          "pIntegrated": 244075.75739328042,
+          "pEOS": 244075.75739328118,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.052015758759807795,
+          "relativeEnergyChange": 2.9525552360770265e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6323.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935567924,
+          "Tfinal": 1057.4930312816207,
+          "rhoInitial": 0.5914882124144601,
+          "rhoFinal": 0.5914882124144598,
+          "energyInitial": 176172.0089914867,
+          "energyFinal": 176172.06100724527,
+          "pInitial": 230058.31198375186,
+          "pIntegrated": 244075.75739329853,
+          "pEOS": 244075.7573932989,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.05201575855608098,
+          "relativeEnergyChange": 2.9525552245132527e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6283.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935572042,
+          "Tfinal": 1057.493031282202,
+          "rhoInitial": 0.5914882124143168,
+          "rhoFinal": 0.5914882124143166,
+          "energyInitial": 176172.00899138793,
+          "energyFinal": 176172.06100714617,
+          "pInitial": 230058.31198378594,
+          "pIntegrated": 244075.7573933674,
+          "pEOS": 244075.7573933662,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.05201575823593885,
+          "relativeEnergyChange": 2.952555206342774e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6315.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935566868,
+          "Tfinal": 1057.4930312814881,
+          "rhoInitial": 0.5914882124145353,
+          "rhoFinal": 0.5914882124145352,
+          "energyInitial": 176172.00899153715,
+          "energyFinal": 176172.06100729306,
+          "pInitial": 230058.31198375818,
+          "pIntegrated": 244075.75739330015,
+          "pEOS": 244075.7573933014,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.05201575590763241,
+          "relativeEnergyChange": 2.952555074179299e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 9.899999999999982e-05,
+          "call": 6275.0,
+          "deltaT": 1e-06,
+          "Tinitial": 993.6399935572769,
+          "Tfinal": 1057.4930312822548,
+          "rhoInitial": 0.5914882124142831,
+          "rhoFinal": 0.5914882124142831,
+          "energyInitial": 176172.0089913671,
+          "energyFinal": 176172.0610071167,
+          "pInitial": 230058.31198378908,
+          "pIntegrated": 244075.7573933648,
+          "pEOS": 244075.757393364,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.0520157495921012,
+          "relativeEnergyChange": 2.952554715695506e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        }
+      ],
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9"
+    },
+    {
+      "name": "F_conservativeState_dt1e-06_s1_g0_o1_p1_cvSource_rtol1e-10_dfdt0",
+      "mode": "conservativeState",
+      "dt": 1e-06,
+      "sourceCalls": 61440,
+      "failingSourceCalls": 240,
+      "categories": [
+        {
+          "endpointStraddlesMidpoint": false,
+          "sourceCalls": 61200,
+          "invariantFailures": 0,
+          "maxRelativeEnergyChange": 3.950550431027474e-11
+        },
+        {
+          "endpointStraddlesMidpoint": true,
+          "sourceCalls": 240,
+          "invariantFailures": 240,
+          "maxRelativeEnergyChange": 3.282929484123699e-07
+        }
+      ],
+      "worstCalls": [
+        {
+          "time": 0.00011499999999999977,
+          "call": 7331.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366562899,
+          "Tfinal": 1034.1163258368779,
+          "rhoInitial": 0.4908744842695365,
+          "rhoFinal": 0.49087448426953634,
+          "energyInitial": 133031.69881571885,
+          "energyFinal": 133031.74248908748,
+          "pInitial": 189731.48284688944,
+          "pIntegrated": 198083.61298007265,
+          "pEOS": 198083.6129800714,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.04367336863651872,
+          "relativeEnergyChange": 3.282929484123699e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7315.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366575936,
+          "Tfinal": 1034.116325838554,
+          "rhoInitial": 0.49087448426892977,
+          "rhoFinal": 0.4908744842689299,
+          "energyInitial": 133031.69881531573,
+          "energyFinal": 133031.7424886824,
+          "pInitial": 189731.48284689,
+          "pIntegrated": 198083.61298012815,
+          "pEOS": 198083.61298012783,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.043673366657458246,
+          "relativeEnergyChange": 3.2829293353675645e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7307.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366589486,
+          "Tfinal": 1034.116325840274,
+          "rhoInitial": 0.4908744842682964,
+          "rhoFinal": 0.49087448426829616,
+          "energyInitial": 133031.69881489564,
+          "energyFinal": 133031.7424882542,
+          "pInitial": 189731.48284688842,
+          "pIntegrated": 198083.61298018077,
+          "pEOS": 198083.61298018077,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.04367335856659338,
+          "relativeEnergyChange": 3.282928727187181e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7339.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366582583,
+          "Tfinal": 1034.1163258393576,
+          "rhoInitial": 0.49087448426861324,
+          "rhoFinal": 0.49087448426861297,
+          "energyInitial": 133031.69881510918,
+          "energyFinal": 133031.74248846612,
+          "pInitial": 189731.48284688639,
+          "pIntegrated": 198083.6129801434,
+          "pEOS": 198083.61298014392,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.04367335693677887,
+          "relativeEnergyChange": 3.282928604668667e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7323.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366563883,
+          "Tfinal": 1034.116325836949,
+          "rhoInitial": 0.4908744842694961,
+          "rhoFinal": 0.4908744842694962,
+          "energyInitial": 133031.6988156919,
+          "energyFinal": 133031.74248904752,
+          "pInitial": 189731.4828468912,
+          "pIntegrated": 198083.61298006735,
+          "pEOS": 198083.6129800672,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.0436733556271065,
+          "relativeEnergyChange": 3.2829285062061437e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7299.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366584591,
+          "Tfinal": 1034.1163258396205,
+          "rhoInitial": 0.490874484268525,
+          "rhoFinal": 0.49087448426852476,
+          "energyInitial": 133031.69881504675,
+          "energyFinal": 133031.74248840034,
+          "pInitial": 189731.4828468892,
+          "pIntegrated": 198083.61298015484,
+          "pEOS": 198083.61298015536,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.04367335358983837,
+          "relativeEnergyChange": 3.282928353080509e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7347.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366565722,
+          "Tfinal": 1034.1163258371632,
+          "rhoInitial": 0.49087448426939573,
+          "rhoFinal": 0.49087448426939606,
+          "energyInitial": 133031.69881562705,
+          "energyFinal": 133031.7424889769,
+          "pInitial": 189731.4828468851,
+          "pIntegrated": 198083.6129800657,
+          "pEOS": 198083.61298006529,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.04367334983544424,
+          "relativeEnergyChange": 3.2829280708481786e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        },
+        {
+          "time": 0.00011499999999999977,
+          "call": 7355.0,
+          "deltaT": 1e-06,
+          "Tinitial": 988.2966366596348,
+          "Tfinal": 1034.1163258411023,
+          "rhoInitial": 0.49087448426795516,
+          "rhoFinal": 0.49087448426795466,
+          "energyInitial": 133031.69881467274,
+          "energyFinal": 133031.74248801757,
+          "pInitial": 189731.48284688036,
+          "pIntegrated": 198083.61298019224,
+          "pEOS": 198083.6129801916,
+          "minConcentration": 0.0,
+          "rankFile": "processor0/postProcessing/cvChemistry/rank0000.csv",
+          "energyChange": 0.0436733448295854,
+          "relativeEnergyChange": 3.282927694581049e-07,
+          "crossedMidpoints": [
+            1000.0
+          ]
+        }
+      ],
+      "chemistrySourceSnapshot": "candidateStudy/chemistrySnapshots/2526e97b2bdeec4bdee79849fb3321a19f0fafaf7a782f1a4901f354c40cfe19",
+      "chemistryLibrarySHA256": "1249dfe42b15ad52a3c3854dae77c70e1797a3d40aaa455d71903cae4d506aa9"
+    }
+  ],
+  "diagnosticScriptSHA256": "97b7f895933155adf9bf1eeab1bd54bf8c07851e5ddabb544d0193f4f1a84c46",
+  "scope": "Native accepted-source endpoint straddling versus legacy NASA energy jumps. No crossing concentration trace or exact jump attribution; non-straddling endpoints do not exclude internal excursions across the midpoint."
+}

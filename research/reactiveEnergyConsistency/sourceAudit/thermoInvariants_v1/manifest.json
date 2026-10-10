@@ -1,0 +1,48 @@
+{
+  "retrievedUTC": "2026-10-07T04:00:47.620784+00:00",
+  "records": [
+    {
+      "name": "MechChecker2020.pdf",
+      "url": "https://combustiontools.llnl.gov/static/MechCheck_CandF_2020_08_02.pdf",
+      "sha256": "f7b0b48814f3893166c8efc78d6a862c5464b55591f1bf80149446eba81926cc",
+      "size": 670809
+    },
+    {
+      "name": "NASA_Glenn2002.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20020085330/downloads/20020085330.pdf",
+      "sha256": "0ab4154b0fdeac29581f8d047a4cb6836c138c0b41da8f28990ef7d3e2756765",
+      "size": 1619440
+    },
+    {
+      "name": "BoettcherAppendixH.pdf",
+      "url": "https://thesis.caltech.edu/7037/6/Boettcher_P_A_App_A_to_H.pdf",
+      "sha256": "049a27ea1033e96f2b5965e938a7d23f493873c5c071ee82d600e91e557ed91d",
+      "size": 2184387
+    },
+    {
+      "name": "RMG_wilhoit.pyx",
+      "url": "https://raw.githubusercontent.com/ReactionMechanismGenerator/RMG-Py/main/rmgpy/thermo/wilhoit.pyx",
+      "sha256": "e85d1aafdd23332d83960faf424eae1655b8d3cada997b949c0c43182522bece",
+      "size": 47938
+    },
+    {
+      "name": "CVODE_mathematics.html",
+      "url": "https://sundials.readthedocs.io/en/latest/cvode/Mathematics_link.html",
+      "sha256": "290ce2647abcad4ef1677e4470f20b7b4b63e7d2ccca891f0d349f28d7c51a9d",
+      "size": 74113
+    },
+    {
+      "name": "Pele_CvodeInPP.html",
+      "url": "https://pelephysics.readthedocs.io/en/latest/CvodeInPP.html",
+      "sha256": "2ff6eb51fd609d75ec430edcfcd8d31aef4f4caa4eb9fd28d7654b6ea7f36c42",
+      "size": 57111
+    },
+    {
+      "name": "StandardChemistryModel.C",
+      "url": "file:///opt/OpenFOAM/OpenFOAM-v2012/src/thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.C",
+      "sha256": "2c11f728b8239a5a68d2b1a21312ca01456c978e4b5bdc3de64333b0a273ca2e",
+      "size": 19186
+    }
+  ],
+  "scope": "Retrieved primary bytes are pinned by SHA256; branch/latest URLs identify retrieval endpoint, not a fixed upstream commit."
+}

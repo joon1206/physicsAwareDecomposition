@@ -1,0 +1,146 @@
+{
+  "ablation_full": {
+    "n": 6,
+    "meanRegret": 0.5410072791783023,
+    "medianRegret": 0.031719453509140294,
+    "worstRegret": 2.204793842014624,
+    "oracleOptimalFraction": 0.5,
+    "harmfulFraction": 0.8333333333333334,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.5,
+    "aggregateSpeedup": 1.0266775712262972,
+    "aggregateSpeedupCI": [
+      1.0165309676793568,
+      1.0357265559925737
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_noCommunication": {
+    "n": 6,
+    "meanRegret": 0.5410069725063901,
+    "medianRegret": 0.031719038503069896,
+    "worstRegret": 2.204793602009886,
+    "oracleOptimalFraction": 0.5,
+    "harmfulFraction": 0.8333333333333334,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.5,
+    "aggregateSpeedup": 1.0266776530714588,
+    "aggregateSpeedupCI": [
+      1.0165137124785133,
+      1.0357574332740274
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_noMigration": {
+    "n": 6,
+    "meanRegret": 0.5410110575054811,
+    "medianRegret": 0.03171927850780776,
+    "worstRegret": 2.2047935420123395,
+    "oracleOptimalFraction": 0.5,
+    "harmfulFraction": 0.8333333333333334,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.5,
+    "aggregateSpeedup": 1.026676562860493,
+    "aggregateSpeedupCI": [
+      1.0165482040783966,
+      1.035775255539262
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_noPersistence": {
+    "n": 6,
+    "meanRegret": 0.674102346674772,
+    "medianRegret": 0.4307431535125943,
+    "worstRegret": 2.204793872006121,
+    "oracleOptimalFraction": 0.3333333333333333,
+    "harmfulFraction": 1,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.6666666666666666,
+    "aggregateSpeedup": 0.9923447542635084,
+    "aggregateSpeedupCI": [
+      0.9922783483176942,
+      0.9924462817595312
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_noTransport": {
+    "n": 6,
+    "meanRegret": 0.541012539009292,
+    "medianRegret": 0.031725418513815384,
+    "worstRegret": 2.2047988520062063,
+    "oracleOptimalFraction": 0.5,
+    "harmfulFraction": 0.8333333333333334,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.5,
+    "aggregateSpeedup": 1.0266761674750042,
+    "aggregateSpeedupCI": [
+      1.016555706021815,
+      1.0357863458054728
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_noUncertainty": {
+    "n": 6,
+    "meanRegret": 0.18893817466596374,
+    "medianRegret": 0.03074347149959067,
+    "worstRegret": 0.9172747430129675,
+    "oracleOptimalFraction": 0.6666666666666666,
+    "harmfulFraction": 0.6666666666666666,
+    "unnecessaryFraction": 0.16666666666666666,
+    "missedFraction": 0.16666666666666666,
+    "aggregateSpeedup": 1.1301039207627908,
+    "aggregateSpeedupCI": [
+      1.1172219073783882,
+      1.147930420824283
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_onlyEMA": {
+    "n": 6,
+    "meanRegret": 0.6741010466721491,
+    "medianRegret": 0.43074115851777606,
+    "worstRegret": 2.2047929120017216,
+    "oracleOptimalFraction": 0.3333333333333333,
+    "harmfulFraction": 1,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.6666666666666666,
+    "aggregateSpeedup": 0.992345078394346,
+    "aggregateSpeedupCI": [
+      0.9922757898263392,
+      0.9924453586578461
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_onlyImbalance": {
+    "n": 6,
+    "meanRegret": 0.674100769671592,
+    "medianRegret": 0.4307408235108596,
+    "worstRegret": 2.2047927520034136,
+    "oracleOptimalFraction": 0.3333333333333333,
+    "harmfulFraction": 1,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.6666666666666666,
+    "aggregateSpeedup": 0.9923451474591745,
+    "aggregateSpeedupCI": [
+      0.9922756680884001,
+      0.9924492865416393
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  },
+  "ablation_onlyPreviousCost": {
+    "n": 6,
+    "meanRegret": 0.6741011250051088,
+    "medianRegret": 0.4307410285109654,
+    "worstRegret": 2.204793172000791,
+    "oracleOptimalFraction": 0.3333333333333333,
+    "harmfulFraction": 1,
+    "unnecessaryFraction": 0,
+    "missedFraction": 0.6666666666666666,
+    "aggregateSpeedup": 0.9923450588635119,
+    "aggregateSpeedupCI": [
+      0.9922782902682551,
+      0.9924474324198417
+    ],
+    "CIScope": "Within-state resampling of the same six fixed held-out checkpoint states, conditional on frozen policy choices, observed oracle labels and fixed decision-overhead estimates; excludes case-population and model-fitting uncertainty. A0 uses shared baseline draws."
+  }
+}

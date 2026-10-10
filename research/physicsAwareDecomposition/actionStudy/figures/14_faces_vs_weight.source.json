@@ -1,0 +1,3962 @@
+[
+  {
+    "regime": "persistent",
+    "gamma": 16,
+    "repeat": 2,
+    "solverWall": 7.186022292997222,
+    "decisionWall": 0.0027141099999425933,
+    "migrationWall": 0.5030326629930642,
+    "totalWall": 7.691769065990229,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.7471287467051297e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.4889519661664963e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.283507213491248e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.39550018310546875,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.86244855543616e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.594278958323315e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.1748909057327523e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.2266229698632003e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.2631202467593425e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.0744040166165156e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.874383874644341e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2929214910382143e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 3.907985046680551e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.4782646000385284e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.475131211099324e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 4,
+    "repeat": 0,
+    "solverWall": 1.1390141749870963,
+    "decisionWall": 0.002266095019876957,
+    "migrationWall": 0.48065005100215785,
+    "totalWall": 1.6219303210091311,
+    "processorFaces": 34.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.162714948412031e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8044374883174896e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.0889956431346945e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.136184775736183e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 5.194048011979457e-22,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 8.049116928532385e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.142210992905186e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.827164171071392e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.9041300654276672e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.1299419516372367e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1731067506293158e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 9.992007221626409e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1781230568885803e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 5.190292640122607e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 1,
+    "repeat": 0,
+    "solverWall": 1.0978031260019634,
+    "decisionWall": 0.0022736550017725676,
+    "migrationWall": 0.4845222650037613,
+    "totalWall": 1.5845990460074972,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.9031176634598523e-10,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.8085196390748024e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 3.581135388230905e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 1.9884828361682594e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 9.110618965447331e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 1.4155343563970746e-15,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.7343068753706434e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.945037408360198e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 6.441410278161096e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.993181618297802e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3080318993468742e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 2.707820385694504e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.7474910407599964e-13,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 4,
+    "repeat": 1,
+    "solverWall": 1.1327082719944883,
+    "decisionWall": 0.0022389660007320344,
+    "migrationWall": 0.48257486999500543,
+    "totalWall": 1.6175221079902258,
+    "processorFaces": 34.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.162714948412031e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8044374883174896e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.0889956431346945e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.136184775736183e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 5.194048011979457e-22,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 8.049116928532385e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.142210992905186e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.827164171071392e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.9041300654276672e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.1299419516372367e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1731067506293158e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 9.992007221626409e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1781230568885803e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 5.190292640122607e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0,
+    "repeat": 2,
+    "solverWall": 6.207455337003921,
+    "decisionWall": 0.0022541250073118135,
+    "migrationWall": 0.4826382910105167,
+    "totalWall": 6.69234775302175,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.856040737242438e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 5.0407834351062775e-08,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.5130120206995343e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.3373756408691406,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.7539416020138106e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.169463369678276e-16,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.920996777788787e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.9751188452008535e-15,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 7.89993070959838e-15,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.3540739670091515e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 8.242240440506365e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2812988437491697e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.9984014443252818e-15,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.2567262426018715e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.753131056465463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 16,
+    "repeat": 0,
+    "solverWall": 7.297560884995619,
+    "decisionWall": 0.002195116991060786,
+    "migrationWall": 0.49319702399952803,
+    "totalWall": 7.792953025986208,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.7471287467051297e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.4889519661664963e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.283507213491248e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.39550018310546875,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.86244855543616e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.594278958323315e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.1748909057327523e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.2266229698632003e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.2631202467593425e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.0744040166165156e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.874383874644341e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2929214910382143e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 3.907985046680551e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.4782646000385284e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.475131211099324e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 16,
+    "repeat": 0,
+    "solverWall": 1.1787720660067862,
+    "decisionWall": 0.0021928070054855198,
+    "migrationWall": 0.5786440520023461,
+    "totalWall": 1.7596089250146179,
+    "processorFaces": 37.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.378719940083101e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.3969838619232178e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 4.654054919228656e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0700099412351847e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.979707971722489e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 4.996003610813204e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.3854848110570317e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 8.906925739606148e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 4.1749830453690837e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 2.6621980834406643e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209407837146544e-16,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1891825124621391e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 7.815970093361102e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 16,
+    "repeat": 1,
+    "solverWall": 7.293695090003894,
+    "decisionWall": 0.0023043349938234314,
+    "migrationWall": 0.4711667550000129,
+    "totalWall": 7.76716617999773,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.7471287467051297e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.4889519661664963e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.283507213491248e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.39550018310546875,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.86244855543616e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.594278958323315e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.1748909057327523e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.2266229698632003e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.2631202467593425e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.0744040166165156e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.874383874644341e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2929214910382143e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 3.907985046680551e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.4782646000385284e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.475131211099324e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 4,
+    "repeat": 1,
+    "solverWall": 7.1849909410084365,
+    "decisionWall": 0.0022486649977508932,
+    "migrationWall": 0.4835580470098648,
+    "totalWall": 7.670797653016052,
+    "processorFaces": 36.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 6.354298420774285e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8975697457790375e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.976002163763042e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.7528114318847656,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 8.271855422847807e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 3.09951717070156e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.442069100387471e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.526643395033389e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.84598733468755e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.207206194013381e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.8153813413461506e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 7.250311462314585e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.3988810110276972e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 9.474926628172398e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 6.030398402856463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 4,
+    "repeat": 0,
+    "solverWall": 7.141441953994217,
+    "decisionWall": 0.0023025650007184595,
+    "migrationWall": 0.47609699799795635,
+    "totalWall": 7.619841516992892,
+    "processorFaces": 36.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 6.354298420774285e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8975697457790375e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.976002163763042e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.7528114318847656,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 8.271855422847807e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 3.09951717070156e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.442069100387471e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.526643395033389e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.84598733468755e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.207206194013381e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.8153813413461506e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 7.250311462314585e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.3988810110276972e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 9.474926628172398e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 6.030398402856463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0.25,
+    "repeat": 1,
+    "solverWall": 6.819444435997866,
+    "decisionWall": 0.002560562003054656,
+    "migrationWall": 0.5366184259910369,
+    "totalWall": 7.358623423991958,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1288315110723488e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.972090780735016e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 1.9000374607003323e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.537175178527832,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 2.809003030179724e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.147602822110688e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.187611203297024e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4806359183736646e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.64711341524793e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.7720362937428957e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.1961408768552995e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 2.4637028528395888e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.787459069646502e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.173318691551685e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.100219997913655e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0.25,
+    "repeat": 2,
+    "solverWall": 7.006473115005065,
+    "decisionWall": 0.0023163449950516224,
+    "migrationWall": 0.4905537349986844,
+    "totalWall": 7.499343194998801,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1288315110723488e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.972090780735016e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 1.9000374607003323e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.537175178527832,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 2.809003030179724e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.147602822110688e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.187611203297024e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4806359183736646e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.64711341524793e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.7720362937428957e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.1961408768552995e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 2.4637028528395888e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.787459069646502e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.173318691551685e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.100219997913655e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 4,
+    "repeat": 2,
+    "solverWall": 1.1627507250086637,
+    "decisionWall": 0.0022275359951891005,
+    "migrationWall": 0.488659644004656,
+    "totalWall": 1.6536379050085088,
+    "processorFaces": 34.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.162714948412031e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8044374883174896e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.0889956431346945e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.136184775736183e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 5.194048011979457e-22,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 8.049116928532385e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.142210992905186e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.827164171071392e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.9041300654276672e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.1299419516372367e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.1731067506293158e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 9.992007221626409e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1781230568885803e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 5.190292640122607e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0.25,
+    "repeat": 0,
+    "solverWall": 1.0873881729930872,
+    "decisionWall": 0.0023415750183630735,
+    "migrationWall": 0.4997574790031649,
+    "totalWall": 1.5894872270146152,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1600499167107046e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.055902197957039e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 9.237055564881302e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0596053218469024e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 5.898059818321144e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.328836351356687e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.938893903907228e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.517709631973633e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.185065220577104e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.1724630055894025e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.72270980318265e-19,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209238430557093e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.026798367500305e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.2212453270876722e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0,
+    "repeat": 0,
+    "solverWall": 6.312742262001848,
+    "decisionWall": 0.0023576460080221295,
+    "migrationWall": 0.49096103200281505,
+    "totalWall": 6.806060940012685,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.856040737242438e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 5.0407834351062775e-08,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.5130120206995343e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.3373756408691406,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.7539416020138106e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.169463369678276e-16,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.920996777788787e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.9751188452008535e-15,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 7.89993070959838e-15,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.3540739670091515e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 8.242240440506365e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2812988437491697e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.9984014443252818e-15,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.2567262426018715e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.753131056465463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 4,
+    "repeat": 2,
+    "solverWall": 7.387307198005146,
+    "decisionWall": 0.0023499460075981915,
+    "migrationWall": 0.48940634400059935,
+    "totalWall": 7.879063488013344,
+    "processorFaces": 36.0,
+    "maxNeighbours": 3,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 6.354298420774285e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.8975697457790375e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 8.976002163763042e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.7528114318847656,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 8.271855422847807e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 3.09951717070156e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.442069100387471e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 1.526643395033389e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 2.84598733468755e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 5.207206194013381e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 1.8153813413461506e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 7.250311462314585e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.3988810110276972e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 9.474926628172398e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 6.030398402856463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0,
+    "repeat": 1,
+    "solverWall": 1.1325537259981502,
+    "decisionWall": 0.0021465159952640533,
+    "migrationWall": 0.47855631398851983,
+    "totalWall": 1.613256555981934,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.1368683772161603e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.0372681319713593e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 7.540180464111694e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.6088749766349792e-09,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.507391231801365e-24,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.106226635438361e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 5.1285197978287716e-23,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 4.6011921573262164e-24,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 3.3881317890172014e-19,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.082197683525802e-20,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3010426069826053e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.6298145055770874e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.0547118733938987e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0,
+    "repeat": 2,
+    "solverWall": 1.0968544639908941,
+    "decisionWall": 0.0027125810156576335,
+    "migrationWall": 0.4970944039960159,
+    "totalWall": 1.5966614490025677,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.1368683772161603e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.0372681319713593e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 7.540180464111694e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.6088749766349792e-09,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.507391231801365e-24,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.106226635438361e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 5.1285197978287716e-23,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 4.6011921573262164e-24,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 3.3881317890172014e-19,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.082197683525802e-20,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3010426069826053e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.6298145055770874e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.0547118733938987e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 1,
+    "repeat": 2,
+    "solverWall": 1.1242951869935496,
+    "decisionWall": 0.0026482520042918622,
+    "migrationWall": 0.4810130929981824,
+    "totalWall": 1.6079565319960238,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.9031176634598523e-10,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.8085196390748024e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 3.581135388230905e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 1.9884828361682594e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 9.110618965447331e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 1.4155343563970746e-15,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.7343068753706434e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.945037408360198e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 6.441410278161096e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.993181618297802e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3080318993468742e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 2.707820385694504e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.7474910407599964e-13,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0.25,
+    "repeat": 2,
+    "solverWall": 1.1115403589938069,
+    "decisionWall": 0.0025339719868497923,
+    "migrationWall": 0.49411428200255614,
+    "totalWall": 1.6081886129832128,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1600499167107046e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.055902197957039e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 9.237055564881302e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0596053218469024e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 5.898059818321144e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.328836351356687e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.938893903907228e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.517709631973633e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.185065220577104e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.1724630055894025e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.72270980318265e-19,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209238430557093e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.026798367500305e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.2212453270876722e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 1,
+    "repeat": 0,
+    "solverWall": 8.206424442003481,
+    "decisionWall": 0.0023694670089753345,
+    "migrationWall": 0.49329479900188744,
+    "totalWall": 8.702088708014344,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 3.145544269500533e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 4.551839083433151e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.1452315479564277e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.7081966400146484,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 4.1249989535252496e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.993582060378604e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.2122915438748123e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4101194090752074e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.737145563651126e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.58399530071729e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 9.126942636990959e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.618140509420442e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.6895467676222324e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 3.014777316678874e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 1,
+    "repeat": 2,
+    "solverWall": 8.313990942988312,
+    "decisionWall": 0.002381522994255647,
+    "migrationWall": 0.49465304700424895,
+    "totalWall": 8.811025512986816,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 3.145544269500533e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 4.551839083433151e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.1452315479564277e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.7081966400146484,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 4.1249989535252496e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.993582060378604e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.2122915438748123e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4101194090752074e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.737145563651126e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.58399530071729e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 9.126942636990959e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.618140509420442e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.6895467676222324e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 3.014777316678874e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0.25,
+    "repeat": 1,
+    "solverWall": 1.1413439379975898,
+    "decisionWall": 0.0023150940105551854,
+    "migrationWall": 0.4929627329984214,
+    "totalWall": 1.6366217650065664,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1600499167107046e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.055902197957039e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 9.237055564881302e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0596053218469024e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 5.898059818321144e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.328836351356687e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.938893903907228e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.517709631973633e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.185065220577104e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.1724630055894025e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 3.72270980318265e-19,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209238430557093e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.026798367500305e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.2212453270876722e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 16,
+    "repeat": 1,
+    "solverWall": 1.179447333997814,
+    "decisionWall": 0.002335922996280715,
+    "migrationWall": 0.504560928005958,
+    "totalWall": 1.6863441850000527,
+    "processorFaces": 37.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.378719940083101e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.3969838619232178e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 4.654054919228656e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0700099412351847e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.979707971722489e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 4.996003610813204e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.3854848110570317e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 8.906925739606148e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 4.1749830453690837e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 2.6621980834406643e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209407837146544e-16,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1891825124621391e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 7.815970093361102e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 0,
+    "repeat": 0,
+    "solverWall": 1.1087562820030143,
+    "decisionWall": 0.002289915006258525,
+    "migrationWall": 0.47214819699001964,
+    "totalWall": 1.5831943939992925,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.1368683772161603e-12,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.0372681319713593e-10,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 7.540180464111694e-13,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.6088749766349792e-09,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 2.507391231801365e-24,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 6.106226635438361e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 5.1285197978287716e-23,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 4.6011921573262164e-24,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 3.3881317890172014e-19,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.082197683525802e-20,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3010426069826053e-17,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.6298145055770874e-09,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.0547118733938987e-15,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 1,
+    "repeat": 1,
+    "solverWall": 8.424158093999722,
+    "decisionWall": 0.00255341301090084,
+    "migrationWall": 0.5033153719996335,
+    "totalWall": 8.930026879010256,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 3.145544269500533e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 4.551839083433151e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.1452315479564277e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 3.7081966400146484,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 4.1249989535252496e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.993582060378604e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 3.2122915438748123e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4101194090752074e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.737145563651126e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.58399530071729e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 9.126942636990959e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.618140509420442e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.6653345369377348e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.6895467676222324e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 3.014777316678874e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 1,
+    "repeat": 1,
+    "solverWall": 1.0702343890006887,
+    "decisionWall": 0.002438393988995813,
+    "migrationWall": 0.4732130490010604,
+    "totalWall": 1.545885831990745,
+    "processorFaces": 35.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 1.9031176634598523e-10,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 2.8085196390748024e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 3.581135388230905e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 1.9884828361682594e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 1.491862189340054e-16,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 9.110618965447331e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 1.4155343563970746e-15,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.7343068753706434e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 9.945037408360198e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 6.441410278161096e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 5.993181618297802e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 1.3080318993468742e-15,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 2.707820385694504e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 1.7474910407599964e-13,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0,
+    "repeat": 1,
+    "solverWall": 6.425568840990309,
+    "decisionWall": 0.0024076090048765764,
+    "migrationWall": 0.4795614000031492,
+    "totalWall": 6.907537849998334,
+    "processorFaces": 32.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.856040737242438e-09,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 5.0407834351062775e-08,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 2.5130120206995343e-10,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 0.3373756408691406,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 3.7539416020138106e-14,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 8.169463369678276e-16,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.920996777788787e-13,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.9751188452008535e-15,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 7.89993070959838e-15,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 2.3540739670091515e-15,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 8.242240440506365e-16,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.2812988437491697e-13,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.9984014443252818e-15,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 4.2567262426018715e-06,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.753131056465463e-12,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "persistent",
+    "gamma": 0.25,
+    "repeat": 0,
+    "solverWall": 6.8648573819955345,
+    "decisionWall": 0.0023421840014634654,
+    "migrationWall": 0.4867459810047876,
+    "totalWall": 7.353945547001786,
+    "processorFaces": 34.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 2.1288315110723488e-08,
+          "referenceScale": 3133.048640634346,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 3.972090780735016e-07,
+          "referenceScale": 413867.1786247652,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 1.9000374607003323e-09,
+          "referenceScale": 27.97212811335555,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.537175178527832,
+          "referenceScale": 62338144101.32469,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 2.809003030179724e-13,
+          "referenceScale": 0.02500070456383257,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.147602822110688e-15,
+          "referenceScale": 0.001172320008016959,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 2.187611203297024e-12,
+          "referenceScale": 0.1986455833479363,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.4806359183736646e-14,
+          "referenceScale": 0.007287101254948511,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 6.64711341524793e-14,
+          "referenceScale": 0.02904269008271253,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 1.7720362937428957e-14,
+          "referenceScale": 0.0002691003778140223,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 6.1961408768552995e-15,
+          "referenceScale": 3.58701938756831e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 2.4637028528395888e-12,
+          "referenceScale": 0.2213088391164603,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 1.787459069646502e-14,
+          "referenceScale": 0.7467000000000026,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 3.173318691551685e-05,
+          "referenceScale": 4537468.447013831,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 2.100219997913655e-11,
+          "referenceScale": 0.9968514146972445,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  },
+  {
+    "regime": "translating",
+    "gamma": 16,
+    "repeat": 2,
+    "solverWall": 1.2030296070006443,
+    "decisionWall": 0.0024248039844678715,
+    "migrationWall": 0.5382967180048581,
+    "totalWall": 1.7437511289899703,
+    "processorFaces": 37.0,
+    "maxNeighbours": 2,
+    "gate": {
+      "pass_": true,
+      "fields": {
+        "T": {
+          "Linf": 8.378719940083101e-11,
+          "referenceScale": 720.2923586623743,
+          "atol": 0.0002,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "p": {
+          "Linf": 1.3969838619232178e-09,
+          "referenceScale": 104927.2333156357,
+          "atol": 0.02,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "U": {
+          "Linf": 4.654054919228656e-12,
+          "referenceScale": 61.65996046813665,
+          "atol": 1e-05,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "Qdot": {
+          "Linf": 2.0700099412351847e-07,
+          "referenceScale": 139752.4346112779,
+          "atol": 1.0,
+          "rtol": 1e-05,
+          "pass_": true
+        },
+        "H2": {
+          "Linf": 6.245004513516506e-17,
+          "referenceScale": 0.02829972724410243,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H": {
+          "Linf": 7.979707971722489e-23,
+          "referenceScale": 1.046211338953781e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O2": {
+          "Linf": 4.996003610813204e-16,
+          "referenceScale": 0.2249974230947394,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "O": {
+          "Linf": 3.3854848110570317e-20,
+          "referenceScale": 3.784366763698438e-09,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "OH": {
+          "Linf": 8.906925739606148e-22,
+          "referenceScale": 2.043880161951201e-10,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "HO2": {
+          "Linf": 4.1749830453690837e-17,
+          "referenceScale": 0.0001170250472762748,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O2": {
+          "Linf": 2.6621980834406643e-18,
+          "referenceScale": 1.267635281428739e-05,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "H2O": {
+          "Linf": 3.209407837146544e-16,
+          "referenceScale": 0.002245068137599149,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "AR": {
+          "Linf": 0.0,
+          "referenceScale": 0.0,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "N2": {
+          "Linf": 6.661338147750939e-16,
+          "referenceScale": 0.7467000000000008,
+          "atol": 1e-08,
+          "rtol": 1e-06,
+          "pass_": true
+        },
+        "h": {
+          "Linf": 1.1891825124621391e-07,
+          "referenceScale": 600410.1828755594,
+          "atol": 0.01,
+          "rtol": 1e-07,
+          "pass_": true
+        },
+        "rho": {
+          "Linf": 7.815970093361102e-14,
+          "referenceScale": 0.5216673922368806,
+          "atol": 1e-09,
+          "rtol": 1e-07,
+          "pass_": true
+        }
+      },
+      "sumYError": 2.220446049250313e-16,
+      "minY": 0.0,
+      "omittedOptionalFields": [],
+      "criterion": "Predeclared field-scale infinity norm; no pointwise division by trace-species values."
+    }
+  }
+]

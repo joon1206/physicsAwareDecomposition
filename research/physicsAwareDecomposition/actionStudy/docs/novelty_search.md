@@ -1,0 +1,13 @@
+# Novelty challenge and search record
+
+Search dates: 2026-10-04 and 2026-10-05. Primary papers, author repositories, official code and documentation were preferred. Full-text access failures are retained rather than converted into verified claims.
+
+Queries included “chemistry mesh load balancing action prediction runtime”; “reacting load balancing persistence”; “chemistry load balancing persistence”; “reacting mesh redistribution prediction”; “predictive dynamic load balancing migration cost”; “proactive task offloading iterative applications”; “Cuoci adaptive multi-objective”; “PeleLMeX ODE load balancing”; “S3D load balancing detailed chemistry GPU”; and separate Scotch, PT-Scotch, ParMETIS, Zoltan, Charm++, AMPI, GPU chemistry and operator-split solver-selection searches.
+
+The closest counterexamples are migration-aware adaptive chemistry scheduling (Cuoci), multistage chemistry/EoS balancing with persistence (van den Oord), learned proactive offloading (Chameleon), separate transport/ODE maps (PeleLMeX), chemistry-weighted native mesh redistribution (Foundation OpenFOAM), and general communication/migration-aware graph services. These invalidate novelty claims for those components.
+
+The follow-up search also found a phase-wise whole-application objective in the author-hosted DRAMA paper, and timer/multimodel chemistry partition weights in official Fluent documentation. These further restrict novelty claims. The 2026 adaptive chemistry-solver preprint now has publisher-verified journal metadata; its verified v1 method still selects integrators rather than MPI ownership.
+
+The bounded search did not establish a previous exact same-version OpenFOAM checkpoint oracle choosing among unchanged ownership, chemistry tasks, mesh ownership and hybrid actions using future total process wall. This is an observation about the search, not proof of first invention. A multiobjective reactive-flow thesis found through CiteSeer remains unresolved after full-text timeouts; the 2026 physics-informed GPU preprint full text returned 403. They are unresolved candidates, not evidence that identical prior art is absent.
+
+The defensible contribution is a reproducible, numerically gated local action-oracle artifact and an honest comparison of consequence prediction with a strong executed baseline. New partitions, task offloading, prediction, persistence, migration penalties and adaptive triggers are not claimed. Controller superiority requires actual held-out end-to-end evidence; a functioning prototype alone does not meet that requirement. Negative results and tiny oracle headroom are useful evidence about whether extra control complexity is worthwhile.

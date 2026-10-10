@@ -1,0 +1,128 @@
+[
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AC",
+    "predicted": 0.002097248014873168,
+    "actual": -0.886818144004792
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AM",
+    "predicted": -0.06578829696790614,
+    "actual": 0.3455614400008926
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AH",
+    "predicted": 0.02959250493926753,
+    "actual": -0.8023792919993866
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AC",
+    "predicted": 0.058010113103027436,
+    "actual": 0.021567947987932712
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AM",
+    "predicted": -0.14919526105343242,
+    "actual": 0.022895643996889703
+  },
+  {
+    "regime": "heldoutIgnition",
+    "split": "test",
+    "action": "AH",
+    "predicted": 0.07974484774511963,
+    "actual": -0.008509953011525795
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.13260423976532132,
+    "actual": -0.0014525820006383583
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.2395355409343089,
+    "actual": 0.03238883199810516
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.09526625188041944,
+    "actual": -0.029600096007925458
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.34160806333947835,
+    "actual": -2.175018744994304
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.38478873389913204,
+    "actual": 0.7150048440089449
+  },
+  {
+    "regime": "heldoutMoving",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.27620115023382374,
+    "actual": -1.9637217819836223
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AC",
+    "predicted": -0.15119743535011684,
+    "actual": 0.06369027700566221
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AM",
+    "predicted": 0.22801324957877167,
+    "actual": 0.03255280799930915
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AH",
+    "predicted": -0.11059673676673108,
+    "actual": 0.031968074006726965
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AC",
+    "predicted": -2.7353434801492873,
+    "actual": -0.7984566369996173
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AM",
+    "predicted": 2.6051856824154207,
+    "actual": 2.8832289519923506
+  },
+  {
+    "regime": "heldoutPersistent",
+    "split": "test",
+    "action": "AH",
+    "predicted": -2.3932271736311233,
+    "actual": -0.8463740089937346
+  }
+]
